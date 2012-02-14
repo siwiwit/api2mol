@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api2mol:Definition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:api2mol="http://modelum.es/atlanmod/api2mol">
+  <context>com.google.code.linkedinapi.schema.impl</context>
+  <defaultMetaclass metaclassName="UnknownElement" attribute="type"/>
+  <mappings metaclass="QuestionCategoryImpl" instanceClass="com.google.code.linkedinapi.schema.impl.QuestionCategoryImpl">
+    <sections xsi:type="api2mol:PropertySection" property="key">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="key">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AttributionImpl" instanceClass="com.google.code.linkedinapi.schema.impl.AttributionImpl">
+    <sections xsi:type="api2mol:PropertySection" property="share">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="EndDateImpl" instanceClass="com.google.code.linkedinapi.schema.impl.EndDateImpl">
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PositionsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PositionsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AuthorizationImpl" instanceClass="com.google.code.linkedinapi.schema.impl.AuthorizationImpl">
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="UpdateCommentImpl" instanceClass="com.google.code.linkedinapi.schema.impl.UpdateCommentImpl">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sequenceNumber">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sequenceNumber">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="person">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="HttpHeaderImpl" instanceClass="com.google.code.linkedinapi.schema.impl.HttpHeaderImpl">
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CurrentShareImpl" instanceClass="com.google.code.linkedinapi.schema.impl.CurrentShareImpl">
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="source">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="author">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visibility">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NetworkStatsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.NetworkStatsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="propertyList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="propertyList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AnswersImpl" instanceClass="com.google.code.linkedinapi.schema.impl.AnswersImpl">
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="answerList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="answerList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="UpdateCommentsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.UpdateCommentsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="updateCommentList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateCommentList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JobPosterImpl" instanceClass="com.google.code.linkedinapi.schema.impl.JobPosterImpl">
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="apiStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteStandardProfileRequest">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CompanyImpl" instanceClass="com.google.code.linkedinapi.schema.impl.CompanyImpl">
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="industry">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="industry">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ThreeCurrentPositionsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ThreeCurrentPositionsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RelationToViewerImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RelationToViewerImpl">
+    <sections xsi:type="api2mol:PropertySection" property="distance">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="distance">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecommendationImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecommendationImpl">
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationSnippet">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationSnippet">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendee">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommender">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationText">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SiteGroupRequestImpl" instanceClass="com.google.code.linkedinapi.schema.impl.SiteGroupRequestImpl">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="LikesImpl" instanceClass="com.google.code.linkedinapi.schema.impl.LikesImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="likeList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="likeList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecommendationsReceivedImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecommendationsReceivedImpl">
+    <sections xsi:type="api2mol:PropertySection" property="recommendationList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MemberGroupImpl" instanceClass="com.google.code.linkedinapi.schema.impl.MemberGroupImpl">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteGroupRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PhoneNumbersImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PhoneNumbersImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneNumberList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneNumberList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="UpdatesImpl" instanceClass="com.google.code.linkedinapi.schema.impl.UpdatesImpl">
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MemberUrlResourcesImpl" instanceClass="com.google.code.linkedinapi.schema.impl.MemberUrlResourcesImpl">
+    <sections xsi:type="api2mol:PropertySection" property="memberUrlList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="memberUrlList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecipientsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecipientsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="recipientList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recipientList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ContentImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ContentImpl">
+    <sections xsi:type="api2mol:PropertySection" property="submittedImageUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="submittedUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thumbnailUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="shortenedUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thumbnailUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="shortenedUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="submittedUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="submittedImageUrl">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="EducationImpl" instanceClass="com.google.code.linkedinapi.schema.impl.EducationImpl">
+    <sections xsi:type="api2mol:PropertySection" property="notes">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fieldOfStudy">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="degree">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="schoolName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="activities">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="activities">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="notes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="startDate">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="degree">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fieldOfStudy">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="schoolName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="endDate">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="QuestionCategoriesImpl" instanceClass="com.google.code.linkedinapi.schema.impl.QuestionCategoriesImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="questionCategoryList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="questionCategoryList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PersonActivitiesImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PersonActivitiesImpl">
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="activityList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="activityList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ServiceProviderImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ServiceProviderImpl">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JAXBContextFactory" instanceClass="com.google.code.linkedinapi.schema.impl.JAXBContextFactory"/>
+  <mappings metaclass="ItemContentImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ItemContentImpl">
+    <sections xsi:type="api2mol:PropertySection" property="invitationRequest">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PersonImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PersonImpl">
+    <sections xsi:type="api2mol:PropertySection" property="mainAddress">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="specialties">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="associations">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="publicProfileUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="path">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="distance">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numConnections">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentStatus">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentStatusTimestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="industry">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="interests">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numRecommenders">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="honors">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numConnectionsCapped">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="summary">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="industry">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="publicProfileUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numConnections">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="specialties">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="mainAddress">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="memberGroups">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="threePastPositions">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="path">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="distance">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="associations">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dateOfBirth">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="interests">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="apiStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="educations">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="connections">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="twitterAccounts">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentStatusTimestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="summary">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneNumbers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationsReceived">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccounts">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentStatus">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numRecommenders">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="positions">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="relationToViewer">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="personActivities">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="honors">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="memberUrlResources">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationsGiven">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="threeCurrentPositions">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentShare">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MailboxItemImpl" instanceClass="com.google.code.linkedinapi.schema.impl.MailboxItemImpl">
+    <sections xsi:type="api2mol:PropertySection" property="subject">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="body">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recipients">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="body">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemContent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="subject">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ErrorImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ErrorImpl">
+    <sections xsi:type="api2mol:PropertySection" property="message">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="status">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="errorCode">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="errorCode">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="status">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="message">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ApiStandardProfileRequestImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ApiStandardProfileRequestImpl">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headers">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecipientImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecipientImpl">
+    <sections xsi:type="api2mol:PropertySection" property="person">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="BucketsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.BucketsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="bucketList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bucketList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CountryImpl" instanceClass="com.google.code.linkedinapi.schema.impl.CountryImpl">
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="UpdateContentImpl" instanceClass="com.google.code.linkedinapi.schema.impl.UpdateContentImpl">
+    <sections xsi:type="api2mol:PropertySection" property="person">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="question">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="job">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ShareImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ShareImpl">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="attribution">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="comment">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visibility">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="InvitationRequestImpl" instanceClass="com.google.code.linkedinapi.schema.impl.InvitationRequestImpl">
+    <sections xsi:type="api2mol:PropertySection" property="connectType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="connectType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="authorization">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecommendeeImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecommendeeImpl">
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="apiStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TwitterAccountImpl" instanceClass="com.google.code.linkedinapi.schema.impl.TwitterAccountImpl">
+    <sections xsi:type="api2mol:PropertySection" property="providerAccountName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="providerAccountId">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="providerAccountName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="providerAccountId">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TwitterAccountsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.TwitterAccountsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="twitterAccountList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="twitterAccountList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PeopleImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PeopleImpl">
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="personList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="personList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="LocationImpl" instanceClass="com.google.code.linkedinapi.schema.impl.LocationImpl">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="country">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MemberGroupsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.MemberGroupsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="memberGroupList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="memberGroupList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="QuestionImpl" instanceClass="com.google.code.linkedinapi.schema.impl.QuestionImpl">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="questionCategories">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="author">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="answers">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SiteJobRequestImpl" instanceClass="com.google.code.linkedinapi.schema.impl.SiteJobRequestImpl">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headers">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PeopleSearchImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PeopleSearchImpl">
+    <sections xsi:type="api2mol:PropertySection" property="numResults">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numResults">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="facets">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="people">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SourceImpl" instanceClass="com.google.code.linkedinapi.schema.impl.SourceImpl">
+    <sections xsi:type="api2mol:PropertySection" property="application">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="serviceProvider">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="HeadersImpl" instanceClass="com.google.code.linkedinapi.schema.impl.HeadersImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="httpHeaderList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="httpHeaderList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AuthorImpl" instanceClass="com.google.code.linkedinapi.schema.impl.AuthorImpl">
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="apiStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="relationToViewer">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NetworkImpl" instanceClass="com.google.code.linkedinapi.schema.impl.NetworkImpl">
+    <sections xsi:type="api2mol:PropertySection" property="networkStats">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updates">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MemberUrlImpl" instanceClass="com.google.code.linkedinapi.schema.impl.MemberUrlImpl">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DateOfBirthImpl" instanceClass="com.google.code.linkedinapi.schema.impl.DateOfBirthImpl">
+    <sections xsi:type="api2mol:PropertySection" property="day">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="day">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FacetsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.FacetsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="facetList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="facetList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="EducationsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.EducationsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="educationList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="educationList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ThreePastPositionsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ThreePastPositionsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="positionList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ActivityImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ActivityImpl">
+    <sections xsi:type="api2mol:PropertySection" property="body">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="contentType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="locale">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="appId">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="contentType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="locale">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="body">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="appId">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ObjectFactory" instanceClass="com.google.code.linkedinapi.schema.impl.ObjectFactory"/>
+  <mappings metaclass="ImAccountsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ImAccountsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccountList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccountList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecommenderImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecommenderImpl">
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pictureUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteStandardProfileRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lastName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="firstName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="apiStandardProfileRequest">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ApplicationImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ApplicationImpl">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AnswerImpl" instanceClass="com.google.code.linkedinapi.schema.impl.AnswerImpl">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="author">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="webUrl">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ImAccountImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ImAccountImpl">
+    <sections xsi:type="api2mol:PropertySection" property="imAccountType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccountName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccountName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="imAccountType">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PropertyImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PropertyImpl">
+    <sections xsi:type="api2mol:PropertySection" property="key">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="key">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PositionImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PositionImpl">
+    <sections xsi:type="api2mol:PropertySection" property="summary">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="isCurrent">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="startDate">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="company">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="summary">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="endDate">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RecommendationsGivenImpl" instanceClass="com.google.code.linkedinapi.schema.impl.RecommendationsGivenImpl">
+    <sections xsi:type="api2mol:PropertySection" property="recommendationList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recommendationList">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="BucketImpl" instanceClass="com.google.code.linkedinapi.schema.impl.BucketImpl">
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="VisibilityImpl" instanceClass="com.google.code.linkedinapi.schema.impl.VisibilityImpl">
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JobImpl" instanceClass="com.google.code.linkedinapi.schema.impl.JobImpl">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="siteJobRequest">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="company">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="jobPoster">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="position">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PhoneNumberImpl" instanceClass="com.google.code.linkedinapi.schema.impl.PhoneNumberImpl">
+    <sections xsi:type="api2mol:PropertySection" property="phoneNumber">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="phoneNumber">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="UpdateImpl" instanceClass="com.google.code.linkedinapi.schema.impl.UpdateImpl">
+    <sections xsi:type="api2mol:PropertySection" property="isLiked">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="isCommentable">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateKey">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numLikes">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="isLikable">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numLikes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateKey">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timestamp">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateComments">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateContent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="updateType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="likes">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StartDateImpl" instanceClass="com.google.code.linkedinapi.schema.impl.StartDateImpl">
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="month">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="year">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FacetImpl" instanceClass="com.google.code.linkedinapi.schema.impl.FacetImpl">
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="buckets">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SiteStandardProfileRequestImpl" instanceClass="com.google.code.linkedinapi.schema.impl.SiteStandardProfileRequestImpl">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headers">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ConnectionsImpl" instanceClass="com.google.code.linkedinapi.schema.impl.ConnectionsImpl">
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="personList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="personList">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="LikeImpl" instanceClass="com.google.code.linkedinapi.schema.impl.LikeImpl">
+    <sections xsi:type="api2mol:PropertySection" property="person">
+      <statements/>
+    </sections>
+  </mappings>
+</api2mol:Definition>

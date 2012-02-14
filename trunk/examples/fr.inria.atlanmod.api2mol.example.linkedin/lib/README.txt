@@ -1,0 +1,1 @@
+This folder contains the main library plus library required to correctly inject the metamodel, but not their dependencies.

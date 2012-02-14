@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<conf:ConfigurationElement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conf="http://modelum.es/atlandmod/discovererConfiguration"
+	mainPackage="LinkedIn"
+	defaultMetaclassName="UnknownElement"
+	defaultMetaclassAttribute="type">
+<!--
+  <filter>com.goog.egdata.util.common.base</filter>
+  <filter>lgpl.haustein</filter>
+  <filter>org.json</filter>
+  <filter>winterwell.jtwitter</filter>
+  <filter>org.apache.commons</filter>
+  <filter>oauth.signpost</filter>
+-->
+  <filter>com.google.code.linkedinapi.schema.impl</filter>
+</conf:ConfigurationElement>
