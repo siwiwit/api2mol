@@ -20,8 +20,8 @@ import fr.inria.atlanmod.api2mol.AbstractTestReflect;
 
 
 public class ReflectJTwitter extends AbstractTestReflect {
-	public static String api2molTransformationPath = "../api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
-	public static String metamodelPath = "../api2mol/bootstrap/reflect.ecore";
+	public static String api2molTransformationPath = "../fr.inria.atlanmod.api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
+	public static String metamodelPath = "../fr.inria.atlanmod.api2mol/bootstrap/reflect.ecore";
 	public static String modelPath = "./bootstrap/resultReflect-JTwitter.ecore.xmi";
 	
 	public static String modelConfigurationPath = "./bootstrap/discovererConfiguration-JTwitter.ecore.xmi";

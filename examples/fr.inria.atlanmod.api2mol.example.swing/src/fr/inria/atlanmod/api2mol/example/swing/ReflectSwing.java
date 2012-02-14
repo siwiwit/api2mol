@@ -40,9 +40,9 @@ import fr.inria.atlanmod.api2mol.interpreter.Api2molLauncher;
 
 
 public class ReflectSwing extends AbstractTest {
-	public static String metamodelPath = "../api2mol/bootstrap/reflect.ecore";
-	public static String mappingPath = "../api2mol/bootstrap/reflect.api2mol";
-	public static String api2molTransformationPath = "../api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
+	public static String metamodelPath = "../fr.inria.atlanmod.api2mol/bootstrap/reflect.ecore";
+	public static String mappingPath = "../fr.inria.atlanmod.api2mol/bootstrap/reflect.api2mol";
+	public static String api2molTransformationPath = "../fr.inria.atlanmod.api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
 
 	public static String modelPath = "./bootstrap/resultReflect-Swing.ecore.xmi";
 	public static String apiMetamodelDiscoveredPath = "./metamodel/resultEcore-ATL-Swing.ecore";

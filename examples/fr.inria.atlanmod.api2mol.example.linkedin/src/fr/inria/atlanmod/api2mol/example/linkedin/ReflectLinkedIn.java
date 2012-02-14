@@ -20,8 +20,8 @@ import fr.inria.atlanmod.api2mol.AbstractTestReflect;
 
 public class ReflectLinkedIn extends AbstractTestReflect {
 	// Input from API2MoL framework
-	public static String api2molTransformationPath = "../api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
-	public static String metamodelPath = "../api2mol/bootstrap/reflect.ecore";
+	public static String api2molTransformationPath = "../fr.inria.atlanmod.api2mol.concreteSyntax/model/api2molTransformation-reflect.ecore";
+	public static String metamodelPath = "../fr.inria.atlanmod.api2mol/bootstrap/reflect.ecore";
 
 	// Note: file names are of the form
 	//	- Domain-Metamodel.xmi for terminal models
