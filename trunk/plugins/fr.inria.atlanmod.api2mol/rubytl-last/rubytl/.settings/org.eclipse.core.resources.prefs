@@ -1,0 +1,8 @@
+#Tue Nov 06 14:13:31 CET 2007
+eclipse.preferences.version=1
+encoding//lib/xsd/models/ConsulModel.xsd=UTF8
+encoding//lib/xsd/models/XMLSchema.xsd=UTF8
+encoding//test/files/xsd/shiporder.namedtypes.xsd=UTF8
+encoding//test/files/xsd/shiporder.simple.xsd=UTF8
+encoding/<project>=ISO-8859-1
+instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="Strings"
+    name="Strings">
+  <ownedType xmi:type="emof:Class" xmi:id="151EA1F79B360F7A003256A56AD6FAA3" name="String">
+    <ownedAttribute xmi:id="Strings.String.value" name="value">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Strings.String.owner" name="owner" lower="1" type="3CE0BB2A9B360F7A005138A4E9F2284C"
+        opposite="3CE0F6EB9B360F7A005138A492E9C87E"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="3CE0BB2A9B360F7A005138A4E9F2284C" name="Dictionary">
+    <ownedAttribute xmi:id="3CE0F6EB9B360F7A005138A492E9C87E" name="strings" upper="*"
+        type="151EA1F79B360F7A003256A56AD6FAA3" isComposite="true" opposite="Strings.String.owner"/>
+  </ownedType>
+</emof:Package>

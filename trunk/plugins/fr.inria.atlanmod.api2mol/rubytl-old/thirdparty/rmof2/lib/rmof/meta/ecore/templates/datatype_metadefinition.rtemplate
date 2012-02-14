@@ -1,0 +1,42 @@
+module <%= datatype_name %>
+  extend ::ECore::TypeCasting
+  extend ClassAutoImplementation
+
+  # TODO: Duplicated with RMOF::ObjectHelper...
+  def self.owning_model
+    self.ePackage.owning_model
+  end
+
+  def self.non_qualified_name
+  	'<%= datatype_name %>'
+  end
+  
+  def self.from_xmi_str(value)
+    cast_primitive(value, self.instanceClassName)
+  end
+  
+  def self.to_xmi_str(value)
+  	value.to_s
+  end
+  
+  def self.instanceClassName
+  	'<%= datatype_instanceClassName %>'
+  end
+  
+  def self.metaclass
+  	ECore::EDataType
+  end
+    
+  def self.is_primitive?;   true;  end
+  def self.is_enumeration?; false; end
+  def self.is_metaclass?; 	false; end
+
+
+  # Autogenerate this method?
+  def self.compute_uri_fragment
+  	#"ecore:EDataType " +  self.ePackage.nsURI + "#//" + self.non_qualified_name
+  	"#//" + self.non_qualified_name
+  end
+
+end
+

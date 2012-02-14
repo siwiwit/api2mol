@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<datatypes:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datatypes="http://rmof.rubyforge.org/test/datatypes" xsi:schemaLocation="http://rmof.rubyforge.org/test/datatypes Datatypes.ecore" test="testWrong">
+  <strings>String number one</strings>
+  <strings>String number two</strings>
+  <strings>String number three</strings>
+  <integers>22</integers>
+  <integers>33</integers>
+</datatypes:Model>

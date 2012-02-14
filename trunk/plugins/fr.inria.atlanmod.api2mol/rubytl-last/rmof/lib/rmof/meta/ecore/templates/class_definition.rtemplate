@@ -1,0 +1,30 @@
+
+class <%= eclass_name %>
+    include RMOF::ObjectHelper
+    include RMOF::ObjectLookup
+    include RMOF::InverseResolvers
+    include RMOF::TypeChecking
+    
+  class << self; 
+  	include <%= eclass_metamodule_name %>;
+  	# This to allow serialization of ECore elements in a normal metamodel
+  	def owning_model
+      ECore.owning_model
+    end
+   
+    def compute_uri_fragment
+      '#//' + self.non_qualified_name
+    end
+  end      
+  def metaclass; self.class; end
+
+<% eclass.eAllSuperTypes.each do |eclass| -%>
+  include <%= eclass_struct_name(eclass) %>
+<% end -%>
+  include <%= eclass_struct_name %>
+  
+#  def nsURI; self.ePackage.nsURI; end	
+#  def nsPrefix; self.ePackage.nsPrefix; end  
+  
+end
+    

@@ -1,0 +1,6 @@
+--- 
+http://gts.inf.um.es/rubytl/xsd: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://gts.inf.um.es/rubytl/xsd
+  filename: xsd.rb
+  module_name: RubyTL::Xsd
+  implementation: 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<tree:Tree xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tree="http://rubytl.test/tree" xsi:schemaLocation="http://rubytl.test/tree ../metamodels/Tree.ecore" id="TestTree">
+  <childs id="Node0_Deep0">
+    <childs id="Node0_Deep1">
+      <childs id="Node0_Deep2">
+        <childs id="Node0_Deep3">
+          <childs id="Node0_Deep4">
+            <childs id="Node0_Deep5">
+              <childs id="Node0_Deep6"/>
+            </childs>
+          </childs>
+        </childs>
+      </childs>
+    </childs>
+  </childs>
+</tree:Tree>

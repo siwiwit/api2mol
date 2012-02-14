@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tests>
+	<test id="test1">
+		<methodName>testingXSD</methodName>	
+		<documentation>This is a test</documentation>
+	</test>
+	<test id="test2">
+		<methodName>testingMoreXSD</methodName>
+		<documentation>This is another test</documentation>
+	</test>
+</tests>

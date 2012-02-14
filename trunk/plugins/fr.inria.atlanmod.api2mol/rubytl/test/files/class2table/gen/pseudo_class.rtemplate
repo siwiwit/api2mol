@@ -1,0 +1,5 @@
+CLASS <%= klass.name %>
+  <% klass.attrs.each do |attr| -%>
+  attribute <%= attr.name %> : <%= attr.type.name %>  
+  <% end -%>
+ENDCLASS

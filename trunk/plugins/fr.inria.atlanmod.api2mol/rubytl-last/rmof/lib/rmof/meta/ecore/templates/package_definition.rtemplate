@@ -1,0 +1,64 @@
+# TODO: This should be in some CacheRepository
+# automate the loading from here... 
+
+module <%= package_name %>
+  extend ::ECore::EPackageLookup
+  cattr_accessor :owning_model # TODO: Strange, is it really necessary?
+
+  def self.eClassifiers
+  	[<%= package.eClassifiers.map { |c| c.name.to_class_name }.join(',') %>]
+  end
+
+  def self.eSubpackages
+    [<%= package.eSubpackages.map { |p| package_name(p) }.join(',') %>]
+  end
+
+  def self.eSuperPackage
+    <%= package.eSuperPackage ? package_name(package_name.eSuperPackage) : '' %>
+  end
+
+  def self.nsURI
+	'<%= package.nsURI %>'
+  end
+	
+  def self.nsPrefix
+  	'<%= package.nsPrefix %>'
+  end		
+ 
+  def self.root_package
+	return self unless self.eSuperPackage
+	return self.eSuperPackage.root_package
+  end  	
+    
+  module ClassAutoImplementation
+  	def ePackage
+  		<%= package_name %>
+  	end
+  	
+  	def nsURI
+      self.ePackage.nsURI
+  	end
+  	
+  	def nsPrefix
+  	  self.ePackage.nsPrefix
+  	end  
+  end
+
+  # TODO: Generate nested EPackages	
+<% traverse_classes do |eclass| -%>
+<%= generate_metadefinition_for_class(eclass) %>  
+<% end -%>
+
+<% traverse_datatypes do |datatype| -%>
+<%= generate_metadefinition_for_datatype(datatype) %>  
+<% end -%>
+
+<% traverse_enumerations do |eenum| -%>
+<%= generate_metadefinition_for_enumeration(eenum) %>  
+<% end -%>
+
+<% traverse_classes do |eclass| -%>
+<%= generate_definition_for_class(eclass) %>  
+<% end -%>
+
+end

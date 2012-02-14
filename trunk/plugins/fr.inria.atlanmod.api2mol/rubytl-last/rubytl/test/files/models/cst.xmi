@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<parsing_cst:Tree xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:parsing_cst="http://gts.inf.um.es/age/examples/cst" xsi:schemaLocation="http://gts.inf.um.es/age/examples/cst ../metamodels/CST.ecore" kind="">
+  <children xsi:type="parsing_cst:Node" kind="struct">
+    <children xsi:type="parsing_cst:Leaf" kind="struct" value="struct"/>
+    <children xsi:type="parsing_cst:Leaf" kind="name" value="Person"/>
+    <children xsi:type="parsing_cst:Node" kind="body">
+      <children xsi:type="parsing_cst:Node" kind="attribute">
+        <children xsi:type="parsing_cst:Leaf" kind="name" value="fullname"/>
+        <children xsi:type="parsing_cst:Leaf" kind="type" value="String"/>
+      </children>
+      <children xsi:type="parsing_cst:Node" kind="attribute">
+        <children xsi:type="parsing_cst:Leaf" kind="name" value="age"/>
+        <children xsi:type="parsing_cst:Leaf" kind="type" value="Integer"/>
+      </children>
+    </children>
+  </children>
+</parsing_cst:Tree>

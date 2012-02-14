@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns:school="http://test.rmof/school" 
+         xsi:schemaLocation="http://test.rmof/school ../metamodels/School.ecore http://www.example.eclipse.org/Library ../metamodels/Library.ecore"
+         xmlns:library="http://www.example.eclipse.org/Library">
+	<school:School>
+	  <pupils name="Vito">
+	    <readBooks href="library.ecore.xmi#//@books.1"/>
+	    <readBooks href="library.ecore.xmi#//@books.0"/>
+	  </pupils>
+	  <pupils name="Buttercup">
+	    <readBooks href="library.ecore.xmi#//@books.2"/>
+	  </pupils>
+	</school:School>
+	<library:Library name="TestLibrary">
+  		<writers name="My Writer"/>
+	</library:Library>
+</xmi:XMI>

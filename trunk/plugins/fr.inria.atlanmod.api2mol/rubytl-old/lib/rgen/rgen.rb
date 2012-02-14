@@ -1,0 +1,5 @@
+require 'rgen/launcher'
+require 'rgen/model_to_code_task'
+require 'rgen/to_code'
+require 'rgen/erb_generator'
+require 'rgen/template_mapper'

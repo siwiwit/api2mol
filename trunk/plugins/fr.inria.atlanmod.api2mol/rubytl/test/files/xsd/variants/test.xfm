@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="i7w0--y39VOxR60Yg" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="iAGlIVydHQWYUwCbP" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="iQbCYYoE52tIFRCsC" cm:type="ps:string">testFeatures</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iHtAwnIL0Zayg4jQ2" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="iTJ2OQH1CVMl7tgSM" cm:type="ps:string">jesus</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i3x8pZ4hTYjnE6Gsj" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="ilZmhWtR5PP7tTyRS" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ilG_-j3Q08mSRmirN" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="idL0lc3Rmxg6BtV8D" cm:type="ps:datetime">2007-11-19T09:16:38.068Z</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="iHzy9_RDAQK1M_VtG">
+    <cm:element cm:id="iHzy9_RDAQK1M_VtG" cm:name="testFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="isYk5uHWalGoYcqtE" cm:class="ps:children">
+        <cm:relation cm:id="iepBSGmiiv1ZRZrBy" cm:type="ps:mandatory">
+          <cm:target cm:id="iRSSKk-fzZRLXjkpj">./iO2dX3kKy2VREqjht</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="i5Rb7OD4v2eMs0Os6" cm:type="ps:optional">
+          <cm:target cm:id="io3iayD6lH_YsOIJn">./iqAzOBHfE6s-LCBIz</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iX7LJpsBW0k3UlLC2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iCgNrsYLWFZKmC9T5" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQWagvQnHxQk21Dkm" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iRilKlg7QydF-LZB2" cm:type="ps:datetime">2007-11-19T09:16:38.068Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZfgzw_KdzvQh2RnS" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ilU7kXIay_5mWrVtZ" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6vL_2Mv4GIyMP1dZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="infLWdsTwKG7fJjuF" cm:type="ps:datetime">2007-11-19T11:15:11.076Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="isv0vQ8YQkQEUiohH" cm:mimetype="text/plain" cm:encoding="utf-8">testFeatures</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iO2dX3kKy2VREqjht" cm:name="TestMandatory" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iCoq3Pq5gqyowz9yU" cm:class="ps:parents">
+        <cm:relation cm:id="iDcx3gEUjZTbQqUjW" cm:type="ps:parent">
+          <cm:target cm:id="i46d4mkGean3-_S0O">./iHzy9_RDAQK1M_VtG</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iTXQaZOwTIQfagwml" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i0Vo5Q5T-Mg3xCkkS" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixQgzPka9JzD8yy2y" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iz6UtV4d3w7F6-wda" cm:type="ps:datetime">2007-11-19T09:17:28.503Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iR1TY9-UM85QqEf9t" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ih9DHgPWBG487s1Yr" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEmaL3srtl-l-s_aT" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i7KiS_ruw08EP6a4m" cm:type="ps:datetime">2007-11-19T09:17:28.503Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iFLrv8EhqhSF-IVtG" cm:mimetype="text/plain" cm:encoding="utf-8">TestMandatory</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iqAzOBHfE6s-LCBIz" cm:name="TestOptional" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iTz38xtqK0M2vKymq" cm:class="ps:parents">
+        <cm:relation cm:id="iKP11TEWkLmMq7J6q" cm:type="ps:parent">
+          <cm:target cm:id="iRjJhLEOnzDRl9r8C">./iHzy9_RDAQK1M_VtG</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iHcL_mG9RMcoVxxAn" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipSWRP57L6d_dfdum" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7CUj3BmOXuqYyDGk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ikxq9jOyWnYFF9TrO" cm:type="ps:datetime">2007-11-19T11:15:11.076Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYJVNW5y6SDVgV5cS" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ifRIFfJBNaRc4Tm1O" cm:type="ps:string">jesus</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMfDahR2DgGjFmTcO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iHHh9lyLQgCbWUYrk" cm:type="ps:datetime">2007-11-19T11:15:11.076Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iJahgN4UlI92nPVvv" cm:mimetype="text/plain" cm:encoding="utf-8">TestOptional</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

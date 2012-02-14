@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="ClassM"
+    name="ClassM">
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Class" name="Class" superClass="ClassM.Classifier">
+    <ownedAttribute xmi:id="ClassM.Class.attrs" name="attrs" upper="*" type="ClassM.Attribute"
+        isComposite="true" opposite="ClassM.Attribute.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Classifier" name="Classifier">
+    <ownedAttribute xmi:id="ClassM.Classifier.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ClassM.Classifier.typeOf" name="typeOf" upper="*" type="ClassM.Attribute"
+        opposite="ClassM.Attribute.type"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Attribute" name="Attribute">
+    <ownedAttribute xmi:id="ClassM.Attribute.owner" name="owner" lower="1" type="ClassM.Class"
+        opposite="ClassM.Class.attrs"/>
+    <ownedAttribute xmi:id="ClassM.Attribute.type" name="type" type="ClassM.Classifier"
+        opposite="ClassM.Classifier.typeOf"/>
+    <ownedAttribute xmi:id="ClassM.Attribute.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ClassM.Attribute.visibility" name="visibility">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.PrimitiveType" name="PrimitiveType"
+      superClass="ClassM.Classifier"/>
+</emof:Package>

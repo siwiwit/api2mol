@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/1.0.0/UML UML2.ecore" name="um.videogame">
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>uml.large.ecore.xmi
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+   <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>     
+  <ownedMember xsi:type="uml:Package" name="PrimitiveTypes">
+    <ownedMember xsi:type="uml:DataType" name="String"/>
+    <ownedMember xsi:type="uml:DataType" name="Integer"/>
+    <ownedMember xsi:type="uml:DataType" name="DateTime"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Player">
+    <ownedAttribute name="name" type="//@ownedMember.0/@ownedMember.0"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="GameWorld">
+    <ownedAttribute name="player" type="//@ownedMember.1"/>
+    <ownedAttribute name="startTime" type="//@ownedMember.0/@ownedMember.2"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Enemy">
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Mole">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="Kamikaze">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="TroubleMaker">
+    <generalization general="//@ownedMember.7"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>
+  <ownedMember xsi:type="uml:Class" name="IntelligentEnemy">
+    <generalization general="//@ownedMember.3"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+    <ownedAttribute name="aPropertyXXX" type="//@ownedMember.0/@ownedMember.1"/>
+  </ownedMember>  ss         
+</uml:Model>

@@ -1,0 +1,154 @@
+-- /*******************************************************************************
+--  * Copyright (c) 2008, 2012
+--  * All rights reserved. This program and the accompanying materials
+--  * are made available under the terms of the Eclipse Public License v1.0
+--  * which accompanies this distribution, and is available at
+--  * http://www.eclipse.org/legal/epl-v10.html
+--  *
+--  * Contributors:
+--  *    Javier Canovas (javier.canovas@inria.fr) 
+--  *******************************************************************************/
+
+--@context java.lang.*, java.ui.*;
+--@defaultMetaclass UnknownElement(type);
+
+ClassType : java.lang.Class {
+	name :
+		get;
+	canonicalName :
+		get;
+	modifiers :
+		get;	
+	isArray :
+		get isArray;
+	classLoader :
+		get;
+	packageName:
+		get getPackage;	
+	constructors : 
+		get;
+	declaredConstructors :
+		get;
+	fields :
+		get;
+	declaredFields :
+		get;
+	methods :
+		get;
+	declaredMethods :
+		get;
+	superclass :
+		get;
+	interfaces :
+		get;
+	containerClass :
+		get getEnclosingClass;
+}
+
+AnnotatedElement : java.lang.reflect.AnnotatedElement {
+	annotations :
+		get;		
+}	
+
+Annotation : java.lang.annotation.Annotation {
+	--@defaultMetaclas UnknownComponent(typeName <- type)
+}
+
+Field : java.lang.reflect.Field {
+	--value :
+	--	get get(self);
+	--	set set(self, value);
+	type :
+		get;
+}
+
+Method : java.lang.reflect.Method {
+	returnType :
+		get;
+	parameterTypes :
+		get;
+	exceptionTypes :
+		get;
+}
+
+Member : java.lang.reflect.Member {
+	name :
+		get;
+	modifiers :
+		get;
+}
+
+Constructor : java.lang.reflect.Constructor {
+	name :
+		get;
+	modifiers :
+		get;
+	returnType :
+		get;
+	parameterTypes :
+		get;
+	exceptionTypes :
+		get;
+}
+
+Package : java.lang.Package {
+	name :
+		get;
+	implementationTitle :
+		get;
+	implementationVendor :
+		get;
+	implementationVersion :
+		get;
+	specificationTitle :
+		get;
+	specificationVendor :
+		get;
+	specificationVersion :
+		get;
+}
+
+ParameterizedType : sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl  {
+  	actualTypeArguments :
+  		get;
+  	ownerType :
+  		get;
+  	rawType :
+  		get;
+}
+
+GenericArrayType : sun.reflect.generics.reflectiveObjects.GenericArrayTypeImpl {
+  	genericComponentType:
+  		get;
+}
+
+WildcardType : sun.reflect.generics.reflectiveObjects.WildcardTypeImpl {
+	lowerBounds:
+		get;
+	upperBounds:
+		get;
+}
+
+TypeVariable : sun.reflect.generics.reflectiveObjects.TypeVariableImpl {
+	genericDeclaration:
+		get;
+	bounds:
+		get;
+	name:
+		get;
+}
+
+enum Modifier : int {
+	PUBLIC		: java.lang.reflect.Modifier.PUBLIC;
+  	PRIVATE 	: java.lang.reflect.Modifier.PRIVATE;
+  	PROTECTED 	: java.lang.reflect.Modifier.PROTECTED;
+  	STATIC 		: java.lang.reflect.Modifier.STATIC;
+  	FINAL 		: java.lang.reflect.Modifier.FINAL;
+  	SYNCHRONIZED: java.lang.reflect.Modifier.SYNCHRONIZED;
+  	VOLATILE	: java.lang.reflect.Modifier.VOLATILE;
+  	TRANSIENT	: java.lang.reflect.Modifier.TRANSIENT;
+  	NATIVE		: java.lang.reflect.Modifier.NATIVE;
+  	INTERFACE	: java.lang.reflect.Modifier.INTERFACE;
+  	ABSTRACT	: java.lang.reflect.Modifier.ABSTRACT;
+  	STRICT 		: java.lang.reflect.Modifier.STRICT;
+}

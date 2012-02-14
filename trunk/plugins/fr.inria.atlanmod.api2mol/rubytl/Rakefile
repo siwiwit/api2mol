@@ -1,0 +1,142 @@
+#require 'rake/contrib/rubyforgepublisher'
+DIR = File.expand_path(File.dirname(__FILE__))
+RMOF2_DIR = File.join(DIR, 'thirdparty', 'rmof2', 'lib')
+
+RUBYTL_MODEL_DIR = File.join(DIR, 'lib', 'rubytl', 'models')
+BNF_MODEL_DIR    = File.join(DIR, 'lib', 'bnf', 'models')
+XSD_MODEL_DIR    = File.join(DIR, 'lib', 'xsd', 'models')
+
+RUBYTL_CACHE_DIR = File.join(RUBYTL_MODEL_DIR, 'cache')
+BNF_CACHE_DIR    = File.join(BNF_MODEL_DIR, 'cache')
+XSD_CACHE_DIR    = File.join(XSD_MODEL_DIR, 'cache')
+
+TRACE_MODEL      = File.join(RUBYTL_MODEL_DIR, 'Trace.ecore')
+BNF_MODEL        = File.join(BNF_MODEL_DIR, 'bnf.ecore')
+CST_MODEL        = File.join(BNF_MODEL_DIR, 'cst.ecore')
+XSD_MODEL        = File.join(XSD_MODEL_DIR, 'xsd.ecore')
+
+
+task :fake_rmof2 do
+  rmof_file = File.join(RMOF2_DIR, 'rmof.rb')
+  unless File.exist?(rmof_file)
+    FileUtils.mkpath(RMOF2_DIR)
+    File.open(rmof_file, "w") do |file|
+      real_rmof = File.join(DIR, '..', 'rmof', 'lib') #, 'rmof.rb')
+      #file.puts("require '" + real_rmof + "'")
+
+      file.puts("RMOF_ROOT_FOR_RUBYTL = '#{real_rmof}'")
+      file.puts("$LOAD_PATH << RMOF_ROOT_FOR_RUBYTL")
+      file.puts("require 'rmof.rb'")
+
+    end
+  end
+end
+
+task :trace do
+  require File.join(RMOF2_DIR, 'rmof.rb')  
+  FileUtils.mkpath(RUBYTL_CACHE_DIR)
+   
+  adapter = RMOF::ECore::FileModelAdapter.new
+  model   = RMOF::ECoreParser.new(File.new(TRACE_MODEL), adapter).parse()
+
+  repository = RMOF::CacheRepository.new(RUBYTL_CACHE_DIR)  
+  repository.add_metamodel(model.root_elements.first, 'trace.rb', 
+                           :top_module => 'RubyTL')
+end
+
+task :bnf do
+  require File.join(RMOF2_DIR, 'rmof.rb')  
+  FileUtils.mkpath(RUBYTL_CACHE_DIR)
+   
+  adapter = RMOF::ECore::FileModelAdapter.new
+  model   = RMOF::ECoreParser.new(File.new(BNF_MODEL), adapter).parse()
+
+  repository = RMOF::CacheRepository.new(BNF_CACHE_DIR) # TODO: Use another cache, or merge them, or whatever 
+  repository.add_metamodel(model.root_elements.first, 'bnf.rb', 
+                           :top_module => 'RubyTL')
+
+  model   = RMOF::ECoreParser.new(File.new(CST_MODEL), adapter).parse()
+  repository.add_metamodel(model.root_elements.first, 'cst.rb', 
+                           :top_module => 'RubyTL')
+  
+end
+
+task :xsd do
+  require File.join(RMOF2_DIR, 'rmof.rb')  
+   
+  adapter = RMOF::ECore::FileModelAdapter.new
+  model   = RMOF::ECoreParser.new(File.new(XSD_MODEL), adapter).parse()
+
+  repository = RMOF::CacheRepository.new(XSD_CACHE_DIR)  
+  repository.add_metamodel(model.root_elements.first, 'xsd.rb', 
+                           :top_module => 'RubyTL')
+end
+
+
+time = Time.now.strftime("%d-%b-%Y")
+SNAPSHOT_FILE = "rubytl-snapshot.#{time}.tar.gz"
+USERNAME      = 'jesusc'
+
+task :snapshot do
+  username = USERNAME
+  tmp    = "/tmp"
+  rubytl = "#{tmp}/rubytl" 
+  rmof   = "#{rubytl}/thirdparty/rmof2"
+
+  puts "* Checking out RubyTL"
+  system("svn co svn+ssh://#{username}@rubyforge.org/var/svn/rubytl/trunk /tmp/rubytl")
+  puts "* Checking out RMOF"
+  system("svn co svn+ssh://#{username}@rubyforge.org/var/svn/rmof/trunk/rmof  /tmp/rubytl/thirdparty/rmof2")
+  puts "* Configure RMOF"
+  system("cd #{rmof}; rake config")
+  puts "* Testing RubyTL"
+  system("ruby #{rubytl}/test/suites/all_suite.rb")  
+  puts "* Removing .svn"
+  system("cd #{tmp}; rm -rf `find rubytl | grep [.]svn$`")
+  puts "* Packaging"
+  time = Time.now.strftime("%d-%b-%Y")
+  system("cd #{tmp}; tar czf #{SNAPSHOT_FILE} rubytl")
+  puts "* Done"
+  
+# puts "Examples snapshot"
+#  examples = "#{}"
+#  system("mkdir #{tmp}/examples}")
+#  system( ["cd #{tmp/examples}",
+#           "export CVSROOT=gts.inf.um.es:/home/proyectos",
+#           "cvs co #{examples}"].join(";") )
+end
+
+#publisher = Rake::CompositePublisher.new
+#publisher.add Rake::RubyForgePublisher.new('rubytl', 'jesusc')
+#publisher.add Rake::SshFilePublisher.new("/tmp/#{SNAPSHOT_FILE})")
+
+task :publish => [:snapshot] do
+  puts "Uploading to rubyforge..."
+  sh "scp /tmp/#{SNAPSHOT_FILE} #{USERNAME}@rubyforge.org:/var/www/gforge-projects/rubytl"        
+end
+
+
+task :copy_to do
+	raise "TODO"
+=begin
+dirs="/home/jesus/usr/eclipse-dev-plugins/workspace/gts.rubytl.core/lib \
+ /home/jesus/usr/eclipse-dev-plugins/workspace/gts.rubyatl.core/lib \
+ /home/jesus/usr/eclipse/workspace/gts.rubyatl.core/lib \
+ /home/jesus/usr/eclipse/workspace/gts.rubytl.core/lib \
+ /home/jesus/usr/age-0.2/plugins/gts.rubytl.core_1.0.0/lib"
+
+for dir in $dirs; do
+  if test -d $dir; then 
+    echo "copying rubytl to $dir";
+    rm -rf /tmp/rubytl
+    mkdir /tmp/rubytl
+    cp -r lib/ plugins/ test/ thirdparty/ /tmp/rubytl
+    rm -rf `find /tmp/rubytl | grep CVS`    
+    cp -r /tmp/rubytl $dir
+  fi;
+done
+
+#cp -r lib/ plugins/ test/ thirdparty/  /home/jesus/usr/eclipse-dev-plugins/workspace/gts.rubytl.core/lib/rubytl	
+=end
+end
+

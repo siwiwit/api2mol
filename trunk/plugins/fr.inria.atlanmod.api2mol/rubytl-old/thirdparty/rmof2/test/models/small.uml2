@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MyProfile_0="http:///MyProfile_0_0OfNQLQqEduLKbKp0g28zA.profile.uml2" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xsi:schemaLocation="http:///MyProfile_0_0OfNQLQqEduLKbKp0g28zA.profile.uml2 MyProfile.profile.uml2#_0Uu_XbQqEduLKbKp0g28zA" xmi:id="_0UlOQ7QqEduLKbKp0g28zA" name="Data">
+  <ownedComment xmi:id="_0UlORLQqEduLKbKp0g28zA" body="Author:jesus.&#xA;Created:31/01/07 23:06.&#xA;Title:.&#xA;Comment:.&#xA;" annotatedElement="_0UlOQ7QqEduLKbKp0g28zA"/>
+  <ownedMember xmi:type="uml:Package" xmi:id="_0UlOVrQqEduLKbKp0g28zA" name="Test">
+    <ownedMember xmi:type="uml:Class" xmi:id="_0UlOWrQqEduLKbKp0g28zA" name="Entity" isAbstract="true">
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_0UlOXrQqEduLKbKp0g28zA" name="Mobile">
+      <generalization xmi:id="_0UlOX7QqEduLKbKp0g28zA" general="_0UlOWrQqEduLKbKp0g28zA"/>
+    </ownedMember>
+    <ownedMember xmi:type="uml:Class" xmi:id="_0UlOYLQqEduLKbKp0g28zA" name="Static">
+      <generalization xmi:id="_0UlOYbQqEduLKbKp0g28zA" general="_0UlOWrQqEduLKbKp0g28zA"/>
+    </ownedMember>
+  </ownedMember>
+</uml:Model>

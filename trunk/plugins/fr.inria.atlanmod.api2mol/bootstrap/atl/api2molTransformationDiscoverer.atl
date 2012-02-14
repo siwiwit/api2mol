@@ -1,0 +1,139 @@
+-- @atlcompiler atl2006
+
+-- /*******************************************************************************
+--  * Copyright (c) 2008, 2012
+--  * All rights reserved. This program and the accompanying materials
+--  * are made available under the terms of the Eclipse Public License v1.0
+--  * which accompanies this distribution, and is available at
+--  * http://www.eclipse.org/legal/epl-v10.html
+--  *
+--  * Contributors:
+--  *    Javier Canovas (javier.canovas@inria.fr) 
+--  *******************************************************************************/
+
+
+module api2molTransformationDiscoverer;
+create OUT : API2MOL from IN : REFLECT, IN_CONF : CONFIGURATION;
+
+-- Imports the helpers library
+uses api2molHelpers;
+
+------------------------------
+-- TRANSFORMATION RULES
+------------------------------
+
+entrypoint rule mapMappingDef() { 
+	to 
+		tgt : API2MOL!Definition (
+			context          <- thisModule.FILTER,
+			defaultMetaclass <- defaultSection,
+			mappings         <- REFLECT!ClassType.allInstances()->iterate(elem ; result : Set(API2MOL!Mapping) = Set {} |
+				if(elem.isMainType) 	
+					then result->including(thisModule.mapMapping(elem))
+					else result
+				endif
+			) 
+		),		
+		defaultSection : API2MOL!DefaultMetaclassSection (
+			metaclassName <- thisModule.DEFAULTMETACLASS.metaclassName,
+			attribute     <- thisModule.DEFAULTMETACLASS.attribute
+		)
+		
+}
+ 
+unique lazy rule mapMapping {
+	from 
+		src : REFLECT!ClassType
+	to
+		tgt : API2MOL!Mapping (
+			metaclass     <- src.digestName,
+			instanceClass <- src.name,
+			sections      <- src.declaredFields->iterate(elem; result : Set(API2MOL!Mapping) = Set {} |
+				if(elem.hasDefaultGet or elem.hasDefaultSet or elem.checkH1 or elem.checkH2) 
+					then result->including(thisModule.mapSection(elem))
+					else result
+				endif)
+		)
+}
+
+lazy rule mapSection {
+	from
+		src : REFLECT!Field
+	to
+		tgt : API2MOL!PropertySection (
+			property   <- src.name,
+			statements <- if(src.hasDefaultGet) 
+							then thisModule.mapDefaultGet(src)
+							else Set{}
+						  endif,
+		  	statements <- if(src.hasDefaultSet)
+							then thisModule.mapDefaultSet(src)
+							else Set {}
+						  endif,
+			statements <- if(src.checkH1)
+							then Set { thisModule.mapGetH1(src), thisModule.mapAppendH1(src) }
+							else Set {}
+						  endif,
+			statements <- if(src.checkH2)
+							then thisModule.mapDirectH2(src)
+							else Set {}
+						  endif
+		)
+}
+
+lazy rule mapDefaultGet {
+	from
+		src : REFLECT!Field 
+	to
+		tgt : API2MOL!Statement (
+			type <- #GET	
+		)
+}
+
+lazy rule mapDefaultSet {
+	from
+		src : REFLECT!Field 
+	to
+		tgt : API2MOL!Statement (
+			type <- #SET	
+		)
+}
+
+lazy rule mapGetH1 {
+	from
+		src : REFLECT!Field
+	to
+		tgt1 : API2MOL!Statement (
+			type  <- #GET,
+			calls <- mc1
+		),
+		mc1 : API2MOL!MethodCall (
+			name <- src.toGet + 's'
+		)
+}
+
+lazy rule mapAppendH1 {
+	from
+		src : REFLECT!Field
+	to
+		tgt2 : API2MOL!Statement (
+			type  <- #APPEND,
+			calls <- mc2 
+		),
+		mc2 : API2MOL!MethodCall(
+			name   <- 'add',	
+			params <- p1
+		),
+		p1 : API2MOL!Parameter(
+			name <- 'value'	
+		)
+}
+
+lazy rule mapDirectH2 {
+	from
+		src : REFLECT!Field
+	to
+		tgt : API2MOL!Statement (
+			type <- #DIRECT
+		)
+}

@@ -1,0 +1,76 @@
+
+= Notes about the implementation
+
+== Overview
+  
+    ---------------------------------------------------------
+    | RubyTL  | CodeGen | Validation | Parsing | Cartridges | 
+    ---------------------------------------------------------
+    |               Components                              |
+    ---------------------------------------------------------
+    |           |___                 |        |             |
+    |   Base        |     DSLDef     |  Rake  |             |
+    ---------------------------------------------------------
+    
+== Module organization
+
+* RubyTL::Base
+* RubyTL::LowLevelDSL
+
+== Loading / Launching DSLs
+
+
+
+== Test organization
+
+The directory organization is the following:
+
++ test/
+  |
+  |- files/
+  |  |  
+  |  |- metamodels/
+  |  |- models/
+  |  |- transformations/
+  |  |
+  |  |- files.rb
+  |
+  |- mocks/
+  |
+  |- suites/
+  |
+  |- base
+  |- dsldef
+  |- rubytl
+  |- rgen
+  |- checker
+  
+
+The *suites* directory contains test suites which are
+sets of test cases. 
+
+== Low level DSL
+
+This is a embedded DSL intended to the creation of 
+block-structured embedded DSLs. 
+
+== Interface for models
+This is the list of methods that need to be implemented
+to integrate "model objects" in RubyTL.
+
+References: 
+  - rumi_type
+
+Objects: 
+  - rumi_kind_of?(metaclass)
+  - kind_of? / is_a? (should be overriden using rumi_kind_of?)
+  - rumi_reference_value_set(reference, value) (value can be an string)
+  - rumi_model_id
+  - respond_to? (should be properly overriden if needed)
+
+Metaclass:
+  - rumi_model_id
+  - rumi_conforms_to?(metaclass)
+  - rumi_property_by_name   
+  - rumi_all_properties   
+  - rumi_qualified_name

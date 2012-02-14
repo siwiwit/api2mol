@@ -1,0 +1,37 @@
+= RMOF development instructions
+
+== Using source code from the repository
+
+See http://rubyforge.org/scm/?group_id=1123 for instructions on how to checkout RMOF's source code.
+
+Before running your development RMOF version (e.g. running the tests), you need
+to run:
+
+ rake config
+
+== Running the tests
+
+Every time you make a change to the code, you _need_ to run the tests to make
+sure you didn't break anything.
+
+Every time you add a feature, add one or more tests that stress it. Better: add
+tests _before_ you ever implement the feature.
+
+Adding tests is a very important activity important so that when anyone else
+(or even yourself) changes the implementation in a way that breaks the feature,
+running the tests will expose the breakage before it reaches end users.
+
+To run RMOF's tests, you just need to run:
+
+  rake test
+
+== Releasing
+
+Releasing a version includes generating the distribution files and making them
+available at RubyForge.
+
+To generate the files for release, run <tt>rake release</tt>. This will
+generate a tarball that can be distributed.
+
+If you just want to generate the tarball, it's sufficient to run <tt>rake
+package</tt>.

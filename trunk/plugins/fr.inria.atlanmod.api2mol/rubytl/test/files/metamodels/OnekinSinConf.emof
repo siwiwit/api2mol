@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="Onekin"
+    name="Onekin">
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.StateMachine" name="StateMachine">
+    <ownedAttribute xmi:id="Onekin.StateMachine.regions" name="regions" lower="1"
+        upper="*" type="Onekin.Region" isComposite="true"/>
+    <ownedAttribute xmi:id="Onekin.StateMachine.configuraciones" name="configuraciones"
+        lower="1" upper="*" type="8C83949BFFFFFFFC016CBD97DF679DF7" isComposite="true"
+        opposite="Onekin.Configuracion.configuracionOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.Region" name="Region">
+    <ownedAttribute xmi:id="Onekin.Region.regionOfMachine" name="regionOfMachine"
+        lower="1" type="Onekin.StateMachine" opposite="Onekin.StateMachine.regions"/>
+    <ownedAttribute xmi:id="Onekin.Region.transitions" name="transitions" upper="*"
+        type="Onekin.Transition" isComposite="true" opposite="Onekin.Transition.owner"/>
+    <ownedAttribute xmi:id="Onekin.Region.states" name="states" lower="1" upper="*"
+        type="939738C2FFFFFFFC008AE59A347A12B7" isComposite="true" opposite="Onekin.Vertex.stateOfRegion"/>
+    <ownedAttribute xmi:id="Onekin.Region.regionOfState" name="regionOfState" lower="1"
+        type="Onekin.StructState" opposite="Onekin.Vertex.stateOfRegion"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="8C83949BFFFFFFFC016CBD97DF679DF7" name="Configuracion">
+    <ownedAttribute xmi:id="Onekin.Configuracion.configuracionOf" name="configuracionOf"
+        lower="1" type="Onekin.StateMachine" opposite="Onekin.StateMachine.configuraciones"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.Transition" name="Transition">
+    <ownedAttribute xmi:id="Onekin.Transition.owner" name="owner" lower="1" type="Onekin.Region"
+        opposite="Onekin.Region.transitions"/>
+    <ownedAttribute xmi:id="Onekin.Transition.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Transition.anchorDesc" name="anchorDesc" upper="*"
+        type="Onekin.AnchorAppDescriptor" opposite="Onekin.AnchorAppDescriptor.anchorOf"/>
+    <ownedAttribute xmi:id="Onekin.Transition.stFin" name="stFin" lower="1" type="939738C2FFFFFFFC008AE59A347A12B7"
+        opposite="Onekin.Vertex.stFinOf"/>
+    <ownedAttribute xmi:id="Onekin.Transition.stOrig" name="stOrig" lower="1" type="939738C2FFFFFFFC008AE59A347A12B7"
+        opposite="Onekin.Vertex.stOrigOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="939738C2FFFFFFFC008AE59A347A12B7" name="Vertex">
+    <ownedAttribute xmi:id="Onekin.Vertex.stateOfRegion" name="stateOfRegion" lower="1"
+        type="Onekin.Region" opposite="Onekin.Region.regionOfState"/>
+    <ownedAttribute xmi:id="Onekin.Vertex.stFinOf" name="stFinOf" upper="*" type="Onekin.Transition"
+        opposite="Onekin.Transition.stFin"/>
+    <ownedAttribute xmi:id="Onekin.Vertex.stOrigOf" name="stOrigOf" upper="*" type="Onekin.Transition"
+        opposite="Onekin.Transition.stOrig"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.State" name="State" superClass="939738C2FFFFFFFC008AE59A347A12B7">
+    <ownedAttribute xmi:id="Onekin.State.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.State.appDescriptors" name="appDescriptors" upper="*"
+        type="Onekin.AppearanceDescriptor" opposite="Onekin.AppearanceDescriptor.appDescriptorsOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.AnchorAppDescriptor" name="AnchorAppDescriptor"
+      superClass="Onekin.AppearanceDescriptor">
+    <ownedAttribute xmi:id="Onekin.AnchorAppDescriptor.anchorOf" name="anchorOf" lower="1"
+        type="Onekin.Transition" opposite="Onekin.Transition.anchorDesc"/>
+    <ownedAttribute xmi:id="Onekin.AnchorAppDescriptor.override" name="override">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.AppearanceDescriptor" name="AppearanceDescriptor">
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.appDescriptorsOf" name="appDescriptorsOf"
+        lower="1" type="Onekin.State" opposite="Onekin.State.appDescriptors"/>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.borderStyle" name="borderStyle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.borderWidth" name="borderWidth">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.background" name="background">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.borderColor" name="borderColor">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.fontFamily" name="fontFamily">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.fontSize" name="fontSize">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.color" name="color">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.textAlign" name="textAlign">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.fontStyle" name="fontStyle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.AppearanceDescriptor.owner" name="owner" lower="1"
+        type="Onekin.PortalAppDescriptor" opposite="Onekin.PortalAppearanceDescriptor.descriptors"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.Portal" name="Portal">
+    <ownedAttribute xmi:id="Onekin.Portal.portalTitle" name="portalTitle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Portal.portalAppDescriptor" name="portalAppDescriptor"
+        lower="1" type="Onekin.PortalAppDescriptor" opposite="Onekin.PortalAppearanceDescriptor.portalAppDescriptorOf"/>
+    <ownedAttribute xmi:id="Onekin.Portal.portlets" name="portlets" upper="*" type="821450407F00010101E91259428AB59A"
+        isComposite="true" opposite="Onekin.Portlet.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.PortalAppDescriptor" name="PortalAppearanceDescriptor">
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.portalAppDescriptorOf"
+        name="portalAppDescriptorOf" lower="1" type="Onekin.Portal" opposite="Onekin.Portal.portalAppDescriptor"/>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.borderStyle" name="borderStyle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.borderWidth" name="borderWidth">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.background" name="background">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.borderColor" name="borderColor">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.transition" name="transition">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.distribution" name="distribution">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.textPosition" name="textPosition">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.presentationDef" name="presentationDef">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.alignment" name="alignment">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.descriptors" name="descriptors"
+        upper="*" type="Onekin.AppearanceDescriptor" isComposite="true" opposite="Onekin.AppearanceDescriptor.owner"/>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.portalAppDescriptorOfState"
+        name="portalAppDescriptorOfState" lower="1" type="Onekin.RootState" opposite="Onekin.RootState.portalAppDescriptor"/>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.banner" name="banner"
+        type="Onekin.Banner" isComposite="true" opposite="Onekin.Banner.owner"/>
+    <ownedAttribute xmi:id="Onekin.PortalAppearanceDescriptor.footer" name="footer"
+        type="Onekin.Footer" isComposite="true" opposite="Onekin.Footer.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="821450407F00010101E91259428AB59A" name="Portlet">
+    <ownedAttribute xmi:id="Onekin.Portlet.owner" name="owner" lower="1" type="Onekin.Portal"
+        opposite="Onekin.Portal.portlets"/>
+    <ownedAttribute xmi:id="Onekin.Portlet.windowTitle" name="windowTitle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Portlet.displayName" name="displayName">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Portlet.portletName" name="portletName">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Portlet.portletMode" name="portletMode">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.Portlet.showInfoBar" name="showInfoBar">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.RootState" name="RootState" superClass="Onekin.StructState">
+    <ownedAttribute xmi:id="Onekin.RootState.portalAppDescriptor" name="portalAppDescriptor"
+        lower="1" type="Onekin.PortalAppDescriptor" opposite="Onekin.PortalAppearanceDescriptor.portalAppDescriptorOfState"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.Banner" name="Banner">
+    <ownedAttribute xmi:id="Onekin.Banner.owner" name="owner" lower="1" type="Onekin.PortalAppDescriptor"
+        opposite="Onekin.PortalAppearanceDescriptor.banner"/>
+    <ownedAttribute xmi:id="Onekin.Banner.file" name="file">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.Footer" name="Footer">
+    <ownedAttribute xmi:id="Onekin.Footer.owner" name="owner" lower="1" type="Onekin.PortalAppDescriptor"
+        opposite="Onekin.PortalAppearanceDescriptor.footer"/>
+    <ownedAttribute xmi:id="Onekin.Footer.file" name="file">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.StructState" name="StructState"
+      superClass="Onekin.State">
+    <ownedAttribute xmi:id="Onekin.StructState.esAnd" name="esAnd">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.StructState.regions" name="regions" lower="1" upper="*"
+        type="Onekin.Region" isComposite="true" opposite="Onekin.Region.regionOfState"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.FinalState" name="SimpleState" superClass="Onekin.State"/>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.WindowAppDescriptor" name="WindowAppDescriptor"
+      superClass="Onekin.AppearanceDescriptor">
+    <ownedAttribute xmi:id="Onekin.WindowAppDescriptor.position" name="position">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.WindowAppDescriptor.alignment" name="alignment">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="Onekin.TextAppDescriptor" name="TextAppDescriptor"
+      superClass="Onekin.AppearanceDescriptor">
+    <ownedAttribute xmi:id="Onekin.TextAppDescriptor.displayName" name="displayName">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="Onekin.TextAppDescriptor.portletName" name="portletName">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="939DD504FFFFFFFC008AE59A87F705EC" name="PseudoState"
+      superClass="939738C2FFFFFFFC008AE59A347A12B7"/>
+</emof:Package>

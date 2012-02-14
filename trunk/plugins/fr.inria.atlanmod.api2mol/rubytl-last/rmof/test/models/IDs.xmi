@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ids:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ids="http://rmof.rubyforge.org/test/ids" xsi:schemaLocation="http://rmof.rubyforge.org/test/ids IDs.ecore" mostImportant="1"> <!-- allObjectsAgain="//@objects.0 1 3 4"> -->
+  <objects xsi:type="ids:StringObject" value="String0"/>
+  <objects xsi:type="ids:StringObject" idValue="1" value="String1"/>
+  <objects xsi:type="ids:IntegerObject" idValue="3" value="3"/>
+  <objects xsi:type="ids:IntegerObject" idValue="4" value="4"/>
+</ids:Model>

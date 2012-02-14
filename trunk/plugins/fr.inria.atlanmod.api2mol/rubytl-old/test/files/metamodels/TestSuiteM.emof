@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="TestSuiteM"
+    name="TestSuiteM">
+  <ownedType xmi:type="emof:Class" xmi:id="6B62A3C99B360F7A00F55FF2A6E61006" name="TestSuite">
+    <ownedAttribute xmi:id="TestSuiteM.TestSuite.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="D797FC159B360F7A00D81341BF8BD478" name="cases" upper="*"
+        type="6B644BD89B360F7A00F55FF2948F3434" isComposite="true" opposite="TestSuiteM.TestCase.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="6B644BD89B360F7A00F55FF2948F3434" name="TestCase">
+    <ownedAttribute xmi:id="TestSuiteM.TestCase.owner" name="owner" type="6B62A3C99B360F7A00F55FF2A6E61006"
+        opposite="D797FC159B360F7A00D81341BF8BD478"/>
+    <ownedAttribute xmi:id="TestSuiteM.TestCase.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="D797FC159B360F7A00D81341A1A79042" name="methods" upper="*"
+        type="6B6477A99B360F7A00F55FF2D0D07EF6" isComposite="true" opposite="TestSuiteM.TestMethod.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="6B6477A99B360F7A00F55FF2D0D07EF6" name="TestMethod">
+    <ownedAttribute xmi:id="TestSuiteM.TestMethod.owner" name="owner" lower="1" type="6B644BD89B360F7A00F55FF2948F3434"
+        opposite="D797FC159B360F7A00D81341A1A79042"/>
+    <ownedAttribute xmi:id="TestSuiteM.TestMethod.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+</emof:Package>

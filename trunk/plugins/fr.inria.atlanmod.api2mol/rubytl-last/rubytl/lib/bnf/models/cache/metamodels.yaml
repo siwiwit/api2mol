@@ -1,0 +1,11 @@
+--- 
+http://gts.inf.um.es/rubytl/cst: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://gts.inf.um.es/rubytl/cst
+  filename: cst.rb
+  module_name: RubyTL::CST
+  implementation: 
+http://gts.inf.um.es/rubytl/bnf: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://gts.inf.um.es/rubytl/bnf
+  filename: bnf.rb
+  module_name: RubyTL::BNF
+  implementation: 

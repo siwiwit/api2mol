@@ -1,0 +1,11 @@
+--- 
+http://www.eclipse.org/emf/2002/Ecore: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://www.eclipse.org/emf/2002/Ecore
+  filename: ecore.rb
+  module_name: ECore
+  implementation: rmof/meta/ecore/implementation
+http://www.eclipse.org/uml2/1.0.0/UML: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://www.eclipse.org/uml2/1.0.0/UML
+  filename: uml2.rb
+  module_name: Uml2
+  implementation: 

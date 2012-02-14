@@ -1,0 +1,9 @@
+
+-- automatic generation of: <%= table.name %>
+create table <%= table.name %> (
+<% table.cols.each do |c| -%>
+  <%= c.name %> <%= c.type.upcase %> NOT NULL,
+<% end -%>
+	
+  constraint primary key (<%= table.pkeys.map { |c| c.name }.join(',') %>)
+);

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="BNF"
+    nsURI="http://gts.inf.um.es/rubytl/bnf" nsPrefix="bnf">
+  <eClassifiers xsi:type="ecore:EClass" name="Grammar">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rules" upperBound="-1"
+        eType="#//Rule" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tokens" upperBound="-1"
+        eType="#//Token" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ignoredTokens" upperBound="-1"
+        eType="#//IgnoredToken" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pairTokens" upperBound="-1"
+        eType="#//PairToken" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Token">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="regexp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PairToken" eSuperTypes="#//Token">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endRegexp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IgnoredToken" eSuperTypes="#//Token"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Rule">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="left" eType="#//NoTerminal"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="right" upperBound="-1"
+        eType="#//Symbol" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Symbol" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="positionIdentifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Terminal" eSuperTypes="#//Symbol"/>
+  <eClassifiers xsi:type="ecore:EClass" name="NoTerminal" eSuperTypes="#//Symbol"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Optional" eSuperTypes="#//Symbol">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="symbol" eType="#//Symbol"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Repetition" eSuperTypes="#//Symbol">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="symbol" eType="#//Symbol"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Lambda" eSuperTypes="#//Symbol"/>
+</ecore:EPackage>

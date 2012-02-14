@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_AmhHsC_vEdyBhPLRt_JTEQ" name="myprofile" metaclassReference="_Bya9UC_zEdyzXLZ_R-uayA">
+  <eAnnotations xmi:id="_c8m2sC_zEdyzXLZ_R-uayA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_c8ndwC_zEdyzXLZ_R-uayA" name="myprofile" nsURI="http:///schemas/myprofile/_c8kacC_zEdyzXLZ_R-uayA/0" nsPrefix="myprofile">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_c8ndwS_zEdyzXLZ_R-uayA" name="MyStereotype">
+        <eAnnotations xmi:id="_c8ndwi_zEdyzXLZ_R-uayA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_x0hLoC_xEdyBhPLRt_JTEQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_c8ndwy_zEdyzXLZ_R-uayA" name="MyProperty" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_c8ndxS_zEdyzXLZ_R-uayA" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_Bya9UC_zEdyzXLZ_R-uayA">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_x0hLoC_xEdyBhPLRt_JTEQ" name="MyStereotype">
+<!--
+    <ownedAttribute xmi:id="_C2VG0C_yEdyBhPLRt_JTEQ" name="MyProperty">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+-->    
+    <ownedAttribute xmi:id="_DkNrEC_zEdyzXLZ_R-uayA" name="base_Class" association="_DkNEAC_zEdyzXLZ_R-uayA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_DkNEAC_zEdyzXLZ_R-uayA" name="Class_MyStereotype" memberEnd="_DkNEAS_zEdyzXLZ_R-uayA _DkNrEC_zEdyzXLZ_R-uayA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_DkNEAS_zEdyzXLZ_R-uayA" name="extension_MyStereotype" type="_x0hLoC_xEdyBhPLRt_JTEQ" aggregation="composite" association="_DkNEAC_zEdyzXLZ_R-uayA"/>
+  </packagedElement>
+</uml:Profile>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="stringtype">
+	 <xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:complexType name="TestAggregationType">
+ 		<xs:sequence>
+  			<xs:element maxOccurs="unbounded" name="test" type="TestType"/>
+ 		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TestType">
+		<xs:sequence>
+			<xs:element name="methodName"  type="stringtype"/>
+			<xs:element name="documentation"  type="stringtype"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" /> # TODO: USE XS:IDREF
+	</xs:complexType>
+
+	<xs:element name="tests" type="TestAggregationType"/>
+</xs:schema>

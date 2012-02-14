@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="JavaM"
+    nsURI="javam" nsPrefix="">
+  <eClassifiers xsi:type="ecore:EClass" name="TypedElement" instanceClassName="">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//Classifier"
+        eOpposite="#//Classifier/typeOf"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Classifier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeOf" eType="#//TypedElement"
+        eOpposite="#//TypedElement/type"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PrimitiveType" instanceClassName=""
+      eSuperTypes="#//Classifier"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Class" eSuperTypes="#//Classifier">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="features" upperBound="-1"
+        eType="#//Feature" containment="true" eOpposite="#//Feature/owner"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Feature" instanceClassName="" eSuperTypes="#//TypedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" eType="#//Class"
+        eOpposite="#//Class/features"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="visibility" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Field" eSuperTypes="#//Feature"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Method" instanceClassName="" eSuperTypes="#//Feature">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" upperBound="-1"
+        eType="#//Parameter" eOpposite="#//Parameter/paramsOf"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Parameter" eSuperTypes="#//TypedElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="paramsOf" eType="#//Method"
+        eOpposite="#//Method/params"/>
+  </eClassifiers>
+</ecore:EPackage>

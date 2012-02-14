@@ -1,0 +1,53 @@
+@namespace(uri="http://modelum.es/atlanmod/log", prefix="log")
+package log;
+
+import "platform:/resource/api2mol.abstractSyntax/model/api2mol.ecore";
+
+abstract class LogElement {
+}
+
+class Message {
+   attr String message;
+}
+
+
+abstract class Step {
+  val Step[*] steps;
+}
+
+class InjectionElement extends Step, Message {
+  attr String concreteInstanceClass;
+  attr boolean cached;
+}
+
+class Process extends Step {
+  attr ProcessType[1] type;
+}
+
+class MappingStep extends Step {
+  ref api2mol.Mapping mappingRule;
+  attr String concreteMetaclass;
+  attr boolean metaclassInferred;
+}
+
+abstract class SectionStep extends Step {
+   attr boolean inferred;   
+}
+
+class PropertySectionStep extends SectionStep {
+   ref api2mol.PropertySection section;
+   attr String concreteProperty;
+   attr String concreteStatement;
+}
+
+class DefaultMetaclassStep extends SectionStep {
+   ref api2mol.DefaultMetaclassSection section;
+   attr String concreteValue;   
+}
+
+enum ProcessType {
+  INJECT = 0;
+  EXTRACT = 1;
+}
+
+
