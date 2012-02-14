@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api2mol:Definition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:api2mol="http://modelum.es/atlanmod/api2mol">
+  <mappings metaclass="ClassType" instanceClass="java.lang.Class">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="canonicalName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="modifiers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="isArray">
+      <statements>
+        <calls name="isArray"/>
+      </statements>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="classLoader">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="packageName">
+      <statements>
+        <calls name="getPackage"/>
+      </statements>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="constructors">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="declaredConstructors">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fields">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="declaredFields">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="methods">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="declaredMethods">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="superclass">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="interfaces">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="containerClass">
+      <statements>
+        <calls name="getEnclosingClass"/>
+      </statements>
+    </sections>
+  </mappings>
+  <mappings metaclass="AnnotatedElement" instanceClass="java.lang.reflect.AnnotatedElement">
+    <sections xsi:type="api2mol:PropertySection" property="annotations">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Annotation" instanceClass="java.lang.annotation.Annotation"/>
+  <mappings metaclass="Field" instanceClass="java.lang.reflect.Field">
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Method" instanceClass="java.lang.reflect.Method">
+    <sections xsi:type="api2mol:PropertySection" property="returnType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parameterTypes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="exceptionTypes">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Member" instanceClass="java.lang.reflect.Member">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="modifiers">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Constructor" instanceClass="java.lang.reflect.Constructor">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="modifiers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="returnType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parameterTypes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="exceptionTypes">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Package" instanceClass="java.lang.Package">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="implementationTitle">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="implementationVendor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="implementationVersion">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="specificationTitle">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="specificationVendor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="specificationVersion">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ParameterizedType" instanceClass="sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl">
+    <sections xsi:type="api2mol:PropertySection" property="actualTypeArguments">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ownerType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rawType">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="GenericArrayType" instanceClass="sun.reflect.generics.reflectiveObjects.GenericArrayTypeImpl">
+    <sections xsi:type="api2mol:PropertySection" property="genericComponentType">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="WildcardType" instanceClass="sun.reflect.generics.reflectiveObjects.WildcardTypeImpl">
+    <sections xsi:type="api2mol:PropertySection" property="lowerBounds">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="upperBounds">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TypeVariable" instanceClass="sun.reflect.generics.reflectiveObjects.TypeVariableImpl">
+    <sections xsi:type="api2mol:PropertySection" property="genericDeclaration">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bounds">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Modifier" instanceClass="int">
+    <sections xsi:type="api2mol:ValueSection" metaValue="PUBLIC" instanceValue="java.lang.reflect.Modifier.PUBLIC"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="PRIVATE" instanceValue="java.lang.reflect.Modifier.PRIVATE"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="PROTECTED" instanceValue="java.lang.reflect.Modifier.PROTECTED"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="STATIC" instanceValue="java.lang.reflect.Modifier.STATIC"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="FINAL" instanceValue="java.lang.reflect.Modifier.FINAL"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="SYNCHRONIZED" instanceValue="java.lang.reflect.Modifier.SYNCHRONIZED"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="VOLATILE" instanceValue="java.lang.reflect.Modifier.VOLATILE"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="TRANSIENT" instanceValue="java.lang.reflect.Modifier.TRANSIENT"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="NATIVE" instanceValue="java.lang.reflect.Modifier.NATIVE"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="INTERFACE" instanceValue="java.lang.reflect.Modifier.INTERFACE"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="ABSTRACT" instanceValue="java.lang.reflect.Modifier.ABSTRACT"/>
+    <sections xsi:type="api2mol:ValueSection" metaValue="STRICT" instanceValue="java.lang.reflect.Modifier.STRICT"/>
+  </mappings>
+</api2mol:Definition>
