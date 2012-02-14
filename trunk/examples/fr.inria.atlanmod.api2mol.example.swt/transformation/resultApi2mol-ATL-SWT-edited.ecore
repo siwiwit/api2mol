@@ -1,0 +1,3505 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api2mol:Definition xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:api2mol="http://modelum.es/atlanmod/api2mol">
+  <context>org.eclipse.swt</context>
+  <defaultMetaclass metaclassName="UnknownElement" attribute="type"/>
+  <mappings metaclass="DOMEvent" instanceClass="org.eclipse.swt.internal.cocoa.DOMEvent"/>
+  <mappings metaclass="nsIPrefService" instanceClass="org.eclipse.swt.internal.mozilla.nsIPrefService"/>
+  <mappings metaclass="PromptService2Factory" instanceClass="org.eclipse.swt.browser.PromptService2Factory"/>
+  <mappings metaclass="C" instanceClass="org.eclipse.swt.internal.C"/>
+  <mappings metaclass="NSSavePanel" instanceClass="org.eclipse.swt.internal.cocoa.NSSavePanel"/>
+  <mappings metaclass="Safari" instanceClass="org.eclipse.swt.browser.Safari">
+    <sections xsi:type="api2mol:PropertySection" property="url">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSButtonCell" instanceClass="org.eclipse.swt.internal.cocoa.NSButtonCell"/>
+  <mappings metaclass="nsIVariant" instanceClass="org.eclipse.swt.internal.mozilla.nsIVariant"/>
+  <mappings metaclass="ExpandItem" instanceClass="org.eclipse.swt.widgets.ExpandItem">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="expanded">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSStatusItem" instanceClass="org.eclipse.swt.internal.cocoa.NSStatusItem"/>
+  <mappings metaclass="StyledTextEvent" instanceClass="org.eclipse.swt.custom.StyledTextEvent"/>
+  <mappings metaclass="LineBackgroundEvent" instanceClass="org.eclipse.swt.custom.LineBackgroundEvent">
+    <sections xsi:type="api2mol:PropertySection" property="lineText">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineBackground">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSFileWrapper" instanceClass="org.eclipse.swt.internal.cocoa.NSFileWrapper"/>
+  <mappings metaclass="IME" instanceClass="org.eclipse.swt.widgets.IME">
+    <sections xsi:type="api2mol:PropertySection" property="caretOffset">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="commitCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="styles">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ranges">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="id" instanceClass="org.eclipse.swt.internal.cocoa.id">
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StackLayout" instanceClass="org.eclipse.swt.custom.StackLayout">
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topControl">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FileDialog" instanceClass="org.eclipse.swt.widgets.FileDialog">
+    <sections xsi:type="api2mol:PropertySection" property="filterExtensions">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="overwrite">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fileName">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="filterIndex">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="filterNames">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="filterPath">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fileNames">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TextLayout" instanceClass="org.eclipse.swt.graphics.TextLayout">
+    <sections xsi:type="api2mol:PropertySection" property="lineOffsets">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="orientation">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="indent">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alignment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ascent">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="segments">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="descent">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabs">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="justify">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIWebBrowser" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowser"/>
+  <mappings metaclass="AnimatedProgress" instanceClass="org.eclipse.swt.custom.AnimatedProgress"/>
+  <mappings metaclass="NSObject" instanceClass="org.eclipse.swt.internal.cocoa.NSObject"/>
+  <mappings metaclass="NSSegmentedCell" instanceClass="org.eclipse.swt.internal.cocoa.NSSegmentedCell"/>
+  <mappings metaclass="SWTPopUpButton" instanceClass="org.eclipse.swt.internal.cocoa.SWTPopUpButton"/>
+  <mappings metaclass="TextTransfer" instanceClass="org.eclipse.swt.dnd.TextTransfer"/>
+  <mappings metaclass="nsIDocShell" instanceClass="org.eclipse.swt.internal.mozilla.nsIDocShell"/>
+  <mappings metaclass="CoolItem" instanceClass="org.eclipse.swt.widgets.CoolItem">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsISimpleEnumerator" instanceClass="org.eclipse.swt.internal.mozilla.nsISimpleEnumerator"/>
+  <mappings metaclass="SWTTableHeaderView" instanceClass="org.eclipse.swt.internal.cocoa.SWTTableHeaderView"/>
+  <mappings metaclass="CGPoint" instanceClass="org.eclipse.swt.internal.cocoa.CGPoint">
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RangeDrawData" instanceClass="org.eclipse.swt.internal.theme.RangeDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="maximum">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimum">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selection">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MessageBox" instanceClass="org.eclipse.swt.widgets.MessageBox">
+    <sections xsi:type="api2mol:PropertySection" property="message">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="HelpEvent" instanceClass="org.eclipse.swt.events.HelpEvent"/>
+  <mappings metaclass="nsIComponentRegistrar" instanceClass="org.eclipse.swt.internal.mozilla.nsIComponentRegistrar"/>
+  <mappings metaclass="NSImageView" instanceClass="org.eclipse.swt.internal.cocoa.NSImageView"/>
+  <mappings metaclass="NSSet" instanceClass="org.eclipse.swt.internal.cocoa.NSSet"/>
+  <mappings metaclass="ExpandListener" instanceClass="org.eclipse.swt.events.ExpandListener"/>
+  <mappings metaclass="nsDynamicFunctionLoad" instanceClass="org.eclipse.swt.internal.mozilla.nsDynamicFunctionLoad">
+    <sections xsi:type="api2mol:PropertySection" property="functionName">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="function">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ExtendedModifyListener" instanceClass="org.eclipse.swt.custom.ExtendedModifyListener"/>
+  <mappings metaclass="NSSize" instanceClass="org.eclipse.swt.internal.cocoa.NSSize">
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTDatePicker" instanceClass="org.eclipse.swt.internal.cocoa.SWTDatePicker"/>
+  <mappings metaclass="NSTimeZone" instanceClass="org.eclipse.swt.internal.cocoa.NSTimeZone"/>
+  <mappings metaclass="NSAlert" instanceClass="org.eclipse.swt.internal.cocoa.NSAlert"/>
+  <mappings metaclass="nsIWebNavigation" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebNavigation"/>
+  <mappings metaclass="SelectionListener" instanceClass="org.eclipse.swt.events.SelectionListener"/>
+  <mappings metaclass="Path" instanceClass="org.eclipse.swt.graphics.Path">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSError" instanceClass="org.eclipse.swt.internal.cocoa.NSError"/>
+  <mappings metaclass="CTabFolderListener" instanceClass="org.eclipse.swt.custom.CTabFolderListener"/>
+  <mappings metaclass="SWTScrollView" instanceClass="org.eclipse.swt.internal.cocoa.SWTScrollView"/>
+  <mappings metaclass="nsIURIContentListener" instanceClass="org.eclipse.swt.internal.mozilla.nsIURIContentListener"/>
+  <mappings metaclass="AccessibleTextAdapter" instanceClass="org.eclipse.swt.accessibility.AccessibleTextAdapter"/>
+  <mappings metaclass="ShellAdapter" instanceClass="org.eclipse.swt.events.ShellAdapter"/>
+  <mappings metaclass="PaintListener" instanceClass="org.eclipse.swt.events.PaintListener"/>
+  <mappings metaclass="nsIClassInfo" instanceClass="org.eclipse.swt.internal.mozilla.nsIClassInfo"/>
+  <mappings metaclass="Text" instanceClass="org.eclipse.swt.widgets.Text">
+    <sections xsi:type="api2mol:PropertySection" property="textLimit">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabs">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="message">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CTabFolder2Listener" instanceClass="org.eclipse.swt.custom.CTabFolder2Listener"/>
+  <mappings metaclass="ShellEvent" instanceClass="org.eclipse.swt.events.ShellEvent">
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSFontPanel" instanceClass="org.eclipse.swt.internal.cocoa.NSFontPanel"/>
+  <mappings metaclass="nsIDocShell_1_8" instanceClass="org.eclipse.swt.internal.mozilla.nsIDocShell_1_8"/>
+  <mappings metaclass="Event" instanceClass="org.eclipse.swt.widgets.Event">
+    <sections xsi:type="api2mol:PropertySection" property="index">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="gc">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="time">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="widget">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="button">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="display">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="keyCode">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="end">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="stateMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="character">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Dialog" instanceClass="org.eclipse.swt.widgets.Dialog">
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSOutlineView" instanceClass="org.eclipse.swt.internal.cocoa.NSOutlineView"/>
+  <mappings metaclass="nsIWritableVariant" instanceClass="org.eclipse.swt.internal.mozilla.nsIWritableVariant"/>
+  <mappings metaclass="HelperAppLauncherDialog" instanceClass="org.eclipse.swt.browser.HelperAppLauncherDialog"/>
+  <mappings metaclass="Layout" instanceClass="org.eclipse.swt.widgets.Layout"/>
+  <mappings metaclass="NSStepper" instanceClass="org.eclipse.swt.internal.cocoa.NSStepper"/>
+  <mappings metaclass="GridLayout" instanceClass="org.eclipse.swt.layout.GridLayout">
+    <sections xsi:type="api2mol:PropertySection" property="marginBottom">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="makeColumnsEqualWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginTop">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalSpacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numColumns">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginLeft">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginRight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalSpacing">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGVariableSizeSegment" instanceClass="org.eclipse.swt.internal.image.JPEGVariableSizeSegment"/>
+  <mappings metaclass="NSColorSpace" instanceClass="org.eclipse.swt.internal.cocoa.NSColorSpace"/>
+  <mappings metaclass="SWTEventListener" instanceClass="org.eclipse.swt.internal.SWTEventListener"/>
+  <mappings metaclass="nsIDOMKeyEvent" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMKeyEvent"/>
+  <mappings metaclass="nsISSLStatus" instanceClass="org.eclipse.swt.internal.mozilla.nsISSLStatus"/>
+  <mappings metaclass="NSKeyedUnarchiver" instanceClass="org.eclipse.swt.internal.cocoa.NSKeyedUnarchiver"/>
+  <mappings metaclass="GridData" instanceClass="org.eclipse.swt.layout.GridData">
+    <sections xsi:type="api2mol:PropertySection" property="horizontalAlignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="heightHint">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="widthHint">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grabExcessVerticalSpace">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grabExcessHorizontalSpace">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalIndent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalAlignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimumHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalSpan">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="exclude">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalIndent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimumWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalSpan">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSDatePicker" instanceClass="org.eclipse.swt.internal.cocoa.NSDatePicker"/>
+  <mappings metaclass="SWTTreeItem" instanceClass="org.eclipse.swt.internal.cocoa.SWTTreeItem"/>
+  <mappings metaclass="NSMutableAttributedString" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableAttributedString"/>
+  <mappings metaclass="DefaultContent" instanceClass="org.eclipse.swt.custom.DefaultContent">
+    <sections xsi:type="api2mol:PropertySection" property="lineCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="LineDelimiter">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngPlteChunk" instanceClass="org.eclipse.swt.internal.image.PngPlteChunk">
+    <sections xsi:type="api2mol:PropertySection" property="paletteSize">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ButtonDrawData" instanceClass="org.eclipse.swt.internal.theme.ButtonDrawData"/>
+  <mappings metaclass="nsIServiceManager" instanceClass="org.eclipse.swt.internal.mozilla.nsIServiceManager"/>
+  <mappings metaclass="Link" instanceClass="org.eclipse.swt.widgets.Link">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIFactory" instanceClass="org.eclipse.swt.internal.mozilla.nsIFactory"/>
+  <mappings metaclass="JPEGDecoder.jpeg_component_info" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_component_info"/>
+  <mappings metaclass="DownloadFactory_1_8" instanceClass="org.eclipse.swt.browser.DownloadFactory_1_8"/>
+  <mappings metaclass="CTabFolder" instanceClass="org.eclipse.swt.custom.CTabFolder">
+    <sections xsi:type="api2mol:PropertySection" property="MIN_TAB_WIDTH">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectionForeground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectionBackground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topRight">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maximized">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimized">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="single">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabHeight">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="simple">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fillColor">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DeviceData" instanceClass="org.eclipse.swt.graphics.DeviceData">
+    <sections xsi:type="api2mol:PropertySection" property="debug">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="errors">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="objects">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tracking">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngChunk" instanceClass="org.eclipse.swt.internal.image.PngChunk">
+    <sections xsi:type="api2mol:PropertySection" property="length">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="reference">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MouseMoveListener" instanceClass="org.eclipse.swt.events.MouseMoveListener"/>
+  <mappings metaclass="nsIFile" instanceClass="org.eclipse.swt.internal.mozilla.nsIFile"/>
+  <mappings metaclass="nsEmbedString" instanceClass="org.eclipse.swt.internal.mozilla.nsEmbedString"/>
+  <mappings metaclass="DropTargetEffect" instanceClass="org.eclipse.swt.dnd.DropTargetEffect">
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DropTargetListener" instanceClass="org.eclipse.swt.dnd.DropTargetListener"/>
+  <mappings metaclass="SWTScroller" instanceClass="org.eclipse.swt.internal.cocoa.SWTScroller"/>
+  <mappings metaclass="NSAffineTransformStruct" instanceClass="org.eclipse.swt.internal.cocoa.NSAffineTransformStruct">
+    <sections xsi:type="api2mol:PropertySection" property="tY">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m11">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m12">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m22">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tX">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m21">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PromptDialog" instanceClass="org.eclipse.swt.browser.PromptDialog"/>
+  <mappings metaclass="LEDataOutputStream" instanceClass="org.eclipse.swt.internal.image.LEDataOutputStream"/>
+  <mappings metaclass="nsIWindowCreator2" instanceClass="org.eclipse.swt.internal.mozilla.nsIWindowCreator2"/>
+  <mappings metaclass="Font" instanceClass="org.eclipse.swt.graphics.Font">
+    <sections xsi:type="api2mol:PropertySection" property="extraTraits">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TreeEditor" instanceClass="org.eclipse.swt.custom.TreeEditor">
+    <sections xsi:type="api2mol:PropertySection" property="column">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TreeDragSourceEffect" instanceClass="org.eclipse.swt.dnd.TreeDragSourceEffect"/>
+  <mappings metaclass="nsIDirectoryService" instanceClass="org.eclipse.swt.internal.mozilla.nsIDirectoryService"/>
+  <mappings metaclass="PngDeflater.Code" instanceClass="org.eclipse.swt.internal.image.PngDeflater$Code"/>
+  <mappings metaclass="LONG" instanceClass="org.eclipse.swt.internal.LONG">
+    <sections xsi:type="api2mol:PropertySection" property="value">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDOMWindowCollection" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMWindowCollection"/>
+  <mappings metaclass="StyleRange" instanceClass="org.eclipse.swt.custom.StyleRange">
+    <sections xsi:type="api2mol:PropertySection" property="fontStyle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="length">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AccessibleControlListener" instanceClass="org.eclipse.swt.accessibility.AccessibleControlListener"/>
+  <mappings metaclass="NSColor" instanceClass="org.eclipse.swt.internal.cocoa.NSColor"/>
+  <mappings metaclass="nsICookieService" instanceClass="org.eclipse.swt.internal.mozilla.nsICookieService"/>
+  <mappings metaclass="nsIPrefLocalizedString" instanceClass="org.eclipse.swt.internal.mozilla.nsIPrefLocalizedString"/>
+  <mappings metaclass="AppFileLocProvider" instanceClass="org.eclipse.swt.browser.AppFileLocProvider">
+    <sections xsi:type="api2mol:PropertySection" property="componentsPath">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profilePath">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIAuthInformation" instanceClass="org.eclipse.swt.internal.mozilla.nsIAuthInformation"/>
+  <mappings metaclass="NSEnumerator" instanceClass="org.eclipse.swt.internal.cocoa.NSEnumerator"/>
+  <mappings metaclass="NSWorkspace" instanceClass="org.eclipse.swt.internal.cocoa.NSWorkspace"/>
+  <mappings metaclass="nsIPromptService" instanceClass="org.eclipse.swt.internal.mozilla.nsIPromptService"/>
+  <mappings metaclass="JPEGDecoder" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder"/>
+  <mappings metaclass="NSMutableString" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableString"/>
+  <mappings metaclass="nsIDOMUIEvent" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMUIEvent"/>
+  <mappings metaclass="DateTime" instanceClass="org.eclipse.swt.widgets.DateTime"/>
+  <mappings metaclass="DOMUIEvent" instanceClass="org.eclipse.swt.internal.cocoa.DOMUIEvent"/>
+  <mappings metaclass="TableTreeEditor" instanceClass="org.eclipse.swt.custom.TableTreeEditor">
+    <sections xsi:type="api2mol:PropertySection" property="column">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StyledText" instanceClass="org.eclipse.swt.custom.StyledText">
+    <sections xsi:type="api2mol:PropertySection" property="textLimit">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="justify">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="indent">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalScrollOffset">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="caretDirection">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginColor">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fixedLineHeight">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineSpacing">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topIndex">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectionForeground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="editable">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dragDetect">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="cursor">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rightMargin">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="blockSelection">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="wordWrap">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectionBackground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="leftMargin">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selection">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bidiColoring">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="caretOffset">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bottomMargin">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doubleClickEnabled">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="caretWidth">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topMargin">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alignment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIHelperAppLauncher_1_8" instanceClass="org.eclipse.swt.internal.mozilla.nsIHelperAppLauncher_1_8"/>
+  <mappings metaclass="JPEGHuffmanTable" instanceClass="org.eclipse.swt.internal.image.JPEGHuffmanTable">
+    <sections xsi:type="api2mol:PropertySection" property="dhValPtrs">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="allTables">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dhValues">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tableIdentifier">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dhMaxCodes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dhMinCodes">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tableClass">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ColorDialog" instanceClass="org.eclipse.swt.widgets.ColorDialog"/>
+  <mappings metaclass="HelperAppLauncherDialogFactory" instanceClass="org.eclipse.swt.browser.HelperAppLauncherDialogFactory"/>
+  <mappings metaclass="NSFileManager" instanceClass="org.eclipse.swt.internal.cocoa.NSFileManager"/>
+  <mappings metaclass="Drawable" instanceClass="org.eclipse.swt.graphics.Drawable"/>
+  <mappings metaclass="ScrollBar" instanceClass="org.eclipse.swt.widgets.ScrollBar">
+    <sections xsi:type="api2mol:PropertySection" property="increment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimum">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thumb">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maximum">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSLayoutManager" instanceClass="org.eclipse.swt.internal.cocoa.NSLayoutManager"/>
+  <mappings metaclass="NSCell" instanceClass="org.eclipse.swt.internal.cocoa.NSCell"/>
+  <mappings metaclass="SWTButton" instanceClass="org.eclipse.swt.internal.cocoa.SWTButton"/>
+  <mappings metaclass="NSTextContainer" instanceClass="org.eclipse.swt.internal.cocoa.NSTextContainer"/>
+  <mappings metaclass="NSOpenGLContext" instanceClass="org.eclipse.swt.internal.cocoa.NSOpenGLContext"/>
+  <mappings metaclass="FilePicker" instanceClass="org.eclipse.swt.browser.FilePicker"/>
+  <mappings metaclass="Scrollable" instanceClass="org.eclipse.swt.widgets.Scrollable">
+    <sections xsi:type="api2mol:PropertySection" property="verticalBar">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalBar">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MenuEvent" instanceClass="org.eclipse.swt.events.MenuEvent"/>
+  <mappings metaclass="HelperAppLauncherDialog_1_9" instanceClass="org.eclipse.swt.browser.HelperAppLauncherDialog_1_9"/>
+  <mappings metaclass="DOMMouseEvent" instanceClass="org.eclipse.swt.internal.cocoa.DOMMouseEvent"/>
+  <mappings metaclass="ScaleDrawData" instanceClass="org.eclipse.swt.internal.theme.ScaleDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="increment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSMutableSet" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableSet"/>
+  <mappings metaclass="WinBMPFileFormat" instanceClass="org.eclipse.swt.internal.image.WinBMPFileFormat"/>
+  <mappings metaclass="Library" instanceClass="org.eclipse.swt.internal.Library"/>
+  <mappings metaclass="NSScroller" instanceClass="org.eclipse.swt.internal.cocoa.NSScroller"/>
+  <mappings metaclass="NSFormatter" instanceClass="org.eclipse.swt.internal.cocoa.NSFormatter"/>
+  <mappings metaclass="NSScrollView" instanceClass="org.eclipse.swt.internal.cocoa.NSScrollView"/>
+  <mappings metaclass="TypedListener" instanceClass="org.eclipse.swt.widgets.TypedListener">
+    <sections xsi:type="api2mol:PropertySection" property="eventListener">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ToolBar" instanceClass="org.eclipse.swt.widgets.ToolBar">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CTabFolderAdapter" instanceClass="org.eclipse.swt.custom.CTabFolderAdapter"/>
+  <mappings metaclass="XPCOM" instanceClass="org.eclipse.swt.internal.mozilla.XPCOM"/>
+  <mappings metaclass="JPEGDecoder.jpeg_d_main_controller" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_d_main_controller"/>
+  <mappings metaclass="SWTSearchField" instanceClass="org.eclipse.swt.internal.cocoa.SWTSearchField"/>
+  <mappings metaclass="JPEGDecoder.JHUFF_TBL" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$JHUFF_TBL"/>
+  <mappings metaclass="VerifyListener" instanceClass="org.eclipse.swt.events.VerifyListener"/>
+  <mappings metaclass="TreeItem" instanceClass="org.eclipse.swt.widgets.TreeItem">
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="expanded">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grayed">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parentItem">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="checked">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ArmListener" instanceClass="org.eclipse.swt.events.ArmListener"/>
+  <mappings metaclass="ImageDataLoader" instanceClass="org.eclipse.swt.graphics.ImageDataLoader"/>
+  <mappings metaclass="FocusListener" instanceClass="org.eclipse.swt.events.FocusListener"/>
+  <mappings metaclass="ST" instanceClass="org.eclipse.swt.custom.ST"/>
+  <mappings metaclass="KeyListener" instanceClass="org.eclipse.swt.events.KeyListener"/>
+  <mappings metaclass="SWTTextField" instanceClass="org.eclipse.swt.internal.cocoa.SWTTextField"/>
+  <mappings metaclass="URLTransfer" instanceClass="org.eclipse.swt.dnd.URLTransfer"/>
+  <mappings metaclass="FormAttachment" instanceClass="org.eclipse.swt.layout.FormAttachment">
+    <sections xsi:type="api2mol:PropertySection" property="denominator">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="offset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="numerator">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTException" instanceClass="org.eclipse.swt.SWTException">
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="throwable">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTComboBox" instanceClass="org.eclipse.swt.internal.cocoa.SWTComboBox"/>
+  <mappings metaclass="JPEGDecoder.jpeg_entropy_decoder" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_entropy_decoder"/>
+  <mappings metaclass="NSEvent" instanceClass="org.eclipse.swt.internal.cocoa.NSEvent"/>
+  <mappings metaclass="TextLayout.StyleItem" instanceClass="org.eclipse.swt.graphics.TextLayout$StyleItem"/>
+  <mappings metaclass="nsIHelperAppLauncherDialog_1_9" instanceClass="org.eclipse.swt.internal.mozilla.nsIHelperAppLauncherDialog_1_9"/>
+  <mappings metaclass="JPEGDecoder.jpeg_upsampler" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_upsampler"/>
+  <mappings metaclass="NSTextView" instanceClass="org.eclipse.swt.internal.cocoa.NSTextView"/>
+  <mappings metaclass="TableDragSourceEffect" instanceClass="org.eclipse.swt.dnd.TableDragSourceEffect"/>
+  <mappings metaclass="nsIEmbeddingSiteWindow" instanceClass="org.eclipse.swt.internal.mozilla.nsIEmbeddingSiteWindow"/>
+  <mappings metaclass="ProgressAdapter" instanceClass="org.eclipse.swt.browser.ProgressAdapter"/>
+  <mappings metaclass="LineBackgroundListener" instanceClass="org.eclipse.swt.custom.LineBackgroundListener"/>
+  <mappings metaclass="Control" instanceClass="org.eclipse.swt.widgets.Control">
+    <sections xsi:type="api2mol:PropertySection" property="view">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="layoutData">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="region">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessible">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="backgroundImage">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="cursor">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="menu">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DragSourceEvent" instanceClass="org.eclipse.swt.dnd.DragSourceEvent">
+    <sections xsi:type="api2mol:PropertySection" property="offsetY">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dataType">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="offsetX">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSPrintInfo" instanceClass="org.eclipse.swt.internal.cocoa.NSPrintInfo"/>
+  <mappings metaclass="SashFormData" instanceClass="org.eclipse.swt.custom.SashFormData"/>
+  <mappings metaclass="Widget" instanceClass="org.eclipse.swt.widgets.Widget">
+    <sections xsi:type="api2mol:PropertySection" property="display">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGFixedSizeSegment" instanceClass="org.eclipse.swt.internal.image.JPEGFixedSizeSegment"/>
+  <mappings metaclass="DOMWheelEvent" instanceClass="org.eclipse.swt.internal.cocoa.DOMWheelEvent"/>
+  <mappings metaclass="CoolBar" instanceClass="org.eclipse.swt.widgets.CoolBar">
+    <sections xsi:type="api2mol:PropertySection" property="cursor">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="XPCOMObject" instanceClass="org.eclipse.swt.internal.mozilla.XPCOMObject"/>
+  <mappings metaclass="NSURLRequest" instanceClass="org.eclipse.swt.internal.cocoa.NSURLRequest"/>
+  <mappings metaclass="TextStyle" instanceClass="org.eclipse.swt.graphics.TextStyle">
+    <sections xsi:type="api2mol:PropertySection" property="strikeout">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="strikeoutColor">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="borderColor">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="borderStyle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rise">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="underlineColor">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="underline">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="metrics">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="underlineStyle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.jpeg_marker_reader" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_marker_reader"/>
+  <mappings metaclass="TransferData" instanceClass="org.eclipse.swt.dnd.TransferData">
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Scale" instanceClass="org.eclipse.swt.widgets.Scale">
+    <sections xsi:type="api2mol:PropertySection" property="increment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OpenWindowListener" instanceClass="org.eclipse.swt.browser.OpenWindowListener"/>
+  <mappings metaclass="NSNotificationCenter" instanceClass="org.eclipse.swt.internal.cocoa.NSNotificationCenter"/>
+  <mappings metaclass="PngIhdrChunk" instanceClass="org.eclipse.swt.internal.image.PngIhdrChunk">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="colorType">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="filterMethod">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="interlaceMethod">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="compressionMethod">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bitDepth">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDownload_1_8" instanceClass="org.eclipse.swt.internal.mozilla.nsIDownload_1_8"/>
+  <mappings metaclass="Callback" instanceClass="org.eclipse.swt.internal.Callback">
+    <sections xsi:type="api2mol:PropertySection" property="address">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDOMEvent" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMEvent"/>
+  <mappings metaclass="FilePickerFactory_1_8" instanceClass="org.eclipse.swt.browser.FilePickerFactory_1_8"/>
+  <mappings metaclass="WebPolicyDecisionListener" instanceClass="org.eclipse.swt.internal.cocoa.WebPolicyDecisionListener"/>
+  <mappings metaclass="VerifyEvent" instanceClass="org.eclipse.swt.events.VerifyEvent">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="end">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PrinterData" instanceClass="org.eclipse.swt.printing.PrinterData">
+    <sections xsi:type="api2mol:PropertySection" property="driver">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="orientation">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="copyCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="printToFile">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="startPage">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="scope">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fileName">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="endPage">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="collate">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSComboBoxCell" instanceClass="org.eclipse.swt.internal.cocoa.NSComboBoxCell"/>
+  <mappings metaclass="nsICertOverrideService" instanceClass="org.eclipse.swt.internal.mozilla.nsICertOverrideService"/>
+  <mappings metaclass="nsIXPCSecurityManager" instanceClass="org.eclipse.swt.internal.mozilla.nsIXPCSecurityManager"/>
+  <mappings metaclass="WindowEvent" instanceClass="org.eclipse.swt.browser.WindowEvent">
+    <sections xsi:type="api2mol:PropertySection" property="required">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="statusBar">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolBar">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="addressBar">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="size">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="menuBar">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="browser">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIComponentManager" instanceClass="org.eclipse.swt.internal.mozilla.nsIComponentManager"/>
+  <mappings metaclass="nsIInterfaceRequestor" instanceClass="org.eclipse.swt.internal.mozilla.nsIInterfaceRequestor"/>
+  <mappings metaclass="PngDeflater.Link" instanceClass="org.eclipse.swt.internal.image.PngDeflater$Link"/>
+  <mappings metaclass="nsIScriptSecurityManager_1_9_1" instanceClass="org.eclipse.swt.internal.mozilla.nsIScriptSecurityManager_1_9_1"/>
+  <mappings metaclass="NSSearchFieldCell" instanceClass="org.eclipse.swt.internal.cocoa.NSSearchFieldCell"/>
+  <mappings metaclass="ScrollBarDrawData" instanceClass="org.eclipse.swt.internal.theme.ScrollBarDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="increment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thumb">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="LineStyleListener" instanceClass="org.eclipse.swt.custom.LineStyleListener"/>
+  <mappings metaclass="AccessibleAdapter" instanceClass="org.eclipse.swt.accessibility.AccessibleAdapter"/>
+  <mappings metaclass="Cursor" instanceClass="org.eclipse.swt.graphics.Cursor">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTPanelDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTPanelDelegate"/>
+  <mappings metaclass="nsICookieService_1_9" instanceClass="org.eclipse.swt.internal.mozilla.nsICookieService_1_9"/>
+  <mappings metaclass="ControlAdapter" instanceClass="org.eclipse.swt.events.ControlAdapter"/>
+  <mappings metaclass="NSBundle" instanceClass="org.eclipse.swt.internal.cocoa.NSBundle"/>
+  <mappings metaclass="ImageTransfer" instanceClass="org.eclipse.swt.dnd.ImageTransfer"/>
+  <mappings metaclass="TIFFModifiedHuffmanCodec" instanceClass="org.eclipse.swt.internal.image.TIFFModifiedHuffmanCodec"/>
+  <mappings metaclass="JPEGFileFormat" instanceClass="org.eclipse.swt.internal.image.JPEGFileFormat"/>
+  <mappings metaclass="SWT" instanceClass="org.eclipse.swt.SWT"/>
+  <mappings metaclass="Printer" instanceClass="org.eclipse.swt.printing.Printer"/>
+  <mappings metaclass="nsIWebNavigationInfo" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebNavigationInfo"/>
+  <mappings metaclass="NSDirectoryEnumerator" instanceClass="org.eclipse.swt.internal.cocoa.NSDirectoryEnumerator"/>
+  <mappings metaclass="nsIPrincipal" instanceClass="org.eclipse.swt.internal.mozilla.nsIPrincipal"/>
+  <mappings metaclass="TIFFDirectory" instanceClass="org.eclipse.swt.internal.image.TIFFDirectory"/>
+  <mappings metaclass="RTFTransfer" instanceClass="org.eclipse.swt.dnd.RTFTransfer"/>
+  <mappings metaclass="FilePicker_1_8" instanceClass="org.eclipse.swt.browser.FilePicker_1_8"/>
+  <mappings metaclass="TextChangingEvent" instanceClass="org.eclipse.swt.custom.TextChangingEvent">
+    <sections xsi:type="api2mol:PropertySection" property="newCharCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="newLineCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="replaceLineCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="replaceCharCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="newText">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSCharacterSet" instanceClass="org.eclipse.swt.internal.cocoa.NSCharacterSet"/>
+  <mappings metaclass="nsID" instanceClass="org.eclipse.swt.internal.mozilla.nsID">
+    <sections xsi:type="api2mol:PropertySection" property="m3">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m1">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m2">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="m0">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSGraphicsContext" instanceClass="org.eclipse.swt.internal.cocoa.NSGraphicsContext"/>
+  <mappings metaclass="SashForm" instanceClass="org.eclipse.swt.custom.SashForm">
+    <sections xsi:type="api2mol:PropertySection" property="SASH_WIDTH">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FormData" instanceClass="org.eclipse.swt.layout.FormData">
+    <sections xsi:type="api2mol:PropertySection" property="top">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bottom">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="right">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="left">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSTextFieldCell" instanceClass="org.eclipse.swt.internal.cocoa.NSTextFieldCell"/>
+  <mappings metaclass="WebScriptObject" instanceClass="org.eclipse.swt.internal.cocoa.WebScriptObject"/>
+  <mappings metaclass="Rectangle" instanceClass="org.eclipse.swt.graphics.Rectangle">
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CaretEvent" instanceClass="org.eclipse.swt.custom.CaretEvent">
+    <sections xsi:type="api2mol:PropertySection" property="caretOffset">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSTrackingArea" instanceClass="org.eclipse.swt.internal.cocoa.NSTrackingArea"/>
+  <mappings metaclass="ShellListener" instanceClass="org.eclipse.swt.events.ShellListener"/>
+  <mappings metaclass="TreeEvent" instanceClass="org.eclipse.swt.events.TreeEvent"/>
+  <mappings metaclass="DND" instanceClass="org.eclipse.swt.dnd.DND"/>
+  <mappings metaclass="ExternalFactory" instanceClass="org.eclipse.swt.browser.ExternalFactory"/>
+  <mappings metaclass="Canvas" instanceClass="org.eclipse.swt.widgets.Canvas">
+    <sections xsi:type="api2mol:PropertySection" property="caret">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSURLCredential" instanceClass="org.eclipse.swt.internal.cocoa.NSURLCredential"/>
+  <mappings metaclass="Protocol" instanceClass="org.eclipse.swt.internal.cocoa.Protocol"/>
+  <mappings metaclass="ControlListener" instanceClass="org.eclipse.swt.events.ControlListener"/>
+  <mappings metaclass="MouseAdapter" instanceClass="org.eclipse.swt.events.MouseAdapter"/>
+  <mappings metaclass="ControlEvent" instanceClass="org.eclipse.swt.events.ControlEvent"/>
+  <mappings metaclass="NSPrinter" instanceClass="org.eclipse.swt.internal.cocoa.NSPrinter"/>
+  <mappings metaclass="NSTableView" instanceClass="org.eclipse.swt.internal.cocoa.NSTableView"/>
+  <mappings metaclass="CloseWindowListener" instanceClass="org.eclipse.swt.browser.CloseWindowListener"/>
+  <mappings metaclass="nsITooltipListener" instanceClass="org.eclipse.swt.internal.mozilla.nsITooltipListener"/>
+  <mappings metaclass="ExpanderDrawData" instanceClass="org.eclipse.swt.internal.theme.ExpanderDrawData"/>
+  <mappings metaclass="GLCanvas" instanceClass="org.eclipse.swt.opengl.GLCanvas"/>
+  <mappings metaclass="ProgressBarDrawData" instanceClass="org.eclipse.swt.internal.theme.ProgressBarDrawData"/>
+  <mappings metaclass="CLabel" instanceClass="org.eclipse.swt.custom.CLabel">
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="GroupDrawData" instanceClass="org.eclipse.swt.internal.theme.GroupDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="headerWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headerHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="headerArea">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.jpeg_decompress_struct" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct"/>
+  <mappings metaclass="nsIWebBrowserChromeFocus" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowserChromeFocus"/>
+  <mappings metaclass="CTabFolderEvent" instanceClass="org.eclipse.swt.custom.CTabFolderEvent">
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngInputStream" instanceClass="org.eclipse.swt.internal.image.PngInputStream"/>
+  <mappings metaclass="NSOpenPanel" instanceClass="org.eclipse.swt.internal.cocoa.NSOpenPanel"/>
+  <mappings metaclass="HTMLTransfer" instanceClass="org.eclipse.swt.dnd.HTMLTransfer"/>
+  <mappings metaclass="SWTDragSourceDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTDragSourceDelegate"/>
+  <mappings metaclass="PngIdatChunk" instanceClass="org.eclipse.swt.internal.image.PngIdatChunk"/>
+  <mappings metaclass="StyledTextRenderer.LineInfo" instanceClass="org.eclipse.swt.custom.StyledTextRenderer$LineInfo"/>
+  <mappings metaclass="CCombo" instanceClass="org.eclipse.swt.custom.CCombo">
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visibleItemCount">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FileFormat" instanceClass="org.eclipse.swt.internal.image.FileFormat"/>
+  <mappings metaclass="VerifyKeyListener" instanceClass="org.eclipse.swt.custom.VerifyKeyListener"/>
+  <mappings metaclass="SWTTextView" instanceClass="org.eclipse.swt.internal.cocoa.SWTTextView"/>
+  <mappings metaclass="TabItemDrawData" instanceClass="org.eclipse.swt.internal.theme.TabItemDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="position">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FocusEvent" instanceClass="org.eclipse.swt.events.FocusEvent"/>
+  <mappings metaclass="WebOpenPanelResultListener" instanceClass="org.eclipse.swt.internal.cocoa.WebOpenPanelResultListener"/>
+  <mappings metaclass="TraverseEvent" instanceClass="org.eclipse.swt.events.TraverseEvent">
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSPanel" instanceClass="org.eclipse.swt.internal.cocoa.NSPanel"/>
+  <mappings metaclass="nsIAppShell" instanceClass="org.eclipse.swt.internal.mozilla.nsIAppShell"/>
+  <mappings metaclass="LocationListener" instanceClass="org.eclipse.swt.browser.LocationListener"/>
+  <mappings metaclass="NSResponder" instanceClass="org.eclipse.swt.internal.cocoa.NSResponder"/>
+  <mappings metaclass="SWTButtonCell" instanceClass="org.eclipse.swt.internal.cocoa.SWTButtonCell"/>
+  <mappings metaclass="NSSearchField" instanceClass="org.eclipse.swt.internal.cocoa.NSSearchField"/>
+  <mappings metaclass="NSButton" instanceClass="org.eclipse.swt.internal.cocoa.NSButton"/>
+  <mappings metaclass="SimpleEnumerator" instanceClass="org.eclipse.swt.browser.SimpleEnumerator"/>
+  <mappings metaclass="nsIX509CertValidity" instanceClass="org.eclipse.swt.internal.mozilla.nsIX509CertValidity"/>
+  <mappings metaclass="MenuDetectEvent" instanceClass="org.eclipse.swt.events.MenuDetectEvent">
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDOMMouseEvent" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMMouseEvent"/>
+  <mappings metaclass="JPEGDecoder.JQUANT_TBL" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$JQUANT_TBL"/>
+  <mappings metaclass="ImageLoaderEvent" instanceClass="org.eclipse.swt.graphics.ImageLoaderEvent">
+    <sections xsi:type="api2mol:PropertySection" property="imageData">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="incrementCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="endOfImage">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DragSourceListener" instanceClass="org.eclipse.swt.dnd.DragSourceListener"/>
+  <mappings metaclass="PngEncoder" instanceClass="org.eclipse.swt.internal.image.PngEncoder"/>
+  <mappings metaclass="nsIBaseWindow" instanceClass="org.eclipse.swt.internal.mozilla.nsIBaseWindow"/>
+  <mappings metaclass="OS" instanceClass="org.eclipse.swt.internal.cocoa.OS"/>
+  <mappings metaclass="DropTargetAdapter" instanceClass="org.eclipse.swt.dnd.DropTargetAdapter"/>
+  <mappings metaclass="TableTreeItem" instanceClass="org.eclipse.swt.custom.TableTreeItem">
+    <sections xsi:type="api2mol:PropertySection" property="checked">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grayed">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="expanded">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parentItem">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSURLDownload" instanceClass="org.eclipse.swt.internal.cocoa.NSURLDownload"/>
+  <mappings metaclass="nsIX509Cert" instanceClass="org.eclipse.swt.internal.mozilla.nsIX509Cert"/>
+  <mappings metaclass="Download" instanceClass="org.eclipse.swt.browser.Download"/>
+  <mappings metaclass="JPEGFrameHeader" instanceClass="org.eclipse.swt.internal.image.JPEGFrameHeader">
+    <sections xsi:type="api2mol:PropertySection" property="componentParameters">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maxHFactor">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maxVFactor">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="componentIdentifiers">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSURLProtectionSpace" instanceClass="org.eclipse.swt.internal.cocoa.NSURLProtectionSpace"/>
+  <mappings metaclass="NSKeyedArchiver" instanceClass="org.eclipse.swt.internal.cocoa.NSKeyedArchiver"/>
+  <mappings metaclass="JPEGDecoder.jpeg_color_deconverter" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_color_deconverter"/>
+  <mappings metaclass="ToolTip" instanceClass="org.eclipse.swt.widgets.ToolTip">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AccessibleControlEvent" instanceClass="org.eclipse.swt.accessibility.AccessibleControlEvent">
+    <sections xsi:type="api2mol:PropertySection" property="childID">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="result">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessible">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="children">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIRequest" instanceClass="org.eclipse.swt.internal.mozilla.nsIRequest"/>
+  <mappings metaclass="NSComboBox" instanceClass="org.eclipse.swt.internal.cocoa.NSComboBox"/>
+  <mappings metaclass="nsIWebBrowserStream" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowserStream"/>
+  <mappings metaclass="LZWNode" instanceClass="org.eclipse.swt.internal.image.LZWNode">
+    <sections xsi:type="api2mol:PropertySection" property="right">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="children">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="prefix">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="suffix">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="left">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSActionCell" instanceClass="org.eclipse.swt.internal.cocoa.NSActionCell"/>
+  <mappings metaclass="NSURL" instanceClass="org.eclipse.swt.internal.cocoa.NSURL"/>
+  <mappings metaclass="JPEGDecoder.jpeg_color_quantizer" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_color_quantizer"/>
+  <mappings metaclass="Pattern" instanceClass="org.eclipse.swt.graphics.Pattern"/>
+  <mappings metaclass="CBanner" instanceClass="org.eclipse.swt.custom.CBanner">
+    <sections xsi:type="api2mol:PropertySection" property="simple">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rightWidth">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="right">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="left">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bottom">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MenuListener" instanceClass="org.eclipse.swt.events.MenuListener"/>
+  <mappings metaclass="OS2BMPFileFormat" instanceClass="org.eclipse.swt.internal.image.OS2BMPFileFormat"/>
+  <mappings metaclass="NSThread" instanceClass="org.eclipse.swt.internal.cocoa.NSThread"/>
+  <mappings metaclass="JPEGDecoder.jpeg_inverse_dct" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_inverse_dct"/>
+  <mappings metaclass="SWTMenu" instanceClass="org.eclipse.swt.internal.cocoa.SWTMenu"/>
+  <mappings metaclass="AuthenticationEvent" instanceClass="org.eclipse.swt.browser.AuthenticationEvent">
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="user">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="password">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSPrintPanel" instanceClass="org.eclipse.swt.internal.cocoa.NSPrintPanel"/>
+  <mappings metaclass="ACC" instanceClass="org.eclipse.swt.accessibility.ACC"/>
+  <mappings metaclass="CGPathElement" instanceClass="org.eclipse.swt.internal.cocoa.CGPathElement">
+    <sections xsi:type="api2mol:PropertySection" property="points">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TabItem" instanceClass="org.eclipse.swt.widgets.TabItem">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="TabItem">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIIOService" instanceClass="org.eclipse.swt.internal.mozilla.nsIIOService"/>
+  <mappings metaclass="SWTPrinterView" instanceClass="org.eclipse.swt.internal.cocoa.SWTPrinterView"/>
+  <mappings metaclass="WebDataSource" instanceClass="org.eclipse.swt.internal.cocoa.WebDataSource"/>
+  <mappings metaclass="nsICookie" instanceClass="org.eclipse.swt.internal.mozilla.nsICookie"/>
+  <mappings metaclass="NSImage" instanceClass="org.eclipse.swt.internal.cocoa.NSImage"/>
+  <mappings metaclass="nsIWebProgressListener" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebProgressListener"/>
+  <mappings metaclass="TreeColumn" instanceClass="org.eclipse.swt.widgets.TreeColumn">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSCoder" instanceClass="org.eclipse.swt.internal.cocoa.NSCoder"/>
+  <mappings metaclass="CTabFolder2Adapter" instanceClass="org.eclipse.swt.custom.CTabFolder2Adapter"/>
+  <mappings metaclass="LZWCodec" instanceClass="org.eclipse.swt.internal.image.LZWCodec"/>
+  <mappings metaclass="ControlEditor" instanceClass="org.eclipse.swt.custom.ControlEditor">
+    <sections xsi:type="api2mol:PropertySection" property="editor">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimumWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grabHorizontal">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalAlignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalAlignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grabVertical">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minimumHeight">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTMenuItem" instanceClass="org.eclipse.swt.internal.cocoa.SWTMenuItem"/>
+  <mappings metaclass="FillLayout" instanceClass="org.eclipse.swt.layout.FillLayout">
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTSlider" instanceClass="org.eclipse.swt.internal.cocoa.SWTSlider"/>
+  <mappings metaclass="ProgressBar" instanceClass="org.eclipse.swt.widgets.ProgressBar"/>
+  <mappings metaclass="NSTableColumn" instanceClass="org.eclipse.swt.internal.cocoa.NSTableColumn"/>
+  <mappings metaclass="JPEGEndOfImage" instanceClass="org.eclipse.swt.internal.image.JPEGEndOfImage"/>
+  <mappings metaclass="NSGradient" instanceClass="org.eclipse.swt.internal.cocoa.NSGradient"/>
+  <mappings metaclass="SWTAccessibleDelegate" instanceClass="org.eclipse.swt.accessibility.SWTAccessibleDelegate"/>
+  <mappings metaclass="PathData" instanceClass="org.eclipse.swt.graphics.PathData">
+    <sections xsi:type="api2mol:PropertySection" property="types">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="points">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MenuDetectListener" instanceClass="org.eclipse.swt.events.MenuDetectListener"/>
+  <mappings metaclass="Group" instanceClass="org.eclipse.swt.widgets.Group">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Group">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDOMSerializer_1_7" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMSerializer_1_7"/>
+  <mappings metaclass="NSIndexSet" instanceClass="org.eclipse.swt.internal.cocoa.NSIndexSet"/>
+  <mappings metaclass="nsIDirectoryServiceProvider" instanceClass="org.eclipse.swt.internal.mozilla.nsIDirectoryServiceProvider"/>
+  <mappings metaclass="nsITransfer" instanceClass="org.eclipse.swt.internal.mozilla.nsITransfer"/>
+  <mappings metaclass="NSBrowserCell" instanceClass="org.eclipse.swt.internal.cocoa.NSBrowserCell"/>
+  <mappings metaclass="TableColumn" instanceClass="org.eclipse.swt.widgets.TableColumn">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="WebFrameView" instanceClass="org.eclipse.swt.internal.cocoa.WebFrameView"/>
+  <mappings metaclass="nsIProgressDialog" instanceClass="org.eclipse.swt.internal.mozilla.nsIProgressDialog"/>
+  <mappings metaclass="SWTBox" instanceClass="org.eclipse.swt.internal.cocoa.SWTBox"/>
+  <mappings metaclass="MouseEvent" instanceClass="org.eclipse.swt.events.MouseEvent">
+    <sections xsi:type="api2mol:PropertySection" property="stateMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="button">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGStartOfImage" instanceClass="org.eclipse.swt.internal.image.JPEGStartOfImage"/>
+  <mappings metaclass="nsIInputStream" instanceClass="org.eclipse.swt.internal.mozilla.nsIInputStream"/>
+  <mappings metaclass="FocusAdapter" instanceClass="org.eclipse.swt.events.FocusAdapter"/>
+  <mappings metaclass="MouseTrackAdapter" instanceClass="org.eclipse.swt.events.MouseTrackAdapter"/>
+  <mappings metaclass="SWTPrintPanelDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTPrintPanelDelegate"/>
+  <mappings metaclass="NSBezierPath" instanceClass="org.eclipse.swt.internal.cocoa.NSBezierPath"/>
+  <mappings metaclass="PaintObjectEvent" instanceClass="org.eclipse.swt.custom.PaintObjectEvent">
+    <sections xsi:type="api2mol:PropertySection" property="bulletIndex">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bullet">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ascent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="gc">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="descent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSDate" instanceClass="org.eclipse.swt.internal.cocoa.NSDate"/>
+  <mappings metaclass="Compatibility" instanceClass="org.eclipse.swt.internal.Compatibility"/>
+  <mappings metaclass="Sash" instanceClass="org.eclipse.swt.widgets.Sash"/>
+  <mappings metaclass="Synchronizer" instanceClass="org.eclipse.swt.widgets.Synchronizer">
+    <sections xsi:type="api2mol:PropertySection" property="messageCount">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSDictionary" instanceClass="org.eclipse.swt.internal.cocoa.NSDictionary"/>
+  <mappings metaclass="RunnableLock" instanceClass="org.eclipse.swt.widgets.RunnableLock"/>
+  <mappings metaclass="JPEGDecoder.bitread_working_state" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$bitread_working_state"/>
+  <mappings metaclass="ProgressEvent" instanceClass="org.eclipse.swt.browser.ProgressEvent">
+    <sections xsi:type="api2mol:PropertySection" property="total">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="current">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CaretListener" instanceClass="org.eclipse.swt.custom.CaretListener"/>
+  <mappings metaclass="Lock" instanceClass="org.eclipse.swt.internal.Lock"/>
+  <mappings metaclass="WebPreferences" instanceClass="org.eclipse.swt.internal.cocoa.WebPreferences"/>
+  <mappings metaclass="GLData" instanceClass="org.eclipse.swt.opengl.GLData">
+    <sections xsi:type="api2mol:PropertySection" property="stereo">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="redSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doubleBuffer">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accumBlueSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="blueSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="depthSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="shareContext">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accumRedSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="samples">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accumAlphaSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="greenSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sampleBuffers">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="stencilSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alphaSize">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accumGreenSize">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StyledText.TextWriter" instanceClass="org.eclipse.swt.custom.StyledText$TextWriter"/>
+  <mappings metaclass="FillData" instanceClass="org.eclipse.swt.layout.FillData"/>
+  <mappings metaclass="ComboDrawData" instanceClass="org.eclipse.swt.internal.theme.ComboDrawData"/>
+  <mappings metaclass="ExpandEvent" instanceClass="org.eclipse.swt.events.ExpandEvent"/>
+  <mappings metaclass="NSTextField" instanceClass="org.eclipse.swt.internal.cocoa.NSTextField"/>
+  <mappings metaclass="nsIHelperAppLauncher_1_9" instanceClass="org.eclipse.swt.internal.mozilla.nsIHelperAppLauncher_1_9"/>
+  <mappings metaclass="ViewFormLayout" instanceClass="org.eclipse.swt.custom.ViewFormLayout"/>
+  <mappings metaclass="JPEGDecoder.jpeg_d_coef_controller" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_d_coef_controller"/>
+  <mappings metaclass="nsIWeakReference" instanceClass="org.eclipse.swt.internal.mozilla.nsIWeakReference"/>
+  <mappings metaclass="PngHuffmanTables" instanceClass="org.eclipse.swt.internal.image.PngHuffmanTables">
+    <sections xsi:type="api2mol:PropertySection" property="FixedLiteralTable">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="FixedDistanceTable">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSArray" instanceClass="org.eclipse.swt.internal.cocoa.NSArray"/>
+  <mappings metaclass="nsICancelable" instanceClass="org.eclipse.swt.internal.mozilla.nsICancelable"/>
+  <mappings metaclass="CBannerLayout" instanceClass="org.eclipse.swt.custom.CBannerLayout"/>
+  <mappings metaclass="JPEGAppn" instanceClass="org.eclipse.swt.internal.image.JPEGAppn"/>
+  <mappings metaclass="Decorations" instanceClass="org.eclipse.swt.widgets.Decorations">
+    <sections xsi:type="api2mol:PropertySection" property="minimized">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="savedFocus">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="defaultButton">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maximized">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="images">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="menuBar">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSTypesetter" instanceClass="org.eclipse.swt.internal.cocoa.NSTypesetter"/>
+  <mappings metaclass="SWT_AWT" instanceClass="org.eclipse.swt.awt.SWT_AWT"/>
+  <mappings metaclass="Caret" instanceClass="org.eclipse.swt.widgets.Caret">
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MouseListener" instanceClass="org.eclipse.swt.events.MouseListener"/>
+  <mappings metaclass="TitleListener" instanceClass="org.eclipse.swt.browser.TitleListener"/>
+  <mappings metaclass="NSTableHeaderView" instanceClass="org.eclipse.swt.internal.cocoa.NSTableHeaderView"/>
+  <mappings metaclass="NSBox" instanceClass="org.eclipse.swt.internal.cocoa.NSBox"/>
+  <mappings metaclass="FileTransfer" instanceClass="org.eclipse.swt.dnd.FileTransfer"/>
+  <mappings metaclass="DropTargetEvent" instanceClass="org.eclipse.swt.dnd.DropTargetEvent">
+    <sections xsi:type="api2mol:PropertySection" property="operations">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dataTypes">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="feedback">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentDataType">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIDataType" instanceClass="org.eclipse.swt.internal.mozilla.nsIDataType"/>
+  <mappings metaclass="PngDecodingDataStream" instanceClass="org.eclipse.swt.internal.image.PngDecodingDataStream"/>
+  <mappings metaclass="TableTree" instanceClass="org.eclipse.swt.custom.TableTree">
+    <sections xsi:type="api2mol:PropertySection" property="minusImage">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="table">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="plusImage">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSText" instanceClass="org.eclipse.swt.internal.cocoa.NSText"/>
+  <mappings metaclass="StatusTextListener" instanceClass="org.eclipse.swt.browser.StatusTextListener"/>
+  <mappings metaclass="External" instanceClass="org.eclipse.swt.browser.External"/>
+  <mappings metaclass="ToolItem" instanceClass="org.eclipse.swt.widgets.ToolItem">
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="disabledImage">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="hotImage">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selection">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="RowLayout" instanceClass="org.eclipse.swt.layout.RowLayout">
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fill">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pack">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginTop">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="justify">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="wrap">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginBottom">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginLeft">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginRight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="center">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.jpeg_d_post_controller" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_d_post_controller"/>
+  <mappings metaclass="Bullet" instanceClass="org.eclipse.swt.custom.Bullet">
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTCanvasView" instanceClass="org.eclipse.swt.internal.cocoa.SWTCanvasView"/>
+  <mappings metaclass="TabFolder" instanceClass="org.eclipse.swt.widgets.TabFolder">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="TabFolder">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="RowData" instanceClass="org.eclipse.swt.layout.RowData">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="exclude">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Table" instanceClass="org.eclipse.swt.widgets.Table">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sortColumn">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="columns">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="columnCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sortDirection">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Table">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="ImageLoader" instanceClass="org.eclipse.swt.graphics.ImageLoader">
+    <sections xsi:type="api2mol:PropertySection" property="logicalScreenWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="repeatCount">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="logicalScreenHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="backgroundPixel">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Spinner" instanceClass="org.eclipse.swt.widgets.Spinner">
+    <sections xsi:type="api2mol:PropertySection" property="textLimit">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="digits">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGScanHeader" instanceClass="org.eclipse.swt.internal.image.JPEGScanHeader">
+    <sections xsi:type="api2mol:PropertySection" property="componentParameters">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Tracker" instanceClass="org.eclipse.swt.widgets.Tracker">
+    <sections xsi:type="api2mol:PropertySection" property="stippled">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rectangles">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSFont" instanceClass="org.eclipse.swt.internal.cocoa.NSFont"/>
+  <mappings metaclass="KeyAdapter" instanceClass="org.eclipse.swt.events.KeyAdapter"/>
+  <mappings metaclass="DragSource" instanceClass="org.eclipse.swt.dnd.DragSource">
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MovementEvent" instanceClass="org.eclipse.swt.custom.MovementEvent">
+    <sections xsi:type="api2mol:PropertySection" property="lineOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineText">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="newOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="movement">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="offset">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AccessibleEvent" instanceClass="org.eclipse.swt.accessibility.AccessibleEvent">
+    <sections xsi:type="api2mol:PropertySection" property="result">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="childID">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIWindowWatcher" instanceClass="org.eclipse.swt.internal.mozilla.nsIWindowWatcher"/>
+  <mappings metaclass="TrayItem" instanceClass="org.eclipse.swt.widgets.TrayItem">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visible">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTip">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSHTTPCookieStorage" instanceClass="org.eclipse.swt.internal.cocoa.NSHTTPCookieStorage"/>
+  <mappings metaclass="BidiUtil" instanceClass="org.eclipse.swt.internal.BidiUtil"/>
+  <mappings metaclass="TextChangeListener" instanceClass="org.eclipse.swt.custom.TextChangeListener"/>
+  <mappings metaclass="Download_1_8" instanceClass="org.eclipse.swt.browser.Download_1_8"/>
+  <mappings metaclass="Shell" instanceClass="org.eclipse.swt.widgets.Shell">
+    <sections xsi:type="api2mol:PropertySection" property="fullScreen">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Shell">
+        <params name="display"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="DragSourceAdapter" instanceClass="org.eclipse.swt.dnd.DragSourceAdapter"/>
+  <mappings metaclass="ToolItemDrawData" instanceClass="org.eclipse.swt.internal.theme.ToolItemDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSAffineTransform" instanceClass="org.eclipse.swt.internal.cocoa.NSAffineTransform"/>
+  <mappings metaclass="TextChangedEvent" instanceClass="org.eclipse.swt.custom.TextChangedEvent"/>
+  <mappings metaclass="NSWindow" instanceClass="org.eclipse.swt.internal.cocoa.NSWindow"/>
+  <mappings metaclass="NSScreen" instanceClass="org.eclipse.swt.internal.cocoa.NSScreen"/>
+  <mappings metaclass="FilePickerFactory" instanceClass="org.eclipse.swt.browser.FilePickerFactory"/>
+  <mappings metaclass="nsICookieManager" instanceClass="org.eclipse.swt.internal.mozilla.nsICookieManager"/>
+  <mappings metaclass="GlyphMetrics" instanceClass="org.eclipse.swt.graphics.GlyphMetrics">
+    <sections xsi:type="api2mol:PropertySection" property="descent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ascent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Tree" instanceClass="org.eclipse.swt.widgets.Tree">
+    <sections xsi:type="api2mol:PropertySection" property="columns">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sortDirection">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sortColumn">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="columnCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AuthenticationListener" instanceClass="org.eclipse.swt.browser.AuthenticationListener"/>
+  <mappings metaclass="Combo" instanceClass="org.eclipse.swt.widgets.Combo">
+    <sections xsi:type="api2mol:PropertySection" property="textLimit">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Combo">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTTableView" instanceClass="org.eclipse.swt.internal.cocoa.SWTTableView"/>
+  <mappings metaclass="Platform" instanceClass="org.eclipse.swt.internal.Platform"/>
+  <mappings metaclass="WebDocumentRepresentation" instanceClass="org.eclipse.swt.internal.cocoa.WebDocumentRepresentation"/>
+  <mappings metaclass="HelpListener" instanceClass="org.eclipse.swt.events.HelpListener"/>
+  <mappings metaclass="FontDialog" instanceClass="org.eclipse.swt.widgets.FontDialog">
+    <sections xsi:type="api2mol:PropertySection" property="fontData">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTToolbar" instanceClass="org.eclipse.swt.internal.cocoa.SWTToolbar"/>
+  <mappings metaclass="ScrolledCompositeLayout" instanceClass="org.eclipse.swt.custom.ScrolledCompositeLayout"/>
+  <mappings metaclass="nsISupports" instanceClass="org.eclipse.swt.internal.mozilla.nsISupports">
+    <sections xsi:type="api2mol:PropertySection" property="address">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SerializableCompatibility" instanceClass="org.eclipse.swt.internal.SerializableCompatibility"/>
+  <mappings metaclass="Clipboard" instanceClass="org.eclipse.swt.dnd.Clipboard"/>
+  <mappings metaclass="JPEGDecoder.savable_state" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$savable_state"/>
+  <mappings metaclass="NSClipView" instanceClass="org.eclipse.swt.internal.cocoa.NSClipView"/>
+  <mappings metaclass="nsIContextMenuListener" instanceClass="org.eclipse.swt.internal.mozilla.nsIContextMenuListener"/>
+  <mappings metaclass="BidiSegmentEvent" instanceClass="org.eclipse.swt.custom.BidiSegmentEvent">
+    <sections xsi:type="api2mol:PropertySection" property="segments">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineText">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="InputStream" instanceClass="org.eclipse.swt.browser.InputStream"/>
+  <mappings metaclass="ModifyEvent" instanceClass="org.eclipse.swt.events.ModifyEvent"/>
+  <mappings metaclass="nsIWebBrowserChrome" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowserChrome"/>
+  <mappings metaclass="CTabItem" instanceClass="org.eclipse.swt.custom.CTabItem">
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="disabledImage">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="toolTipText">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="showing">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="showClose">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CLayoutData" instanceClass="org.eclipse.swt.custom.CLayoutData"/>
+  <mappings metaclass="NSOpenGLPixelFormat" instanceClass="org.eclipse.swt.internal.cocoa.NSOpenGLPixelFormat"/>
+  <mappings metaclass="Button" instanceClass="org.eclipse.swt.widgets.Button">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grayed">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Button">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSNotification" instanceClass="org.eclipse.swt.internal.cocoa.NSNotification"/>
+  <mappings metaclass="NSFontManager" instanceClass="org.eclipse.swt.internal.cocoa.NSFontManager"/>
+  <mappings metaclass="SWTApplicationDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTApplicationDelegate"/>
+  <mappings metaclass="nsICertificateDialogs" instanceClass="org.eclipse.swt.internal.mozilla.nsICertificateDialogs"/>
+  <mappings metaclass="GREVersionRange" instanceClass="org.eclipse.swt.internal.mozilla.init.GREVersionRange">
+    <sections xsi:type="api2mol:PropertySection" property="lowerInclusive">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lower">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="upperInclusive">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="upper">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGComment" instanceClass="org.eclipse.swt.internal.image.JPEGComment"/>
+  <mappings metaclass="TIFFFileFormat" instanceClass="org.eclipse.swt.internal.image.TIFFFileFormat"/>
+  <mappings metaclass="NSNumberFormatter" instanceClass="org.eclipse.swt.internal.cocoa.NSNumberFormatter"/>
+  <mappings metaclass="Tray" instanceClass="org.eclipse.swt.widgets.Tray">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PaletteData" instanceClass="org.eclipse.swt.graphics.PaletteData">
+    <sections xsi:type="api2mol:PropertySection" property="colors">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="greenShift">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="greenMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="redShift">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="blueShift">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="redMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="blueMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="isDirect">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSInputManager" instanceClass="org.eclipse.swt.internal.cocoa.NSInputManager"/>
+  <mappings metaclass="NSTabView" instanceClass="org.eclipse.swt.internal.cocoa.NSTabView"/>
+  <mappings metaclass="PrintDialog" instanceClass="org.eclipse.swt.printing.PrintDialog">
+    <sections xsi:type="api2mol:PropertySection" property="printerData">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSPrintOperation" instanceClass="org.eclipse.swt.internal.cocoa.NSPrintOperation"/>
+  <mappings metaclass="KeyEvent" instanceClass="org.eclipse.swt.events.KeyEvent">
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="character">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="keyCode">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="stateMask">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSMutableDictionary" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableDictionary"/>
+  <mappings metaclass="NSParagraphStyle" instanceClass="org.eclipse.swt.internal.cocoa.NSParagraphStyle"/>
+  <mappings metaclass="PngDeflater" instanceClass="org.eclipse.swt.internal.image.PngDeflater"/>
+  <mappings metaclass="Mozilla" instanceClass="org.eclipse.swt.browser.Mozilla"/>
+  <mappings metaclass="Accessible" instanceClass="org.eclipse.swt.accessibility.Accessible">
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.jpeg_input_controller" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_input_controller"/>
+  <mappings metaclass="WebBrowser" instanceClass="org.eclipse.swt.browser.WebBrowser">
+    <sections xsi:type="api2mol:PropertySection" property="nextFunctionIndex">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="browser">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIURI" instanceClass="org.eclipse.swt.internal.mozilla.nsIURI"/>
+  <mappings metaclass="NSApplication" instanceClass="org.eclipse.swt.internal.cocoa.NSApplication"/>
+  <mappings metaclass="nsIFilePicker" instanceClass="org.eclipse.swt.internal.mozilla.nsIFilePicker"/>
+  <mappings metaclass="SWTError" instanceClass="org.eclipse.swt.SWTError">
+    <sections xsi:type="api2mol:PropertySection" property="throwable">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="code">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AccessibleListener" instanceClass="org.eclipse.swt.accessibility.AccessibleListener"/>
+  <mappings metaclass="nsICategoryManager" instanceClass="org.eclipse.swt.internal.mozilla.nsICategoryManager"/>
+  <mappings metaclass="PngIendChunk" instanceClass="org.eclipse.swt.internal.image.PngIendChunk"/>
+  <mappings metaclass="NSRect" instanceClass="org.eclipse.swt.internal.cocoa.NSRect">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSControl" instanceClass="org.eclipse.swt.internal.cocoa.NSControl"/>
+  <mappings metaclass="AccessibleTextListener" instanceClass="org.eclipse.swt.accessibility.AccessibleTextListener"/>
+  <mappings metaclass="NSAutoreleasePool" instanceClass="org.eclipse.swt.internal.cocoa.NSAutoreleasePool"/>
+  <mappings metaclass="NSMenuItem" instanceClass="org.eclipse.swt.internal.cocoa.NSMenuItem"/>
+  <mappings metaclass="DownloadFactory" instanceClass="org.eclipse.swt.browser.DownloadFactory"/>
+  <mappings metaclass="CGSize" instanceClass="org.eclipse.swt.internal.cocoa.CGSize">
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TabFolderDrawData" instanceClass="org.eclipse.swt.internal.theme.TabFolderDrawData">
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectedWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabsWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectedX">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabsArea">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabsHeight">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTStepper" instanceClass="org.eclipse.swt.internal.cocoa.SWTStepper"/>
+  <mappings metaclass="DOMDocument" instanceClass="org.eclipse.swt.internal.cocoa.DOMDocument"/>
+  <mappings metaclass="NSBitmapImageRep" instanceClass="org.eclipse.swt.internal.cocoa.NSBitmapImageRep"/>
+  <mappings metaclass="objc_super" instanceClass="org.eclipse.swt.internal.cocoa.objc_super">
+    <sections xsi:type="api2mol:PropertySection" property="receiver">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="super_class">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngTrnsChunk" instanceClass="org.eclipse.swt.internal.image.PngTrnsChunk"/>
+  <mappings metaclass="nsIProperties" instanceClass="org.eclipse.swt.internal.mozilla.nsIProperties"/>
+  <mappings metaclass="LineStyleEvent" instanceClass="org.eclipse.swt.custom.LineStyleEvent">
+    <sections xsi:type="api2mol:PropertySection" property="bulletIndex">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="indent">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="styles">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="justify">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ranges">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bullet">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alignment">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineText">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIPrefBranch" instanceClass="org.eclipse.swt.internal.mozilla.nsIPrefBranch"/>
+  <mappings metaclass="nsISupportsWeakReference" instanceClass="org.eclipse.swt.internal.mozilla.nsISupportsWeakReference"/>
+  <mappings metaclass="NSImageRep" instanceClass="org.eclipse.swt.internal.cocoa.NSImageRep"/>
+  <mappings metaclass="DragDetectListener" instanceClass="org.eclipse.swt.events.DragDetectListener"/>
+  <mappings metaclass="TIFFRandomFileAccess" instanceClass="org.eclipse.swt.internal.image.TIFFRandomFileAccess"/>
+  <mappings metaclass="NSString" instanceClass="org.eclipse.swt.internal.cocoa.NSString"/>
+  <mappings metaclass="SWTWindowDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTWindowDelegate"/>
+  <mappings metaclass="List" instanceClass="org.eclipse.swt.widgets.List">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StatusTextEvent" instanceClass="org.eclipse.swt.browser.StatusTextEvent">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="XPCOMInit" instanceClass="org.eclipse.swt.internal.mozilla.init.XPCOMInit"/>
+  <mappings metaclass="nsISerializable" instanceClass="org.eclipse.swt.internal.mozilla.nsISerializable"/>
+  <mappings metaclass="ProgressListener" instanceClass="org.eclipse.swt.browser.ProgressListener"/>
+  <mappings metaclass="Program" instanceClass="org.eclipse.swt.program.Program">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Theme" instanceClass="org.eclipse.swt.internal.theme.Theme"/>
+  <mappings metaclass="WinICOFileFormat" instanceClass="org.eclipse.swt.internal.image.WinICOFileFormat"/>
+  <mappings metaclass="nsILocalFile" instanceClass="org.eclipse.swt.internal.mozilla.nsILocalFile"/>
+  <mappings metaclass="ExtendedModifyEvent" instanceClass="org.eclipse.swt.custom.ExtendedModifyEvent">
+    <sections xsi:type="api2mol:PropertySection" property="start">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="replacedText">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="length">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Monitor" instanceClass="org.eclipse.swt.widgets.Monitor"/>
+  <mappings metaclass="FontData" instanceClass="org.eclipse.swt.graphics.FontData">
+    <sections xsi:type="api2mol:PropertySection" property="nsName">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements/>
+      <statements type="SET"/>
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="SET"/>
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+      <statements type="SET"/>
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DirectoryDialog" instanceClass="org.eclipse.swt.widgets.DirectoryDialog">
+    <sections xsi:type="api2mol:PropertySection" property="filterPath">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="message">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTSecureTextField" instanceClass="org.eclipse.swt.internal.cocoa.SWTSecureTextField"/>
+  <mappings metaclass="nsIDownload" instanceClass="org.eclipse.swt.internal.mozilla.nsIDownload"/>
+  <mappings metaclass="TableDropTargetEffect" instanceClass="org.eclipse.swt.dnd.TableDropTargetEffect"/>
+  <mappings metaclass="MovementListener" instanceClass="org.eclipse.swt.custom.MovementListener"/>
+  <mappings metaclass="StyledTextDropTargetEffect" instanceClass="org.eclipse.swt.custom.StyledTextDropTargetEffect"/>
+  <mappings metaclass="NSProgressIndicator" instanceClass="org.eclipse.swt.internal.cocoa.NSProgressIndicator"/>
+  <mappings metaclass="NSPoint" instanceClass="org.eclipse.swt.internal.cocoa.NSPoint">
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGArithmeticConditioningTable" instanceClass="org.eclipse.swt.internal.image.JPEGArithmeticConditioningTable"/>
+  <mappings metaclass="DNDEvent" instanceClass="org.eclipse.swt.dnd.DNDEvent">
+    <sections xsi:type="api2mol:PropertySection" property="offsetY">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dataType">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="feedback">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="offsetX">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dataTypes">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="operations">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSPasteboard" instanceClass="org.eclipse.swt.internal.cocoa.NSPasteboard"/>
+  <mappings metaclass="SelectionAdapter" instanceClass="org.eclipse.swt.events.SelectionAdapter"/>
+  <mappings metaclass="JPEGQuantizationTable" instanceClass="org.eclipse.swt.internal.image.JPEGQuantizationTable"/>
+  <mappings metaclass="LEDataInputStream" instanceClass="org.eclipse.swt.internal.image.LEDataInputStream">
+    <sections xsi:type="api2mol:PropertySection" property="position">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSView" instanceClass="org.eclipse.swt.internal.cocoa.NSView"/>
+  <mappings metaclass="nsIChannel" instanceClass="org.eclipse.swt.internal.mozilla.nsIChannel"/>
+  <mappings metaclass="SWTTabView" instanceClass="org.eclipse.swt.internal.cocoa.SWTTabView"/>
+  <mappings metaclass="Transfer" instanceClass="org.eclipse.swt.dnd.Transfer"/>
+  <mappings metaclass="nsIWebProgress" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebProgress"/>
+  <mappings metaclass="GC" instanceClass="org.eclipse.swt.graphics.GC">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MouseTrackListener" instanceClass="org.eclipse.swt.events.MouseTrackListener"/>
+  <mappings metaclass="ArmEvent" instanceClass="org.eclipse.swt.events.ArmEvent"/>
+  <mappings metaclass="PaintEvent" instanceClass="org.eclipse.swt.events.PaintEvent">
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="gc">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSSlider" instanceClass="org.eclipse.swt.internal.cocoa.NSSlider"/>
+  <mappings metaclass="VisibilityWindowAdapter" instanceClass="org.eclipse.swt.browser.VisibilityWindowAdapter"/>
+  <mappings metaclass="NSData" instanceClass="org.eclipse.swt.internal.cocoa.NSData"/>
+  <mappings metaclass="TypedEvent" instanceClass="org.eclipse.swt.events.TypedEvent">
+    <sections xsi:type="api2mol:PropertySection" property="widget">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="time">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="display">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CTabFolderLayout" instanceClass="org.eclipse.swt.custom.CTabFolderLayout"/>
+  <mappings metaclass="DropTarget" instanceClass="org.eclipse.swt.dnd.DropTarget">
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsIWindowCreator" instanceClass="org.eclipse.swt.internal.mozilla.nsIWindowCreator"/>
+  <mappings metaclass="RGB" instanceClass="org.eclipse.swt.graphics.RGB">
+    <sections xsi:type="api2mol:PropertySection" property="green">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="red">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="blue">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSMutableParagraphStyle" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableParagraphStyle"/>
+  <mappings metaclass="Listener" instanceClass="org.eclipse.swt.widgets.Listener"/>
+  <mappings metaclass="TitleEvent" instanceClass="org.eclipse.swt.browser.TitleEvent">
+    <sections xsi:type="api2mol:PropertySection" property="title">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTOutlineView" instanceClass="org.eclipse.swt.internal.cocoa.SWTOutlineView"/>
+  <mappings metaclass="SWTImageTextCell" instanceClass="org.eclipse.swt.internal.cocoa.SWTImageTextCell"/>
+  <mappings metaclass="NSCalendarDate" instanceClass="org.eclipse.swt.internal.cocoa.NSCalendarDate"/>
+  <mappings metaclass="SWTProgressIndicator" instanceClass="org.eclipse.swt.internal.cocoa.SWTProgressIndicator"/>
+  <mappings metaclass="NSValue" instanceClass="org.eclipse.swt.internal.cocoa.NSValue"/>
+  <mappings metaclass="EventTable" instanceClass="org.eclipse.swt.widgets.EventTable"/>
+  <mappings metaclass="PngLzBlockReader" instanceClass="org.eclipse.swt.internal.image.PngLzBlockReader"/>
+  <mappings metaclass="PopupList" instanceClass="org.eclipse.swt.custom.PopupList">
+    <sections xsi:type="api2mol:PropertySection" property="minimumWidth">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSTableHeaderCell" instanceClass="org.eclipse.swt.internal.cocoa.NSTableHeaderCell"/>
+  <mappings metaclass="WebFrame" instanceClass="org.eclipse.swt.internal.cocoa.WebFrame"/>
+  <mappings metaclass="Image" instanceClass="org.eclipse.swt.graphics.Image">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.d_derived_tbl" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$d_derived_tbl"/>
+  <mappings metaclass="GCData" instanceClass="org.eclipse.swt.graphics.GCData">
+    <sections xsi:type="api2mol:PropertySection" property="thread">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="paintRect">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="drawXOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fg">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="transform">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alpha">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="path">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="view">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="inverseTransform">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="flippedContext">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visiblePath">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineDashesOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="state">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="device">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foregroundPattern">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="fillRule">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="size">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineJoin">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="drawYOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="xorMode">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineDashes">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="restoreContext">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="backgroundPattern">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineCap">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bg">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineStyle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineMiterLimit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="antialias">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="textAntialias">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="clipPath">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visibleRgn">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ImageLoaderListener" instanceClass="org.eclipse.swt.graphics.ImageLoaderListener"/>
+  <mappings metaclass="LocationEvent" instanceClass="org.eclipse.swt.browser.LocationEvent">
+    <sections xsi:type="api2mol:PropertySection" property="top">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngChunkReader" instanceClass="org.eclipse.swt.internal.image.PngChunkReader"/>
+  <mappings metaclass="Display" instanceClass="org.eclipse.swt.widgets.Display">
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="Default">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="synchronizer">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="currentCaret">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="focusControl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="menuBar">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thread">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MenuAdapter" instanceClass="org.eclipse.swt.events.MenuAdapter"/>
+  <mappings metaclass="DragDetectEvent" instanceClass="org.eclipse.swt.events.DragDetectEvent"/>
+  <mappings metaclass="ExpandBar" instanceClass="org.eclipse.swt.widgets.ExpandBar">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Transform" instanceClass="org.eclipse.swt.graphics.Transform">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSSecureTextField" instanceClass="org.eclipse.swt.internal.cocoa.NSSecureTextField"/>
+  <mappings metaclass="nsIPromptService2" instanceClass="org.eclipse.swt.internal.mozilla.nsIPromptService2"/>
+  <mappings metaclass="nsIObserverService" instanceClass="org.eclipse.swt.internal.mozilla.nsIObserverService"/>
+  <mappings metaclass="ImageData" instanceClass="org.eclipse.swt.graphics.ImageData">
+    <sections xsi:type="api2mol:PropertySection" property="alphaData">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="palette">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="delayTime">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="scanlinePad">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="data">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="type">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="disposalMethod">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="transparentPixel">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="depth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="bytesPerLine">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="alpha">
+      <statements type="SET"/>
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maskData">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maskPad">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="VisibilityWindowListener" instanceClass="org.eclipse.swt.browser.VisibilityWindowListener"/>
+  <mappings metaclass="NSMutableArray" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableArray"/>
+  <mappings metaclass="BrowserFunction" instanceClass="org.eclipse.swt.browser.BrowserFunction">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="browser">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngDeflater.Match" instanceClass="org.eclipse.swt.internal.image.PngDeflater$Match"/>
+  <mappings metaclass="nsIWebBrowserFocus" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowserFocus"/>
+  <mappings metaclass="BidiSegmentListener" instanceClass="org.eclipse.swt.custom.BidiSegmentListener"/>
+  <mappings metaclass="NSTimer" instanceClass="org.eclipse.swt.internal.cocoa.NSTimer"/>
+  <mappings metaclass="StyledTextListener" instanceClass="org.eclipse.swt.custom.StyledTextListener"/>
+  <mappings metaclass="DOMKeyboardEvent" instanceClass="org.eclipse.swt.internal.cocoa.DOMKeyboardEvent"/>
+  <mappings metaclass="nsIJSContextStack" instanceClass="org.eclipse.swt.internal.mozilla.nsIJSContextStack"/>
+  <mappings metaclass="SWTImageView" instanceClass="org.eclipse.swt.internal.cocoa.SWTImageView"/>
+  <mappings metaclass="NSPopUpButton" instanceClass="org.eclipse.swt.internal.cocoa.NSPopUpButton"/>
+  <mappings metaclass="Item" instanceClass="org.eclipse.swt.widgets.Item">
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Label" instanceClass="org.eclipse.swt.widgets.Label">
+    <sections xsi:type="api2mol:PropertySection" property="image">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTWindow" instanceClass="org.eclipse.swt.internal.cocoa.SWTWindow"/>
+  <mappings metaclass="NSCursor" instanceClass="org.eclipse.swt.internal.cocoa.NSCursor"/>
+  <mappings metaclass="nsIDOMEventTarget" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMEventTarget"/>
+  <mappings metaclass="NSMutableURLRequest" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableURLRequest"/>
+  <mappings metaclass="nsIDOMSerializer" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMSerializer"/>
+  <mappings metaclass="SashFormLayout" instanceClass="org.eclipse.swt.custom.SashFormLayout"/>
+  <mappings metaclass="Browser" instanceClass="org.eclipse.swt.browser.Browser"/>
+  <mappings metaclass="nsIWebProgressListener2" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebProgressListener2"/>
+  <mappings metaclass="nsIDirectoryServiceProvider2" instanceClass="org.eclipse.swt.internal.mozilla.nsIDirectoryServiceProvider2"/>
+  <mappings metaclass="ExpandAdapter" instanceClass="org.eclipse.swt.events.ExpandAdapter"/>
+  <mappings metaclass="GIFFileFormat" instanceClass="org.eclipse.swt.internal.image.GIFFileFormat"/>
+  <mappings metaclass="NSRunLoop" instanceClass="org.eclipse.swt.internal.cocoa.NSRunLoop"/>
+  <mappings metaclass="Region" instanceClass="org.eclipse.swt.graphics.Region">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="nsISecurityCheckedComponent" instanceClass="org.eclipse.swt.internal.mozilla.nsISecurityCheckedComponent"/>
+  <mappings metaclass="NSTextTab" instanceClass="org.eclipse.swt.internal.cocoa.NSTextTab"/>
+  <mappings metaclass="CloneableCompatibility" instanceClass="org.eclipse.swt.internal.CloneableCompatibility"/>
+  <mappings metaclass="nsIProgressDialog_1_8" instanceClass="org.eclipse.swt.internal.mozilla.nsIProgressDialog_1_8"/>
+  <mappings metaclass="PNGFileFormat" instanceClass="org.eclipse.swt.internal.image.PNGFileFormat"/>
+  <mappings metaclass="AccessibleTextEvent" instanceClass="org.eclipse.swt.accessibility.AccessibleTextEvent">
+    <sections xsi:type="api2mol:PropertySection" property="length">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="offset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="childID">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Slider" instanceClass="org.eclipse.swt.widgets.Slider">
+    <sections xsi:type="api2mol:PropertySection" property="minimum">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="increment">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="thumb">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maximum">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageIncrement">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PaintObjectListener" instanceClass="org.eclipse.swt.custom.PaintObjectListener"/>
+  <mappings metaclass="TableEditor" instanceClass="org.eclipse.swt.custom.TableEditor">
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="column">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="StyledTextPrintOptions" instanceClass="org.eclipse.swt.custom.StyledTextPrintOptions">
+    <sections xsi:type="api2mol:PropertySection" property="printTextBackground">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="printLineBackground">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="footer">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="printTextFontStyle">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="header">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lineLabels">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="jobName">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="printLineNumbers">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="printTextForeground">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="MozillaDelegate" instanceClass="org.eclipse.swt.browser.MozillaDelegate"/>
+  <mappings metaclass="nsIWebBrowserSetup" instanceClass="org.eclipse.swt.internal.mozilla.nsIWebBrowserSetup"/>
+  <mappings metaclass="NSColorPanel" instanceClass="org.eclipse.swt.internal.cocoa.NSColorPanel"/>
+  <mappings metaclass="DNDListener" instanceClass="org.eclipse.swt.dnd.DNDListener"/>
+  <mappings metaclass="Color" instanceClass="org.eclipse.swt.graphics.Color">
+    <sections xsi:type="api2mol:PropertySection" property="handle">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="FontMetrics" instanceClass="org.eclipse.swt.graphics.FontMetrics">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="leading">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="descent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="ascent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="averageCharWidth">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="AccessibleControlAdapter" instanceClass="org.eclipse.swt.accessibility.AccessibleControlAdapter"/>
+  <mappings metaclass="NSToolbar" instanceClass="org.eclipse.swt.internal.cocoa.NSToolbar"/>
+  <mappings metaclass="ByteArrayTransfer" instanceClass="org.eclipse.swt.dnd.ByteArrayTransfer"/>
+  <mappings metaclass="JPEGRestartInterval" instanceClass="org.eclipse.swt.internal.image.JPEGRestartInterval"/>
+  <mappings metaclass="nsIFilePicker_1_8" instanceClass="org.eclipse.swt.internal.mozilla.nsIFilePicker_1_8"/>
+  <mappings metaclass="NSURLAuthenticationChallenge" instanceClass="org.eclipse.swt.internal.cocoa.NSURLAuthenticationChallenge"/>
+  <mappings metaclass="nsIScriptSecurityManager_1_9" instanceClass="org.eclipse.swt.internal.mozilla.nsIScriptSecurityManager_1_9"/>
+  <mappings metaclass="nsIDOMWindow" instanceClass="org.eclipse.swt.internal.mozilla.nsIDOMWindow"/>
+  <mappings metaclass="TreeDropTargetEffect" instanceClass="org.eclipse.swt.dnd.TreeDropTargetEffect"/>
+  <mappings metaclass="Composite" instanceClass="org.eclipse.swt.widgets.Composite">
+    <sections xsi:type="api2mol:PropertySection" property="backgroundMode">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tabList">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="layout">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="Composite">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="TableItem" instanceClass="org.eclipse.swt.widgets.TableItem">
+    <sections xsi:type="api2mol:PropertySection" property="font">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="checked">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="grayed">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:NewSection">
+      <constructors name="TableItem">
+        <params name="parent"/>
+        <params name="style"/>
+      </constructors>
+    </sections>
+  </mappings>
+  <mappings metaclass="TableCursor" instanceClass="org.eclipse.swt.custom.TableCursor">
+    <sections xsi:type="api2mol:PropertySection" property="foreground">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="background">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="row">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGDecoder.jpeg_decomp_master" instanceClass="org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decomp_master"/>
+  <mappings metaclass="TreeAdapter" instanceClass="org.eclipse.swt.events.TreeAdapter"/>
+  <mappings metaclass="StyledTextRenderer" instanceClass="org.eclipse.swt.custom.StyledTextRenderer">
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Menu" instanceClass="org.eclipse.swt.widgets.Menu">
+    <sections xsi:type="api2mol:PropertySection" property="items">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="visible">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="itemCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="defaultItem">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DisposeListener" instanceClass="org.eclipse.swt.events.DisposeListener"/>
+  <mappings metaclass="NSNumber" instanceClass="org.eclipse.swt.internal.cocoa.NSNumber"/>
+  <mappings metaclass="StyledTextContent" instanceClass="org.eclipse.swt.custom.StyledTextContent"/>
+  <mappings metaclass="MenuItem" instanceClass="org.eclipse.swt.widgets.MenuItem">
+    <sections xsi:type="api2mol:PropertySection" property="accelerator">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="menu">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="parent">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="WindowCreator2" instanceClass="org.eclipse.swt.browser.WindowCreator2"/>
+  <mappings metaclass="NSAppleEventDescriptor" instanceClass="org.eclipse.swt.internal.cocoa.NSAppleEventDescriptor"/>
+  <mappings metaclass="NSTextStorage" instanceClass="org.eclipse.swt.internal.cocoa.NSTextStorage"/>
+  <mappings metaclass="nsIBadCertListener2" instanceClass="org.eclipse.swt.internal.mozilla.nsIBadCertListener2"/>
+  <mappings metaclass="DrawData" instanceClass="org.eclipse.swt.internal.theme.DrawData">
+    <sections xsi:type="api2mol:PropertySection" property="state">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="clientArea">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JPEGSegment" instanceClass="org.eclipse.swt.internal.image.JPEGSegment">
+    <sections xsi:type="api2mol:PropertySection" property="reference">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngFileReadState" instanceClass="org.eclipse.swt.internal.image.PngFileReadState"/>
+  <mappings metaclass="SWTWebViewDelegate" instanceClass="org.eclipse.swt.internal.cocoa.SWTWebViewDelegate"/>
+  <mappings metaclass="FormLayout" instanceClass="org.eclipse.swt.layout.FormLayout">
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginRight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginTop">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginLeft">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="spacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginBottom">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSMutableIndexSet" instanceClass="org.eclipse.swt.internal.cocoa.NSMutableIndexSet"/>
+  <mappings metaclass="TraverseListener" instanceClass="org.eclipse.swt.events.TraverseListener"/>
+  <mappings metaclass="PromptService2" instanceClass="org.eclipse.swt.browser.PromptService2"/>
+  <mappings metaclass="ViewForm" instanceClass="org.eclipse.swt.custom.ViewForm">
+    <sections xsi:type="api2mol:PropertySection" property="topLeft">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verticalSpacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginWidth">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="horizontalSpacing">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="marginHeight">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topCenter">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="selectionBackground">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="topRight">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DisposeEvent" instanceClass="org.eclipse.swt.events.DisposeEvent"/>
+  <mappings metaclass="SWTView" instanceClass="org.eclipse.swt.internal.cocoa.SWTView"/>
+  <mappings metaclass="LocationAdapter" instanceClass="org.eclipse.swt.browser.LocationAdapter"/>
+  <mappings metaclass="SWTTableHeaderCell" instanceClass="org.eclipse.swt.internal.cocoa.SWTTableHeaderCell"/>
+  <mappings metaclass="NSTabViewItem" instanceClass="org.eclipse.swt.internal.cocoa.NSTabViewItem"/>
+  <mappings metaclass="NSAttributedString" instanceClass="org.eclipse.swt.internal.cocoa.NSAttributedString"/>
+  <mappings metaclass="nsIHelperAppLauncherDialog" instanceClass="org.eclipse.swt.internal.mozilla.nsIHelperAppLauncherDialog"/>
+  <mappings metaclass="ScrolledComposite" instanceClass="org.eclipse.swt.custom.ScrolledComposite">
+    <sections xsi:type="api2mol:PropertySection" property="expandVertical">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minWidth">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="expandHorizontal">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="showFocusedControl">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="minHeight">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSTextAttachment" instanceClass="org.eclipse.swt.internal.cocoa.NSTextAttachment"/>
+  <mappings metaclass="Resource" instanceClass="org.eclipse.swt.graphics.Resource">
+    <sections xsi:type="api2mol:PropertySection" property="device">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="LineAttributes" instanceClass="org.eclipse.swt.graphics.LineAttributes">
+    <sections xsi:type="api2mol:PropertySection" property="dash">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="miterLimit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="dashOffset">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="join">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="cap">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="style">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SelectionEvent" instanceClass="org.eclipse.swt.events.SelectionEvent">
+    <sections xsi:type="api2mol:PropertySection" property="height">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="doit">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="stateMask">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="item">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="detail">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="width">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngHuffmanTable" instanceClass="org.eclipse.swt.internal.image.PngHuffmanTable"/>
+  <mappings metaclass="ToolBarDrawData" instanceClass="org.eclipse.swt.internal.theme.ToolBarDrawData"/>
+  <mappings metaclass="NSHTTPCookie" instanceClass="org.eclipse.swt.internal.cocoa.NSHTTPCookie"/>
+  <mappings metaclass="Point" instanceClass="org.eclipse.swt.graphics.Point">
+    <sections xsi:type="api2mol:PropertySection" property="y">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="x">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="TreeListener" instanceClass="org.eclipse.swt.events.TreeListener"/>
+  <mappings metaclass="DragSourceEffect" instanceClass="org.eclipse.swt.dnd.DragSourceEffect">
+    <sections xsi:type="api2mol:PropertySection" property="control">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="NSRange" instanceClass="org.eclipse.swt.internal.cocoa.NSRange">
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="length">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="SWTEventObject" instanceClass="org.eclipse.swt.internal.SWTEventObject"/>
+  <mappings metaclass="nsIHelperAppLauncher" instanceClass="org.eclipse.swt.internal.mozilla.nsIHelperAppLauncher"/>
+  <mappings metaclass="BusyIndicator" instanceClass="org.eclipse.swt.custom.BusyIndicator"/>
+  <mappings metaclass="WebUndefined" instanceClass="org.eclipse.swt.internal.cocoa.WebUndefined"/>
+  <mappings metaclass="WebView" instanceClass="org.eclipse.swt.internal.cocoa.WebView"/>
+  <mappings metaclass="Device" instanceClass="org.eclipse.swt.graphics.Device">
+    <sections xsi:type="api2mol:PropertySection" property="systemFont">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="warnings">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="disposed">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="PngHuffmanTable.CodeLengthInfo" instanceClass="org.eclipse.swt.internal.image.PngHuffmanTable$CodeLengthInfo"/>
+  <mappings metaclass="nsIMemory" instanceClass="org.eclipse.swt.internal.mozilla.nsIMemory"/>
+  <mappings metaclass="MouseWheelListener" instanceClass="org.eclipse.swt.events.MouseWheelListener"/>
+  <mappings metaclass="CGRect" instanceClass="org.eclipse.swt.internal.cocoa.CGRect">
+    <sections xsi:type="api2mol:PropertySection" property="size">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="origin">
+      <statements type="DIRECT"/>
+    </sections>
+  </mappings>
+  <mappings metaclass="ModifyListener" instanceClass="org.eclipse.swt.events.ModifyListener"/>
+  <mappings metaclass="NSStatusBar" instanceClass="org.eclipse.swt.internal.cocoa.NSStatusBar"/>
+  <mappings metaclass="NSToolbarItem" instanceClass="org.eclipse.swt.internal.cocoa.NSToolbarItem"/>
+  <mappings metaclass="NSMenu" instanceClass="org.eclipse.swt.internal.cocoa.NSMenu"/>
+</api2mol:Definition>
