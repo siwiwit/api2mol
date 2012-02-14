@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="JTwitter"
+    nsURI="http://modelum.es/atlandmod" nsPrefix="modelum">
+  <eClassifiers xsi:type="ecore:EClass" name="UnknownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Base64Encoder" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Base64Encoder">
+      <details key="canonicalName" value="lgpl.haustein.Base64Encoder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CDL" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//CDL">
+      <details key="canonicalName" value="org.json.CDL"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONArray" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//JSONArray">
+      <details key="canonicalName" value="org.json.JSONArray"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONTokener" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//JSONTokener">
+      <details key="canonicalName" value="org.json.JSONTokener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//JSONException">
+      <details key="canonicalName" value="org.json.JSONException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cause" eType="//Throwable"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cause" eType="//Throwable"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONObject" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//JSONObject">
+      <details key="canonicalName" value="org.json.JSONObject"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cookie" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Cookie">
+      <details key="canonicalName" value="org.json.Cookie"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CookieList" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//CookieList">
+      <details key="canonicalName" value="org.json.CookieList"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HTTP" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//HTTP">
+      <details key="canonicalName" value="org.json.HTTP"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HTTPTokener" eSuperTypes="//JSONTokener">
+    <eAnnotations source="ExtendedMetaData" references="//HTTPTokener">
+      <details key="canonicalName" value="org.json.HTTPTokener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONString" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//JSONString">
+      <details key="canonicalName" value="org.json.JSONString"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONStringer" eSuperTypes="//JSONWriter">
+    <eAnnotations source="ExtendedMetaData" references="//JSONStringer">
+      <details key="canonicalName" value="org.json.JSONStringer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSONWriter" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//JSONWriter">
+      <details key="canonicalName" value="org.json.JSONWriter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Test" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Test">
+      <details key="canonicalName" value="org.json.Test"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XML" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//XML">
+      <details key="canonicalName" value="org.json.XML"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="XMLTokener" eSuperTypes="//JSONTokener">
+    <eAnnotations source="ExtendedMetaData" references="//XMLTokener">
+      <details key="canonicalName" value="org.json.XMLTokener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthScribeClient" eSuperTypes="//Object //Twitter.IHttpClient">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthScribeClient">
+      <details key="canonicalName" value="winterwell.jtwitter.OAuthScribeClient"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.IHttpClient" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.IHttpClient">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.IHttpClient"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterException" eSuperTypes="//RuntimeException">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterException">
+      <details key="canonicalName" value="winterwell.jtwitter.TwitterException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="additionalInfo">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="additionalInfo">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxResults">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="untilDate" eType="//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="screenName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="friends" upperBound="-1"
+        eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="directMessagesSent" upperBound="-1"
+        eType="//Twitter.Message"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="publicTimeline" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lists" upperBound="-1"
+        eType="//TwitterList"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="httpClient" eType="//Twitter.IHttpClient"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="friendsTimeline" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="untilDate" eType="//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="directMessages" upperBound="-1"
+        eType="//Twitter.Message"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="followerIDs" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="retweetsOfMe" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="status" eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="trends" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="retweetsByMe" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userTimeline" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rateLimitStatus">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="followers" upperBound="-1"
+        eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="homeTimeline" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="friendIDs" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxResults">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="favorites" upperBound="-1"
+        eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="featured" upperBound="-1"
+        eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="replies" upperBound="-1"
+        eType="//Twitter.Status"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.User" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.User">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.User"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="profileImageUrl" eType="//URI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="followersCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="protectedUser">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="createdAt" eType="//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="screenName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="followersCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="profileBackgroundImageUrl"
+        eType="//URI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="favoritesCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="profileSidebarBorderColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="profileLinkColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="profileTextColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timezone">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="profileImageUrl" eType="//URI"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="status" eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="statusesCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="website" eType="//URI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="friendsCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timezoneOffSet">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="profileBackgroundColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="profileSidebarFillColor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.Status" eSuperTypes="//Object //Twitter.ITweet">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.Status">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.Status"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="original" eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="user" eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="original" eType="//Twitter.Status"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="createdAt" eType="//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mentions" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.ITweet" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.ITweet">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.ITweet"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="user" eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="createdAt" eType="//Date"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.ICallback" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.ICallback">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.ICallback"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Twitter.Message" eSuperTypes="//Object //Twitter.ITweet">
+    <eAnnotations source="ExtendedMetaData" references="//Twitter.Message">
+      <details key="canonicalName" value="winterwell.jtwitter.Twitter.Message"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="inReplyToMessageId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="createdAt" eType="//Date"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recipient" eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="user" eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sender" eType="//Twitter.User"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterList" eSuperTypes="//AbstractList">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterList">
+      <details key="canonicalName" value="winterwell.jtwitter.TwitterList"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subscriberCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subscriberCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subscribers" upperBound="-1"
+        eType="//Twitter.User"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statuses" upperBound="-1"
+        eType="//Twitter.Status"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthSignpostClient" eSuperTypes="//URLConnectionHttpClient //Twitter.IHttpClient">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthSignpostClient">
+      <details key="canonicalName" value="winterwell.jtwitter.OAuthSignpostClient"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessToken" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthConsumer" abstract="true" eSuperTypes="//Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthConsumer">
+      <details key="canonicalName" value="oauth.signpost.OAuthConsumer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="token">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tokenSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requestParameters" eType="//HttpParameters"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="consumerKey">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="consumerSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthMessageSignerException" eSuperTypes="//OAuthException">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthMessageSignerException">
+      <details key="canonicalName" value="oauth.signpost.exception.OAuthMessageSignerException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthException" abstract="true" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthException">
+      <details key="canonicalName" value="oauth.signpost.exception.OAuthException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthExpectationFailedException" eSuperTypes="//OAuthException">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthExpectationFailedException">
+      <details key="canonicalName" value="oauth.signpost.exception.OAuthExpectationFailedException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthCommunicationException" eSuperTypes="//OAuthException">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthCommunicationException">
+      <details key="canonicalName" value="oauth.signpost.exception.OAuthCommunicationException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="responseBody">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="responseBody">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HttpRequest" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//HttpRequest">
+      <details key="canonicalName" value="oauth.signpost.http.HttpRequest"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="method">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="messagePayload" eType="//InputStream"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="allHeaders">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthMessageSigner" abstract="true"
+      eSuperTypes="//Object //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthMessageSigner">
+      <details key="canonicalName" value="oauth.signpost.signature.OAuthMessageSigner"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="consumerSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tokenSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="consumerSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tokenSecret">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="signatureMethod">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Base64" eSuperTypes="//Object //BinaryDecoder //BinaryEncoder">
+    <eAnnotations source="ExtendedMetaData" references="//Base64">
+      <details key="canonicalName" value="org.apache.commons.codec.binary.Base64"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DecoderException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//DecoderException">
+      <details key="canonicalName" value="org.apache.commons.codec.DecoderException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EncoderException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//EncoderException">
+      <details key="canonicalName" value="org.apache.commons.codec.EncoderException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BinaryEncoder" abstract="true" eSuperTypes="//Encoder">
+    <eAnnotations source="ExtendedMetaData" references="//BinaryEncoder">
+      <details key="canonicalName" value="org.apache.commons.codec.BinaryEncoder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Encoder" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//Encoder">
+      <details key="canonicalName" value="org.apache.commons.codec.Encoder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BinaryDecoder" abstract="true" eSuperTypes="//Decoder">
+    <eAnnotations source="ExtendedMetaData" references="//BinaryDecoder">
+      <details key="canonicalName" value="org.apache.commons.codec.BinaryDecoder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Decoder" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//Decoder">
+      <details key="canonicalName" value="org.apache.commons.codec.Decoder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HttpParameters" eSuperTypes="//Object //Serializable //Map">
+    <eAnnotations source="ExtendedMetaData" references="//HttpParameters">
+      <details key="canonicalName" value="oauth.signpost.http.HttpParameters"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SigningStrategy" abstract="true" eSuperTypes="//Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//SigningStrategy">
+      <details key="canonicalName" value="oauth.signpost.signature.SigningStrategy"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DefaultOAuthProvider" eSuperTypes="//AbstractOAuthProvider">
+    <eAnnotations source="ExtendedMetaData" references="//DefaultOAuthProvider">
+      <details key="canonicalName" value="oauth.signpost.basic.DefaultOAuthProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HttpResponse" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//HttpResponse">
+      <details key="canonicalName" value="oauth.signpost.http.HttpResponse"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="content" eType="//InputStream"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="statusCode">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reasonPhrase">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthNotAuthorizedException" eSuperTypes="//OAuthException">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthNotAuthorizedException">
+      <details key="canonicalName" value="oauth.signpost.exception.OAuthNotAuthorizedException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="responseBody">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="responseBody">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthProviderListener" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthProviderListener">
+      <details key="canonicalName" value="oauth.signpost.OAuthProviderListener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractOAuthProvider" abstract="true"
+      eSuperTypes="//Object //OAuthProvider">
+    <eAnnotations source="ExtendedMetaData" references="//AbstractOAuthProvider">
+      <details key="canonicalName" value="oauth.signpost.AbstractOAuthProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="authorizationWebsiteUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responseParameters" eType="//HttpParameters"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="authorizationWebsiteUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responseParameters" eType="//HttpParameters"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestHeaders">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuthProvider" abstract="true" eSuperTypes="//Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//OAuthProvider">
+      <details key="canonicalName" value="oauth.signpost.OAuthProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responseParameters" eType="//HttpParameters"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="authorizationWebsiteUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestHeaders">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessTokenEndpointUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="URLConnectionHttpClient" eSuperTypes="//Object //Twitter.IHttpClient">
+    <eAnnotations source="ExtendedMetaData" references="//URLConnectionHttpClient">
+      <details key="canonicalName" value="winterwell.jtwitter.URLConnectionHttpClient"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleRSSReader" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//SimpleRSSReader">
+      <details key="canonicalName" value="winterwell.jtwitter.SimpleRSSReader"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statuses" upperBound="-1"
+        eType="//Twitter.Status"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterAccount" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterAccount">
+      <details key="canonicalName" value="winterwell.jtwitter.TwitterAccount"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterException.E401" eSuperTypes="//TwitterException">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterException.E401">
+      <details key="canonicalName" value="winterwell.jtwitter.TwitterException.E401"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Object"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/10"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Throwable" eSuperTypes="//Object //Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Throwable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/11"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.io.Serializable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/19"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Exception" eSuperTypes="//Throwable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Exception"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/118"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RuntimeException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.RuntimeException"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/121"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Date" eSuperTypes="//Object //Cloneable //Serializable //Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.Date"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/375"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cloneable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Cloneable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/18"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Comparable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/196"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="URI" eSuperTypes="//Object //Serializable //Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.net.URI"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/115"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractList" eSuperTypes="//AbstractCollection //List">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.AbstractList"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/531"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractCollection" eSuperTypes="//Object //Collection">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.AbstractCollection"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/536"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Collection" eSuperTypes="//Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.Collection"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/51"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Iterable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/60"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="List" eSuperTypes="//Collection">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.List"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/49"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InputStream" eSuperTypes="//Object //Closeable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.io.InputStream"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/225"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Closeable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.io.Closeable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/110"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Map">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.Map"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-JTwitter.ecore.xmi#/145"/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

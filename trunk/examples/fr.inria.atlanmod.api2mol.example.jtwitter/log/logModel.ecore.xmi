@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<log:Process xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:log="http://modelum.es/atlanmod/log">
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.45"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.URLConnectionHttpClient">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="URLConnectionHttpClient">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.17"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.User">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.22"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+        <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.net.URI">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$Status">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="Twitter.Status">
+      <mappingRule href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@mappings.5"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date">
+    <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+    <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Date">
+      <section href="file:/Users/jlcanovas/Desktop/eclipse-3.5-64b/workspace/api2mol.example.jtwitter/./transformation/resultApi2mol-ATL-JTwitter.ecore#//@defaultMetaclass"/>
+    </steps>
+  </steps>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Date" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.net.URI" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+  <steps xsi:type="log:InjectionElement" concreteInstanceClass="winterwell.jtwitter.Twitter$User" cached="true"/>
+</log:Process>

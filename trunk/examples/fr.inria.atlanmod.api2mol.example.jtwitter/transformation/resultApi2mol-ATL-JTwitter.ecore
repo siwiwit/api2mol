@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api2mol:Definition xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:api2mol="http://modelum.es/atlanmod/api2mol">
+  <context>com.goog.egdata.util.common.base</context>
+  <context>lgpl.haustein</context>
+  <context>org.json</context>
+  <context>winterwell.jtwitter</context>
+  <context>org.apache.commons</context>
+  <context>oauth.signpost</context>
+  <defaultMetaclass metaclassName="UnknownElement" attribute="type"/>
+  <mappings metaclass="HttpResponse" instanceClass="oauth.signpost.http.HttpResponse">
+    <sections xsi:type="api2mol:PropertySection" property="reasonPhrase">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="content">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="statusCode">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="CDL" instanceClass="org.json.CDL"/>
+  <mappings metaclass="Encoder" instanceClass="org.apache.commons.codec.Encoder"/>
+  <mappings metaclass="JSONArray" instanceClass="org.json.JSONArray"/>
+  <mappings metaclass="JSONStringer" instanceClass="org.json.JSONStringer"/>
+  <mappings metaclass="Twitter.Status" instanceClass="winterwell.jtwitter.Twitter$Status">
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="original">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="user">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="original">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="user">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="mentions">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="BinaryEncoder" instanceClass="org.apache.commons.codec.BinaryEncoder"/>
+  <mappings metaclass="SimpleRSSReader" instanceClass="winterwell.jtwitter.SimpleRSSReader">
+    <sections xsi:type="api2mol:PropertySection" property="statuses">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="HttpRequest" instanceClass="oauth.signpost.http.HttpRequest">
+    <sections xsi:type="api2mol:PropertySection" property="requestUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="messagePayload">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="method">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="contentType">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="allHeaders">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OAuthProviderListener" instanceClass="oauth.signpost.OAuthProviderListener"/>
+  <mappings metaclass="XML" instanceClass="org.json.XML"/>
+  <mappings metaclass="CookieList" instanceClass="org.json.CookieList"/>
+  <mappings metaclass="OAuthConsumer" instanceClass="oauth.signpost.OAuthConsumer">
+    <sections xsi:type="api2mol:PropertySection" property="token">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="consumerSecret">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="consumerKey">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tokenSecret">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="requestParameters">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OAuthProvider" instanceClass="oauth.signpost.OAuthProvider">
+    <sections xsi:type="api2mol:PropertySection" property="responseParameters">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="requestTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="requestHeaders">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="authorizationWebsiteUrl">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Test" instanceClass="org.json.Test"/>
+  <mappings metaclass="DefaultOAuthProvider" instanceClass="oauth.signpost.basic.DefaultOAuthProvider"/>
+  <mappings metaclass="OAuthException" instanceClass="oauth.signpost.exception.OAuthException"/>
+  <mappings metaclass="URLConnectionHttpClient" instanceClass="winterwell.jtwitter.URLConnectionHttpClient">
+    <sections xsi:type="api2mol:PropertySection" property="timeout">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="retryOnError">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JSONObject" instanceClass="org.json.JSONObject"/>
+  <mappings metaclass="Twitter.IHttpClient" instanceClass="winterwell.jtwitter.Twitter$IHttpClient"/>
+  <mappings metaclass="HttpParameters" instanceClass="oauth.signpost.http.HttpParameters"/>
+  <mappings metaclass="AbstractOAuthProvider" instanceClass="oauth.signpost.AbstractOAuthProvider">
+    <sections xsi:type="api2mol:PropertySection" property="requestTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="authorizationWebsiteUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="listener">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="responseParameters">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="requestHeaders">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="requestTokenEndpointUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="authorizationWebsiteUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="responseParameters">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Twitter.User" instanceClass="winterwell.jtwitter.Twitter$User">
+    <sections xsi:type="api2mol:PropertySection" property="protectedUser">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="notifications">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileBackgroundImageUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileBackgroundColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="statusesCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="favoritesCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="description">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="followersCount">
+      <statements/>
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="website">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timezone">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="following">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="status">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileSidebarBorderColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="verified">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileSidebarFillColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileImageUrl">
+      <statements/>
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileBackgroundTile">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileTextColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="screenName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="friendsCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timezoneOffSet">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileLinkColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileSidebarBorderColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileBackgroundImageUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="protectedUser">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timezone">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="screenName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="status">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileSidebarFillColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="timezoneOffSet">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="statusesCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileImageUrl">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="location">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="friendsCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileBackgroundColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileLinkColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="website">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="followersCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="favoritesCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="profileTextColor">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="description">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OAuthMessageSignerException" instanceClass="oauth.signpost.exception.OAuthMessageSignerException"/>
+  <mappings metaclass="OAuthSignpostClient" instanceClass="winterwell.jtwitter.OAuthSignpostClient">
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="accessToken">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Base64" instanceClass="org.apache.commons.codec.binary.Base64"/>
+  <mappings metaclass="Twitter.Message" instanceClass="winterwell.jtwitter.Twitter$Message">
+    <sections xsi:type="api2mol:PropertySection" property="sender">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="inReplyToMessageId">
+      <statements type="DIRECT"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recipient">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="recipient">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="user">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sender">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Cookie" instanceClass="org.json.Cookie"/>
+  <mappings metaclass="OAuthExpectationFailedException" instanceClass="oauth.signpost.exception.OAuthExpectationFailedException"/>
+  <mappings metaclass="JSONTokener" instanceClass="org.json.JSONTokener"/>
+  <mappings metaclass="OAuthMessageSigner" instanceClass="oauth.signpost.signature.OAuthMessageSigner">
+    <sections xsi:type="api2mol:PropertySection" property="tokenSecret">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="consumerSecret">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="consumerSecret">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="signatureMethod">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="tokenSecret">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OAuthNotAuthorizedException" instanceClass="oauth.signpost.exception.OAuthNotAuthorizedException">
+    <sections xsi:type="api2mol:PropertySection" property="responseBody">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="responseBody">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="DecoderException" instanceClass="org.apache.commons.codec.DecoderException"/>
+  <mappings metaclass="TwitterList" instanceClass="winterwell.jtwitter.TwitterList">
+    <sections xsi:type="api2mol:PropertySection" property="subscriberCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="description">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="subscriberCount">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="description">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="name">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="subscribers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="statuses">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="HTTP" instanceClass="org.json.HTTP"/>
+  <mappings metaclass="EncoderException" instanceClass="org.apache.commons.codec.EncoderException"/>
+  <mappings metaclass="TwitterException.E401" instanceClass="winterwell.jtwitter.TwitterException$E401"/>
+  <mappings metaclass="Base64Encoder" instanceClass="lgpl.haustein.Base64Encoder"/>
+  <mappings metaclass="Twitter.ITweet" instanceClass="winterwell.jtwitter.Twitter$ITweet">
+    <sections xsi:type="api2mol:PropertySection" property="createdAt">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="user">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="text">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="id">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="JSONException" instanceClass="org.json.JSONException">
+    <sections xsi:type="api2mol:PropertySection" property="cause">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="cause">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="OAuthScribeClient" instanceClass="winterwell.jtwitter.OAuthScribeClient"/>
+  <mappings metaclass="BinaryDecoder" instanceClass="org.apache.commons.codec.BinaryDecoder"/>
+  <mappings metaclass="TwitterAccount" instanceClass="winterwell.jtwitter.TwitterAccount"/>
+  <mappings metaclass="TwitterException" instanceClass="winterwell.jtwitter.TwitterException">
+    <sections xsi:type="api2mol:PropertySection" property="additionalInfo">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="additionalInfo">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="XMLTokener" instanceClass="org.json.XMLTokener"/>
+  <mappings metaclass="Twitter" instanceClass="winterwell.jtwitter.Twitter">
+    <sections xsi:type="api2mol:PropertySection" property="count">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="untilDate">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sinceDate">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="sinceId">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="pageNumber">
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maxResults">
+      <statements/>
+      <statements type="SET"/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="featured">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="friendIDs">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="friends">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="followers">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="screenName">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="friendsTimeline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="favorites">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="directMessagesSent">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="lists">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="status">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="retweetsOfMe">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="replies">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="userTimeline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="maxResults">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="retweetsByMe">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="followerIDs">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="rateLimitStatus">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="trends">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="untilDate">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="directMessages">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="homeTimeline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="publicTimeline">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="httpClient">
+      <statements/>
+    </sections>
+  </mappings>
+  <mappings metaclass="Twitter.ICallback" instanceClass="winterwell.jtwitter.Twitter$ICallback"/>
+  <mappings metaclass="JSONWriter" instanceClass="org.json.JSONWriter"/>
+  <mappings metaclass="JSONString" instanceClass="org.json.JSONString"/>
+  <mappings metaclass="HTTPTokener" instanceClass="org.json.HTTPTokener"/>
+  <mappings metaclass="SigningStrategy" instanceClass="oauth.signpost.signature.SigningStrategy"/>
+  <mappings metaclass="Decoder" instanceClass="org.apache.commons.codec.Decoder"/>
+  <mappings metaclass="OAuthCommunicationException" instanceClass="oauth.signpost.exception.OAuthCommunicationException">
+    <sections xsi:type="api2mol:PropertySection" property="responseBody">
+      <statements/>
+    </sections>
+    <sections xsi:type="api2mol:PropertySection" property="responseBody">
+      <statements/>
+    </sections>
+  </mappings>
+</api2mol:Definition>
