@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modelum="http://modelum.es/atlandmod">
+  <modelum:ConnectionsImpl total="46" personList="/316 /1 /8 /15 /22 /29 /36 /43 /50 /57 /64 /71 /78 /85 /92 /99 /106 /113 /120 /127 /134 /141 /148 /155 /162 /169 /176 /183 /190 /197 /204 /211 /218 /225 /232 /239 /246 /253 /260 /267 /274 /281 /288 /295 /302 /309"/>
+  <modelum:PersonImpl id="uC1UGS0_zZ" firstName="El Arbi" industry="Information Technology and Services" siteStandardProfileRequest="/2" lastName="Aboussoror" location="/3" headline="R&amp;D Model Driven Software Development chez SOGETI HIGH TECH" apiStandardProfileRequest="/5"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=42403339&amp;authToken=ZaG6&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/4" name="Toulouse Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/uC1UGS0_zZ" headers="/6"/>
+  <modelum:HeadersImpl httpHeaderList="/7" total="1"/>
+  <modelum:HttpHeaderImpl value="name:ZaG6" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="FvJ90e-Fm4" firstName="sofiane" industry="Research" pictureUrl="http://media.linkedin.com/mpr/mprx/0_73E_PZwu9nA6ZiP07XUyPVVuqvCwZL_0D_YpPRogIKnUbTNxiFs7jUYPVRGNRGC1mGegyyZ4rvUC" siteStandardProfileRequest="/9" lastName="Aloui" location="/10" headline="--" apiStandardProfileRequest="/12"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=51531744&amp;authToken=o9Vo&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/11" name="France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/FvJ90e-Fm4" headers="/13"/>
+  <modelum:HeadersImpl httpHeaderList="/14" total="1"/>
+  <modelum:HttpHeaderImpl value="name:o9Vo" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="C-2Es1JRDZ" firstName="Pascal" industry="Telecommunications" siteStandardProfileRequest="/16" lastName="BADO" location="/17" headline="Telecom Engineer at NEO-SOFT Services" apiStandardProfileRequest="/19"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=31816764&amp;authToken=2jgB&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/18" name="Paris Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/C-2Es1JRDZ" headers="/20"/>
+  <modelum:HeadersImpl httpHeaderList="/21" total="1"/>
+  <modelum:HttpHeaderImpl value="name:2jgB" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="ZmKKRPT7kj" firstName="Etienne" industry="Management Consulting" pictureUrl="http://media.linkedin.com/mpr/mprx/0_eyd5KSzQXtUb7Ei-eVVnKaiwXqyWSdi-ogjVKaLVRAeMtSqtXsJWOmlqospnaaGOWxIUxWRJVeKb" siteStandardProfileRequest="/23" lastName="Billet" location="/24" headline="Innovation Manager at HUMAN CONNECT" apiStandardProfileRequest="/26"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=6801634&amp;authToken=HoY5&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/25" name="Nantes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/ZmKKRPT7kj" headers="/27"/>
+  <modelum:HeadersImpl httpHeaderList="/28" total="1"/>
+  <modelum:HttpHeaderImpl value="name:HoY5" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="5JWFBySapK" firstName="Seddick" industry="Computer Software" siteStandardProfileRequest="/30" lastName="Boly" location="/31" headline="Computer Software Professional" apiStandardProfileRequest="/33"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=27239232&amp;authToken=dkHV&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/32" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/5JWFBySapK" headers="/34"/>
+  <modelum:HeadersImpl httpHeaderList="/35" total="1"/>
+  <modelum:HttpHeaderImpl value="name:dkHV" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="Msi_clx_2D" firstName="Gisela" industry="Research" pictureUrl="http://media.linkedin.com/mpr/mprx/0_N-oHBbr_5TEtjIjpVNJcBL_aFCf00eyp9KOBBXGO4bRfh2wy4qVXJknrd27hy7grvAH9Z_pXUsXy" siteStandardProfileRequest="/37" lastName="BONNAUD *" location="/38" headline="Human Resources Development  Professional" apiStandardProfileRequest="/40"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=25596200&amp;authToken=hjlu&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/39" name="Angers Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/Msi_clx_2D" headers="/41"/>
+  <modelum:HeadersImpl httpHeaderList="/42" total="1"/>
+  <modelum:HttpHeaderImpl value="name:hjlu" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="EGZsjdMe8C" firstName="Hugo" industry="Research" pictureUrl="http://media.linkedin.com/mpr/mprx/0_eMnW9wQWa_ZvaJYxoO5V9HFXGGfLu00xoRC99HNqjFRzPUH0XxQ5ZehV2u7Vf4OPWsNBJ7E52RFh" siteStandardProfileRequest="/44" lastName="Bruneliere" location="/45" headline="R&amp;D Engineer at Ecole des Mines de Nantes" apiStandardProfileRequest="/47"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=10004193&amp;authToken=c-E6&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/46" name="Nantes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/EGZsjdMe8C" headers="/48"/>
+  <modelum:HeadersImpl httpHeaderList="/49" total="1"/>
+  <modelum:HttpHeaderImpl value="name:c-E6" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="4ceIKM2zZ1" firstName="Jordi" industry="Higher Education" pictureUrl="http://media.linkedin.com/mpr/mprx/0_U-ft0kLgVKfu1LBmRNO306bxZ9wmPLbmJKRD06b7b1xYuTKacq0YlQ1TnZIlrGQCsADurTJmwNn6" siteStandardProfileRequest="/51" lastName="Cabot" location="/52" headline="Leader of the AtlanMod MDE research team. Creator of the http://modeling-languages.com portal" apiStandardProfileRequest="/54"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=3606984&amp;authToken=nLZt&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/53" name="Nantes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/4ceIKM2zZ1" headers="/55"/>
+  <modelum:HeadersImpl httpHeaderList="/56" total="1"/>
+  <modelum:HttpHeaderImpl value="name:nLZt" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="0qzYCBAgdp" firstName="Sylvain" industry="Accounting" siteStandardProfileRequest="/58" lastName="Collardey" location="/59" headline=".. at ..." apiStandardProfileRequest="/61"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=32421556&amp;authToken=LAhL&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/60" name="United States"/>
+  <modelum:CountryImpl code="us"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/0qzYCBAgdp" headers="/62"/>
+  <modelum:HeadersImpl httpHeaderList="/63" total="1"/>
+  <modelum:HttpHeaderImpl value="name:LAhL" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="VKfZ5b9H-R" firstName="Hervé" industry="Research" siteStandardProfileRequest="/65" lastName="CORMERAIS" location="/66" headline="Researcher chez Supelec" apiStandardProfileRequest="/68"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=69618539&amp;authToken=WbLG&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/67" name="France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/VKfZ5b9H-R" headers="/69"/>
+  <modelum:HeadersImpl httpHeaderList="/70" total="1"/>
+  <modelum:HttpHeaderImpl value="name:WbLG" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="yVPI-BYPww" firstName="Loïc" siteStandardProfileRequest="/72" lastName="de Poulpiquet" location="/73" headline="--" apiStandardProfileRequest="/75"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=81844235&amp;authToken=Pb29&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/74" name="France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/yVPI-BYPww" headers="/76"/>
+  <modelum:HeadersImpl httpHeaderList="/77" total="1"/>
+  <modelum:HttpHeaderImpl value="name:Pb29" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="duYtRTAe13" firstName="Bérengère" industry="Computer Software" pictureUrl="http://media.linkedin.com/mpr/mprx/0_5fq3TofQt4jsIl8VLezYTeuIKRfRwl3VFHhYTeDn7ORINz9sddXDfHMZYv7XHnh9k290mf0amzOT" siteStandardProfileRequest="/79" lastName="Dio" location="/80" headline="Application Protection Function Software Engineer" apiStandardProfileRequest="/82"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=16396621&amp;authToken=459E&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/81" name="Montpellier Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/duYtRTAe13" headers="/83"/>
+  <modelum:HeadersImpl httpHeaderList="/84" total="1"/>
+  <modelum:HttpHeaderImpl value="name:459E" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="rhYABLnW52" firstName="DIDIER" industry="Telecommunications" pictureUrl="http://media.linkedin.com/mpr/mprx/0_uuv-7sZEjOGVWN9W2IkD74JFjM5owt6WaaTS7Jd9GylVN9AdhE5O3Mg41cLzHvF5S7B28YRQRWmq" siteStandardProfileRequest="/86" lastName="EKRA" location="/87" headline="CHEF DE PROJET chez Alcatel-Lucent" apiStandardProfileRequest="/89"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=47974077&amp;authToken=BwZq&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/88" name="Cote D'Ivoire (Ivory Coast)"/>
+  <modelum:CountryImpl code="ci"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/rhYABLnW52" headers="/90"/>
+  <modelum:HeadersImpl httpHeaderList="/91" total="1"/>
+  <modelum:HttpHeaderImpl value="name:BwZq" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="ROLhTw29cm" firstName="Adama" industry="Computer Software" siteStandardProfileRequest="/93" lastName="Forgo" location="/94" headline="Consultant/Ingénieur d'études CRM at ALTI" apiStandardProfileRequest="/96"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=6132830&amp;authToken=4khD&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/95" name="Paris Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/ROLhTw29cm" headers="/97"/>
+  <modelum:HeadersImpl httpHeaderList="/98" total="1"/>
+  <modelum:HttpHeaderImpl value="name:4khD" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="FYG2HicEcn" firstName="Lionel" industry="Electrical/Electronic Manufacturing" siteStandardProfileRequest="/100" lastName="FORO" location="/101" headline="I.N.S.A. Engineer degree specializing in Physics" apiStandardProfileRequest="/103"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=45187058&amp;authToken=loh2&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/102" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/FYG2HicEcn" headers="/104"/>
+  <modelum:HeadersImpl httpHeaderList="/105" total="1"/>
+  <modelum:HttpHeaderImpl value="name:loh2" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="4nCAx-fVkH" firstName="Kelly" industry="Computer Software" pictureUrl="http://media.linkedin.com/mpr/mprx/0_lxZqPAi5EK3pud9PPO4bPtALevPY2u6P1YuwPP3zBKbm1HA1jMe4j1vRQR1T7wFxKysoyqPaM2VQ" siteStandardProfileRequest="/107" lastName="Garcés" location="/108" headline="Phd student at Ecole des Mines de Nantes" apiStandardProfileRequest="/110"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=10486181&amp;authToken=dEY7&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/109" name="Nantes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/4nCAx-fVkH" headers="/111"/>
+  <modelum:HeadersImpl httpHeaderList="/112" total="1"/>
+  <modelum:HttpHeaderImpl value="name:dEY7" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="BukUzvzmCg" firstName="paul richard" siteStandardProfileRequest="/114" lastName="gbery" location="/115" headline="Étudiant à Université de Rennes I" apiStandardProfileRequest="/117"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=74681731&amp;authToken=D_Pi&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/116" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/BukUzvzmCg" headers="/118"/>
+  <modelum:HeadersImpl httpHeaderList="/119" total="1"/>
+  <modelum:HttpHeaderImpl value="name:D_Pi" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="EdnxhCD7x-" firstName="Richard" industry="Research" siteStandardProfileRequest="/121" lastName="GBERY" location="/122" headline="ETUDIANT chez Université de Rennes 1" apiStandardProfileRequest="/124"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=66474948&amp;authToken=4zHM&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/123" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/EdnxhCD7x-" headers="/125"/>
+  <modelum:HeadersImpl httpHeaderList="/126" total="1"/>
+  <modelum:HttpHeaderImpl value="name:4zHM" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="KoIjMSeSY6" firstName="Martin" industry="Information Technology and Services" siteStandardProfileRequest="/128" lastName="Gogolla" location="/129" headline="Professor at University of Bremen" apiStandardProfileRequest="/131"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=16440140&amp;authToken=oIvv&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/130" name="Germany"/>
+  <modelum:CountryImpl code="de"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/KoIjMSeSY6" headers="/132"/>
+  <modelum:HeadersImpl httpHeaderList="/133" total="1"/>
+  <modelum:HttpHeaderImpl value="name:oIvv" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="Tx0BZJ-Glk" firstName="Frédéric" industry="Computer Software" pictureUrl="http://media.linkedin.com/mpr/mprx/0_M5umgFIxqzyDNQA2RX2AgksONAd3nLA2RkZAgkRawqjAWT6uz_yC1X7hsxWOzGrhZQmKtiLkp-EJ" siteStandardProfileRequest="/135" lastName="Jouault" location="/136" headline="Postdoc at INRIA and UAB CIS" apiStandardProfileRequest="/138"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=4188842&amp;authToken=4soo&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/137" name="Nantes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/Tx0BZJ-Glk" headers="/139"/>
+  <modelum:HeadersImpl httpHeaderList="/140" total="1"/>
+  <modelum:HttpHeaderImpl value="name:4soo" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="WzasF65fYC" firstName="Satyajit" industry="Computer Software" siteStandardProfileRequest="/142" lastName="Kanungo" location="/143" headline="Project Manager at Wipro Technologies" apiStandardProfileRequest="/145"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=3038862&amp;authToken=kjZv&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/144" name="Bengaluru Area, India"/>
+  <modelum:CountryImpl code="in"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/WzasF65fYC" headers="/146"/>
+  <modelum:HeadersImpl httpHeaderList="/147" total="1"/>
+  <modelum:HttpHeaderImpl value="name:kjZv" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="uslLdmRAhG" firstName="Abdelkarim" industry="Telecommunications" siteStandardProfileRequest="/149" lastName="KARTIT" location="/150" headline="consultant chez Altran" apiStandardProfileRequest="/152"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=52164679&amp;authToken=a72e&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/151" name="Paris Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/uslLdmRAhG" headers="/153"/>
+  <modelum:HeadersImpl httpHeaderList="/154" total="1"/>
+  <modelum:HttpHeaderImpl value="name:a72e" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="AEAr6fx9Jp" firstName="Alexis" industry="Telecommunications" pictureUrl="http://media.linkedin.com/mpr/mprx/0_54wi7enQzJDVfkPdFjEp7IhdBVecfFGdFJxy7IlZe0yFr_zWdOUf3wLnMNHHuhiLkRWj8u_2-3rz" siteStandardProfileRequest="/156" lastName="Koalla" location="/157" headline="Software Engineer at Alcatel-Lucent France" apiStandardProfileRequest="/159"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=16598674&amp;authToken=CG6n&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/158" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/AEAr6fx9Jp" headers="/160"/>
+  <modelum:HeadersImpl httpHeaderList="/161" total="1"/>
+  <modelum:HttpHeaderImpl value="name:CG6n" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="HowLCU_sz6" firstName="johanna" industry="Accounting" siteStandardProfileRequest="/163" lastName="kouamé" location="/164" headline="stagiaire  chez In Extenso bretagne" apiStandardProfileRequest="/166"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=64998102&amp;authToken=2fNH&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/165" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/HowLCU_sz6" headers="/167"/>
+  <modelum:HeadersImpl httpHeaderList="/168" total="1"/>
+  <modelum:HttpHeaderImpl value="name:2fNH" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="eTpjX3PmYK" firstName="Ludovic" industry="Hospital &amp; Health Care" siteStandardProfileRequest="/170" lastName="Lallogo" location="/171" headline="Agent Itinérant de santé et d'Hygiene et Assainissement chez Ministère de la Santé/ Burkina Faso" apiStandardProfileRequest="/173"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=60859948&amp;authToken=T_rx&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/172" name="Burkina Faso"/>
+  <modelum:CountryImpl code="bf"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/eTpjX3PmYK" headers="/174"/>
+  <modelum:HeadersImpl httpHeaderList="/175" total="1"/>
+  <modelum:HttpHeaderImpl value="name:T_rx" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="PlaR4-Y0cq" firstName="M. Anthony" industry="Research" pictureUrl="http://media.linkedin.com/mpr/mprx/0_imOA6V2QnozVQGIM_dYC6ZpVswisXTIMTWom6ZaQ5mcERLpJ7eaje4seNL_5bQovGSpfd0pQPEzs" siteStandardProfileRequest="/177" lastName="Lewis" location="/178" headline="Robotics Researcher: Next Generation Robots" apiStandardProfileRequest="/180"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=16491970&amp;authToken=uJQ6&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/179" name="Tucson, Arizona Area"/>
+  <modelum:CountryImpl code="us"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/PlaR4-Y0cq" headers="/181"/>
+  <modelum:HeadersImpl httpHeaderList="/182" total="1"/>
+  <modelum:HttpHeaderImpl value="name:uJQ6" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="Mmk4eviZSL" firstName="Haiyan" industry="Information Technology and Services" siteStandardProfileRequest="/184" lastName="Liu" location="/185" headline="Consultant Fonctionnel chez Netfective Technology" apiStandardProfileRequest="/187"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=82602438&amp;authToken=zq5P&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/186" name="Paris Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/Mmk4eviZSL" headers="/188"/>
+  <modelum:HeadersImpl httpHeaderList="/189" total="1"/>
+  <modelum:HttpHeaderImpl value="name:zq5P" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="32lL5-038d" firstName="Olivier" industry="Computer &amp; Network Security" siteStandardProfileRequest="/191" lastName="Mbieleu" location="/192" headline="Architecte Sécurité chez 8-i" apiStandardProfileRequest="/194"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=45154080&amp;authToken=LnmT&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/193" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/32lL5-038d" headers="/195"/>
+  <modelum:HeadersImpl httpHeaderList="/196" total="1"/>
+  <modelum:HttpHeaderImpl value="name:LnmT" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="szwAALSC9A" firstName="iDA SIDKETA" industry="Financial Services" pictureUrl="http://media.linkedin.com/mpr/mprx/0_zVbmGhAZ1ZHxmAr9csngG_KdAy0rucl9BjPAGC1ZaMIhPPQnMpBCuGbn0-xffrKVqJ5KDL3KGKE1" siteStandardProfileRequest="/198" lastName="NONGUIERMA" location="/199" headline="Student at Georgia Southern University" apiStandardProfileRequest="/201"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=65575162&amp;authToken=3oN6&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/200" name="Savannah, Georgia Area"/>
+  <modelum:CountryImpl code="us"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/szwAALSC9A" headers="/202"/>
+  <modelum:HeadersImpl httpHeaderList="/203" total="1"/>
+  <modelum:HttpHeaderImpl value="name:3oN6" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="gJrdYM2TzK" firstName="Ali" industry="Telecommunications" pictureUrl="http://media.linkedin.com/mpr/mprx/0_459zxGZm7-ahZRqiZXAoxTj_S9ZCsYXisFGExTR-t1ut5V1_N_6JA37p_Z4gJMLfJQqIK65F76EW" siteStandardProfileRequest="/205" lastName="MAIGA" location="/206" headline="Ingénieur de recherche chez INSA Rennes" apiStandardProfileRequest="/208"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=65678740&amp;authToken=YkQM&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/207" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/gJrdYM2TzK" headers="/209"/>
+  <modelum:HeadersImpl httpHeaderList="/210" total="1"/>
+  <modelum:HttpHeaderImpl value="name:YkQM" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="0meFVeSqr2" firstName="galiam" siteStandardProfileRequest="/212" lastName="ouedraogo" location="/213" headline="--" apiStandardProfileRequest="/215"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=55768870&amp;authToken=50UW&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/214" name="Netherlands"/>
+  <modelum:CountryImpl code="nl"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/0meFVeSqr2" headers="/216"/>
+  <modelum:HeadersImpl httpHeaderList="/217" total="1"/>
+  <modelum:HttpHeaderImpl value="name:50UW" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="FyKSUH715s" firstName="Jean Esaie" industry="Telecommunications" pictureUrl="http://media.linkedin.com/mpr/mprx/0_u1nHT0kAm0FHjyKnmA5RTgLhCY-Ej0Kna-CBTyklgU6sGUb9hzQXfprxurtvY4lsSrN9mRs3FBhr" siteStandardProfileRequest="/219" lastName="Ouedraogo" location="/220" headline="Subject Matter Expert - Radio Access Network at Ericsson Senegal" apiStandardProfileRequest="/222"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=27130640&amp;authToken=jZN7&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/221" name="Senegal"/>
+  <modelum:CountryImpl code="sn"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/FyKSUH715s" headers="/223"/>
+  <modelum:HeadersImpl httpHeaderList="/224" total="1"/>
+  <modelum:HttpHeaderImpl value="name:jZN7" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="buf4wviesO" firstName="Jacques" industry="Research" siteStandardProfileRequest="/226" lastName="Palicot" location="/227" headline="Professeur chez Supelec" apiStandardProfileRequest="/229"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=58270017&amp;authToken=muE_&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/228" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/buf4wviesO" headers="/230"/>
+  <modelum:HeadersImpl httpHeaderList="/231" total="1"/>
+  <modelum:HttpHeaderImpl value="name:muE_" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="7w1HIFHMer" firstName="Bado" industry="Telecommunications" siteStandardProfileRequest="/233" lastName="Pascal" location="/234" headline="Ingénieur Télécom chez Néo-soft" apiStandardProfileRequest="/236"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=58433379&amp;authToken=MRvf&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/235" name="France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/7w1HIFHMer" headers="/237"/>
+  <modelum:HeadersImpl httpHeaderList="/238" total="1"/>
+  <modelum:HttpHeaderImpl value="name:MRvf" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="Meb2Sm981M" firstName="Harouna" industry="Information Technology and Services" pictureUrl="http://media.linkedin.com/mpr/mprx/0_XUxLRHnVLbuZ3emDEpfnRwrNbFIq_mmDQJwsRwr5ZG0XyoMSeg7dvIkwWWwIhW73LZgRq2Ggl1Dj" siteStandardProfileRequest="/240" lastName="PORGO" location="/241" headline="En poste dans secteur Technologies et services de l'information" apiStandardProfileRequest="/243"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=68585439&amp;authToken=geqb&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/242" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/Meb2Sm981M" headers="/244"/>
+  <modelum:HeadersImpl httpHeaderList="/245" total="1"/>
+  <modelum:HttpHeaderImpl value="name:geqb" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="6ZF5guFXHt" firstName="Raïssa" industry="Chemicals" siteStandardProfileRequest="/247" lastName="Praho" location="/248" headline="Student at Université de Rennes 1" apiStandardProfileRequest="/250"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=56997133&amp;authToken=dc92&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/249" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/6ZF5guFXHt" headers="/251"/>
+  <modelum:HeadersImpl httpHeaderList="/252" total="1"/>
+  <modelum:HttpHeaderImpl value="name:dc92" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="DcVR0VINbd" firstName="Loya" industry="Information Technology and Services" siteStandardProfileRequest="/254" lastName="Sandra" location="/255" headline="Ingenieur d'etudes chez Altran" apiStandardProfileRequest="/257"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=59904416&amp;authToken=-sF6&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/256" name="Paris Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/DcVR0VINbd" headers="/258"/>
+  <modelum:HeadersImpl httpHeaderList="/259" total="1"/>
+  <modelum:HttpHeaderImpl value="name:-sF6" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="xsmQ6N-Jn3" firstName="Janine" industry="Research" siteStandardProfileRequest="/261" lastName="Silga" location="/262" headline="Student at Université de Rennes 1" apiStandardProfileRequest="/264"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=4147440&amp;authToken=2LKn&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/263" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/xsmQ6N-Jn3" headers="/265"/>
+  <modelum:HeadersImpl httpHeaderList="/266" total="1"/>
+  <modelum:HttpHeaderImpl value="name:2LKn" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="Ql-vXT3iZt" firstName="Hubert" siteStandardProfileRequest="/268" lastName="Stalin" location="/269" headline="--" apiStandardProfileRequest="/271"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=85228110&amp;authToken=1TDS&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/270" name="France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/Ql-vXT3iZt" headers="/272"/>
+  <modelum:HeadersImpl httpHeaderList="/273" total="1"/>
+  <modelum:HttpHeaderImpl value="name:1TDS" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="vWTImXoixm" firstName="SAMPAWENDE" industry="International Trade and Development" siteStandardProfileRequest="/275" lastName="TAPSOBA" location="/276" headline="ECONOMISTE chez International Monetary Fund" apiStandardProfileRequest="/278"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=42417021&amp;authToken=w4ca&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/277" name="Clermont-Ferrand Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/vWTImXoixm" headers="/279"/>
+  <modelum:HeadersImpl httpHeaderList="/280" total="1"/>
+  <modelum:HttpHeaderImpl value="name:w4ca" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="ZhqOY19WeC" firstName="Romeo" industry="Information Technology and Services" pictureUrl="http://media.linkedin.com/mpr/mprx/0_T8jL9VylHkrvvufxiFVV9M0jXb_4cumxiTds9Mu3RCBHHHM0DQDdZJ4fodiFNw7P8_0RJOYr5nD3" siteStandardProfileRequest="/282" lastName="Tatsambon" location="/283" headline="Postdoctoral Research Associate" apiStandardProfileRequest="/285"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=47035878&amp;authToken=wOyE&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/284" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/ZhqOY19WeC" headers="/286"/>
+  <modelum:HeadersImpl httpHeaderList="/287" total="1"/>
+  <modelum:HttpHeaderImpl value="name:wOyE" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="vY_FAKsqON" firstName="Désiré" industry="Telecommunications" pictureUrl="http://media.linkedin.com/mpr/mprx/0_527SxeyNNnUNXGTfLa0txIfZnPeU6XrfFmU-xIuWWnywJ8F7doxTAw4bZjHk5iAikfSPKuO9DMnQ" siteStandardProfileRequest="/289" lastName="GUEL" location="/290" headline="DSP  Engineer / WCDMA (UMTS,HSPA)" apiStandardProfileRequest="/292"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=48675482&amp;authToken=MAWr&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/291" name="Rennes Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/vY_FAKsqON" headers="/293"/>
+  <modelum:HeadersImpl httpHeaderList="/294" total="1"/>
+  <modelum:HttpHeaderImpl value="name:MAWr" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="WpkeB3d6Kv" firstName="Massimo" industry="Computer Software" siteStandardProfileRequest="/296" lastName="Tisi" location="/297" headline="Ph.D. at Politecnico di Milano" apiStandardProfileRequest="/299"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=12383372&amp;authToken=Y4yg&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/298" name="Milan Area, Italy"/>
+  <modelum:CountryImpl code="it"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/WpkeB3d6Kv" headers="/300"/>
+  <modelum:HeadersImpl httpHeaderList="/301" total="1"/>
+  <modelum:HttpHeaderImpl value="name:Y4yg" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="MZHrRpjJw1" firstName="Jean Marie" industry="Insurance" siteStandardProfileRequest="/303" lastName="Woba" location="/304" headline="Contrôle de gestion chez SONAR BURKINA FASO" apiStandardProfileRequest="/306"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=82233883&amp;authToken=3Exn&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/305" name="Burkina Faso"/>
+  <modelum:CountryImpl code="bf"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/MZHrRpjJw1" headers="/307"/>
+  <modelum:HeadersImpl httpHeaderList="/308" total="1"/>
+  <modelum:HttpHeaderImpl value="name:3Exn" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="6Vz42iRApG" firstName="Aristide" industry="Telecommunications" siteStandardProfileRequest="/310" lastName="Yameogo" location="/311" headline="at Alcatel Lucent Nigeria" apiStandardProfileRequest="/313"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=17922220&amp;authToken=xdeu&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/312" name="Nigeria"/>
+  <modelum:CountryImpl code="ng"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/6Vz42iRApG" headers="/314"/>
+  <modelum:HeadersImpl httpHeaderList="/315" total="1"/>
+  <modelum:HttpHeaderImpl value="name:xdeu" name="x-li-auth-token"/>
+  <modelum:PersonImpl id="pKeUfEmN2E" firstName="Yves" industry="Telecommunications" siteStandardProfileRequest="/317" lastName="Zango" location="/318" headline="Phd Student - Research Engineer chez France Telecom" apiStandardProfileRequest="/320"/>
+  <modelum:SiteStandardProfileRequestImpl url="http://www.linkedin.com/profile?viewProfile=&amp;key=86502667&amp;authToken=dhnU&amp;authType=name&amp;trk=api*a113195*s121690*"/>
+  <modelum:LocationImpl country="/319" name="Saint-Brieuc Area, France"/>
+  <modelum:CountryImpl code="fr"/>
+  <modelum:ApiStandardProfileRequestImpl url="http://api.linkedin.com/v1/people/pKeUfEmN2E" headers="/321"/>
+  <modelum:HeadersImpl httpHeaderList="/322" total="1"/>
+  <modelum:HttpHeaderImpl value="name:dhnU" name="x-li-auth-token"/>
+</xmi:XMI>
