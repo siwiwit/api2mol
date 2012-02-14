@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary A brief description and features of api2mol
 
 = Description =
 
