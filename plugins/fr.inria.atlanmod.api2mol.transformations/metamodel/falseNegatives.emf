@@ -1,0 +1,17 @@
+@namespace(uri="http://modelum.es/atlanmod/falseNegatives", prefix="fp")
+package falseNegatives;
+
+import "platform:/resource/api2mol/bootstrap/reflect.ecore";
+
+class EmptyClass extends FalseNegativeElement {
+  attr String classTypeName;
+  ref reflect.ClassType classType;
+}
+
+class SpuriousElements {
+  val FalseNegativeElement[*] falseNegatives;
+}
+
+abstract class FalseNegativeElement {
+}
+
