@@ -1,0 +1,5 @@
+
+
+ClassM::Class.all_objects do |klass|
+	template 'class2table/gen/pseudo_class.rtemplate' => "#{klass.name}.pseudo", :klass => klass
+end

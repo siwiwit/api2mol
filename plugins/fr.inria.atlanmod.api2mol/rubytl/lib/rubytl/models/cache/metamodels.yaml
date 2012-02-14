@@ -1,0 +1,6 @@
+--- 
+http://gts.inf.um.es/rubytl/trace: !ruby/struct:RMOF::CacheRepository::Metamodel 
+  package: http://gts.inf.um.es/rubytl/trace
+  filename: trace.rb
+  module_name: RubyTL::Trace
+  implementation: 

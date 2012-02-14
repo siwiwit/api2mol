@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:reflect="http://modelum.es/atlandmod/reflect">
+  <reflect:ClassType name="[Ljava.lang.String" canonicalName="java.lang.String[]"/>
+  <reflect:ClassType name="java.lang.String" canonicalName="java.lang.String"/>
+  <reflect:ClassType name="[Ljava.util.Set" canonicalName="java.util.Set[]"/>
+  <reflect:ClassType name="java.util.Set" canonicalName="java.util.Set"/>
+  <reflect:ClassType name="javax.swing.RootPane" canonicalName="javax.swing.RootPane"/>
+  <reflect:ClassType name="javax.swing.JFrame;" canonicalName="javax.swing.JFrame">
+    <modifiers>PUBLIC</modifiers>
+    <modifiers>ABSTRACT</modifiers>
+    <declaredFields name="stringField" type="/1"/>
+    <declaredMethods name="getStringField" returnType="/1">
+      <modifiers>PUBLIC</modifiers>
+    </declaredMethods>
+  </reflect:ClassType>
+  <reflect:ClassType name="javax.swing.JFrameSub;" canonicalName="javax.swing.JFrameSub" superclass="/5"/>
+</xmi:XMI>

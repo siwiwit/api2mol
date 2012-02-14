@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<school:School xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:school="http://test.rmof/school" xsi:schemaLocation="http://test.rmof/school School.ecore">
+  <pupils name="Vito">
+    <readBooks href="Library.xmi#//@books.1"/>
+    <readBooks href="Library.xmi#//@books.0"/>
+  </pupils>
+  <pupils name="Buttercup">
+    <readBooks href="Library.xmi#//@books.2"/>
+  </pupils>
+</school:School>

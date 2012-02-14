@@ -1,0 +1,1 @@
+ALTER TABLE ADD CONSTRAINT FOREIGN KEY (<%= fkey.cols.map { |c| c.name }.join(', ')%>)

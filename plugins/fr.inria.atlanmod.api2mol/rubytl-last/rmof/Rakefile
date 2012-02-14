@@ -1,0 +1,120 @@
+$LOAD_PATH << 'lib'
+
+ROOT = File.dirname(__FILE__)
+ECORE_CACHE_DIR = File.join(ROOT, 'lib', 'rmof', 'cache')
+ECORE_MODEL = File.join(ROOT, 'lib', 'rmof', 'models', 'Ecore.ecore')
+XML_TYPE_MODEL = File.join(ROOT, 'lib', 'rmof', 'models', 'XMLType.ecore')
+UML2_MODEL = File.join(ROOT, 'test', 'models', 'UML2.ecore')
+ECORE_DIR   = File.join(ROOT, 'lib', 'rmof', 'meta', 'ecore', 'generation')
+
+require 'rmof/repository/repository'
+
+task :ecore => :dir_structure do
+  require 'rmof/ext/string'
+  require 'rmof/meta/ecore/helper'
+  require 'rmof/meta/ecore/specific_parser'
+  require 'rmof/meta/ecore/api_generator'
+  
+  parser  = ECore::SpecificParser.new(File.new(ECORE_MODEL))
+  package = parser.parse
+  
+  #configuration = ECore::APIConfiguration.new
+  #configuration.ruby_module_name = 'ECore'
+  
+  #generator = ECore::APIGenerator.new(ECORE_DIR, configuration)
+  #generator.generate_metamodel(package)
+  repository = RMOF::CacheRepository.new(ECORE_CACHE_DIR)  
+  repository.add_metamodel(package, 'ecore.rb', :implementation => 'rmof/meta/ecore/implementation')
+
+end
+
+task :xml_type => :dir_structure do
+  require 'rmof'
+  adapter = RMOF::ECore::FileModelAdapter.new
+  model   = RMOF::ECoreParser.new(File.new(XML_TYPE_MODEL), adapter).parse()
+
+  repository = RMOF::CacheRepository.new(ECORE_CACHE_DIR)  
+  repository.add_metamodel(model.root_elements.first, 'xml_type.rb')
+end
+
+
+task :uml2 => :dir_structure do
+  require 'rmof'
+  adapter = RMOF::ECore::FileModelAdapter.new
+  model   = RMOF::ECoreParser.new(File.new(UML2_MODEL), adapter).parse()
+
+  repository = RMOF::CacheRepository.new(ECORE_CACHE_DIR)  
+  repository.add_metamodel(model.root_elements.first, 'uml2.rb')
+end
+
+task :dir_structure do
+  mkpath(ECORE_DIR)
+  mkpath(ECORE_CACHE_DIR)
+end
+#task :default => [:generate_ecore]
+
+require 'rake/testtask'
+task :test => [ :config ] do
+  $LOAD_PATH << 'test'
+  Dir.glob('test/*_test.rb').each do |file|
+    require file
+  end
+end
+
+task :config do
+  system('ruby setup.rb config')
+end
+
+MANIFEST = %w[
+  lib/**/*
+  test/**/*
+  cache/**/*
+  doc/**/*
+  models/**/*
+  Rakefile
+  README.erb
+  DEVELOPMENT
+  VERSION
+  setup.rb
+]
+
+require 'rake/packagetask'
+version = File.read('VERSION').strip
+Rake::PackageTask.new("rmof", version) do |p|
+  p.need_tar_gz = true
+  p.package_files.include(MANIFEST)
+end
+
+task :cache => [ :dir_structure, :ecore, :xml_type, :uml2 ] do
+  puts "Cache files created under #{ECORE_CACHE_DIR}/"
+end
+
+require 'rake/rdoctask'
+Rake::RDocTask.new do |rd|
+  rd.main = 'README'
+  rd.rdoc_files.include('README')
+  rd.rdoc_files.include('DEVELOPMENT')
+  rd.rdoc_files.include('lib/**/*.rb')
+end
+
+require 'erb'
+task 'README' => [ :config, 'README.erb' ] do
+  template = ERB.new(File.read('README.erb'))
+  File.open('README', 'w') do |file|
+    file.write(template.result(binding))
+  end
+end
+
+task :clean => [ :clobber_package, :clobber_rdoc ] do
+  # TODO: must delete these files
+  #rm_rf(ECORE_CACHE_DIR)
+  #rm_rf(ECORE_DIR)
+  system('ruby setup.rb distclean')
+  rm_rf('README')
+end
+
+task :release => [ :clean ] do
+   system('rake test')
+   system('rake package')
+   raise NotImplementedError.new('Upload not implemented yet')
+end

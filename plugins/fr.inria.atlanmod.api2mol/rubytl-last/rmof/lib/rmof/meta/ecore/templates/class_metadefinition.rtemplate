@@ -1,0 +1,68 @@
+
+module <%= eclass_metamodule_name %>
+  include ECore::Helper
+  include ClassAutoImplementation
+
+  def non_qualified_name
+  	'<%= eclass_name %>'
+  end
+
+  def abstract
+    <%= eclass.abstract ? 'true' : 'false' %>
+  end
+
+  def eSuperTypes
+    define_super_types(<%= eclass.eSuperTypes.map { |s| s.name }.join(', ') %>)
+  end
+
+  def eStructuralFeatures
+    define_structural_features do
+<% traverse_attributes do |attr| -%>
+      <%= attribute_definition(attr) %>
+<% end -%>
+    
+<% traverse_references do |reference| -%>
+      <%= reference_definition(reference) %>
+<% end -%>
+<%= write_reference_opposites %>
+    end
+  end      
+  
+  def eOperations
+  	[]
+  	#define_operations do
+  		# TODO: xxxx
+  	#end
+  end
+end
+
+module <%= eclass.name %>Common
+end
+
+module <%= eclass.name %>Impl
+end
+
+
+module <%= eclass_struct_name %>
+<% traverse_attributes do |attr| -%>
+  __meta_attribute__ '<%= attr.name %>'
+<% end -%>    
+<% traverse_references do |reference| -%>
+  __meta_reference__ '<%= reference.name %>'
+<% end -%>
+
+#TODO: QUITAR ESTO
+include <%= eclass.name %>Common
+include <%= eclass.name %>Impl
+end
+
+class <%= eclass_name %>
+  include <%= eclass_struct_name %>
+  class << self; include <%= eclass_metamodule_name %>; end      
+  def metaclass; self.class; end
+  
+  def self.is_primitive?;   false;  end
+  def self.is_enumeration?; false; end
+  def self.is_metaclass?; 	true; end  
+end
+# This definition is duplicated (in class_definition template) why?    

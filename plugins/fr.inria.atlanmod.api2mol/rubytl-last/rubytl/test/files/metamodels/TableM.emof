@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="TableM"
+    name="TableM">
+  <ownedType xmi:type="emof:Class" xmi:id="6F184C409B360F7A007244CA1577F422" name="Table">
+    <ownedAttribute xmi:id="TableM.Table.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="73A6F82B9B360F7A0033B121EF646314" name="cols" upper="*"
+        type="6F1951099B360F7A007244CA3E24CF40" isComposite="true" opposite="TableM.Column.owner"/>
+    <ownedAttribute xmi:id="73A6F82B9B360F7A0033B1218D1F3EAA" name="pkeys" upper="*"
+        type="6F1951099B360F7A007244CA3E24CF40" opposite="TableM.Column.pkeyOf"/>
+    <ownedAttribute xmi:id="73A6F82B9B360F7A0033B12107163D64" name="referenceBy" upper="*"
+        type="6F197CD29B360F7A007244CA704AD65E" opposite="TableM.FKey.references"/>
+    <ownedAttribute xmi:id="73A6F82B9B360F7A0033B1219677E62B" name="fkeys" upper="*"
+        type="6F197CD29B360F7A007244CA704AD65E" opposite="TableM.FKey.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="6F1951099B360F7A007244CA3E24CF40" name="Column">
+    <ownedAttribute xmi:id="TableM.Column.owner" name="owner" lower="1" type="6F184C409B360F7A007244CA1577F422"
+        opposite="73A6F82B9B360F7A0033B121EF646314"/>
+    <ownedAttribute xmi:id="TableM.Column.pkeyOf" name="pkeyOf" lower="1" type="6F184C409B360F7A007244CA1577F422"
+        opposite="73A6F82B9B360F7A0033B1218D1F3EAA"/>
+    <ownedAttribute xmi:id="TableM.Column.type" name="type">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="TableM.Column.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="73A6F82C9B360F7A0033B1218CE3CB87" name="partOfFkey" lower="1"
+        type="6F197CD29B360F7A007244CA704AD65E" opposite="TableM.FKey.cols"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="6F197CD29B360F7A007244CA704AD65E" name="FKey">
+    <ownedAttribute xmi:id="TableM.FKey.references" name="references" type="6F184C409B360F7A007244CA1577F422"
+        opposite="73A6F82B9B360F7A0033B12107163D64"/>
+    <ownedAttribute xmi:id="TableM.FKey.owner" name="owner" lower="1" type="6F184C409B360F7A007244CA1577F422"
+        opposite="73A6F82B9B360F7A0033B1219677E62B"/>
+    <ownedAttribute xmi:id="TableM.FKey.cols" name="cols" upper="*" type="6F1951099B360F7A007244CA3E24CF40"
+        opposite="73A6F82C9B360F7A0033B1218CE3CB87"/>
+  </ownedType>
+</emof:Package>

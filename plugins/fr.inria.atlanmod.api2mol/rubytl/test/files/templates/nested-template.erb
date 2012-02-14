@@ -1,0 +1,4 @@
+line <%= count %>
+<% if count < 10 -%>
+<%= apply_template 'nested-template.erb', :count => count + 1 -%>
+<% end -%>

@@ -1,0 +1,31 @@
+  <xmi:XMI xmlns:JavaM='file:////home/jesus/usr/eclipse-dev-plugins/runtime-mddtool.product/class2java/metamodels/JavaM.emof' xmlns:emof='http://schema.omg.org/spec/mof/2.0/emof.xmi' xmi:version='2.0' xmlns:xmi='http://www.omg.org/XMI'>
+    <JavaM:Package name='java.lang' xmi:id='JavaM.Package_1'>
+      <elements name='String' xmi:type='JavaM:PrimitiveType' xmi:id='JavaM.PrimitiveType_1' typeOf='JavaM.Method_1 JavaM.Method_2 JavaM.Parameter_1 JavaM.Field_1 JavaM.Method_3 JavaM.Method_4 JavaM.Method_5'/>
+      <elements name='Integer' xmi:type='JavaM:PrimitiveType' xmi:id='JavaM.PrimitiveType_2' typeOf='JavaM.Method_6 JavaM.Method_7 JavaM.Method_8'/>
+    </JavaM:Package>
+    <JavaM:Package xmi:id='JavaM.Package_2'>
+      <elements name='base1' xmi:type='JavaM:Class' xmi:id='JavaM.Class_1'/>
+      <elements name='base2' xmi:type='JavaM:Class' xmi:id='JavaM.Class_2'>
+        <features name='operation1_for_base2' type='JavaM.PrimitiveType_1' xmi:type='JavaM:Method' xmi:id='JavaM.Method_1'/>
+        <features name='operation2_for_base2' type='JavaM.PrimitiveType_2' xmi:type='JavaM:Method' xmi:id='JavaM.Method_6'/>
+      </elements>
+      <elements name='base3' xmi:type='JavaM:Class' xmi:id='JavaM.Class_3' subclasses='JavaM.Class_4'>
+        <features visibility='public' name='getAttribute_for_base3' type='JavaM.PrimitiveType_1' xmi:type='JavaM:Method' xmi:id='JavaM.Method_2'/>
+        <features visibility='public' name='setAttribute_for_base3' xmi:type='JavaM:Method' xmi:id='JavaM.Method_9' params='JavaM.Parameter_1'/>
+        <features visibility='private' name='attribute_for_base3' type='JavaM.PrimitiveType_1' xmi:type='JavaM:Field' xmi:id='JavaM.Field_1'/>
+        <features name='operation1_for_base3' type='JavaM.PrimitiveType_1' xmi:type='JavaM:Method' xmi:id='JavaM.Method_3'/>
+      </elements>
+      <elements name='child' extends='JavaM.Class_3' xmi:type='JavaM:Class' xmi:id='JavaM.Class_4' implements='JavaM.Interface_1 JavaM.Interface_2'>
+        <features name='operation1_for_base2' type='JavaM.PrimitiveType_1' xmi:type='JavaM:Method' xmi:id='JavaM.Method_5'/>
+        <features name='operation2_for_base2' type='JavaM.PrimitiveType_2' xmi:type='JavaM:Method' xmi:id='JavaM.Method_8'/>
+        <features visibility='protected' name='implbase2' type='JavaM.Interface_1' xmi:type='JavaM:Field' xmi:id='JavaM.Field_2'/>
+        <features visibility='protected' name='implbase1' type='JavaM.Interface_2' xmi:type='JavaM:Field' xmi:id='JavaM.Field_3'/>
+      </elements>
+      <elements name='Ibase2' implementedBy='JavaM.Class_4' xmi:type='JavaM:Interface' xmi:id='JavaM.Interface_1' typeOf='JavaM.Field_2'>
+        <abstractMethods name='operation1_for_base2' type='JavaM.PrimitiveType_1' xmi:id='JavaM.Method_4'/>
+        <abstractMethods name='operation2_for_base2' type='JavaM.PrimitiveType_2' xmi:id='JavaM.Method_7'/>
+      </elements>
+      <elements name='Ibase1' implementedBy='JavaM.Class_4' xmi:type='JavaM:Interface' xmi:id='JavaM.Interface_2' typeOf='JavaM.Field_3'/>
+    </JavaM:Package>
+    <JavaM:Parameter name='value' type='JavaM.PrimitiveType_1' xmi:id='JavaM.Parameter_1' paramsOf='JavaM.Method_9'/>
+  </xmi:XMI>

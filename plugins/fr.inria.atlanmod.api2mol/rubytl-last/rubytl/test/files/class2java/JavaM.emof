@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="JavaM"
+    name="JavaM">
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Classifier" name="Classifier">
+    <ownedAttribute xmi:id="JavaM.Classifier.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="JavaM.Classifier.typeOf" name="typeOf" upper="*" type="JavaM.TypedElement"
+        opposite="JavaM.TypedElement.type"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.TypedElement" name="TypedElement">
+    <ownedAttribute xmi:id="JavaM.TypedElement.type" name="type" lower="1" type="JavaM.Classifier"
+        opposite="JavaM.Classifier.typeOf"/>
+    <ownedAttribute xmi:id="JavaM.TypedElement.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.PrimitiveType" name="PrimitiveType"
+      superClass="JavaM.Classifier"/>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Class" name="Class" superClass="JavaM.Classifier">
+    <ownedAttribute xmi:id="JavaM.Class.features" name="features" upper="*" type="JavaM.Feature"
+        opposite="JavaM.Feature.owner"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Feature" name="Feature" superClass="JavaM.TypedElement">
+    <ownedAttribute xmi:id="JavaM.Feature.owner" name="owner" lower="1" type="JavaM.Class"
+        opposite="JavaM.Class.features"/>
+    <ownedAttribute xmi:id="JavaM.Feature.visibility" name="visibility">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Field" name="Field" superClass="JavaM.Feature"/>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Method" name="Method" superClass="JavaM.Feature">
+    <ownedAttribute xmi:id="JavaM.Method.params" name="params" upper="*" type="JavaM.Parameter"
+        opposite="JavaM.Parameter.paramsOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="JavaM.Parameter" name="Parameter" superClass="JavaM.TypedElement">
+    <ownedAttribute xmi:id="JavaM.Parameter.paramsOf" name="paramsOf" lower="1" type="JavaM.Method"
+        opposite="JavaM.Method.params"/>
+  </ownedType>
+</emof:Package>

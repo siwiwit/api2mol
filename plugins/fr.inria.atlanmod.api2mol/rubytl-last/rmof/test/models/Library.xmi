@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library:Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:library="http://www.example.eclipse.org/Library" xsi:schemaLocation="http://www.example.eclipse.org/Library Library.ecore" name="TestLibrary">
+  <writers name="Mario Puzo" books="//@books.0 //@books.1"/>
+  <writers name="William Goldman" books="//@books.2"/>
+  <writers name="C.S. Lewis"/>
+  <books title="The Godfather" pages="350" category="Biography" author="//@writers.0"/>
+  <books title="Omerta" pages="475" author="//@writers.0"/>
+  <books title="The Princess Bride" pages="215" category="ScienceFiction" author="//@writers.1"/>
+</library:Library>

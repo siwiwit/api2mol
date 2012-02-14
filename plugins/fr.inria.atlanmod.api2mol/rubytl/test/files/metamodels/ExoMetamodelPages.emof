@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="ExoMetamodelPages"
+    name="ExoMetamodelPages">
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.Portlet" name="Portlet">
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.windowId" name="windowId">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.title" name="title">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.portletStyle" name="portletStyle">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.showInfoBar" name="showInfoBar">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.showWindowState" name="showWindowState">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.showPortletModel" name="showPortletModel">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.renderer" name="renderer">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.decorator" name="decorator">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.width" name="width">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.height" name="height">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.preferences" name="preferences"
+        upper="*" type="ExoMetamodelPages.PortletPreferences" isComposite="true" opposite="ExoMetamodelPages.PortletPreferences.preferencesOf"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.portletOfPage" name="portletOfPage"
+        lower="1" type="ExoMetamodelPages.Page" opposite="ExoMetamodelPages.Page.portlet"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Portlet.portletOfContainer" name="portletOfContainer"
+        lower="1" type="ExoMetamodelPages.Container" opposite="ExoMetamodelPages.Container.portlets"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.PortletPreferences" name="PortletPreferences">
+    <ownedAttribute xmi:id="ExoMetamodelPages.PortletPreferences.preferencesOf" name="preferencesOf"
+        lower="1" type="ExoMetamodelPages.Portlet" opposite="ExoMetamodelPages.Portlet.preferences"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.PortletPreferences.preference" name="preference"
+        upper="*" type="ExoMetamodelPages.Preference" isComposite="true" opposite="ExoMetamodelPages.Preference.preferenceOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.Preference" name="Preference">
+    <ownedAttribute xmi:id="ExoMetamodelPages.Preference.preferenceOf" name="preferenceOf"
+        lower="1" type="ExoMetamodelPages.PortletPreferences" opposite="ExoMetamodelPages.PortletPreferences.preference"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Preference.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Preference.readOnly" name="readOnly">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Preference.value" name="value">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.Page" name="Page">
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.owner" name="owner">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.title" name="title">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.viewPermission" name="viewPermission">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.editPermission" name="editPermission">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.renderer" name="renderer">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.decorator" name="decorator">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.width" name="width">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.height" name="height">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.portlet" name="portlet" lower="1"
+        type="ExoMetamodelPages.Portlet" isComposite="true" opposite="ExoMetamodelPages.Portlet.portletOfPage"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.pagesOf" name="pagesOf" lower="1"
+        type="ExoMetamodelPages.PageSet" opposite="ExoMetamodelPages.PageSet.pages"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Page.container" name="container" upper="*"
+        type="ExoMetamodelPages.Container" opposite="ExoMetamodelPages.Container.containerOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.PageSet" name="PageSet">
+    <ownedAttribute xmi:id="ExoMetamodelPages.PageSet.pages" name="pages" upper="*"
+        type="ExoMetamodelPages.Page" opposite="ExoMetamodelPages.Page.pagesOf"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.PageSet.layout" name="layout">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ExoMetamodelPages.Container" name="Container">
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.containerOf" name="containerOf"
+        lower="1" type="ExoMetamodelPages.Page" opposite="ExoMetamodelPages.Page.container"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.renderer" name="renderer">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.decorator" name="decorator">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.width" name="width">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.height" name="height">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.portlets" name="portlets"
+        upper="*" type="ExoMetamodelPages.Portlet" isComposite="true" opposite="ExoMetamodelPages.Portlet.portletOfContainer"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.subcontainers" name="subcontainers"
+        upper="*" type="ExoMetamodelPages.Container" isComposite="true" opposite="ExoMetamodelPages.Container.subcontainersOf"/>
+    <ownedAttribute xmi:id="ExoMetamodelPages.Container.subcontainersOf" name="subcontainersOf"
+        lower="1" type="ExoMetamodelPages.Container" opposite="ExoMetamodelPages.Container.subcontainers"/>
+  </ownedType>
+</emof:Package>

@@ -1,0 +1,25 @@
+<%# Parameters: grammar, first_table, gen_if_table, symbol %>
+
+def <%= proc_name(symbol) %>
+  node = RubyTL::CST::RNode.new
+  node.kind = '<%= symbol.name %>'
+  
+#puts "==> Parsing <%= symbol.name %>"
+<% grammar.productions_with_left_part(symbol).each do |p| -%>
+<%   next if p.right.first == RubyTL::BNF::LAMBDA -%>
+
+<%# TODO: Merge for_symbol_sequence with sequence calls to avoid problems... -%>
+<%   first_table.for_symbol_sequence(p.right) do |rs, rest| -%>
+  if lexer.look_ahead.kind == '<%= rs.name %>'
+    <%= sequence_calls(p, rs, rest) %>	
+    return node
+  end     
+<%   end -%>
+<% end -%>
+
+<% unless grammar.productions_with_left_part(symbol).any? { |p| p.right.first == RubyTL::BNF::LAMBDA } -%>
+  raise "ParseError for token #{lexer.look_ahead}"
+<% end -%>
+  
+  return node
+end

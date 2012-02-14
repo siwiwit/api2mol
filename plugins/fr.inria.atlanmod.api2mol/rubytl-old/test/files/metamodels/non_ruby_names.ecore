@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore">
+  <ecore:EPackage name="RubyPackageName" nsURI="http://RubyPackageName" nsPrefix="rubyname">
+  </ecore:EPackage>
+  <ecore:EPackage name="norubynames"
+	    nsURI="http://nonrubynames" nsPrefix="norubynames">
+	  <eClassifiers xsi:type="ecore:EClass" name="downcaseClass"/>
+	  <eSubpackages name="another no ruby name" nsURI="http://anothernorubyname" nsPrefix="anothernorubyname"/>
+	</ecore:EPackage>
+</xmi:XMI>

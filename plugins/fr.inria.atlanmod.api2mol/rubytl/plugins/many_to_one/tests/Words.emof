@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="Words"
+    name="Words">
+  <ownedType xmi:type="emof:Class" xmi:id="151752849B360F7A003256A51D679934" name="A"
+      superClass="151764E79B360F7A003256A5BF6D1986"/>
+  <ownedType xmi:type="emof:Class" xmi:id="151764E79B360F7A003256A5BF6D1986" name="Letter">
+    <ownedAttribute xmi:id="Words.Letter.owner" name="owner" lower="1" type="151C20749B360F7A003256A502BAFC50"
+        opposite="6736D7149B360F7A0102BE12FAB31AE8"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="1517D99A9B360F7A003256A5B6931ECE" name="B"
+      superClass="151764E79B360F7A003256A5BF6D1986"/>
+  <ownedType xmi:type="emof:Class" xmi:id="151A0A569B360F7A003256A554F966F3" name="C"
+      superClass="151764E79B360F7A003256A5BF6D1986"/>
+  <ownedType xmi:type="emof:Class" xmi:id="151A747B9B360F7A003256A501CE9F0C" name="O"
+      superClass="151764E79B360F7A003256A5BF6D1986"/>
+  <ownedType xmi:type="emof:Class" xmi:id="151C20749B360F7A003256A502BAFC50" name="Word">
+    <ownedAttribute xmi:id="6736D7149B360F7A0102BE12FAB31AE8" name="letters" lower="1"
+        upper="*" type="151764E79B360F7A003256A5BF6D1986" isComposite="true" opposite="Words.Letter.owner"/>
+    <ownedAttribute xmi:id="6736D7149B360F7A0102BE12F6031B3D" name="owner" lower="1"
+        type="663837969B360F7A00772BD02C803F1D" opposite="Words.Language.words"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="663837969B360F7A00772BD02C803F1D" name="Language">
+    <ownedAttribute xmi:id="Words.Language.words" name="words" upper="*" type="151C20749B360F7A003256A502BAFC50"
+        opposite="6736D7149B360F7A0102BE12F6031B3D"/>
+    <ownedAttribute xmi:id="Words.Language.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+</emof:Package>

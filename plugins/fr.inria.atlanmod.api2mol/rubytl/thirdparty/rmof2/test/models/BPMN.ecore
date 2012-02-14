@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="bpmn">
+  <eClassifiers xsi:type="ecore:EClass" name="Activity" eSuperTypes="//Vertex">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" ordered="false" lowerBound="1" eType="//Properties"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incomingMessages" upperBound="-1" eType="//Message" eOpposite="//Message/target"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingMessages" upperBound="-1" eType="//Message" eOpposite="//Message/source"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="orderedMessages" upperBound="-1" eType="//Message"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityType" ordered="false" unique="false" eType="//ActivityType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eventHandlerFor" ordered="false" eType="//SubProcess" eOpposite="//SubProcess/eventHandlers"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lane" ordered="false" eType="//Lane" eOpposite="//Lane/activities"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="looping" ordered="false" unique="false" eType="//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ActivityType">
+    <eLiterals name="EventIntermediateCompensation" value="1"/>
+    <eLiterals name="EventStartEmpty" value="2"/>
+    <eLiterals name="EventEndError" value="3"/>
+    <eLiterals name="GatewayParallel" value="4"/>
+    <eLiterals name="GatewayEventBasedExclusive" value="5"/>
+    <eLiterals name="EventEndTerminate" value="6"/>
+    <eLiterals name="Task" value="7"/>
+    <eLiterals name="GatewayDataBasedInclusive" value="8"/>
+    <eLiterals name="EventEndMessage" value="9"/>
+    <eLiterals name="EventEndEmpty" value="10"/>
+    <eLiterals name="GatewayDataBasedExclusive" value="11"/>
+    <eLiterals name="EventIntermediateRule" value="12"/>
+    <eLiterals name="EventIntermediateTimer" value="13"/>
+    <eLiterals name="SubProcess" value="14"/>
+    <eLiterals name="EventStartMessage" value="15"/>
+    <eLiterals name="EventStartRule" value="16"/>
+    <eLiterals name="EventIntermediateMessage" value="17"/>
+    <eLiterals name="EventIntermediateEmpty" value="18"/>
+    <eLiterals name="EventEndCompensation" value="19"/>
+    <eLiterals name="EventIntermediateError" value="20"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="ActivityTypeObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BpmnDiagram">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pools" upperBound="-1" eType="//Pool" containment="true" eOpposite="//Pool/bpmnDiagram"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="messages" upperBound="-1" eType="//Message" containment="true" eOpposite="//Message/bpmnDiagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="author" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" ordered="false" unique="false" eType="//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Edge">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" ordered="false" lowerBound="1" eType="//Properties"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graph" ordered="false" eType="//Graph" eOpposite="//Graph/edges"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" ordered="false" unique="false" eType="//ID"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false" eType="//Vertex" eOpposite="//Vertex/incomingEdges"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false" eType="//Vertex" eOpposite="//Vertex/outgoingEdges"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Graph">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vertices" upperBound="-1" eType="//Vertex" containment="true" eOpposite="//Vertex/graph"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="edges" upperBound="-1" eType="//Edge" containment="true" eOpposite="//Edge/graph"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Lane">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" ordered="false" lowerBound="1" eType="//Properties"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activities" upperBound="-1" eType="//Activity" eOpposite="//Activity/lane"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" ordered="false" unique="false" eType="//ID"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pool" ordered="false" eType="//Pool" eOpposite="//Pool/lanes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Message">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" ordered="false" lowerBound="1" eType="//Properties"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bpmnDiagram" ordered="false" eType="//BpmnDiagram" eOpposite="//BpmnDiagram/messages"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" ordered="false" unique="false" eType="//ID"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" ordered="false" eType="//Activity" eOpposite="//Activity/outgoingMessages"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" ordered="false" eType="//Activity" eOpposite="//Activity/incomingMessages"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Pool" eSuperTypes="//Graph">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lanes" upperBound="-1" eType="//Lane" containment="true" eOpposite="//Lane/pool"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bpmnDiagram" ordered="false" eType="//BpmnDiagram" eOpposite="//BpmnDiagram/pools"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="documentation" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" ordered="false" unique="false" eType="//ID"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" unique="false" eType="//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Properties">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="properties" upperBound="-1" eType="//PropertiesType" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertiesType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key" ordered="false" unique="false" eType="//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" ordered="false" unique="false" eType="//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SubProcess" eSuperTypes="//Activity //Graph">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eventHandlers" upperBound="-1" eType="//Activity" containment="true" eOpposite="//Activity/eventHandlerFor"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isTransaction" ordered="false" unique="false" eType="//Boolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vertex">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="incomingEdges" upperBound="-1" eType="//Edge" eOpposite="//Edge/source"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outgoingEdges" upperBound="-1" eType="//Edge" eOpposite="//Edge/target"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graph" ordered="false" eType="//Graph" eOpposite="//Graph/vertices"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" ordered="false" unique="false" eType="//ID"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Boolean"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="Integer"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="String"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ID"/>
+</ecore:EPackage>

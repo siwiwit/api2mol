@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<packages:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:packages="http://gts.inf.um.es/rubytl/test/packages" xmlns:subpackage="http://gts.inf.um.es/rubytl/test/packages/subpackages" xsi:schemaLocation="http://gts.inf.um.es/rubytl/test/packages ../metamodels/Packages.ecore http://gts.inf.um.es/rubytl/test/packages/subpackages ../metamodels/Packages.ecore#//Subpackage">
+  <objects xsi:type="subpackage:InheritingClass" name="Inheriting1"/>
+  <objects xsi:type="subpackage:InheritingClass" name="Inheriting2"/>
+  <objects xsi:type="packages:ClassInMainPackage" name="MainClass"/>
+</packages:Model>

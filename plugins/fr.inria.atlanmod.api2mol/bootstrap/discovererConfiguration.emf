@@ -1,0 +1,20 @@
+@namespace(uri="http://modelum.es/atlandmod/discovererConfiguration", prefix="conf")
+package Configuration;
+
+class ConfigurationElement {
+	attr String[*] filter;
+	attr String mainPackage;
+	attr String defaultMetaclassName;
+	attr String defaultMetaclassAttribute;
+	
+	//val ApiMetamodelDiscoverer[1] apiMetamodelDiscoverer;
+	//val Api2molTransformationDiscoverer[1] api2molTransformationDiscoverer;
+}
+
+class ApiMetamodelDiscoverer {
+   
+}
+
+class Api2molTransformationDiscoverer {
+   
+}

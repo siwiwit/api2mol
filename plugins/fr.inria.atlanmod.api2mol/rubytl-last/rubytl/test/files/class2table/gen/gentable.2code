@@ -1,0 +1,14 @@
+
+
+compose_file 'tables.sql' do |file|        
+	file.join_by($/)
+
+	TableM::Table.all_objects do |table|
+    	template 'class2table/gen/create_table.rtemplate' => file, :table => table
+	end
+
+    TableM::FKey.all_objects do |fkey|
+    	template 'class2table/gen/create_fkeys.rtemplate' => file, :fkey => fkey
+	end
+end
+
