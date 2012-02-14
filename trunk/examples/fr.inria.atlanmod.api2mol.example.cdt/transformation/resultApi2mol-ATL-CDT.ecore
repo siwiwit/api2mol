@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api2mol:Definition xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:api2mol="http://modelum.es/atlanmod/api2mol">
+  <context>org.eclipse.cdt</context>
+  <defaultMetaclass metaclassName="UnknownElement" attribute="type"/>
+  <mappings metaclass="ASTAccessVisibility" instanceClass="org.eclipse.cdt.core.parser.ast.ASTAccessVisibility"/>
+</api2mol:Definition>
