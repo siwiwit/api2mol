@@ -1,0 +1,2402 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fp:SpuriousElements xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:fp="http://modelum.es/atlanmod/falseNegatives">
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Icon">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/464"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ComponentPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/488"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Graphics">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/489"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Color">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/490"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PaintContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/493"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.WritableRaster">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/495"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.Point2D">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/501"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.Dimension2D">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/505"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.Rectangle2D">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/506"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.PathIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/507"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.NoninvertibleTransformException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/510"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Shape">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/511"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.Line2D">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/512"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.RectangularShape">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/513"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.color.ICC_ColorSpace">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/515"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.color.ICC_Profile">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/516"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.color.ProfileDataException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/520"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.IndexColorModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/524"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.ImageConsumer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/526"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.ImageProducer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/528"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.FontFormatException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/538"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.NumericShaper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/540"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.GraphicAttribute">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/542"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Graphics2D">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/543"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.RenderingHints.Key">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/544"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.RenderingHints">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/545"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.GraphicsConfiguration">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/550"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.BufferCapabilities.FlipContents">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/552"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.AttributeValue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/553"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.HeadlessException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/557"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ActionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/563"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ComponentEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/571"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.FontRenderContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/582"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.LineMetrics">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/583"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Cursor.CursorDisposer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/587"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.AWTException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/590"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.FocusListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/591"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.IllegalComponentStateException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/593"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AttributeSet">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/602"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.MenuContainer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/609"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.MenuComponentPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/611"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.LayoutManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/620"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.LightweightDispatcher">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/621"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DropTargetListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/627"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.peer.DropTargetContextPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/630"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.Transferable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/631"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.MimeTypeParameterList">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/634"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.MimeTypeParseException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/635"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.UnsupportedFlavorException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/638"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.InvalidDnDOperationException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/639"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DropTargetEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/642"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.FlavorMap">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/644"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DropTarget.DropTargetAutoScroller">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/645"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.Autoscroll">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/646"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TimerQueue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/651"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.AWTEventListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/659"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.FocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/660"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ContainerListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/661"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ContainerPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/663"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Toolkit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/667"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.LightweightPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/668"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.ImageObserver">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/670"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Transparency">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/671"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Queue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/682"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.EventQueueItem">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/683"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.EventDispatchThread">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/684"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Conditional">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/685"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.EventFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/686"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.EventFilter.FilterAction">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/687"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.ActiveEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/692"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.MouseInfoPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/693"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ScrollbarPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/695"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.AdjustmentListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/697"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Adjustable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/699"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PopupMenu">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/701"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Component.BaselineResizeBehavior">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/702"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.ComponentOrientation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/704"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ComponentListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/705"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.HierarchyListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/708"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.HierarchyBoundsListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/711"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.KeyListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/713"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.MouseListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/715"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.MouseMotionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/717"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.MouseWheelListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/719"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.InputMethodListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/722"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.im.InputMethodRequests">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/726"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.im.InputContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/729"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.TextAreaPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/731"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.TextComponentPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/732"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.TextListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/734"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.TextEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/735"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ButtonPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/738"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ChoicePeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/740"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ItemListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/742"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.ItemSelectable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/744"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.PanelPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/746"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Panel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/747"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.CanvasPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/749"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Canvas">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/750"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.BufferStrategy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/751"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ScrollPanePeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/752"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.TextFieldPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/755"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.LabelPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/757"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.ListPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/759"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.CheckboxPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/761"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.FramePeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/764"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Dialog.ModalityType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/766"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Dialog.ModalExclusionType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/771"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.WindowListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/774"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.WindowStateListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/776"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.WindowFocusListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/777"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.WindowPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/781"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.DialogPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/782"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.FileDialogPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/783"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.MenuBarPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/785"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.MenuPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/786"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.MenuItemPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/787"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.PopupMenuPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/788"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.CheckboxMenuItemPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/789"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.CheckboxMenuItem">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/790"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.FontPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/791"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.peer.DragSourceContextPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/792"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DragSourceListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/797"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DragSourceEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/799"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DragSourceMotionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/801"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.dnd.DragGestureListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/802"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.ClipboardOwner">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/806"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.FlavorListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/807"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.datatransfer.FlavorEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/808"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PrintJob">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/810"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.JobAttributes.DefaultSelectionType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/812"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.JobAttributes.DestinationType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/813"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.JobAttributes.DialogType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/814"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.JobAttributes.MultipleDocumentHandlingType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/815"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.JobAttributes.SidesType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/816"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PageAttributes.ColorType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/818"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PageAttributes.MediaType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/819"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PageAttributes.OrientationRequestedType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/820"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PageAttributes.OriginType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/821"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.PageAttributes.PrintQualityType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/822"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.DesktopPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/824"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Desktop.Action">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/825"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Desktop">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/827"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Container.EventTargetFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/829"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.FocusManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/830"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.GraphicsConfigTemplate">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/832"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.CompositeContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/837"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Composite">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/838"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.BufferedImageOp">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/839"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Stroke">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/840"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.GlyphVector">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/841"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.GlyphJustificationInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/844"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Paint">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/845"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.RenderedImage">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/846"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.renderable.RenderableImage">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/847"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.renderable.RenderContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/848"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextAttribute">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/854"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.GeneralPath">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/871"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.geom.Path2D.Float">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/872"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.BasicStroke">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/907"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.TileObserver">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/924"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.WritableRenderedImage">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/925"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.ComponentColorModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/930"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.Component.NativeInLightFixer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/934"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ArrayTable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/936"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.SwingPropertyChangeSupport">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/937"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Action">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/938"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ComponentUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/940"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.border.Border">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/946"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.InputVerifier">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/948"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SingleSelectionModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/951"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.ChangeListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/952"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.ChangeEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/953"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.KeyStroke">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/955"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.VKCollection">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/957"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ButtonModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/958"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.AbstractButton.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/961"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/962"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ToolTipUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/968"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TransferHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/969"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TransferHandler.SwingDragGestureRecognizer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/970"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TransferHandler.DropLocation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/973"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.AncestorListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/978"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MenuEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/984"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JMenu.WinListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/985"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.WindowAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/986"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.MenuElement">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/988"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.MenuSelectionManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/989"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MenuListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/990"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.MenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/992"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MenuDragMouseListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/995"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MenuKeyListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/997"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.MenuBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/999"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JButton">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1001"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JRootPane.DefaultAction">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1002"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.RootPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1003"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1004"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.PopupMenuUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1005"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.PopupMenuListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1006"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.PopupMenuEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1007"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.AncestorNotifier">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1010"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TransferHandler.HasGetTransferHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1011"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.AbstractCellEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1012"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.CellEditorListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1013"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.CellEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1015"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.AbstractListModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1016"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.ListDataListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1017"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ListModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1020"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.AbstractSpinnerModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1021"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SpinnerModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1022"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Autoscroller">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1025"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.border.AbstractBorder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1026"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.border.EmptyBorder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1029"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.border.SoftBevelBorder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1033"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.BorderFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1035"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.BoundedRangeModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1036"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Box">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1037"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.LayoutManager2">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1041"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.BufferStrategyPaintManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1042"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.ComponentAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1044"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RepaintManager.PaintManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1045"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.AbstractColorChooserPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1055"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.ColorSelectionModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1057"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ColorChooserUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1060"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.WindowConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1062"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RootPaneContainer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1063"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.PanelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1064"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1065"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.CenterLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1066"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.ColorChooserComponentFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1067"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.DefaultHSBChooserPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1069"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.DefaultHSBChooserPanel.HSBImage">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1070"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.SyntheticImage">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1071"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.SyntheticImageGenerator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1072"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.SliderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1074"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.SpinnerUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1076"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Document">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1078"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.BadLocationException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1079"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.DocumentListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1081"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.DocumentEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1082"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.DocumentEvent.EventType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1083"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.DocumentEvent.ElementChange">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1084"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Element">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1085"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Position">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1087"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.UndoableEditListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1088"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.UndoableEditEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1089"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.UndoableEdit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1090"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.CannotUndoException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1091"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.CannotRedoException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1093"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.PrinterException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1095"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.TextUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1126"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Caret">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1128"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.NavigationFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1129"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.NavigationFilter.FilterBypass">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1130"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Position.Bias">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1131"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Highlighter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1133"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Highlighter.HighlightPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1134"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Highlighter.Highlight">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1136"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Keymap">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1137"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.CaretEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1139"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DropMode">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1140"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.JTextComponent.DropLocation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1142"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.PrinterJob">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1144"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.Printable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1145"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.PageFormat">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1146"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.Paper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1147"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.print.Pageable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1153"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.LabelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1156"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.JTextComponent.DefaultTransferHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1159"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.UIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1160"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.MutableAttributeSet">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1162"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.JTextComponent.ComposedTextCaret">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1163"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultCaret.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1165"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.CaretListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1166"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Scrollable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1170"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.EditorKit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1171"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JEditorPane">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1172"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JEditorPane.PageStream">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1173"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.HyperlinkListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1174"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.HyperlinkEvent.EventType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1176"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.ViewFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1180"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JRadioButton">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1183"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JToggleButton">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1184"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.DefaultPreviewPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1185"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.DefaultRGBChooserPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1186"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.DefaultSwatchChooserPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1187"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.SwatchPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1188"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.RecentSwatchPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1190"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.colorchooser.SmartGridLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1191"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ComboBoxEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1193"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1194"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.MediaTracker">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1197"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.MediaEntry">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1198"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ImageIcon.AccessibleImageIcon">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1199"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DebugGraphicsInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1200"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DebugGraphicsFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1202"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.ImageFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1203"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.image.RGBImageFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1204"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DebugGraphicsObserver">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1205"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JCheckBox">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1209"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ListCellRenderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1211"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ListSelectionModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1213"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.ListSelectionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1214"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JList.DropLocation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1216"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ListUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1218"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JComboBox.KeySelectionManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1220"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ComboBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1221"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultCellEditor.EditorDelegate">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1222"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.TreeModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1224"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TreeModelListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1225"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.TreeNode">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1229"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.TreeSelectionModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1230"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TreeSelectionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1232"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.RowMapper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1234"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.TreeCellRenderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1235"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTree.TreeSelectionRedirector">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1236"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.TreeCellEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1237"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTree.DropLocation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1238"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTree.TreeTimer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1240"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TreeExpansionListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1241"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.TreeUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1243"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TreeWillExpandListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1245"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.ExpandVetoException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1246"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.TableModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1250"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TableModelListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1251"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.TableColumnModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1254"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.TableCellRenderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1256"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.TableCellEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1257"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.TableColumnModelListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1258"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.TableHeaderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1261"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SizeSequence">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1262"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.SortManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1263"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RowSorter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1264"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.RowSorterEvent.Type">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1266"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.RowSorterListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1268"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.ModelChange">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1269"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.DropLocation">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1270"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.AbstractTableModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1273"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.PrintMode">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1274"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.TableUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1276"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ViewportUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1279"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JViewport.ViewListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1280"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ScrollBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1282"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ScrollPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1283"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ScrollPaneConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1284"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.Resizable2">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1285"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTable.Resizable3">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1286"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1287"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.MutableComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1288"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultDesktopManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1289"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.DesktopIconUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1293"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DesktopManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1295"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.DesktopPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1296"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.InternalFrameUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1298"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.InternalFrameListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1299"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.InternalFrameEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1300"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultFocusManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1302"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LayoutComparator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1303"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.FocusManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1304"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.peer.KeyboardFocusManagerPeer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1306"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.AWTPermission">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1314"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.SequencedEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1315"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.KeyEventPostProcessor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1316"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.KeyEventDispatcher">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1317"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.DefaultKeyboardFocusManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1318"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultListModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1320"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultRowSorter.Row">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1325"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SortOrder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1329"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RowFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1331"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RowFilter.Entry">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1332"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.RowFilter.ComparisonType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1333"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultRowSorter.FilterEntry">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1335"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultRowSorter.ModelWrapper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1337"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DefaultSingleSelectionModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1338"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.DelegatingDefaultFocusManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1339"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.InternalFrameAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1340"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MouseInputAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1341"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.MouseAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1342"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.event.MouseInputListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1343"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.filechooser.FileFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1344"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.filechooser.FileNameExtensionFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1346"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.filechooser.FileSystemView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1347"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.filechooser.FileView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1354"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GraphicsWrapper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1355"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GrayFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1356"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GroupLayout.Group">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1358"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GroupLayout.Alignment">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1360"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LayoutStyle">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1362"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LayoutStyle.ComponentPlacement">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1363"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GroupLayout.LinkInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1368"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GroupLayout.SequentialGroup">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1369"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.GroupLayout.ParallelGroup">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1370"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.InternalFrameFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1371"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JCheckBoxMenuItem">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1373"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.FileChooserUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1375"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JFormattedTextField.AbstractFormatter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1378"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DocumentFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1379"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DocumentFilter.FilterBypass">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1380"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JFormattedTextField.AbstractFormatterFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1381"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JFormattedTextField.FocusLostHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1382"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.OptionPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1385"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ProgressBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1388"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JRadioButtonMenuItem">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1389"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.SeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1391"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.SplitPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1393"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.TabbedPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1395"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.JTextPane">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1398"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StyledDocument">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1399"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Style">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1400"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StyledEditorKit.AttributeTracker">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1402"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultEditorKit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1403"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ToolBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1405"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LayoutFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1408"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingDefaultFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1409"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.DefaultFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1410"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.ContainerOrderFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1411"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.MutableBoolean">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1412"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingContainerOrderFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1414"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LegacyGlueFocusTraversalPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1415"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.LookAndFeel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1416"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.MultiUIDefaults">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1418"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ActionMapUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1421"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicBorders">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1424"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicButtonListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1425"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.LazyActionMap">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1426"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1427"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicCheckBoxMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1428"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicMenuItemUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1430"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicCheckBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1431"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicRadioButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1432"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicToggleButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1433"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicColorChooserUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1435"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicComboBoxEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1437"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.ComboPopup">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1440"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicComboBoxUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1441"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicComboPopup.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1444"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicDesktopIconUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1446"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicDesktopPaneUI.Actions">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1448"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicDesktopPaneUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1450"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicDirectoryModel.LoadFilesThread">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1453"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicEditorPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1454"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1455"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextUI.BasicCursor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1456"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextUI.RootView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1457"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextUI.UpdateHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1458"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextUI.DragListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1459"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1460"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.DragRecognitionSupport">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1461"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicFileChooserUI.AcceptAllFileFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1463"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicFileChooserUI.GlobFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1464"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicFileChooserUI.BasicFileView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1465"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicFileChooserUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1466"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicFormattedTextFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1467"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1468"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicGraphicsUtils">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1469"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicHTML">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1470"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicHTML.BasicEditorKit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1471"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CSS.Value">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1477"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StyleContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1479"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StyleContext.FontKey">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1480"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AbstractDocument.AttributeContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1482"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AbstractDocument.Content">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1484"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AbstractDocument.BranchElement">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1485"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.AbstractUndoableEdit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1490"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StyleConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1493"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TabSet">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1494"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTML.Tag">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1497"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTML">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1499"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTML.Attribute">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1501"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CSS.LayoutIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1502"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.StyleSheet.BoxPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1505"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.StyleSheet.BackgroundImagePainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1506"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.StyleSheet.BoxPainter.HorizontalMargin">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1507"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.StyleSheet.ListPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1509"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.Parser">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1512"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.ParserCallback">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1513"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.LinkController">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1515"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.NavigateLinkAction">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1516"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.NavigateLinkAction.FocusHighlightPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1517"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.LayeredHighlighter.LayerPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1519"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.LayeredHighlighter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1520"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultHighlighter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1521"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultHighlighter.SafeDamager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1522"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TextAction">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1523"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLEditorKit.ActivateLinkAction">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1524"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLDocument.Iterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1525"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultStyledDocument">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1528"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultStyledDocument.ElementBuffer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1529"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultStyledDocument.ElementBuffer.ElemChanges">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1531"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultStyledDocument.ChangeUpdateRunnable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1532"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.Map.RegionContainment">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1535"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLFrameHyperlinkEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1536"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicInternalFrameTitlePane.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1539"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicInternalFrameUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1542"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicLabelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1544"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicListUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1546"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicLookAndFeel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1548"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicLookAndFeel.AWTEventHelper">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1565"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicMenuBarUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1567"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicMenuUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1569"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicOptionPaneUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1571"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicPanelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1574"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicPasswordFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1575"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicPopupMenuSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1576"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1577"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicPopupMenuUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1578"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicProgressBarUI.Animator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1580"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicProgressBarUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1582"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicRadioButtonMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1583"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicRootPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1584"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollBarUI.TrackListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1586"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollBarUI.ArrowButtonListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1587"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollBarUI.ModelListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1588"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollBarUI.ScrollListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1589"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollBarUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1590"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicScrollPaneUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1593"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSliderUI.Actions">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1595"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSliderUI.TrackListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1596"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSliderUI.ScrollListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1597"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSliderUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1598"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSpinnerUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1601"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSpinnerUI.ArrowButtonHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1603"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSplitPaneUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1616"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSplitPaneDivider.DragController">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1618"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicSplitPaneDivider.MouseHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1619"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTabbedPaneUI.ScrollableTabViewport">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1622"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTabbedPaneUI.ScrollableTabPanel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1623"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTabbedPaneUI.TabContainer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1625"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTabbedPaneUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1626"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTableUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1630"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextAreaUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1632"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTextPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1633"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicToolBarSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1634"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicToolBarUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1637"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicToolTipUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1639"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTreeUI.Actions">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1642"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.AbstractLayoutCache.NodeDimensions">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1644"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicTreeUI.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1645"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicViewportUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1647"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.CenterLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1648"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.DefaultMenuLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1649"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.BorderUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1650"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ColorUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1651"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.ComponentInputMapUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1652"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.DimensionUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1653"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.FontUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1654"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.IconUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1655"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.InputMapUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1656"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.InsetsUIResource">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1657"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.DefaultMetalTheme">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1658"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.DefaultMetalTheme.FontDelegate">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1659"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalBumps">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1664"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalCheckBoxIcon">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1667"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalCheckBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1668"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalComboBoxEditor">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1671"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalComboBoxIcon">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1672"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalComboBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1673"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1674"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1675"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalDesktopIconUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1676"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalDesktopIconUI.TitleListener">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1677"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFileChooserUI.DirectoryComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1679"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1680"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.table.TableStringConverter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1686"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.event.FocusAdapter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1691"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFileChooserUI.DirectoryComboBoxRenderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1692"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFileChooserUI.IndentIcon">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1693"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1694"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalFontDesktopProperty">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1697"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.UIDefaults.ActiveValue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1701"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalHighContrastTheme">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1702"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalInternalFrameTitlePane">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1704"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalInternalFrameUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1705"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalLabelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1706"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalMenuBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1708"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalPopupMenuSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1709"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1710"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalProgressBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1711"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalScrollBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1713"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalScrollPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1715"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalSplitPaneDivider">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1717"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalSplitPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1718"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalTabbedPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1719"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalTextFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1720"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalToolBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1723"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalToolTipUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1724"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalTreeUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1725"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.MetalUtils">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1726"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.metal.OceanTheme">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1727"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1728"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiColorChooserUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1731"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiComboBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1732"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiDesktopIconUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1733"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiDesktopPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1734"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiFileChooserUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1735"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiInternalFrameUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1736"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiLabelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1737"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiListUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1738"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiLookAndFeel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1739"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiMenuBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1740"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1741"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiOptionPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1742"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiPanelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1743"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiPopupMenuUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1744"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiProgressBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1745"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiRootPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1746"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiScrollBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1747"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiScrollPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1748"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1749"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiSliderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1750"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiSpinnerUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1751"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiSplitPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1752"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiTabbedPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1753"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiTableHeaderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1754"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiTableUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1755"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiTextUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1756"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiToolBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1757"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiToolTipUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1758"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiTreeUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1759"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.multi.MultiViewportUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1760"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.ColorType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1761"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.DefaultMenuLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1763"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.DefaultSynthStyleFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1764"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthStyle">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1766"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthGraphicsUtils">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1767"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.Region">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1769"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1770"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1773"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthStyleFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1777"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.ParsedSynthStyle">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1785"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.ParsedSynthStyle.PainterInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1787"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthBorder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1789"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1790"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthCheckBoxMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1791"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1792"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthCheckBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1793"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthRadioButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1794"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthToggleButtonUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1795"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthColorChooserUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1796"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthComboBoxUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1797"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthComboBoxUI.EditorFocusHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1800"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthComboPopup">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1801"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthDefaultLookup">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1802"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthDesktopIconUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1804"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthDesktopPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1805"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1806"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthEditorPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1807"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthFormattedTextFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1808"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTextFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1809"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthInternalFrameTitlePane">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1810"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthInternalFrameUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1811"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthLabelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1812"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthListUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1813"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthLookAndFeel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1814"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthLookAndFeel.Handler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1815"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthMenuBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1817"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthMenuUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1818"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthOptionPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1819"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthPanelUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1820"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthParser">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1821"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.ParsedSynthStyle.StateInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1840"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthPasswordFieldUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1842"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthProgressBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1844"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthRadioButtonMenuItemUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1845"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthRootPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1846"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthScrollBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1847"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthScrollPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1848"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthScrollPaneUI.ViewportViewFocusHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1849"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSeparatorUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1851"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSliderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1852"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSpinnerUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1853"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSpinnerUI.EditorFocusHandler">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1854"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSplitPaneDivider">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1856"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthSplitPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1857"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTabbedPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1858"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTableHeaderUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1859"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTableUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1860"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTextAreaUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1861"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTextPaneUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1862"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthToolBarUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1863"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthToolTipUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1864"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthTreeUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1865"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.plaf.synth.SynthViewportUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1867"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ProgressMonitorInputStream">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1870"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Renderer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1871"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.Spring">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1876"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SpringLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1877"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingHeavyWeight">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1879"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingPaintEventDispatcher">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1880"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingUtilities">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1882"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SwingWorker.StateValue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1884"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SystemEventQueueUtilities">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1895"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.SystemEventQueueUtilities.RunnableEvent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1896"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.TablePrintable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1901"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.ElementIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1903"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AsyncBoxView.ChildLocator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1905"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.AsyncBoxView.ChildState">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1906"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.LayoutQueue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1907"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.BoxView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1908"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.CompositeView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1909"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.ComponentView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1911"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DateFormatter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1912"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultFormatter.ReplaceHolder">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1915"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultFormatterFactory">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1917"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.DefaultTextUI">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1918"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.FieldView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1919"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TabExpander">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1921"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.FlowView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1922"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.FlowView.FlowStrategy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1923"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GapContent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1924"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GapContent.MarkVector">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1925"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GapContent.MarkData">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1927"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GapContent.StickyPosition">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1928"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GlyphPainter1">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1930"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GlyphView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1931"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GlyphView.GlyphPainter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1932"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GlyphView.JustificationInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1933"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TabableView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1934"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.GlyphPainter2">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1935"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextLine">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1937"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.LayoutPath">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1944"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextLine.TextLineMetrics">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1945"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextLine.Function">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1946"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.StyledParagraph">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1948"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextLayout.CaretPolicy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1956"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.AccessibleHTML">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1958"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.AccessibleHTML.RootHTMLAccessibleContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1960"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.AccessibleHTML.HTMLAccessibleContext">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1961"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.BlockView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1962"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CSS.CssValue">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1964"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.BRView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1965"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CommentView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1968"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HiddenTagView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1969"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.EditableView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1970"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CSSParser">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1971"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.CSSParser.CSSParserCallback">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1972"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.FormSubmitEvent.MethodType">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1974"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.FormView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1976"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.FrameSetView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1977"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.FrameView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1978"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HRuleView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1979"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.HTMLWriter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1980"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.IsindexView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1983"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.LineView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1984"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.ParagraphView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1985"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.ParagraphView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1986"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.ParagraphView.Row">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1987"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.ListView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1988"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.MinimalHTMLWriter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1989"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.MuxingAttributeSet">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1990"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.ObjectView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1992"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.OptionComboBoxModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1993"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.DTDConstants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/1997"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.DocumentParser">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2001"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.TagElement">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2004"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.TagStack">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2006"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.ParserDelegator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2007"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.parser.ResourceLoader">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2008"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.ResourceLoader">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2009"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.TableView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2010"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.TableView.RowIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2011"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.TableView.ColumnIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2012"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.TableView.RowView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2013"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.html.TextAreaDocument">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2014"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.PlainDocument">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2015"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.IconView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2016"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.MaskFormatter.MaskCharacter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2019"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.NumberFormatter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2021"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.PasswordView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2024"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.AbstractFilter">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2025"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.Constants">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2027"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFAttribute">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2029"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFGenerator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2030"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFAttributes">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2034"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFEditorKit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2035"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFReader">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2038"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.rtf.RTFReader.Destination">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2039"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.SegmentCache">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2041"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StateInvariantError">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2042"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.StringContent">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2043"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TableView">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2044"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TableView.TableCell">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2046"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TableView.GridCell">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2047"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TextLayoutStrategy">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2048"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.LineBreakMeasurer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2049"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.TextMeasurer">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2052"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="java.awt.font.CharArrayIterator">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2053"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.TextLayoutStrategy.AttributedSegment">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2054"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.text.Utilities">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2055"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.MutableTreeNode">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2060"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.DefaultTreeModel">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2063"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.FixedHeightLayoutCache.SearchInfo">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2068"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.tree.VariableHeightLayoutCache">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2070"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.UIManager">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2072"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.UIManager.LAFState">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2075"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.UnsupportedLookAndFeelException">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2077"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.StateEdit">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2079"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.undo.StateEditable">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2080"/>
+  </falseNegatives>
+  <falseNegatives xsi:type="fp:EmptyClass" classTypeName="javax.swing.ViewportLayout">
+    <classType href="../../api2mol/bootstrap/resultReflect-Swing.ecore.xmi#/2083"/>
+  </falseNegatives>
+</fp:SpuriousElements>

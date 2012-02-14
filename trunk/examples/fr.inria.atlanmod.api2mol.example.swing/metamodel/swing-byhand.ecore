@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="swing"
+    nsURI="http://modelum.es/atlandmod/swing" nsPrefix="swing">
+  <eClassifiers xsi:type="ecore:EClass" name="UnknownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Component" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="background" lowerBound="1"
+        eType="#//Color" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Color"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Container" eSuperTypes="#//Component">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="components" upperBound="-1"
+        eType="#//Component" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layoutManager" lowerBound="1"
+        eType="#//LayoutManager" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LayoutManager" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Panel" eSuperTypes="#//Container"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Window" eSuperTypes="#//Container">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bounds" lowerBound="1"
+        eType="#//Rectangle" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="alwaysOnTop" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Rectangle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="width" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Frame" eSuperTypes="#//Window"/>
+  <eClassifiers xsi:type="ecore:EClass" name="JFrame" eSuperTypes="#//Frame">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="defaultLookAndFeel" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="transferHandler" lowerBound="1"
+        eType="#//TransferHandler" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rootPane" lowerBound="1"
+        eType="#//JRootPane" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rootPaneCheckingEnabled"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="accessibleContext" lowerBound="1"
+        eType="#//AccesibleContext" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JComponent" eSuperTypes="#//Container"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractButton" eSuperTypes="#//JComponent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JButton" eSuperTypes="#//AbstractButton"/>
+  <eClassifiers xsi:type="ecore:EClass" name="JRootPane" eSuperTypes="#//JComponent">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="menuBar" eType="#//JMenuBar"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JMenuBar"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TransferHandler"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AccesibleContext"/>
+  <eClassifiers xsi:type="ecore:EClass" name="JPanel"/>
+  <eClassifiers xsi:type="ecore:EClass" name="JLayeredPane"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RootLayout"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BorderLayout"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AccessibleJFrame"/>
+</ecore:EPackage>

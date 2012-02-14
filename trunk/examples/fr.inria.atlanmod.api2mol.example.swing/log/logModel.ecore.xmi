@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:log="http://modelum.es/atlanmod/log">
+  <log:Process>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JFrame">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.781"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="apple.awt.CFrame">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+        <steps xsi:type="log:DefaultMetaclassStep" concreteValue="apple.awt.CFrame">
+          <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Color">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.752"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Font">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.466"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="apple.awt.CToolkit$OSXPlatformFont">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="apple.awt.CToolkit$OSXPlatformFont">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Cursor">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.761"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ComponentOrientation">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.675"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame$AccessibleJFrame">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JFrame$AccessibleJFrame">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Locale">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Color">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.752"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JRootPane">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.149"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+        <steps xsi:type="log:DefaultMetaclassStep" concreteValue="sun.awt.NullComponentPeer">
+          <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane$AccessibleJRootPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JRootPane$AccessibleJRootPane">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JPanel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.800"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.ColorUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaFonts$DerivedUIResourceFont" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JPanel$AccessibleJPanel">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaNativeResources$CColorPaintUIResource">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="com.apple.laf.AquaNativeResources$CColorPaintUIResource">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JLayeredPane">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.957"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane$AccessibleJLayeredPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JLayeredPane$AccessibleJLayeredPane">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JPanel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.800"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.ColorUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaFonts$DerivedUIResourceFont" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JPanel$AccessibleJPanel">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaNativeResources$CColorPaintUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JButton">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.672"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.ColorUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaFonts$DerivedUIResourceFont" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JButton$AccessibleJButton">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaNativeResources$CColorPaintUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.basic.LazyActionMap">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="LazyActionMap">
+          <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.105"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaButtonBorder$Dynamic">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="com.apple.laf.AquaButtonBorder$Dynamic">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.InsetsUIResource">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="InsetsUIResource">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.459"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.DefaultButtonModel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="DefaultButtonModel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.341"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JButton">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.672"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.ColorUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaFonts$DerivedUIResourceFont" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JButton$AccessibleJButton">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaNativeResources$CColorPaintUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.basic.LazyActionMap" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaButtonBorder$Dynamic" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.InsetsUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.DefaultButtonModel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="DefaultButtonModel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.341"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane$AccessibleJLayeredPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Hashtable">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Hashtable">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.basic.LazyActionMap">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="LazyActionMap">
+          <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.105"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane$AccessibleJRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.LayoutFocusTraversalPolicy">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="LayoutFocusTraversalPolicy">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.443"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.im.InputMethodContext">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="sun.awt.im.InputMethodContext">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Dialog$ModalExclusionType">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Dialog.ModalExclusionType">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.697"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame$AccessibleJFrame" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+  </log:Process>
+  <log:Process>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JFrame">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.781"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="apple.awt.CFrame">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+        <steps xsi:type="log:DefaultMetaclassStep" concreteValue="apple.awt.CFrame">
+          <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Color">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.752"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Font">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.466"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="apple.awt.CToolkit$OSXPlatformFont">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="apple.awt.CToolkit$OSXPlatformFont">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Cursor">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.761"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ComponentOrientation">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.675"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame$AccessibleJFrame">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JFrame$AccessibleJFrame">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Locale">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Color">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.752"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JRootPane">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.149"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer">
+        <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+        <steps xsi:type="log:DefaultMetaclassStep" concreteValue="sun.awt.NullComponentPeer">
+          <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+        </steps>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane$AccessibleJRootPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JRootPane$AccessibleJRootPane">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JPanel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.800"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JPanel$AccessibleJPanel">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JLayeredPane">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.957"/>
+      </steps>
+      <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.NullComponentPeer" cached="true"/>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Font" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane$AccessibleJLayeredPane">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JLayeredPane$AccessibleJLayeredPane">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Locale" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane$AccessibleJLayeredPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.util.Hashtable">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="java.util.Hashtable">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane$AccessibleJRootPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JLayeredPane" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JPanel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.800"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JPanel$AccessibleJPanel">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JButton">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.672"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JButton$AccessibleJButton">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaButtonBorder$Dynamic">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="com.apple.laf.AquaButtonBorder$Dynamic">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.InsetsUIResource">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="InsetsUIResource">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.459"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.DefaultButtonModel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="DefaultButtonModel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.341"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="JButton">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.672"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Color" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Cursor" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.ComponentOrientation" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="javax.swing.JButton$AccessibleJButton">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JButton$AccessibleJButton" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="com.apple.laf.AquaButtonBorder$Dynamic" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.plaf.InsetsUIResource" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.DefaultButtonModel">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="DefaultButtonModel">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.341"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.ActionMap">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="ActionMap">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.295"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel$AccessibleJPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JPanel" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.LayoutFocusTraversalPolicy">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="LayoutFocusTraversalPolicy">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.443"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="sun.awt.im.InputMethodContext">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="UnknownElement"/>
+      <steps xsi:type="log:DefaultMetaclassStep" concreteValue="sun.awt.im.InputMethodContext">
+        <section href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@defaultMetaclass"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="java.awt.Dialog$ModalExclusionType">
+      <steps xsi:type="log:MappingStep" concreteMetaclass="Dialog.ModalExclusionType">
+        <mappingRule href="file:/Users/jlcanovas/Desktop/eclipses/eclipse-indigo/workspace/api2mol.example.swing/./transformation/resultApi2mol-ATL-Swing-edited.ecore#//@mappings.697"/>
+      </steps>
+    </steps>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JFrame$AccessibleJFrame" cached="true"/>
+    <steps xsi:type="log:InjectionElement" concreteInstanceClass="javax.swing.JRootPane" cached="true"/>
+  </log:Process>
+</xmi:XMI>
