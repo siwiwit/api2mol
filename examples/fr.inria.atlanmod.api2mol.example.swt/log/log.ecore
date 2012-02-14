@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="log"
+    nsURI="http://modelum.es/atlanmod/log" nsPrefix="log">
+  <eClassifiers xsi:type="ecore:EClass" name="LogElement" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Message">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Step" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="steps" upperBound="-1"
+        eType="#//Step" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InjectionElement" eSuperTypes="#//Step #//Message">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="concreteInstanceClass"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cached" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Process" eSuperTypes="#//Step">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1" eType="#//ProcessType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MappingStep" eSuperTypes="#//Step">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mappingRule" eType="ecore:EClass ../../api2mol.abstractSyntax/model/api2mol.ecore#//Mapping"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="concreteMetaclass" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="metaclassInferred" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SectionStep" abstract="true" eSuperTypes="#//Step">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="inferred" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertySectionStep" eSuperTypes="#//SectionStep">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="section" eType="ecore:EClass ../../api2mol.abstractSyntax/model/api2mol.ecore#//PropertySection"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="concreteProperty" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="concreteStatement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DefaultMetaclassStep" eSuperTypes="#//SectionStep">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="section" eType="ecore:EClass ../../api2mol.abstractSyntax/model/api2mol.ecore#//DefaultMetaclassSection"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="concreteValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ProcessType">
+    <eLiterals name="INJECT"/>
+    <eLiterals name="EXTRACT" value="1"/>
+  </eClassifiers>
+</ecore:EPackage>
