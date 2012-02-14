@@ -40,7 +40,7 @@ import fr.inria.atlanmod.api2mol.interpreter.Api2molLauncher;
  *
  */
 public abstract class AbstractTest {
-	public static String API2MOL_ABSTRACT_SYNTAX_METAMODEL = "../api2mol.abstractSyntax/model/api2mol.ecore";
+	public static String API2MOL_ABSTRACT_SYNTAX_METAMODEL = "../fr.inria.atlanmod.api2mol.abstractSyntax/model/api2mol.ecore";
 
 	/**
 	 * Loads an API2MoL abstract model
