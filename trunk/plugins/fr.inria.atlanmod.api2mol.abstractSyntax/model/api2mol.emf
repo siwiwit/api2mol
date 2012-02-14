@@ -1,0 +1,84 @@
+@namespace(uri="http://modelum.es/atlanmod/api2mol", prefix="api2mol")
+package api2mol;
+
+class Definition {
+   attr String[*] context;
+   
+   val DefaultMetaclassSection[1] defaultMetaclass;
+   val Mapping[*] mappings;
+}
+
+class DefaultMetaclassSection extends Section {
+   attr String metaclassName;
+   attr String attribute;
+}
+
+class Mapping {
+  attr String[1] metaclass; // Would it be better to set the type to EAttribute?
+  attr String[1] instanceClass;
+  val Section[*] sections;
+}
+
+abstract class Section {
+}
+
+// Think about factorizing the subclasses of Section...
+class PropertySection extends Section {
+  attr String[1] property;
+  val Statement[*] statements;
+}
+
+class NewSection extends Section {
+  val Constructor[*] constructors; 
+}
+
+class MultipleSection extends Section {
+   val Statement[*] statements;
+}
+
+class ValueSection extends Section {
+   attr String metaValue;
+   attr String instanceValue;
+}
+
+class Statement {
+  attr StatementType[1] type;
+  attr String[*] variables;
+  
+  // Too much specific, but it can be valid for now
+  // Are we always dealing with method calls?
+  val MethodCall[*] calls; 
+}
+
+enum StatementType {
+  GET = 0;
+  SET = 1;
+  APPEND = 2;
+  INSERT_AT = 3;
+  REMOVE = 4;
+  REMOVE_AT = 5;
+  REMOVE_LAST = 6;
+  REMOVE_ALL = 7;
+  COUNT = 8;
+  ACCESSORS = 9;
+  DIRECT = 10;
+}
+
+
+abstract class NamedElement {
+  attr String[1] name;
+}
+
+class MethodCall extends NamedElement {
+  val Parameter[*] params;
+}
+
+class Parameter extends NamedElement {
+  // Is it necessary to define a type? 
+  // Is it necessary to created a hierarchy for considerating reference params, immediate params, etc...?
+}
+
+class Constructor extends MethodCall {
+  
+}
+
