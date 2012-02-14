@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<conf:ConfigurationElement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:conf="http://modelum.es/atlandmod/discovererConfiguration" mainPackage="Swing" defaultMetaclassName="UnknownElement" defaultMetaclassAttribute="type">
+  <filter>javax.swing</filter>
+  <filter>java.awt</filter>
+</conf:ConfigurationElement>

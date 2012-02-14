@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modelum="http://modelum.es/atlandmod">
+  <modelum:JFrame peer="/1" foreground="/2" y="150" font="/3" cursor="/5" focusable="true" componentOrientation="/6" visible="true" width="250" height="75" name="frame0" locale="/8" enabled="true" x="150" background="/9" component="/10" focusCycleRoot="true" focusTraversalPolicy="/34" alwaysOnTop="true" inputContext="/35" modalExclusionType="/36" resizable="true" title="My Test Application (Extracted)" accessibleContext="/7" rootPane="/10" defaultCloseOperation="1" rootPaneCheckingEnabled="true"/>
+  <modelum:UnknownElement type="apple.awt.CFrame"/>
+  <modelum:Color value="-16777216"/>
+  <modelum:Font size="13" name="Lucida Grande" peer="/4"/>
+  <modelum:UnknownElement type="apple.awt.CToolkit$OSXPlatformFont"/>
+  <modelum:Cursor name="Cursor predeterminado"/>
+  <modelum:ComponentOrientation/>
+  <modelum:UnknownElement type="javax.swing.JFrame$AccessibleJFrame"/>
+  <modelum:UnknownElement type="java.util.Locale"/>
+  <modelum:Color value="-16777193"/>
+  <modelum:JRootPane peer="/11" foreground="/2" y="22" font="/3" cursor="/5" focusable="true" parent="/0" componentOrientation="/6" visible="true" width="250" height="53" locale="/8" enabled="true" background="/9" component="/13 /16" actionMap="/20" accessibleContext="/12" layeredPane="/16" contentPane="/21" glassPane="/13"/>
+  <modelum:UnknownElement type="sun.awt.NullComponentPeer"/>
+  <modelum:UnknownElement type="javax.swing.JRootPane$AccessibleJRootPane"/>
+  <modelum:JPanel peer="/11" foreground="/2" font="/3" cursor="/5" focusable="true" parent="/10" componentOrientation="/6" width="250" height="53" name="null.glassPane" locale="/8" enabled="true" background="/9" alignmentX="0.5" actionMap="/15" alignmentY="0.5" accessibleContext="/14"/>
+  <modelum:UnknownElement type="javax.swing.JPanel$AccessibleJPanel"/>
+  <modelum:ActionMap/>
+  <modelum:JLayeredPane peer="/11" foreground="/2" font="/3" cursor="/5" focusable="true" parent="/10" componentOrientation="/6" visible="true" width="250" height="53" name="null.layeredPane" locale="/8" enabled="true" background="/9" alignmentX="0.5" actionMap="/18" alignmentY="0.5" accessibleContext="/17" componentToLayer="/19"/>
+  <modelum:UnknownElement type="javax.swing.JLayeredPane$AccessibleJLayeredPane"/>
+  <modelum:ActionMap/>
+  <modelum:UnknownElement type="java.util.Hashtable"/>
+  <modelum:ActionMap/>
+  <modelum:JPanel foreground="/2" cursor="/5" focusable="true" componentOrientation="/6" visible="true" width="250" height="53" name="null.contentPane" enabled="true" component="/23 /29" alignmentX="0.5" actionMap="/33" alignmentY="0.5" accessibleContext="/22"/>
+  <modelum:UnknownElement type="javax.swing.JPanel$AccessibleJPanel"/>
+  <modelum:JButton foreground="/2" y="5" cursor="/5" focusable="true" parent="/21" componentOrientation="/6" visible="true" width="114" height="29" enabled="true" x="8" actionMap="/25" alignmentY="0.5" accessibleContext="/24" border="/26" margin="/27" rolloverEnabled="true" contentAreaFilled="true" horizontalTextPosition="11" iconTextGap="4" text="Button One" model="/28"/>
+  <modelum:UnknownElement type="javax.swing.JButton$AccessibleJButton"/>
+  <modelum:ActionMap/>
+  <modelum:UnknownElement type="com.apple.laf.AquaButtonBorder$Dynamic"/>
+  <modelum:InsetsUIResource/>
+  <modelum:DefaultButtonModel/>
+  <modelum:JButton foreground="/2" y="5" cursor="/5" focusable="true" parent="/21" componentOrientation="/6" visible="true" width="115" height="29" enabled="true" x="127" actionMap="/31" alignmentY="0.5" accessibleContext="/30" border="/26" margin="/27" rolloverEnabled="true" contentAreaFilled="true" horizontalTextPosition="11" iconTextGap="4" text="Button Two" model="/32"/>
+  <modelum:UnknownElement type="javax.swing.JButton$AccessibleJButton"/>
+  <modelum:ActionMap/>
+  <modelum:DefaultButtonModel/>
+  <modelum:ActionMap/>
+  <modelum:LayoutFocusTraversalPolicy/>
+  <modelum:UnknownElement type="sun.awt.im.InputMethodContext"/>
+  <modelum:Dialog.ModalExclusionType/>
+</xmi:XMI>

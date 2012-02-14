@@ -1,0 +1,92 @@
+--@context javax.swing.*, java.awt.*;
+--@defaultMetaclass UnknownElement(type);
+
+Container : java.awt.Container {
+	components : 
+		get; => array or collection
+		getAt(index)	+ count OR null-terminated
+		getFirst
+		getNext(element)
+		getLast
+		getBefore(element)
+		count getComponentCount();
+
+		append add(element);
+		append(element) add(element);
+		insertAt add(element, index);	
+		remove remove(element);
+		removeAt remove(index);
+--		removeLast remove(count - 1);
+		removeAll;
+		
+		
+	
+	layoutManager :
+		get getLayout;
+--		get[Layout];
+		set setLayout(value);
+--		accessors[Layout];
+}
+
+Window : java.awt.Window {
+	bounds:
+		accessors;
+}
+
+JFrame : javax.swing.JFrame {
+	defaultLookAndFeel : 
+		get isDefaultLookAndFeelDecorated();
+		set setDefaultLookAndFeelDecorated(value);
+	
+	transferHandler : accessors;
+	
+	rootPane : accessors;
+	
+	rootPaneCheckingEnabled : accessors;
+	
+	accessibleContext : get;
+	
+}
+
+AbstractButton : javax.swing.AbstractButton {
+	text : accessors;
+}
+
+JButton : javax.swing.JButton {
+
+}
+
+Component : java.awt.Component {
+	-- if we find a component with no specific rule and no corresponding metaclass (using inference)
+	-- then we can: ignore, report as warning, report as error, or store using:
+	--@defaultMetaclas UnknownComponent(typeName <- type)
+}
+
+Rectangle : java.awt.Rectangle {
+	-- not here:
+	--	- complex queries that compute a value from the properties (e.g., contains)
+	--	- complex "setters" that compute new values for some properties from their parameters (e.g., add)
+	--	- conversion methods that convert to another class of the API (or of another API) (e.g., getBounds2D)
+
+	@new	-- if no "new" section, then we assume a default constructor exists
+		Rectangle(); -- must be specified if there is a "new" section
+		Rectangle(x, y, width, height);
+
+	height :
+		get;
+
+	width :
+		get;
+--		should not be specified here, it is just an example:
+--		set setSize(value, getHeight());
+
+	x :
+		get;
+
+	y :
+		get;
+
+	@multiple
+		set setSize(width, height);
+		set setBounds(x, y, width, height); 
+}
