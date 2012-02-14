@@ -1,0 +1,307 @@
+-- @atlcompiler atl2006
+-- @nsURI ECORE=http://www.eclipse.org/emf/2002/Ecore
+-- /*******************************************************************************
+--  * Copyright (c) 2008, 2012
+--  * All rights reserved. This program and the accompanying materials
+--  * are made available under the terms of the Eclipse Public License v1.0
+--  * which accompanies this distribution, and is available at
+--  * http://www.eclipse.org/legal/epl-v10.html
+--  *
+--  * Contributors:
+--  *    Javier Canovas (javier.canovas@inria.fr) 
+--  *******************************************************************************/
+
+
+
+module apiMetamodelDiscoverer;
+create OUT : ECORE from IN : REFLECT, IN_CONF : CONFIGURATION;
+
+-- Imports the helpers library
+uses api2molHelpers;
+	
+-- I need to analyze the cases for discovering the type (boring...)
+helper def : discoverPrimitiveType(typeName : String) : ECORE!EDatatype =
+	if(typeName = 'String' or typeName = 'java.lang.String') 
+		then ECORE!EDataType.allInstances()->any(dt | dt.name = 'EString')
+		else
+			if(typeName = 'chat') 
+				then  ECORE!EDataType.allInstances()->any(dt | dt.name = 'EChar')
+				else  
+					if(typeName = 'int') 
+						then  ECORE!EDataType.allInstances()->any(dt | dt.name = 'EInt')
+						else  
+							if(typeName = 'boolean') 
+								then  ECORE!EDataType.allInstances()->any(dt | dt.name = 'EBoolean')
+								else   
+									if(typeName = 'float') 
+										then ECORE!EDataType.allInstances()->any(dt | dt.name = 'EFloat')
+										else 
+											if(typeName = 'long' or typeName = 'Long' or typeName = 'java.lang.Long') 
+												then ECORE!EDataType.allInstances()->any(dt | dt.name = 'ELong')
+												else ECORE!EDataType.allInstances()->any(dt | dt.name = 'EString') -- TODO..
+											endif
+									endif
+							endif 
+					endif
+			endif
+	endif; 
+
+-- These helpers factorizes the behaviour for discovering the type of a reference
+-- They allow me to have the incorporation of new heuristics handy
+helper def : discoverTypeFromField(element : REFLECT!Field) : ECORE!EClass =
+	if(element.checkH1) 
+      then thisModule.mapClassType(element.typeH1)
+	  else
+		if(element.type.canonicalName.toString().endsWith('[]'))
+			then let locatedType : REFLECT!ClassType = REFLECT!ClassType.allInstances()->any(c | c.canonicalName.toString() = 
+						element.type.canonicalName.toString().substring(1, element.type.canonicalName.toString().indexOf('[')))
+		    	 in if(locatedType.isMainType) 
+						then locatedType
+						else thisModule.mapClassType(locatedType)
+					endif
+			else if(element.type.isMainType) 
+					then element.type
+					else thisModule.mapClassType(element.type)
+			 	endif
+		endif
+	endif;
+
+helper def : discoverTypeFromMethod(element : REFLECT!Method) : ECORE!EClass = 
+	if(element.genericReturnType.oclIsTypeOf(REFLECT!ParameterizedType))  -- TODO: Dealing with more cases
+		then 
+			if(element.genericReturnType.actualTypeArguments->first().isMainType) 
+				then element.genericReturnType.actualTypeArguments->first()
+				else thisModule.mapClassType(element.genericReturnType.actualTypeArguments->first())
+			endif
+		else
+			if(element.returnType.canonicalName.toString().endsWith('[]'))
+				then let locatedType : REFLECT!ClassType = REFLECT!ClassType.allInstances()->any(c | c.canonicalName.toString() = 
+							element.returnType.canonicalName.toString().substring(1, element.returnType.canonicalName.toString().indexOf('[')))
+	   	 	 		 in if(locatedType.isMainType) 
+							then locatedType
+							else thisModule.mapClassType(locatedType)
+						endif
+				else if(element.returnType.isMainType) 
+						then element.returnType
+						else thisModule.mapClassType(element.returnType)
+		 		 	 endif
+			endif
+	endif;
+	
+-- The following helpers is in charge of discovering the upper bound of a reference
+-- In the same way as previously, having these helpers make easier the definition of new heuristics
+helper def : discoverUpperBoundFromField(element : REFLECT!Field) : Integer =
+	if(element.checkH1)
+		then element.upperBoundH1
+		else if(element.type.isArrayTyped) 
+				then -1
+				else 1
+			 endif
+	endif;
+
+helper def : discoverUpperBoundFromMethod(element : REFLECT!Method) : Integer =
+	if(element.genericReturnType.oclIsTypeOf(REFLECT!ParameterizedType)) -- TODO: Dealing with more cases
+		then
+			if(element.genericReturnType.rawType.canonicalName = 'java.util.List') -- TODO: Improve this!
+				then -1
+				else 1
+			endif
+		else
+			if(element.returnType.isArrayTyped) 
+				then -1
+				else 1
+			endif
+	endif;
+
+
+------------------------------
+-- TRANSFORMATION RULES
+------------------------------
+
+-- Maps the main Package in the source model
+-- The endpoint is used to aggregate the EClass elements into a EPackage. We have to wait until the creation of
+-- all the EClass for doing this.
+endpoint rule mapMainPackage() {
+	to
+		tgt : ECORE!EPackage (
+			nsURI        <- 'http://modelum.es/atlandmod',
+			nsPrefix     <- 'modelum',
+			name         <- thisModule.MAINPACKAGE,
+			eClassifiers <- Set{ uElem, ECORE!EClass.allInstances() },
+			eClassifiers <- ECORE!EDataType.allInstances() 
+		),
+		uElem : ECORE!EClass (
+			name                <- 'UnknownElement',
+			eStructuralFeatures <- uAttr
+		),
+		uAttr : ECORE!EAttribute (
+			name  <- 'type',
+			eType <- ECORE!EDataType.allInstances()->any(dt | dt.name = 'EString')
+		)
+}
+
+-- Maps the main classType elements into EClasses
+rule mapMainClassType {
+	from 
+		src : REFLECT!ClassType(
+		 	src.isMainType
+		)
+	to 
+		tgt : ECORE!EClass (
+			name                <- src.digestName,
+			abstract            <- src.isAbstract,
+ 			eStructuralFeatures <- src.digestFields->iterate(elem ; result : Set(ECORE!EAttribute) = Set{} |
+				if(elem.type.isPrimitiveTyped) 
+					then result->including(thisModule.mapAttributeFromField(elem))
+					else result->including(thisModule.mapReferenceFromField(elem))
+				endif),
+			eStructuralFeatures <- src.digestMethods->iterate(elem ; result : Set(ECORE!EAttribute) = Set{} |
+				if(elem.genericReturnType.oclIsTypeOf(REFLECT!ParameterizedType)) -- TODO: Dealing with more cases
+					then
+						if(elem.genericReturnType.actualTypeArguments->first().isPrimitiveTyped) 
+							then result->including(thisModule.mapAttributeFromMethod(elem))
+							else result->including(thisModule.mapReferenceFromMethod(elem))
+						endif
+					else 
+						if(elem.returnType.isPrimitiveTyped) 
+							then result->including(thisModule.mapAttributeFromMethod(elem))
+							else result->including(thisModule.mapReferenceFromMethod(elem))
+						endif
+				endif),	
+			eSuperTypes         <- if(src.oclIsKindOf(REFLECT!ClassType)) then  
+				if (src.superclass.oclIsKindOf(REFLECT!ClassType)) 
+					then
+						if (src.superclass.isMainType) 
+							then src.superclass
+							else thisModule.mapClassType(src.superclass)
+						endif
+					else
+						Sequence{}
+					endif
+				else 
+					Sequence{}
+				endif,
+			eSuperTypes         <- src.interfaces->iterate(elem ; result : Set(REFLECT!ClassType) = Set {} |
+				if(elem.isMainType)
+					then result->including(elem)
+					else result->including(thisModule.mapClassType(elem)) 
+				endif),
+			eAnnotations        <- thisModule.createAnnotations(src)
+		)	
+}
+
+-- This rule deals with those ClassType which are not included in the FILTER
+unique lazy rule mapClassType { 
+	from 
+		src : REFLECT!ClassType
+	to 
+		tgt : ECORE!EClass (
+			name         <- src.digestName,
+			eSuperTypes  <- if(src.oclIsKindOf(REFLECT!ClassType)) then  
+				if (src.superclass.oclIsKindOf(REFLECT!ClassType)) 
+					then
+						if (src.superclass.isMainType) 
+							then src.superclass
+							else thisModule.mapClassType(src.superclass)
+						endif
+					else
+						Sequence{}
+					endif
+				else
+					Sequence{}
+				endif,
+			eSuperTypes  <- if(src.oclIsKindOf(REFLECT!ClassType)) then  
+				src.interfaces->iterate(elem ; result : Set(REFLECT!ClassType) = Set {} |
+					if(elem.isMainType)
+						then result->including(elem)
+						else result->including(thisModule.mapClassType(elem)) 
+					endif)
+				else
+					Sequence{}
+				endif,
+			eAnnotations <- thisModule.createAnnotations(src)
+		)	
+}
+
+-- Rules for creating the EAttributes
+lazy rule mapAttributeFromField {
+	from
+		src : REFLECT!Field (
+			src.type.isPrimitiveTyped
+		)
+	to
+		tgt : ECORE!EAttribute (
+			name       <- src.name,
+			eType      <- thisModule.discoverPrimitiveType((src.digestTypeName)), 
+			upperBound <- if(src.type.isArrayTyped) 
+				then -1
+				else 1
+			endif
+		) 
+	
+}
+
+lazy rule mapAttributeFromMethod {
+	from
+		src : REFLECT!Method -- I prefer not to specify filter (actually, it is not necessary)
+	to
+		tgt : ECORE!EAttribute (
+			name       <- src.discoverName,
+			eType      <- 
+				if(src.genericReturnType.oclIsTypeOf(REFLECT!ParameterizedType)) -- TODO: Dealing with more cases
+					then
+						thisModule.discoverPrimitiveType(src.genericReturnType.actualTypeArguments->first().digestName)
+					else 
+						thisModule.discoverPrimitiveType(src.returnType.digestName)
+				endif,		
+			upperBound <- thisModule.discoverUpperBoundFromMethod(src)
+		) 
+	
+}
+
+-- Rules for creating the EReferences
+lazy rule mapReferenceFromField {
+	from
+		src : REFLECT!Field (
+			not src.type.isPrimitiveTyped
+		)
+	to
+		tgt : ECORE!EReference (
+			name       <- src.name,
+			eType      <- thisModule.discoverTypeFromField(src),
+			upperBound <- thisModule.discoverUpperBoundFromField(src)
+		)
+}
+
+
+lazy rule mapReferenceFromMethod {
+	from
+		src : REFLECT!Method -- I prefer not to specify filter (actually, it is not necessary)
+	to
+		tgt : ECORE!EReference (
+			name       <- src.discoverName,
+			eType      <- thisModule.discoverTypeFromMethod(src),
+			upperBound <- thisModule.discoverUpperBoundFromMethod(src)
+		)
+}
+
+-- Lazy rules for creating the annotation associated to a ClassType
+lazy rule createAnnotations {
+	from
+		src : REFLECT!ClassType
+	to
+		tgt : ECORE!EAnnotation (
+			references <- src,
+			source     <- 'ExtendedMetaData',
+			details    <- Sequence {tgt1, tgt2}
+		),
+		tgt1 : ECORE!EStringToStringMapEntry (
+			key   <- 'canonicalName',
+			value <- if(src.oclIsKindOf(REFLECT!TypeVariable)) then 'typeVariable' else src.canonicalName endif
+		),
+		tgt2 : ECORE!EStringToStringMapEntry ( 
+			key   <- 'isMainType',
+			value <- src.isMainType.toString()
+		)		
+}
+

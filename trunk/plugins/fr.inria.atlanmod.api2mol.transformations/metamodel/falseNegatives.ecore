@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="falseNegatives"
+    nsURI="http://modelum.es/atlanmod/falseNegatives" nsPrefix="fp">
+  <eClassifiers xsi:type="ecore:EClass" name="EmptyClass" eSuperTypes="#//FalseNegativeElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="classTypeName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classType" eType="ecore:EClass ../../api2mol/bootstrap/reflect.ecore#//ClassType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SpuriousElements">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="falseNegatives" upperBound="-1"
+        eType="#//FalseNegativeElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FalseNegativeElement" abstract="true"/>
+</ecore:EPackage>

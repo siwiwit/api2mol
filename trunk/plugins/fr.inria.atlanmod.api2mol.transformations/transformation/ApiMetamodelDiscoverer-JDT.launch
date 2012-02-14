@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+<stringAttribute key="ATL File Name" value="/org.eclipse.m2m.atl.examples.public2private/transformation/apiMetamodelDiscoverer.atl"/>
+<stringAttribute key="ATL VM" value="EMF-specific VM"/>
+<booleanAttribute key="IS_REFINING" value="false"/>
+<mapAttribute key="Input">
+<mapEntry key="IN_CONF" value="CONFIGURATION"/>
+<mapEntry key="IN" value="REFLECT"/>
+</mapAttribute>
+<mapAttribute key="Libs">
+<mapEntry key="api2molHelpers" value="/org.eclipse.m2m.atl.examples.public2private/transformation/api2molHelpers.asm"/>
+</mapAttribute>
+<mapAttribute key="Model Handler">
+<mapEntry key="REFLECT" value="EMF"/>
+<mapEntry key="CONFIGURATION" value="EMF"/>
+<mapEntry key="ECORE" value="EMF"/>
+</mapAttribute>
+<mapAttribute key="ModelType">
+<mapEntry key="REFLECT" value="METAMODELINPUT"/>
+<mapEntry key="CONFIGURATION" value="METAMODELINPUT"/>
+<mapEntry key="IN_CONF" value="MODELINPUT"/>
+<mapEntry key="IN" value="MODELINPUT"/>
+<mapEntry key="OUT" value="MODELOUTPUT"/>
+<mapEntry key="ECORE" value="METAMODELOUTPUT"/>
+</mapAttribute>
+<mapAttribute key="Options">
+<mapEntry key="supportUML2Stereotypes" value="false"/>
+<mapEntry key="printExecutionTime" value="true"/>
+<mapEntry key="OPTION_CLEAR" value="true"/>
+<mapEntry key="OPTION_DERIVED" value="false"/>
+<mapEntry key="allowInterModelReferences" value="true"/>
+<mapEntry key="step" value="false"/>
+</mapAttribute>
+<mapAttribute key="Output">
+<mapEntry key="OUT" value="ECORE"/>
+</mapAttribute>
+<mapAttribute key="Path">
+<mapEntry key="REFLECT" value="/api2mol/bootstrap/reflect.ecore"/>
+<mapEntry key="IN_CONF" value="/api2mol/bootstrap/discovererConfiguration-JDT.ecore.xmi"/>
+<mapEntry key="CONFIGURATION" value="/api2mol/bootstrap/discovererConfiguration.ecore"/>
+<mapEntry key="IN" value="/api2mol/bootstrap/resultReflect-JDT-DOM.ecore.xmi"/>
+<mapEntry key="OUT" value="/api2mol/bootstrap/atl/result-ATL.ecore"/>
+<mapEntry key="ECORE" value="uri:http://www.eclipse.org/emf/2002/Ecore"/>
+</mapAttribute>
+<listAttribute key="Superimpose"/>
+</launchConfiguration>
