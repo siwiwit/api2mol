@@ -1,0 +1,109 @@
+@namespace(uri="http://modelum.es/atlandmod/reflect", prefix="reflect")
+package reflect;
+
+abstract class AnnotatedElement {
+}
+
+class UnknownElement {
+   
+}
+
+class ClassType extends AnnotatedElement {
+  attr String name;
+  attr String canonicalName;
+  attr Modifier[*] modifiers;
+  
+  attr boolean isArray;
+  ref ClassType[1] componentType;
+  
+  val Constructor[*] declaredConstructors;
+  val Field[*] declaredFields;
+  val Method[*] declaredMethods;
+  
+  ref Package[1] packageName;
+  ref Constructor[*] constructors;
+  ref Field[*] fields;
+  ref Method[*] methods;
+  ref ClassType[1] superclass;
+  ref ClassType[*] interfaces;
+  ref ClassType[1] containerClass;
+}
+
+class Array {
+}
+
+class Annotation {
+  attr String typeName;
+}
+
+class Package extends AnnotatedElement {
+  attr String name;
+  attr String implementationTitle;
+  attr String implementationVendor;
+  attr String implementationVersion;
+  attr String specificationTitle;
+  attr String specificationVendor;
+  attr String specificationVersion;
+}
+
+abstract class Member {
+  attr String name;
+  attr Modifier[*] modifiers;
+}
+
+class Constructor extends AnnotatedElement, Member {
+  ref ClassType[*] parameterTypes;
+  ref ClassType[*] exceptionTypes;
+}
+
+class Field extends AnnotatedElement, Member {
+  ref ClassType[1] type;
+}
+
+class Method extends AnnotatedElement, Member {
+  ref ClassType[1] returnType;
+  ref ClassType[*] parameterTypes;
+  ref ClassType[*] exceptionTypes;
+  ref Type[1] genericReturnType;
+}
+
+abstract class Type {
+  
+}
+ 
+class ParameterizedType extends Type {
+  ref ClassType[*] actualTypeArguments;
+  ref ClassType[1] ownerType;
+  ref ClassType[1] rawType;
+}
+
+class GenericArrayType extends Type {
+  ref ClassType[1] genericComponentType;
+}
+
+class WildcardType extends Type {
+  ref ClassType[1] lowerBounds;
+  ref ClassType[1] upperBounds;
+}
+
+class TypeVariable extends Type {
+  ref ClassType[1] genericDeclaration;
+  ref ClassType[*] bounds;
+  attr String name;
+}
+
+enum Modifier {
+  PUBLIC = 0;
+  PRIVATE = 1;
+  PROTECTED = 2;
+  STATIC = 3;
+  FINAL = 4;
+  SYNCHRONIZED = 5;
+  VOLATILE = 6;
+  TRANSIENT = 7;
+  NATIVE = 8;
+  INTERFACE = 9;
+  ABSTRACT = 10;
+  STRICT = 11;
+}
+

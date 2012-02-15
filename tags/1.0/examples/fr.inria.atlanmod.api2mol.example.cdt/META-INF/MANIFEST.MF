@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CDT
+Bundle-SymbolicName: fr.inria.atlanmod.api2mol.example.cdt
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fr.inria.atlanmod.api2mol.example.cdt.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;bundle-version="2.5.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",
+ org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

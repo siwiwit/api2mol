@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_EfRZoK86EdieaYgxtVWN8Q" name="UML2" >
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="Boolean" name="Boolean"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="Integer" name="Integer"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="String" name="String"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="UnlimitedNatural" name="UnlimitedNatural"/>
+
+<!--
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="_IXfBUK86EdieaYgxtVWN8Q" name="Boolean"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="_IXlH8K86EdieaYgxtVWN8Q" name="Integer"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="_IXlH8a86EdieaYgxtVWN8Q" name="String"/>
+  <ownedMember xmi:type="uml:PrimitiveType" xmi:id="_IXlH8q86EdieaYgxtVWN8Q" name="UnlimitedNatural"/>
+-->
+</uml:Model>

@@ -1,0 +1,15 @@
+  <xmi xmlns:emof='http://schema.omg.org/spec/mof/2.0/emof.xmi' xmi:version='2.0' xmlns:xmi='http://www.omg.org/XMI'>
+    <emof:Package name='AB' uri='' xmi:id='EMOF.Package_0'>
+      <ownedType name='A' xmi:type='emof:Class' isAbstract='false' xmi:id='EMOF.Class_0'>
+        <ownedAttribute name='name' lower='0' isID='false' isReadOnly='false' xmi:id='EMOF.Property_0' upper='1' isComposite='false' isOrdered='false' isDerived='false' isUnique='true'>
+          <type href='EMOF#org.omg.mof2.emof.String'/>
+        </ownedAttribute>
+        <ownedAttribute name='bes' lower='0' type='EMOF.Class_1' isID='false' isReadOnly='false' xmi:id='EMOF.Property_1' upper='-1' isComposite='false' isOrdered='false' isDerived='false' isUnique='true'/>
+      </ownedType>
+      <ownedType name='B' xmi:type='emof:Class' isAbstract='false' xmi:id='EMOF.Class_1'>
+        <ownedAttribute name='name' lower='0' isID='false' isReadOnly='false' xmi:id='EMOF.Property_2' upper='1' isComposite='false' isOrdered='false' isDerived='false' isUnique='true'>
+          <type href='EMOF#org.omg.mof2.emof.String'/>
+        </ownedAttribute>
+      </ownedType>
+    </emof:Package>
+  </xmi>

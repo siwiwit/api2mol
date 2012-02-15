@@ -1,0 +1,7 @@
+<%# Parameters: first_proc %>
+
+def <%= START_FUNCTION_NAME %>
+  @tree = RubyTL::CST::Tree.new
+  node = <%= first_proc %>
+  @tree.root << node
+end

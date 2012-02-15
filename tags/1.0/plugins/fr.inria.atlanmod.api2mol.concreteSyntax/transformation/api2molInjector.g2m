@@ -1,0 +1,154 @@
+-- /*******************************************************************************
+--  * Copyright (c) 2008, 2012
+--  * All rights reserved. This program and the accompanying materials
+--  * are made available under the terms of the Eclipse Public License v1.0
+--  * which accompanies this distribution, and is available at
+--  * http://www.eclipse.org/legal/epl-v10.html
+--  *
+--  * Contributors:
+--  *    Javier Canovas (javier.canovas@inria.fr) 
+--  *******************************************************************************/
+
+
+hash statementHash
+	"get" -> "GET",
+	"set" -> "SET",
+	"accessors" -> "ACCESSORS",
+	"append" -> "APPEND",
+	"insertAt" -> "INSERT_AT",
+	"remove" -> "REMOVE",
+	"removeAt" -> "REMOVE_AT",
+	"removeLast" -> "REMOVE_LAST",
+	"removeAll" -> "REMOVE_ALL",
+	"count" -> "COUNT"
+end_hash
+
+rule 'mapDefinition'
+	from 	mainRule mr
+	to		Definition
+	queries
+		maps : //#mapping;
+		ctxs : //contextSection[0]/#instanceName;
+		defm : //#defaultMetaclassSection[0];
+	mappings
+		_mappings        = maps;
+		_context         = extractID ctxs;
+		defaultMetaclass = defm;
+end_rule
+
+rule 'mapDefaultMetaclassSection'
+	from 	defaultMetaclassSection s
+	to 		DefaultMetaclassSection
+	queries
+	mappings
+		metaclassName = s.ID[0];
+		attribute     = s.ID[1];
+end_rule
+
+rule 'mapMapping'
+	from 	mapping m
+	to		Mapping
+	queries
+		metaName : /m/#metaclassName;
+		instName : /m/#instanceName;
+		sects    : /m/#section;
+	mappings
+		metaclass 	  = extractID metaName;
+		instanceClass = extractID instName;
+		sections 	  = sects;
+end_rule
+
+
+-------------------------------
+-- Mapping new sections
+-------------------------------
+
+rule 'mapNewSection'
+	from	section/newSection s
+	to 		NewSection
+	queries
+		cons : /s/newSection/#constructorCall;
+	mappings
+		constructors = cons;
+end_rule
+
+rule 'mapConstructor'
+	from 	constructorCall c
+	to 		Constructor
+	queries
+		pars : /c/#param;
+	mappings
+		name   = c.ID;
+		params = pars;
+end_rule
+
+rule 'mapValueSection'
+	from	section/valueSection s
+	to		ValueSection
+	queries
+		sect : /s/#valueSection;
+		inst : /sect/#instanceName;
+	mappings
+		metaValue 	  =	sect.ID;
+		instanceValue = extractID inst;
+end_rule
+
+-------------------------------
+-- Mapping multiple sections
+-------------------------------
+
+rule 'mapMultipleSection'
+	from	section/multipleSection s
+	to 		MultipleSection
+	queries
+		section : /s/#multipleSection;
+		stats   : /section/#statement; 
+	mappings
+		statements = stats;
+end_rule
+
+-------------------------------
+-- Mapping property sections
+-------------------------------
+
+rule 'mapPropertySection'
+	from 	section/#propertySection s
+	to		PropertySection
+	queries
+		section : /s/#propertySection;
+		stats   : /section/#statement;
+	mappings
+		property   = section.ID;
+		statements = stats;
+end_rule
+
+rule 'mapStatement'
+	from 	statement st
+	to 		Statement
+	queries
+		stType : /st/#statementType;
+		vars   : /st/#variable;
+		call   : /st/#methodCall;
+	mappings
+		type      = map statementHash(st.ID);
+		calls     = call;
+		variables = vars.ID;
+end_rule	
+
+rule 'mapMethodCall'
+	from 	methodCall c
+	to		MethodCall
+	queries
+		pars : /c/#param;
+	mappings
+		name   = c.ID;
+		params = pars;
+end_rule
+
+rule 'mapParam'
+	from	param p
+	to		Parameter
+	queries
+	mappings
+		name = p.ID;
+end_rule

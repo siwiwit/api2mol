@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="xsd"
+    nsURI="http://gts.inf.um.es/rubytl/xsd" nsPrefix="xsd_mm">
+  <eClassifiers xsi:type="ecore:EClass" name="SchemaDefinition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//ElementDefinition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeDefinitions" upperBound="-1"
+        eType="#//TypeDefinition" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnnotatedElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="annotation" eType="#//Annotation"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ElementDefinition" eSuperTypes="#//AnnotatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minOccurs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxOccurs" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="anonymousTypeDefinition"
+        eType="#//TypeDefinition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeDefinition" eType="#//TypeDefinition"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TypeDefinition" abstract="true" eSuperTypes="#//AnnotatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComplexTypeDefinition" eSuperTypes="#//TypeDefinition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="content" eType="#//ModelGroup"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributes" upperBound="-1"
+        eType="#//AttributeDeclaration" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extension" eType="#//Extension"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="extensionKind" eType="#//XSDExtensionKind"
+        defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Extension">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseTypeDefinition" eType="#//TypeDefinition"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleTypeDefinition" eSuperTypes="#//TypeDefinition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseTypeDefinition" eType="#//TypeDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="facets" upperBound="-1"
+        eType="#//Facet" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelGroup">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="compositor" eType="#//XSDCompositor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//ElementDefinition" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="XSDCompositor">
+    <eLiterals name="all"/>
+    <eLiterals name="choice" value="1"/>
+    <eLiterals name="sequence" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeDeclaration" eSuperTypes="#//AnnotatedElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="required" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeDefinition" eType="#//SimpleTypeDefinition"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Facet" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PatternFacet" eSuperTypes="#//Facet">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Annotation"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="XSDExtensionKind">
+    <eLiterals name="None"/>
+    <eLiterals name="Simple"/>
+    <eLiterals name="Complex"/>
+  </eClassifiers>
+</ecore:EPackage>

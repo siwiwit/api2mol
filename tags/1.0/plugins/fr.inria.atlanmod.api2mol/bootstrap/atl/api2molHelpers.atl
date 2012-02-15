@@ -1,0 +1,207 @@
+-- /*******************************************************************************
+--  * Copyright (c) 2008, 2012
+--  * All rights reserved. This program and the accompanying materials
+--  * are made available under the terms of the Eclipse Public License v1.0
+--  * which accompanies this distribution, and is available at
+--  * http://www.eclipse.org/legal/epl-v10.html
+--  *
+--  * Contributors:
+--  *    Javier Canovas (javier.canovas@inria.fr) 
+--  *******************************************************************************/
+
+library api2molHelpers;
+
+
+-- Helpers used as Global Variables
+-- The name of the main package to be generated as API metamodel 
+helper def : MAINPACKAGE : String = CONFIGURATION!ConfigurationElement.allInstances()->first().mainPackage;
+--helper def : MAINPACKAGE : String = 'org.eclipse.jdt.core.dom';
+
+-- The filter to be used for the classes to be included in the resulting metamodel 
+helper def : FILTER : Sequence(String) = CONFIGURATION!ConfigurationElement.allInstances()->first().filter;
+--helper def : FILTER : Sequence(String) = Sequence{'org.eclipse.jdt.core.dom'};
+
+-- The basic types used in this transformation
+helper def : BASICTYPES : Sequence(String) = Sequence {'java.lang.String', 'char', 'int', 'boolean', 'float', 'double' };
+
+-- Locates the DOT character un the String. Returns the next character position of the DOT character
+-- location ot 1 if the String does not contain it 
+helper context String def : dotLocator() : Integer =
+	if (self.lastIndexOf('.') > 0) 
+		then
+			self.lastIndexOf('.')+2
+		else
+			1
+	endif;
+
+-- Global variable to specify the default metaclass
+helper def : DEFAULTMETACLASS : TupleType(metaclassName : String, attribute : String) =
+	Tuple{metaclassName = CONFIGURATION!ConfigurationElement.allInstances()->first().defaultMetaclassName, 
+	      attribute     = CONFIGURATION!ConfigurationElement.allInstances()->first().defaultMetaclassAttribute};
+--helper def : DEFAULTMETACLASS : TupleType(metaclassName : String, attribute : String) =
+--	Tuple{metaclassName = 'UnknownElement', attribute = 'type'};
+
+
+------------------------------
+-- REFLECT!ClassType HELPERS
+------------------------------
+
+-- Digest the classname. Takes the last String part of the packaged name and also the possible 
+-- last ; character
+helper context REFLECT!ClassType def : digestName : String = 
+	if self.name.indexOf(';') > 0
+		then
+			self.name.substring(self.name.dotLocator(), self.name.size()-1).replaceAll('$', '.')
+		else
+			self.name.substring(self.name.dotLocator(), self.name.size()).replaceAll('$', '.')
+	endif;
+
+-- Checks if the ClassType is included in FILTER context
+helper context REFLECT!ClassType def : isMainType : Boolean = 
+	thisModule.FILTER->exists(fe | self.canonicalName.toString().startsWith(fe)) and
+	not thisModule.BASICTYPES->exists(be | self.canonicalName.toString() = be) and
+	not self.canonicalName.toString().endsWith('[]') and
+	not self.canonicalName.toString().startsWith('[');
+
+-- Checks if the class is abstract
+helper context REFLECT!ClassType def : isAbstract : Boolean =
+	self.modifiers->exists(m | m = #ABSTRACT); 
+
+
+-- Collects those fields that must be included in the EClass definition as EStructuralFeature elements
+-- ALGORITHM 1: An EStructuralFeature will be add if the Field elements has at least one accesor in the ClassType.
+helper context REFLECT!ClassType def : digestFields : Set(REFLECT!Field) =
+	self.declaredFields->select(f | f.name.toUpper() <> f.name and not (f.isFinal) and f.hasGetOrSet);
+		--reject(f | f.getDefaultGet.first().isPackageVisible or f.getDefaultGet.first().isPrivate)->
+	
+
+------------------------------
+-- REFLECT!Member HELPERS
+------------------------------
+
+-- Checks if a member is has the FINAL modifier
+helper context REFLECT!Member def : isFinal : Boolean = 
+	self.modifiers->exists(m | m = #FINAL); 
+
+-- Checks if the member is private
+helper context REFLECT!Member def : isPrivate : Boolean =
+	self.modifiers->exists(m | m = #PRIVATE);
+
+-- Checks if the member is public
+helper context REFLECT!Member def : isPublic : Boolean =
+	self.modifiers->exists(m | m = #PUBLIC);
+
+-- Checks if the member is static
+helper context REFLECT!Member def : isStatic : Boolean =
+	self.modifiers->exists(m | m = #STATIC);
+
+-- Checks if the member has package visibility
+helper context REFLECT!Member def : isPackageVisible : Boolean = 
+	self.modifiers->forAll(m | m <> #PUBLIC and m <> #PRIVATE and m <> #PROTECTED);
+
+------------------------------
+-- REFLECT!Field HELPERS
+------------------------------
+
+-- Checks if the field has the Default accesors
+helper context REFLECT!Field def : hasGetOrSet : Boolean =
+	self.hasDefaultGet or self.checkH1 or self.checkH2;-- or self.hasDefaultSet;
+
+-- Digests the name of the type of the field
+-- (It removes the last [] characters in case it was an array)
+helper context REFLECT!Field def : digestTypeName : String =
+	if(self.isArrayTyped) 
+		then self.type.canonicalName.toString().substring(1, self.type.canonicalName.indexOf('[')-1)
+		else self.type.canonicalName.toString()
+	endif;
+
+-- Builds the default GET method name from the Field name
+helper context REFLECT!Field def : toGet : String =
+	if(self.type.name = 'boolean')
+		then
+			'is'  + self.name.substring(1,1).toUpper() + self.name.substring(2,self.name.size())
+		else
+			'get' + self.name.substring(1,1).toUpper() + self.name.substring(2,self.name.size())
+	endif;
+
+-- Builds the default SET method name from the Field name
+helper context REFLECT!Field def : toSet : String =
+	'set' + self.name.substring(1,1).toUpper() + self.name.substring(2,self.name.size());
+
+-- Checks the type of the Field
+helper context REFLECT!Field def : isPrimitiveTyped : Boolean =
+	--thisModule.BASICTYPES.getKeys()->exists(be | self.type.canonicalName.toString() = be) or
+	thisModule.BASICTYPES->exists(be | self.type.canonicalName.toString().startsWith(be.toString()));
+	
+-- Checks if the field has the Detault Get
+helper context REFLECT!Field def : hasDefaultGet : Boolean =
+	self.getDefaultGet.size() > 0;
+
+-- Checks if the field has the Detault Set
+helper context REFLECT!Field def : hasDefaultSet : Boolean =
+	self.getDefaultSet.size() > 0;
+
+-- Obtains the default Get
+helper context REFLECT!Field def : getDefaultGet : REFLECT!Method =
+	self.refImmediateComposite().declaredMethods->select(m | 
+		m.name = self.toGet and
+		m.parameterTypes.size() = 0 and
+		m.returnType.name = self.type.name
+	);
+
+-- Checks if the type of the member is an array
+helper context REFLECT!Field def : isArrayTyped : Boolean =
+	self.type.canonicalName.toString().endsWith('[]');
+
+-- Obtains the default Set
+helper context REFLECT!Field def : getDefaultSet : REFLECT!Method =
+	self.refImmediateComposite().declaredMethods->select(m |
+		m.name = self.toSet and
+		m.parameterTypes.size() = 1		
+	)->select(m | m.parameterTypes.first().name = self.type.name);
+
+-- HEURISTIC 1: Discovering structural implicit multi-valued features
+-- An EClass would include an structural feature (attribute or reference) called newStructuralFeature, 
+-- with the type structuralFeatureType and cardinality 0..n if:
+--    * The ClassType contains a Field element in the declaredFields reference whose name is newStructuralFeature and 
+--      the type is List 
+--    * It exists a get method whose name is getNewStructuralFeatures and its return type is an array.
+--    * It exists a get method whose name is getNewStructuralFeature and its return type is structuralFeatureType 
+--      (this method would be used for injection)
+--    * It exists an add method whose name is add and has one parameter of type structuralFeatureType 
+--      (this method would be used for extraction)
+--    * For instance, the Container EClass element includes the EReference component of type Component because the 
+--      Container ClassType element contains a Field in the declaredField reference whose name is component and they 
+--      also exist the getComponent and getComponents methods in the declaredMethods reference.
+helper context REFLECT!Field def : checkH1 : Boolean =
+	self.type.name = 'java.util.List' and
+	self.refImmediateComposite().declaredMethods->exists(m | m.name = self.toGet) and
+	self.refImmediateComposite().declaredMethods->exists(m | m.name = self.toGet + 's' and m.returnType.canonicalName.endsWith('[]'));-- and
+	--self.refImmediateComposite().declaredMethods->exists(m | m.name = 'add' and m.parameterTypes->size() = 1 and 
+	--	if(m.parameterTypes->first() = OclUndefined or self.typeH1 = OclUndefined) 
+	--		then false 
+	--		else m.parameterTypes->first().canonicalName.toString() = self.typeH1.canonicalName 
+	--	endif);
+	
+-- Returns the type for the structural feature that satisfies H1
+helper context REFLECT!Field def : typeH1 : Reflect!ClassType =
+	REFLECT!ClassType.allInstances()->any(c | 
+		let locatedMethod : REFLECT!Method = 
+			self.refImmediateComposite().declaredMethods->any(m | m.name = self.toGet + 's') 
+		in c.canonicalName = 
+			--if(locatedMethod = OclUndefined)
+			--	then Set{}
+				--else 
+				locatedMethod.returnType.canonicalName.toString().substring(1, locatedMethod.returnType.canonicalName.toString().indexOf('['))
+			--endif
+		);
+
+-- Returns the upper bound for the reference
+helper context REFLECT!Field def : upperBoundH1 : Integer = -1;
+
+-- HEURISTIC 2: Discovering directly accesible structural features
+-- An EClass would include am structural feature (attribute or reference) called newStructuralFeature if:
+--   * The ClassType contains a Field element in the declaredFields reference whose name is newStructuralFeature 
+--     and its visibility is public but it is not final and static
+helper context REFLECT!Field def : checkH2 : Boolean =
+	self.isPublic and not self.isStatic and not self.isFinal;

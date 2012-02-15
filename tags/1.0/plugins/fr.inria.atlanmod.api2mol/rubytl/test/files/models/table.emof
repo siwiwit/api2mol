@@ -1,0 +1,21 @@
+  <xmi:XMI xmlns:emof='http://schema.omg.org/spec/mof/2.0/emof.xmi' xmi:version='2.0' xmlns:TableM='platform:/resource/rubytl/test/files/metamodels/TableM.emof' xmlns:xmi='http://www.omg.org/XMI'>
+    <TableM:Table name='Job' pkeys='TableM.Column_1 TableM.Column_2' xmi:id='TableM.Table_1' referenceBy='TableM.FKey_2' fkeys='TableM.FKey_1'>
+      <cols name='name' type='String' xmi:id='TableM.Column_1' pkeyOf='TableM.Table_1'/>
+      <cols name='address' type='String' xmi:id='TableM.Column_2' pkeyOf='TableM.Table_1'/>
+      <cols name='Person_name_id' partOfFkey='TableM.FKey_1' type='String' xmi:id='TableM.Column_3'/>
+    </TableM:Table>
+    <TableM:Table name='Pet' pkeys='TableM.Column_4' xmi:id='TableM.Table_2' referenceBy='TableM.FKey_3'>
+      <cols name='name' type='String' xmi:id='TableM.Column_4' pkeyOf='TableM.Table_2'/>
+      <cols name='age' type='Integer' xmi:id='TableM.Column_5'/>
+    </TableM:Table>
+    <TableM:Table name='Person' pkeys='TableM.Column_9' xmi:id='TableM.Table_3' referenceBy='TableM.FKey_1' fkeys='TableM.FKey_3 TableM.FKey_2'>
+      <cols name='Pet_name_id' partOfFkey='TableM.FKey_3' type='String' xmi:id='TableM.Column_6'/>
+      <cols name='Job_name_id' partOfFkey='TableM.FKey_2' type='String' xmi:id='TableM.Column_7'/>
+      <cols name='Job_address_id' partOfFkey='TableM.FKey_2' type='String' xmi:id='TableM.Column_8'/>
+      <cols name='name' type='String' xmi:id='TableM.Column_9' pkeyOf='TableM.Table_3'/>
+      <cols name='age' type='Integer' xmi:id='TableM.Column_10'/>
+    </TableM:Table>
+    <TableM:FKey references='TableM.Table_2' xmi:id='TableM.FKey_3' cols='TableM.Column_6' owner='TableM.Table_3'/>
+    <TableM:FKey references='TableM.Table_1' xmi:id='TableM.FKey_2' cols='TableM.Column_7 TableM.Column_8' owner='TableM.Table_3'/>
+    <TableM:FKey references='TableM.Table_3' xmi:id='TableM.FKey_1' cols='TableM.Column_3' owner='TableM.Table_1'/>
+  </xmi:XMI>

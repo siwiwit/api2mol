@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+<stringAttribute key="ATL File Name" value="/api2mol.transformations/transformation/api2molTransformationDiscoverer.atl"/>
+<stringAttribute key="ATL VM" value="EMF-specific VM"/>
+<stringAttribute key="ATL_COMPILER" value="atl2006"/>
+<booleanAttribute key="IS_REFINING" value="false"/>
+<mapAttribute key="Input">
+<mapEntry key="IN" value="REFLECT"/>
+<mapEntry key="IN_CONF" value="CONFIGURATION"/>
+<mapEntry key="CONF" value="CONFIGURATION"/>
+</mapAttribute>
+<mapAttribute key="Libs">
+<mapEntry key="api2molHelpers" value="/api2mol.transformations/transformation/api2molHelpers.asm"/>
+</mapAttribute>
+<mapAttribute key="Model Handler">
+<mapEntry key="REFLECT" value="EMF"/>
+<mapEntry key="CONFIGURATION" value="EMF"/>
+<mapEntry key="API2MOL" value="EMF"/>
+</mapAttribute>
+<mapAttribute key="ModelType">
+<mapEntry key="REFLECT" value="METAMODELINPUT"/>
+<mapEntry key="CONFIGURATION" value="METAMODELINPUT"/>
+<mapEntry key="IN_CONF" value="MODELINPUT"/>
+<mapEntry key="IN" value="MODELINPUT"/>
+<mapEntry key="OUT" value="MODELOUTPUT"/>
+<mapEntry key="API2MOL" value="METAMODELOUTPUT"/>
+<mapEntry key="CONF" value="MODELINPUT"/>
+</mapAttribute>
+<mapAttribute key="Options">
+<mapEntry key="supportUML2Stereotypes" value="false"/>
+<mapEntry key="printExecutionTime" value="true"/>
+<mapEntry key="OPTION_CLEAR" value="true"/>
+<mapEntry key="OPTION_DERIVED" value="false"/>
+<mapEntry key="allowInterModelReferences" value="false"/>
+<mapEntry key="step" value="false"/>
+</mapAttribute>
+<mapAttribute key="Output">
+<mapEntry key="OUT" value="API2MOL"/>
+</mapAttribute>
+<mapAttribute key="Path">
+<mapEntry key="REFLECT" value="/api2mol/bootstrap/reflect.ecore"/>
+<mapEntry key="IN_CONF" value="/api2mol.example.swing/bootstrap/discovererConfiguration-Swing.ecore.xmi"/>
+<mapEntry key="CONFIGURATION" value="/api2mol/bootstrap/discovererConfiguration.ecore"/>
+<mapEntry key="IN" value="/api2mol.example.swing/bootstrap/resultReflect-Swing.ecore.xmi"/>
+<mapEntry key="OUT" value="/api2mol.example.swing/transformation/resultApi2mol-ATL-Swing.ecore"/>
+<mapEntry key="API2MOL" value="/api2mol.abstractSyntax/model/api2mol.ecore"/>
+<mapEntry key="CONF" value="/api2mol.example.swing/bootstrap/discovererConfiguration-Swing.ecore.xmi"/>
+</mapAttribute>
+<listAttribute key="Superimpose"/>
+</launchConfiguration>

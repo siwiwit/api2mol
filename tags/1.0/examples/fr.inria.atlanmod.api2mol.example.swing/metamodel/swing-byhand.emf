@@ -1,0 +1,99 @@
+@namespace(uri="http://modelum.es/atlandmod/swing", prefix="swing")
+package swing;
+
+class UnknownElement {
+   attr String type;
+}
+
+abstract class Component {
+   val Color[1] background;
+}
+
+class Color {
+   
+}
+
+class Container extends Component {
+  val Component[*] components;
+  val LayoutManager[1] layoutManager;
+}
+
+abstract class LayoutManager{
+   
+}
+
+class Panel extends Container {
+   
+}
+
+class Window extends Container {
+  val Rectangle[1] bounds;
+  attr boolean alwaysOnTop;
+}
+
+class Rectangle {
+   attr double x;
+   attr double y;
+   attr double width;
+   attr double height;
+}
+
+class Frame extends Window {
+}
+
+class JFrame extends Frame {
+  attr boolean defaultLookAndFeel;
+  val TransferHandler[1] transferHandler;
+  val JRootPane[1] rootPane;
+  attr boolean rootPaneCheckingEnabled;
+  
+  val AccesibleContext[1] accessibleContext;
+}
+
+class JComponent extends Container {
+   
+}
+
+class AbstractButton extends JComponent {
+   attr String text;
+}
+
+class JButton extends AbstractButton {
+}
+
+class JRootPane extends JComponent {
+  val JMenuBar menuBar;   
+}
+
+class JMenuBar {
+   
+}
+
+class TransferHandler {
+   
+}
+
+class AccesibleContext {
+}
+
+class JPanel {
+   
+}
+
+class JLayeredPane {
+   
+}
+
+class RootLayout {
+
+}
+
+class BorderLayout {
+   
+}
+
+class AccessibleJFrame {
+   
+}
+
+

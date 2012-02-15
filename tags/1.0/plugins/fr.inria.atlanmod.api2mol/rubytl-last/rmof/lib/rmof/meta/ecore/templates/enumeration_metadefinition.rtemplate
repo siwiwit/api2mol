@@ -1,0 +1,58 @@
+module <%= datatype_name %>
+  extend ClassAutoImplementation
+
+  def self.eLiterals
+  	unless @eLiterals
+      @eLiterals = []
+<% each_literal do |literal| -%>
+      literal = ECore::EEnumLiteral.new
+      # TODO: Fix this error... self is not an EEnum, a type check error occurs
+      # literal.eEnum   = self
+      literal.value   = <%= literal.value || 0 %>
+      literal.name    = '<%= literal.name %>'
+      literal.literal = '<%= literal.name %>'
+      @eLiterals << literal  
+<% end -%>      
+  	end
+  	@eLiterals
+  end
+ 
+  def self.getEEnumLiteral(string_value)
+  	value = self.eLiterals.find { |literal| literal.literal == string_value }
+  	raise "Invalid literal #{string_value}" unless value
+  	value
+  end
+ 
+  def self.non_qualified_name
+  	'<%= datatype_name %>'
+  end
+  
+  def self.from_xmi_str(value)
+    # cast_primitive(value, self.instanceClassName)
+	self.getEEnumLiteral(value)
+  end
+  
+  def self.to_xmi_str(value)
+  #	value.to_s
+  	value.name
+  end
+  
+  def self.instanceClassName
+  	'<%= datatype_instanceClassName %>'
+  end
+  
+  def self.metaclass
+  	ECore::EDataType
+  end
+    
+  def self.is_primitive?;   false;  end
+  def self.is_enumeration?; true; end
+  def self.is_metaclass?; 	false; end
+
+
+  # Autogenerate this method?
+  def self.compute_uri_fragment
+  	"ecore:EEnum " +  self.ePackage.nsURI + "#//" + self.non_qualified_name
+  end
+
+end

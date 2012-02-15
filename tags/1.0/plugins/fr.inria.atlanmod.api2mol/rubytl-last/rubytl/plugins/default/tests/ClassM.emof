@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="ClassM"
+    name="ClassM">
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Class" name="Class" superClass="ClassM.Classifier">
+    <ownedAttribute xmi:id="FA00FD9A9B360F7A00F1B25EB7D0384B" name="features" upper="*"
+        type="ClassM.Attribute" isComposite="true" opposite="ClassM.StructuralFeature.owner"/>
+    <ownedAttribute xmi:id="FA00FD9A9B360F7A00F1B25E751E0763" name="parents" upper="*"
+        type="ClassM.Class" opposite="ClassM.Class.childs"/>
+    <ownedAttribute xmi:id="ClassM.Class.childs" name="childs" upper="*" type="ClassM.Class"
+        opposite="FA00FD9A9B360F7A00F1B25E751E0763"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Classifier" name="Classifier">
+    <ownedAttribute xmi:id="ClassM.Classifier.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="FA00FD9A9B360F7A00F1B25EF4BC9E98" name="typeOf" upper="*"
+        type="D01AEF309B360F7A0050620F050CE4F0" opposite="ClassM.TypedElement.type"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.Attribute" name="StructuralFeature"
+      superClass="D01AEF309B360F7A0050620F050CE4F0">
+    <ownedAttribute xmi:id="ClassM.StructuralFeature.owner" name="owner" lower="1"
+        type="ClassM.Class" opposite="FA00FD9A9B360F7A00F1B25EB7D0384B"/>
+    <ownedAttribute xmi:id="ClassM.StructuralFeature.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="ClassM.StructuralFeature.visibility" name="visibility">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="D01AEF309B360F7A0050620F050CE4F0" name="TypedElement">
+    <ownedAttribute xmi:id="ClassM.TypedElement.type" name="type" type="ClassM.Classifier"
+        opposite="FA00FD9A9B360F7A00F1B25EF4BC9E98"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="ClassM.PrimitiveType" name="PrimitiveType"
+      superClass="ClassM.Classifier"/>
+  <ownedType xmi:type="emof:Class" xmi:id="D00A82F59B360F7A0050620FF5A8D6AF" name="Operation"
+      superClass="ClassM.Attribute">
+    <ownedAttribute xmi:id="FA00FD9A9B360F7A00F1B25E1648566F" name="params" upper="*"
+        type="D01A153B9B360F7A0050620F1B9DCE21" opposite="ClassM.Parameter.paramOf"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="D01A153B9B360F7A0050620F1B9DCE21" name="Parameter"
+      superClass="D01AEF309B360F7A0050620F050CE4F0">
+    <ownedAttribute xmi:id="ClassM.Parameter.paramOf" name="paramOf" lower="1" type="D00A82F59B360F7A0050620FF5A8D6AF"
+        opposite="FA00FD9A9B360F7A00F1B25E1648566F"/>
+    <ownedAttribute xmi:id="ClassM.Parameter.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="D00BF2659B360F7A0050620F82D4EFF4" name="Attribute"
+      superClass="ClassM.Attribute">
+    <ownedAttribute xmi:id="ClassM.Attribute.multivalued" name="multivalued">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#Boolean"/>
+    </ownedAttribute>
+  </ownedType>
+</emof:Package>

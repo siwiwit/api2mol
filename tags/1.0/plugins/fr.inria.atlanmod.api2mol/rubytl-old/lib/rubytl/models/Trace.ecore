@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Trace"
+    nsURI="http://gts.inf.um.es/rubytl/trace" nsPrefix="rubytl_trace">
+  <eClassifiers xsi:type="ecore:EClass" name="TraceElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sources" upperBound="-1"
+        eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targets" upperBound="-1"
+        eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rule" eType="#//Rule"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TraceModel">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rules" upperBound="-1"
+        eType="#//Rule" defaultValueLiteral="" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="traces" upperBound="-1"
+        eType="#//TraceElement" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="callStack" eType="#//CallStack"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Rule">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CallStack">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ruleApplications" upperBound="-1"
+        eType="#//RuleApplication"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RuleApplication">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ruleApplications" upperBound="-1"
+        eType="#//RuleApplication" containment="true" eOpposite="#//RuleApplication/appliedBy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="appliedBy" eType="#//RuleApplication"
+        eOpposite="#//RuleApplication/ruleApplications"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rule" eType="#//Rule"/>
+  </eClassifiers>
+</ecore:EPackage>

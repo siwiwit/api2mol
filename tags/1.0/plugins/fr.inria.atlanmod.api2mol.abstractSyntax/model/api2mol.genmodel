@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/api2mol.abstractSyntax/src"
+    modelPluginID="api2mol.abstractSyntax" modelName="Api2mol" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>../../api2mol/api2mol.ecore</foreignModel>
+  <genPackages prefix="api2mol.abstractsyntax" basePackage="fr.inria.atlanmod" disposableProviderFactory="true"
+      ecorePackage="api2mol.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="api2mol.ecore#//StatementType">
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/GET"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/SET"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/APPEND"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/INSERT_AT"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/REMOVE"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/REMOVE_AT"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/REMOVE_LAST"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/REMOVE_ALL"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/COUNT"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/ACCESSORS"/>
+      <genEnumLiterals ecoreEnumLiteral="api2mol.ecore#//StatementType/DIRECT"/>
+    </genEnums>
+    <genClasses ecoreClass="api2mol.ecore#//Definition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//Definition/context"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//Definition/defaultMetaclass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//Definition/mappings"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//DefaultMetaclassSection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//DefaultMetaclassSection/metaclassName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//DefaultMetaclassSection/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//Mapping">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//Mapping/metaclass"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//Mapping/instanceClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//Mapping/sections"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="api2mol.ecore#//Section"/>
+    <genClasses ecoreClass="api2mol.ecore#//PropertySection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//PropertySection/property"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//PropertySection/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//NewSection">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//NewSection/constructors"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//MultipleSection">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//MultipleSection/statements"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//ValueSection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//ValueSection/metaValue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//ValueSection/instanceValue"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//Statement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//Statement/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//Statement/variables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//Statement/calls"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="api2mol.ecore#//NamedElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute api2mol.ecore#//NamedElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//MethodCall">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference api2mol.ecore#//MethodCall/params"/>
+    </genClasses>
+    <genClasses ecoreClass="api2mol.ecore#//Parameter"/>
+    <genClasses ecoreClass="api2mol.ecore#//Constructor"/>
+  </genPackages>
+</genmodel:GenModel>

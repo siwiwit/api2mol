@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="CDT"
+    nsURI="http://modelum.es/atlandmod" nsPrefix="modelum">
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractParserLogService" abstract="true"
+      eSuperTypes="//Object //IParserLogService">
+    <eAnnotations source="ExtendedMetaData" references="//AbstractParserLogService">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.AbstractParserLogService"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IParserLogService" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IParserLogService">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IParserLogService"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractPersistableProblem" abstract="true"
+      eSuperTypes="//Object //IPersistableProblem">
+    <eAnnotations source="ExtendedMetaData" references="//AbstractPersistableProblem">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.AbstractPersistableProblem"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IPersistableProblem" abstract="true"
+      eSuperTypes="//IProblem">
+    <eAnnotations source="ExtendedMetaData" references="//IPersistableProblem">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IPersistableProblem"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="markerType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IProblem" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IProblem">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IProblem"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sourceLineNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="originatingFileName" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="arguments" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sourceEnd">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sourceStart">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="messageWithLocation">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CodeReader" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//CodeReader">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.CodeReader"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CodeReaderCache" eSuperTypes="//Object //ICodeReaderCache">
+    <eAnnotations source="ExtendedMetaData" references="//CodeReaderCache">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.CodeReaderCache"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentSpace">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CodeReaderLRUCache" eSuperTypes="//OverflowingLRUCache">
+    <eAnnotations source="ExtendedMetaData" references="//CodeReaderLRUCache">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.CodeReaderLRUCache"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OverflowingLRUCache" abstract="true"
+      eSuperTypes="//LRUCache">
+    <eAnnotations source="ExtendedMetaData" references="//OverflowingLRUCache">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.util.OverflowingLRUCache"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="loadFactor">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="overflow">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entryTable" eType="//OverflowingLRUCache.1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LRUCache.LRUCacheEntry" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//LRUCache.LRUCacheEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.util.LRUCache.LRUCacheEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_fPrevious" eType="//LRUCache.LRUCacheEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_fKey" eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="_fSpace">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_fValue" eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_fNext" eType="//LRUCache.LRUCacheEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="_fTimestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LRUCache" eSuperTypes="//Object //Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//LRUCache">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.util.LRUCache"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="spaceLimit">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentSpace">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CodeReaderCacheEntry" eSuperTypes="//Object //ILRUCacheable">
+    <eAnnotations source="ExtendedMetaData" references="//CodeReaderCacheEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.CodeReaderCacheEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cacheFootprint">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="codeReader" eType="//CodeReader"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILRUCacheable" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ILRUCacheable">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.util.ILRUCacheable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cacheFootprint">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexFileLocation" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexFileLocation">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexFileLocation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="uRI" eType="//URI"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fullPath">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICodeReaderCache" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ICodeReaderCache">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ICodeReaderCache"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentSpace">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DefaultLogService" eSuperTypes="//AbstractParserLogService">
+    <eAnnotations source="ExtendedMetaData" references="//DefaultLogService">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.DefaultLogService"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Directives" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Directives">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.Directives"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EndOfFileException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//EndOfFileException">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.EndOfFileException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExtendedScannerInfo" eSuperTypes="//ScannerInfo //IExtendedScannerInfo">
+    <eAnnotations source="ExtendedMetaData" references="//ExtendedScannerInfo">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ExtendedScannerInfo"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="includeFiles" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="macroFiles" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="localIncludePath" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IScannerInfo" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IScannerInfo">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IScannerInfo"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="definedSymbols">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="includePaths" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ScannerInfo" eSuperTypes="//Object //IScannerInfo">
+    <eAnnotations source="ExtendedMetaData" references="//ScannerInfo">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ScannerInfo"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IExtendedScannerInfo" abstract="true"
+      eSuperTypes="//IScannerInfo">
+    <eAnnotations source="ExtendedMetaData" references="//IExtendedScannerInfo">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IExtendedScannerInfo"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="macroFiles" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="localIncludePath" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="includeFiles" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FileContent" abstract="true" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//FileContent">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.FileContent"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileLocation">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentsHash">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ITranslationUnit" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement //ISourceManipulation //ISourceReference">
+    <eAnnotations source="ExtendedMetaData" references="//ITranslationUnit">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ITranslationUnit"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="language" eType="//ILanguage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usings" upperBound="-1"
+        eType="//IUsing"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentTypeId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="codeReader" eType="//CodeReader"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aST" eType="//IASTTranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="namespaces" upperBound="-1"
+        eType="//INamespace"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contents" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includes" upperBound="-1"
+        eType="//IInclude"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workingCopy" eType="//IWorkingCopy"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILanguage" abstract="true" eSuperTypes="//IAdaptable">
+    <eAnnotations source="ExtendedMetaData" references="//ILanguage">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ILanguage"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linkageID">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCompletionNode" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCompletionNode">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCompletionNode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="names" upperBound="-1"
+        eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnit" eType="//IASTTranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="prefix">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTranslationUnit" abstract="true"
+      eSuperTypes="//IASTDeclarationListOwner //IAdaptable">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTranslationUnit">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="filePath">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originatingTranslationUnit"
+        eType="//ITranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="index" eType="//IIndex"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroDefinitions" upperBound="-1"
+        eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+        eType="//IASTDeclaration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeDirectives" upperBound="-1"
+        eType="//IASTPreprocessorIncludeStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="linkage" eType="//ILinkage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dependencyTree" eType="//IASTTranslationUnit.IDependencyTree"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allPreprocessorStatements"
+        upperBound="-1" eType="//IASTPreprocessorStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parserLanguage" eType="//ParserLanguage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aSTNodeFactory" eType="//INodeFactory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="preprocessorProblems" upperBound="-1"
+        eType="//IASTProblem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aSTFileSet" eType="//IIndexFileSet"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comments" upperBound="-1"
+        eType="//IASTComment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="indexFileSet" eType="//IIndexFileSet"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="builtinMacroDefinitions"
+        upperBound="-1" eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="preprocessorProblemsCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroExpansions" upperBound="-1"
+        eType="//IASTPreprocessorMacroExpansion"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNodeProperty" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ASTNodeProperty">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ASTNodeProperty"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNode.CopyStyle" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNode.CopyStyle">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNode.CopyStyle"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNode" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNode">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodeLocations" upperBound="-1"
+        eType="//IASTNodeLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="containingFilename">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="propertyInParent" eType="//ASTNodeProperty"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trailingSyntax" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="syntax" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fileLocation" eType="//IASTFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rawSignature">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+        eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnit" eType="//IASTTranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leadingSyntax" eType="//IToken"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTVisitor" abstract="true" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ASTVisitor">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ASTVisitor"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitTranslationUnit">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitTypeIds">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitExpressions">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitDesignators">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitInitializers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitTemplateParameters">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitAmbiguousNodes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitParameterDeclarations">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitDeclarations">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitProblems">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitDeclSpecifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitPointerOperators">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitImplicitNameAlternates">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitArrayModifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitDeclarators">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitNames">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitEnumerators">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitImplicitNames">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitCaptures">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitNamespaces">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitBaseSpecifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shouldVisitStatements">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="includeInactiveNodes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTName" abstract="true" eSuperTypes="//IName //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTName">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTName"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lookupKey" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binding" eType="//IBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="preBinding" eType="//IBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lastName" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="linkage" eType="//ILinkage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imageLocation" eType="//IASTImageLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="completionContext" eType="//IASTCompletionContext"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBinding" abstract="true" eSuperTypes="//IAdaptable">
+    <eAnnotations source="ExtendedMetaData" references="//IBinding">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IBinding"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" eType="//IBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nameCharArray" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="linkage" eType="//ILinkage"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILinkage" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ILinkage">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ILinkage"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linkageID">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linkageName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IScope" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IScope">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IScope"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scopeName" eType="//IName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" eType="//IScope"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="kind" eType="//EScopeKind"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DOMException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//DOMException">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.DOMException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="problem" eType="//IProblemBinding"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IProblemBinding" abstract="true" eSuperTypes="//IType //IScope //IBinding //ISemanticProblem">
+    <eAnnotations source="ExtendedMetaData" references="//IProblemBinding">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IProblemBinding"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aSTNode" eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lineNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="candidateBindings" upperBound="-1"
+        eType="//IBinding"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IType" abstract="true" eSuperTypes="//Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//IType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTTypeMatcher" eSuperTypes="//Object //IObjectMatcher">
+    <eAnnotations source="ExtendedMetaData" references="//ASTTypeMatcher">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ASTTypeMatcher"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IObjectMatcher" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IObjectMatcher">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.util.IObjectMatcher"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EScopeKind" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//EScopeKind">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.EScopeKind"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexFileSet" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexFileSet">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexFileSet"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexFile" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexFile">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexFile"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includes" upperBound="-1"
+        eType="//IIndexInclude"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macros" upperBound="-1"
+        eType="//IIndexMacro"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="linkageID">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="//IIndexFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parsedInContext" eType="//IIndexInclude"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="encodingHashcode">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentsHash">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scannerConfigurationHashcode">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usingDirectives" upperBound="-1"
+        eType="//ICPPUsingDirective"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPUsingDirective" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPUsingDirective">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPUsingDirective"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pointOfDeclaration">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containingScope" eType="//IScope"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nominatedScope" eType="//ICPPNamespaceScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPNamespaceScope" abstract="true"
+      eSuperTypes="//ICPPScope">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPNamespaceScope">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPNamespaceScope"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inlineNamespaces" upperBound="-1"
+        eType="//ICPPNamespaceScope"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usingDirectives" upperBound="-1"
+        eType="//ICPPUsingDirective"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IName" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IName">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.IName"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fileLocation" eType="//IASTFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="simpleID" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFileLocation" abstract="true" eSuperTypes="//IASTNodeLocation">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFileLocation">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFileLocation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startingLineNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endingLineNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNodeLocation" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNodeLocation">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNodeLocation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPScope" abstract="true" eSuperTypes="//IScope">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPScope">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPScope"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexMacro" abstract="true" eSuperTypes="//IMacroBinding //IIndexBinding">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexMacro">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexMacro"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="definition" eType="//IIndexName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="file" eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fileLocation" eType="//IASTFileLocation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexName" abstract="true" eSuperTypes="//IName">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexName">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexName"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosedNames" upperBound="-1"
+        eType="//IIndexName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enclosingDefinition" eType="//IIndexName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="file" eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nodeOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexBinding" abstract="true" eSuperTypes="//IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexBinding">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexBinding"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="localToFile" eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" eType="//IIndexBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualifiedName" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IMacroBinding" abstract="true" eSuperTypes="//IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//IMacroBinding">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IMacroBinding"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="parameterList" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="parameterPlaceholderList"
+        upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expansionImage" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expansion" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndexInclude" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIndexInclude">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndexInclude"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includedByLocation" eType="//IIndexFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nameOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesLocation" eType="//IIndexFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includedBy" eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fullName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nameLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISemanticProblem" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ISemanticProblem">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ISemanticProblem"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCompletionContext" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCompletionContext">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCompletionContext"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTImageLocation" abstract="true" eSuperTypes="//IASTFileLocation">
+    <eAnnotations source="ExtendedMetaData" references="//IASTImageLocation">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTImageLocation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="locationKind">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IToken" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IToken">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IToken"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="next" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="charImage" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="offset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="image">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExpansionOverlapsBoundaryException"
+      eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData" references="//ExpansionOverlapsBoundaryException">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ExpansionOverlapsBoundaryException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDeclaration" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDeclaration">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDeclaration"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTInitializer" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTInitializer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTInitializer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTParameterDeclaration" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTParameterDeclaration">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTParameterDeclaration"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declSpecifier" eType="//IASTDeclSpecifier"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDeclSpecifier" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDeclSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDeclSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="storageClass">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDeclarator" abstract="true" eSuperTypes="//IASTNameOwner //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDeclarator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDeclarator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedDeclarator" eType="//IASTDeclarator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pointerOperators" upperBound="-1"
+        eType="//IASTPointerOperator"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPointerOperator" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPointerOperator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPointerOperator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNameOwner" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNameOwner">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNameOwner"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTArrayModifier" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTArrayModifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTArrayModifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constantExpression" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTExpression" abstract="true" eSuperTypes="//IASTInitializerClause">
+    <eAnnotations source="ExtendedMetaData" references="//IASTExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="valueCategory" eType="//IASTExpression.ValueCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressionType" eType="//IType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTExpression.ValueCategory" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//IASTExpression.ValueCategory">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTExpression.ValueCategory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTInitializerClause" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTInitializerClause">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTInitializerClause"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTStatement" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTypeId" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTypeId">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTypeId"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="abstractDeclarator" eType="//IASTDeclarator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declSpecifier" eType="//IASTDeclSpecifier"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTEnumerationSpecifier.IASTEnumerator"
+      abstract="true" eSuperTypes="//IASTNameOwner //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTEnumerationSpecifier.IASTEnumerator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTEnumerationSpecifier.IASTEnumerator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTEnumerationSpecifier" abstract="true"
+      eSuperTypes="//IASTNameOwner //IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//IASTEnumerationSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTEnumerationSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="enumerators" upperBound="-1"
+        eType="//IASTEnumerationSpecifier.IASTEnumerator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTProblem" abstract="true" eSuperTypes="//IProblem //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTProblem">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTProblem"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTCompositeTypeSpecifier.ICPPASTBaseSpecifier"
+      abstract="true" eSuperTypes="//IASTNameOwner //ICPPASTPackExpandable //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTCompositeTypeSpecifier.ICPPASTBaseSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTCompositeTypeSpecifier.ICPPASTBaseSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="visibility">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTPackExpandable" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTPackExpandable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTPackExpandable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTCompositeTypeSpecifier" abstract="true"
+      eSuperTypes="//IASTCompositeTypeSpecifier //ICPPASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTCompositeTypeSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTCompositeTypeSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseSpecifiers" upperBound="-1"
+        eType="//ICPPASTCompositeTypeSpecifier.ICPPASTBaseSpecifier"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//ICPPClassScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPClassScope" abstract="true" eSuperTypes="//ICPPScope">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPClassScope">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPClassScope"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="implicitMethods" upperBound="-1"
+        eType="//ICPPMethod"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constructors" upperBound="-1"
+        eType="//ICPPConstructor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classType" eType="//ICPPClassType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPConstructor" abstract="true" eSuperTypes="//ICPPMethod">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPConstructor">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPConstructor"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPMethod" abstract="true" eSuperTypes="//ICPPMember //ICPPFunction">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPMethod">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPMethod"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPFunctionType" abstract="true" eSuperTypes="//IFunctionType">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPFunctionType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPFunctionType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thisType" eType="//IPointerType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IPointerType" abstract="true" eSuperTypes="//IType">
+    <eAnnotations source="ExtendedMetaData" references="//IPointerType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IPointerType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="//IType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IFunctionType" abstract="true" eSuperTypes="//IType">
+    <eAnnotations source="ExtendedMetaData" references="//IFunctionType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IFunctionType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="returnType" eType="//IType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" upperBound="-1"
+        eType="//IType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPParameter" abstract="true" eSuperTypes="//ICPPVariable //IParameter">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPParameter">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPParameter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IParameter" abstract="true" eSuperTypes="//IVariable">
+    <eAnnotations source="ExtendedMetaData" references="//IParameter">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IParameter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialValue" eType="//IValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IValue" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IValue">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IValue"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="internalExpression" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="signature" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="unknownBindings" upperBound="-1"
+        eType="//IBinding"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IVariable" abstract="true" eSuperTypes="//IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//IVariable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IVariable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="//IType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialValue" eType="//IValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPVariable" abstract="true" eSuperTypes="//ICPPBinding //IVariable">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPVariable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPVariable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPBinding" abstract="true" eSuperTypes="//IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPBinding">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPBinding"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualifiedNameCharArray"
+        upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="qualifiedName" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPClassType" abstract="true" eSuperTypes="//ICPPBinding //ICompositeType">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPClassType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPClassType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declaredMethods" upperBound="-1"
+        eType="//ICPPMethod"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fields" upperBound="-1"
+        eType="//IField"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declaredFields" upperBound="-1"
+        eType="//ICPPField"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="methods" upperBound="-1"
+        eType="//ICPPMethod"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bases" upperBound="-1"
+        eType="//ICPPBase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allDeclaredMethods" upperBound="-1"
+        eType="//ICPPMethod"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="friends" upperBound="-1"
+        eType="//IBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedClasses" upperBound="-1"
+        eType="//ICPPClassType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="constructors" upperBound="-1"
+        eType="//ICPPConstructor"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IField" abstract="true" eSuperTypes="//IVariable">
+    <eAnnotations source="ExtendedMetaData" references="//IField">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IField"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compositeTypeOwner" eType="//ICompositeType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICompositeType" abstract="true" eSuperTypes="//IType //IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//ICompositeType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.ICompositeType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fields" upperBound="-1"
+        eType="//IField"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compositeScope" eType="//IScope"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPField" abstract="true" eSuperTypes="//IField //ICPPMember //ICPPVariable">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPField">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPField"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPMember" abstract="true" eSuperTypes="//ICPPBinding">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPMember">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPMember"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="//IType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="visibility">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="classOwner" eType="//ICPPClassType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPBase" abstract="true" eSuperTypes="//Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPBase">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPBase"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" eType="//IBinding"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseClassSpecifierName"
+        eType="//IName"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="visibility">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPFunction" abstract="true" eSuperTypes="//ICPPBinding //IFunction">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPFunction">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPFunction"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="//ICPPFunctionType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredArgumentCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="//ICPPParameter"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exceptionSpecification"
+        upperBound="-1" eType="//IType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IFunction" abstract="true" eSuperTypes="//IBinding">
+    <eAnnotations source="ExtendedMetaData" references="//IFunction">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IFunction"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="//IFunctionType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functionScope" eType="//IScope"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="//IParameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCompositeTypeSpecifier" abstract="true"
+      eSuperTypes="//IASTDeclarationListOwner //IASTNameOwner //IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCompositeTypeSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCompositeTypeSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="members" upperBound="-1"
+        eType="//IASTDeclaration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDeclarationListOwner" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDeclarationListOwner">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDeclarationListOwner"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTDeclSpecifier" abstract="true"
+      eSuperTypes="//IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTDeclSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTDeclSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTNamespaceDefinition" abstract="true"
+      eSuperTypes="//IASTDeclarationListOwner //IASTDeclaration //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTNamespaceDefinition">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTNamespaceDefinition"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+        eType="//IASTDeclaration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTTemplateParameter" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTTemplateParameter">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTTemplateParameter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICPPASTCapture" abstract="true" eSuperTypes="//ICPPASTPackExpandable //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ICPPASTCapture">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.cpp.ICPPASTCapture"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICASTDesignator" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ICASTDesignator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.c.ICASTDesignator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTComment" abstract="true" eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTComment">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTComment"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTAmbiguousNode" abstract="true" eSuperTypes="//ASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ASTAmbiguousNode">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTAmbiguousNode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodes" upperBound="-1"
+        eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressionType" eType="//IType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="valueCategory" eType="//IASTExpression.ValueCategory"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNode" abstract="true" eSuperTypes="//Object //IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//ASTNode">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTNode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fileLocation" eType="//IASTFileLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="active">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="frozen">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="offset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rawSignatureChars" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="syntax" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nodeLocations" upperBound="-1"
+        eType="//IASTNodeLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnit" eType="//IASTTranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imageLocation" eType="//IASTImageLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rawSignature">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trailingSyntax" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="propertyInParent" eType="//ASTNodeProperty"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="containingFilename">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leadingSyntax" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+        eType="//IASTNode"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIndex" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIndex">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IIndex"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastWriteAccess">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allFiles" upperBound="-1"
+        eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inlineNamespaces" upperBound="-1"
+        eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IndexFilter" abstract="true" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//IndexFilter">
+      <details key="canonicalName" value="org.eclipse.cdt.core.index.IndexFilter"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPreprocessorMacroDefinition" abstract="true"
+      eSuperTypes="//IASTPreprocessorStatement //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPreprocessorMacroDefinition">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPreprocessorMacroDefinition"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expansion">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expansionLocation" eType="//IASTFileLocation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPreprocessorStatement" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPreprocessorStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPreprocessorStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="INodeFactory" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//INodeFactory">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.INodeFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTASMDeclaration" abstract="true"
+      eSuperTypes="//IASTDeclaration">
+    <eAnnotations source="ExtendedMetaData" references="//IASTASMDeclaration">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTASMDeclaration"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="assembly">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTArrayDeclarator" abstract="true"
+      eSuperTypes="//IASTDeclarator">
+    <eAnnotations source="ExtendedMetaData" references="//IASTArrayDeclarator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTArrayDeclarator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arrayModifiers" upperBound="-1"
+        eType="//IASTArrayModifier"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTArraySubscriptExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTArraySubscriptExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTArraySubscriptExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="argument" eType="//IASTInitializerClause"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arrayExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subscriptExpression" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTBinaryExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTBinaryExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTBinaryExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initOperand2" eType="//IASTInitializerClause"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand1" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTBreakStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTBreakStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTBreakStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCaseStatement" abstract="true" eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCaseStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCaseStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCastExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCastExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCastExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeId" eType="//IASTTypeId"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTCompoundStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTCompoundStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTCompoundStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statements" upperBound="-1"
+        eType="//IASTStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTConditionalExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTConditionalExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTConditionalExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="logicalConditionExpression"
+        eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positiveResultExpression"
+        eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="negativeResultExpression"
+        eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTContinueStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTContinueStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTContinueStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDeclarationStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDeclarationStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDeclarationStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDefaultStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDefaultStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDefaultStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTDoStatement" abstract="true" eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTDoStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTDoStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTElaboratedTypeSpecifier" abstract="true"
+      eSuperTypes="//IASTNameOwner //IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//IASTElaboratedTypeSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTElaboratedTypeSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTEqualsInitializer" abstract="true"
+      eSuperTypes="//IASTInitializer">
+    <eAnnotations source="ExtendedMetaData" references="//IASTEqualsInitializer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTEqualsInitializer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializerClause" eType="//IASTInitializerClause"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTExpressionList" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTExpressionList">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTExpressionList"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expressions" upperBound="-1"
+        eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTExpressionStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTExpressionStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTExpressionStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFieldDeclarator" abstract="true"
+      eSuperTypes="//IASTDeclarator">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFieldDeclarator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFieldDeclarator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bitFieldSize" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFieldReference" abstract="true"
+      eSuperTypes="//IASTExpression //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFieldReference">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFieldReference"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fieldOwner" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fieldName" eType="//IASTName"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTForStatement" abstract="true" eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTForStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTForStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializerStatement" eType="//IASTStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="iterationExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFunctionCallExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFunctionCallExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFunctionCallExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="arguments" upperBound="-1"
+        eType="//IASTInitializerClause"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functionNameExpression"
+        eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTStandardFunctionDeclarator" abstract="true"
+      eSuperTypes="//IASTFunctionDeclarator">
+    <eAnnotations source="ExtendedMetaData" references="//IASTStandardFunctionDeclarator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTStandardFunctionDeclarator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="//IASTParameterDeclaration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functionScope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFunctionDeclarator" abstract="true"
+      eSuperTypes="//IASTDeclarator">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFunctionDeclarator">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFunctionDeclarator"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTFunctionDefinition" abstract="true"
+      eSuperTypes="//IASTDeclaration">
+    <eAnnotations source="ExtendedMetaData" references="//IASTFunctionDefinition">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTFunctionDefinition"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declSpecifier" eType="//IASTDeclSpecifier"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="//IASTStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scope" eType="//IScope"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IGNUASTCompoundStatementExpression"
+      abstract="true" eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IGNUASTCompoundStatementExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.gnu.IGNUASTCompoundStatementExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compoundStatement" eType="//IASTCompoundStatement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTGotoStatement" abstract="true" eSuperTypes="//IASTStatement //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//IASTGotoStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTGotoStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTIdExpression" abstract="true" eSuperTypes="//IASTExpression //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//IASTIdExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTIdExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTIfStatement" abstract="true" eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTIfStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTIfStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elseClause" eType="//IASTStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="thenClause" eType="//IASTStatement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTInitializerExpression" abstract="true"
+      eSuperTypes="//IASTEqualsInitializer">
+    <eAnnotations source="ExtendedMetaData" references="//IASTInitializerExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTInitializerExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="expression" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTInitializerList" abstract="true"
+      eSuperTypes="//IASTInitializer //IASTInitializerClause">
+    <eAnnotations source="ExtendedMetaData" references="//IASTInitializerList">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTInitializerList"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initializers" upperBound="-1"
+        eType="//IASTInitializer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="clauses" upperBound="-1"
+        eType="//IASTInitializerClause"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTLabelStatement" abstract="true"
+      eSuperTypes="//IASTStatement //IASTNameOwner">
+    <eAnnotations source="ExtendedMetaData" references="//IASTLabelStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTLabelStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedStatement" eType="//IASTStatement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTLiteralExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTLiteralExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTLiteralExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNullStatement" abstract="true" eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNullStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNullStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPointer" abstract="true" eSuperTypes="//IASTPointerOperator">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPointer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPointer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTProblemDeclaration" abstract="true"
+      eSuperTypes="//IASTDeclaration //IASTProblemHolder">
+    <eAnnotations source="ExtendedMetaData" references="//IASTProblemDeclaration">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTProblemDeclaration"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTProblemHolder" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTProblemHolder">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTProblemHolder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTProblemExpression" abstract="true"
+      eSuperTypes="//IASTExpression //IASTProblemHolder">
+    <eAnnotations source="ExtendedMetaData" references="//IASTProblemExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTProblemExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTProblemStatement" abstract="true"
+      eSuperTypes="//IASTStatement //IASTProblemHolder">
+    <eAnnotations source="ExtendedMetaData" references="//IASTProblemStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTProblemStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTReturnStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTReturnStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTReturnStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="returnArgument" eType="//IASTInitializerClause"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTSimpleDeclSpecifier" abstract="true"
+      eSuperTypes="//IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//IASTSimpleDeclSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTSimpleDeclSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declTypeExpression" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBasicType.Kind" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//IBasicType.Kind">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IBasicType.Kind"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBasicType" abstract="true" eSuperTypes="//IType">
+    <eAnnotations source="ExtendedMetaData" references="//IBasicType">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IBasicType"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="kind" eType="//IBasicType.Kind"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="//IASTExpression"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTSimpleDeclaration" abstract="true"
+      eSuperTypes="//IASTDeclaration">
+    <eAnnotations source="ExtendedMetaData" references="//IASTSimpleDeclaration">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTSimpleDeclaration"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declSpecifier" eType="//IASTDeclSpecifier"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declarators" upperBound="-1"
+        eType="//IASTDeclarator"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTSwitchStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTSwitchStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTSwitchStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="controllerExpression" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IScanner" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IScanner">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IScanner"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="codeBranchNesting">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="locationResolver" eType="//ILocationResolver"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="macroDefinitions">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILocationResolver" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ILocationResolver">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.ILocationResolver"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroDefinitions" upperBound="-1"
+        eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scannerProblemsCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dependencyTree" eType="//IASTTranslationUnit.IDependencyTree"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="translationUnitPath">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lexerOptions" eType="//Lexer.LexerOptions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comments" upperBound="-1"
+        eType="//IASTComment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scannerProblems" upperBound="-1"
+        eType="//IASTProblem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeDirectives" upperBound="-1"
+        eType="//IASTPreprocessorIncludeStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="builtinMacroDefinitions"
+        upperBound="-1" eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allPreprocessorStatements"
+        upperBound="-1" eType="//IASTPreprocessorStatement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTranslationUnit.IDependencyTree"
+      abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTranslationUnit.IDependencyTree">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit.IDependencyTree"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inclusions" upperBound="-1"
+        eType="//IASTTranslationUnit.IDependencyTree.IASTInclusionNode"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="translationUnitPath">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTranslationUnit.IDependencyTree.IASTInclusionNode"
+      abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTranslationUnit.IDependencyTree.IASTInclusionNode">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTranslationUnit.IDependencyTree.IASTInclusionNode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedInclusions" upperBound="-1"
+        eType="//IASTTranslationUnit.IDependencyTree.IASTInclusionNode"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeDirective" eType="//IASTPreprocessorIncludeStatement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPreprocessorIncludeStatement" abstract="true"
+      eSuperTypes="//IASTPreprocessorStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPreprocessorIncludeStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPreprocessorIncludeStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="name" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTPreprocessorMacroExpansion" abstract="true"
+      eSuperTypes="//IASTNode">
+    <eAnnotations source="ExtendedMetaData" references="//IASTPreprocessorMacroExpansion">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTPreprocessorMacroExpansion"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nestedMacroReferences"
+        upperBound="-1" eType="//IASTName"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroDefinition" eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroReference" eType="//IASTName"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNodeSpecification" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ASTNodeSpecification">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTNodeSpecification"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bestNode" eType="//IASTNode"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sequenceEnd">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sequenceStart">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationToSelection" eType="//ASTNodeSpecification.Relation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNodeSpecification.Relation" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//ASTNodeSpecification.Relation">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTNodeSpecification.Relation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTNodeSelector" eSuperTypes="//Object //IASTNodeSelector">
+    <eAnnotations source="ExtendedMetaData" references="//ASTNodeSelector">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTNodeSelector"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ASTTranslationUnit" abstract="true"
+      eSuperTypes="//ASTNode //ISkippedIndexedFilesListener //IASTTranslationUnit">
+    <eAnnotations source="ExtendedMetaData" references="//ASTTranslationUnit">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.parser.ASTTranslationUnit"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroDefinitions" upperBound="-1"
+        eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="preprocessorProblems" upperBound="-1"
+        eType="//IASTProblem"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aSTFileSet" eType="//IIndexFileSet"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnit" eType="//IASTTranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="aSTNodeFactory" eType="//INodeFactory"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroExpansions" upperBound="-1"
+        eType="//IASTPreprocessorMacroExpansion"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="indexFileSet" eType="//IIndexFileSet"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="index" eType="//IIndex"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originatingTranslationUnit"
+        eType="//ITranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeDirectives" upperBound="-1"
+        eType="//IASTPreprocessorIncludeStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="preprocessorProblemsCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allPreprocessorStatements"
+        upperBound="-1" eType="//IASTPreprocessorStatement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="declarations" upperBound="-1"
+        eType="//IASTDeclaration"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="builtinMacroDefinitions"
+        upperBound="-1" eType="//IASTPreprocessorMacroDefinition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comments" upperBound="-1"
+        eType="//IASTComment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dependencyTree" eType="//IASTTranslationUnit.IDependencyTree"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="filePath">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNodeSelector" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNodeSelector">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNodeSelector"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTImplicitName" abstract="true" eSuperTypes="//IASTName">
+    <eAnnotations source="ExtendedMetaData" references="//IASTImplicitName">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTImplicitName"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InternalFileContentProvider" abstract="true"
+      eSuperTypes="//IncludeFileContentProvider">
+    <eAnnotations source="ExtendedMetaData" references="//InternalFileContentProvider">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.InternalFileContentProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeHeuristics" eType="//IIncludeFileResolutionHeuristics"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIncludeFileResolutionHeuristics" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IIncludeFileResolutionHeuristics">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.dom.IIncludeFileResolutionHeuristics"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InternalFileContent" eSuperTypes="//FileContent">
+    <eAnnotations source="ExtendedMetaData" references="//InternalFileContent">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.InternalFileContent"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="foundOnPath" eType="//IncludeSearchPathElement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileLocation">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="macroDefinitions" upperBound="-1"
+        eType="//IIndexMacro"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentsHash">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="kind" eType="//InternalFileContent.InclusionKind"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usingDirectives" upperBound="-1"
+        eType="//ICPPUsingDirective"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="filesIncluded" upperBound="-1"
+        eType="//IIndexFile"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="//AbstractCharArray"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InternalFileContent.InclusionKind" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//InternalFileContent.InclusionKind">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.InternalFileContent.InclusionKind"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractCharArray" abstract="true" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//AbstractCharArray">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.AbstractCharArray"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contentsHash">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IncludeSearchPathElement" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//IncludeSearchPathElement">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.IncludeSearchPathElement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IncludeFileContentProvider" abstract="true"
+      eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//IncludeFileContentProvider">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IncludeFileContentProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="savedFilesProvider" eType="//IncludeFileContentProvider"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="emptyFilesProvider" eType="//IncludeFileContentProvider"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICodeReaderFactory" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ICodeReaderFactory">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ICodeReaderFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="codeReaderCache" eType="//ICodeReaderCache"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="uniqueIdentifier">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParserLanguage" abstract="true" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//ParserLanguage">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParserLanguage"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISkippedIndexedFilesListener" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ISkippedIndexedFilesListener">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.ISkippedIndexedFilesListener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Lexer.LexerOptions" eSuperTypes="//Object //Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//Lexer.LexerOptions">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.Lexer.LexerOptions"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fSupportDollarInIdentifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fCreateImageLocations">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fSupportAtSignInIdentifiers">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fSupportMinAndMax">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fSupportUTFLiterals">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fSupportSlashPercentComments">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Lexer" eSuperTypes="//Object //ITokenSequence">
+    <eAnnotations source="ExtendedMetaData" references="//Lexer">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.Lexer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="input" eType="//AbstractCharArray"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastEndOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILexerLog" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ILexerLog">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.ILexerLog"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Token" eSuperTypes="//Object //IToken //Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//Token">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.Token"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="charImage" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="offset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="next" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="image">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OffsetLimitReachedException" eSuperTypes="//EndOfFileException">
+    <eAnnotations source="ExtendedMetaData" references="//OffsetLimitReachedException">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.OffsetLimitReachedException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="originator">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ITokenSequence" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ITokenSequence">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.parser.scanner.ITokenSequence"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastEndOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTypeIdExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTypeIdExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTypeIdExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeId" eType="//IASTTypeId"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTTypeIdInitializerExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTTypeIdInitializerExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTTypeIdInitializerExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="typeId" eType="//IASTTypeId"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTNamedTypeSpecifier" abstract="true"
+      eSuperTypes="//IASTNameOwner //IASTDeclSpecifier">
+    <eAnnotations source="ExtendedMetaData" references="//IASTNamedTypeSpecifier">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTNamedTypeSpecifier"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTUnaryExpression" abstract="true"
+      eSuperTypes="//IASTExpression">
+    <eAnnotations source="ExtendedMetaData" references="//IASTUnaryExpression">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTUnaryExpression"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IASTWhileStatement" abstract="true"
+      eSuperTypes="//IASTStatement">
+    <eAnnotations source="ExtendedMetaData" references="//IASTWhileStatement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.dom.ast.IASTWhileStatement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="//IASTExpression"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IContributedModelBuilder" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IContributedModelBuilder">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IContributedModelBuilder"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="INamespace" abstract="true" eSuperTypes="//IParent //ICElement //ISourceManipulation //ISourceReference">
+    <eAnnotations source="ExtendedMetaData" references="//INamespace">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.INamespace"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICElement" abstract="true" eSuperTypes="//IAdaptable">
+    <eAnnotations source="ExtendedMetaData" references="//ICElement">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICElement"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementType">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="underlyingResource" eType="//IResource"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="path" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cProject" eType="//ICProject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parent" eType="//ICElement"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="handleIdentifier">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cModel" eType="//ICModel"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resource" eType="//IResource"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="locationURI" eType="//URI"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICElementVisitor" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ICElementVisitor">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICElementVisitor"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICModel" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//ICModel">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICModel"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cProjects" upperBound="-1"
+        eType="//ICProject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nonCResources" upperBound="-1"
+        eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workspace" eType="//IWorkspace"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CModelException" eSuperTypes="//CoreException">
+    <eAnnotations source="ExtendedMetaData" references="//CModelException">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.CModelException"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exception" eType="//Throwable"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cModelStatus" eType="//ICModelStatus"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICModelStatus" abstract="true" eSuperTypes="//IStatus">
+    <eAnnotations source="ExtendedMetaData" references="//ICModelStatus">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICModelStatus"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="string">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="//ICElement"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="path" eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICProject" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//ICProject">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICProject"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="requiredProjectNames" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binaryContainer" eType="//IBinaryContainer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nonCResources" upperBound="-1"
+        eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="project" eType="//IProject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="allSourceRoots" upperBound="-1"
+        eType="//ISourceRoot"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resolvedPathEntries" upperBound="-1"
+        eType="//IPathEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outputEntries" upperBound="-1"
+        eType="//IOutputEntry"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="archiveContainer" eType="//IArchiveContainer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRoots" upperBound="-1"
+        eType="//ISourceRoot"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeReferences" upperBound="-1"
+        eType="//IIncludeReference"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="libraryReferences" upperBound="-1"
+        eType="//ILibraryReference"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rawPathEntries" upperBound="-1"
+        eType="//IPathEntry"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISourceRoot" abstract="true" eSuperTypes="//ICContainer">
+    <eAnnotations source="ExtendedMetaData" references="//ISourceRoot">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ISourceRoot"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IArchive" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//IArchive">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IArchive"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binaries" upperBound="-1"
+        eType="//IBinary"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBinary" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//IBinary">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IBinary"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bSS">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cPU">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="neededSharedLibs" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="data">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="soname">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBuffer" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IBuffer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IBuffer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contents">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="owner" eType="//IOpenable"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="characters" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="underlyingResource" eType="//IResource"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IOpenable" abstract="true" eSuperTypes="//IBufferChangedListener">
+    <eAnnotations source="ExtendedMetaData" references="//IOpenable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IOpenable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buffer" eType="//IBuffer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BufferChangedEvent" eSuperTypes="//EventObject">
+    <eAnnotations source="ExtendedMetaData" references="//BufferChangedEvent">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.BufferChangedEvent"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="offset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buffer" eType="//IBuffer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBufferChangedListener" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IBufferChangedListener">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IBufferChangedListener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IParent" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IParent">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IParent"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+        eType="//ICElement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ICContainer" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//ICContainer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ICContainer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnits" upperBound="-1"
+        eType="//ITranslationUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nonCResources" upperBound="-1"
+        eType="//Object"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binaries" upperBound="-1"
+        eType="//IBinary"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cContainers" upperBound="-1"
+        eType="//ICContainer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="archives" upperBound="-1"
+        eType="//IArchive"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IArchiveContainer" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//IArchiveContainer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IArchiveContainer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="archives" upperBound="-1"
+        eType="//IArchive"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBinaryContainer" abstract="true" eSuperTypes="//IOpenable //IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//IBinaryContainer">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IBinaryContainer"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="binaries" upperBound="-1"
+        eType="//IBinary"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIncludeReference" abstract="true" eSuperTypes="//IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//IIncludeReference">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IIncludeReference"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="affectedPath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includeEntry" eType="//IIncludeEntry"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IIncludeEntry" abstract="true" eSuperTypes="//IPathEntry">
+    <eAnnotations source="ExtendedMetaData" references="//IIncludeEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IIncludeEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includePath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseReference" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exclusionPatterns" upperBound="-1"
+        eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fullIncludePath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="basePath" eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IPathEntry" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IPathEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IPathEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="path" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="entryKind">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILibraryReference" abstract="true" eSuperTypes="//IParent //ICElement">
+    <eAnnotations source="ExtendedMetaData" references="//ILibraryReference">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ILibraryReference"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="libraryEntry" eType="//ILibraryEntry"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ILibraryEntry" abstract="true" eSuperTypes="//IPathEntry">
+    <eAnnotations source="ExtendedMetaData" references="//ILibraryEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ILibraryEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="fullLibraryPath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceAttachmentPrefixMapping"
+        eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseReference" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="basePath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="libraryPath" eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceAttachmentRootPath"
+        eType="//IPath"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceAttachmentPath" eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IOutputEntry" abstract="true" eSuperTypes="//IPathEntry">
+    <eAnnotations source="ExtendedMetaData" references="//IOutputEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IOutputEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exclusionPatterns" upperBound="-1"
+        eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISourceEntry" abstract="true" eSuperTypes="//IPathEntry">
+    <eAnnotations source="ExtendedMetaData" references="//ISourceEntry">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ISourceEntry"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="exclusionPatterns" upperBound="-1"
+        eType="//IPath"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISourceRange" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ISourceRange">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ISourceRange"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startPos">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endLine">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="idStartPos">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startLine">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="idLength">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISourceManipulation" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ISourceManipulation">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ISourceManipulation"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISourceReference" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ISourceReference">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.ISourceReference"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="source">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="index">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceRange" eType="//ISourceRange"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="translationUnit" eType="//ITranslationUnit"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IInclude" abstract="true" eSuperTypes="//ICElement //ISourceManipulation //ISourceReference">
+    <eAnnotations source="ExtendedMetaData" references="//IInclude">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IInclude"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fullFileName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="includeName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IUsing" abstract="true" eSuperTypes="//ICElement //ISourceManipulation //ISourceReference">
+    <eAnnotations source="ExtendedMetaData" references="//IUsing">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IUsing"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="elementName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IWorkingCopy" abstract="true" eSuperTypes="//ITranslationUnit">
+    <eAnnotations source="ExtendedMetaData" references="//IWorkingCopy">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IWorkingCopy"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="originalElement" eType="//ITranslationUnit"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IBufferFactory" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IBufferFactory">
+      <details key="canonicalName" value="org.eclipse.cdt.internal.core.model.IBufferFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IProblemRequestor" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IProblemRequestor">
+      <details key="canonicalName" value="org.eclipse.cdt.core.model.IProblemRequestor"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GCCKeywords" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//GCCKeywords">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.GCCKeywords"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IGCCToken" abstract="true" eSuperTypes="//IToken">
+    <eAnnotations source="ExtendedMetaData" references="//IGCCToken">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IGCCToken"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IInactiveCodeToken" abstract="true"
+      eSuperTypes="//IToken">
+    <eAnnotations source="ExtendedMetaData" references="//IInactiveCodeToken">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IInactiveCodeToken"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="newNesting">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="oldNesting">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IMacro" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IMacro">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IMacro"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expansion" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="signature" upperBound="-1">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IPreprocessorDirective" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IPreprocessorDirective">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IPreprocessorDirective"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IScannerInfoChangeListener" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IScannerInfoChangeListener">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IScannerInfoChangeListener"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IScannerInfoProvider" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//IScannerInfoProvider">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.IScannerInfoProvider"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ITokenDuple" abstract="true">
+    <eAnnotations source="ExtendedMetaData" references="//ITokenDuple">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ITokenDuple"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lastToken" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="segments" upperBound="-1"
+        eType="//ITokenDuple"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leadingSegments" eType="//ITokenDuple"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="templateIdArgLists" upperBound="-1"
+        eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lastSegment" eType="//ITokenDuple"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="firstToken" eType="//IToken"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endOffset">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="segmentCount">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="KeywordSetKey" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//KeywordSetKey">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.KeywordSetKey"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Keywords" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//Keywords">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.Keywords"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CharArrayIntMap" eSuperTypes="//CharTable">
+    <eAnnotations source="ExtendedMetaData" references="//CharArrayIntMap">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.util.CharArrayIntMap"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CharTable" eSuperTypes="//HashTable">
+    <eAnnotations source="ExtendedMetaData" references="//CharTable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.util.CharTable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HashTable" eSuperTypes="//Object //Cloneable">
+    <eAnnotations source="ExtendedMetaData" references="//HashTable">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.util.HashTable"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NullLogService" eSuperTypes="//AbstractParserLogService">
+    <eAnnotations source="ExtendedMetaData" references="//NullLogService">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.NullLogService"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParseError" eSuperTypes="//Error">
+    <eAnnotations source="ExtendedMetaData" references="//ParseError">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParseError"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParseError.ParseErrorKind" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//ParseError.ParseErrorKind">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParseError.ParseErrorKind"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParserFactory" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ParserFactory">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParserFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParserMode" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData" references="//ParserMode">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParserMode"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParserUtil" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ParserUtil">
+      <details key="canonicalName" value="org.eclipse.cdt.core.parser.ParserUtil"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scannerLogService" eType="//IParserLogService"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parserLogService" eType="//IParserLogService"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Object"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/16"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OverflowingLRUCache">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="typeVariable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/704"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cloneable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Cloneable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/20"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="URI" eSuperTypes="//Object //Comparable //Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.net.URI"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/114"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Comparable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/197"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.io.Serializable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/21"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Exception" eSuperTypes="//Throwable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Exception"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/117"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Throwable" eSuperTypes="//Object //Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Throwable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/12"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IPath" eSuperTypes="//Cloneable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.runtime.IPath"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/723"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IAdaptable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.runtime.IAdaptable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/754"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Enum" eSuperTypes="//Object //Comparable //Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Enum"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/282"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IResource" eSuperTypes="//IAdaptable //ISchedulingRule">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.resources.IResource"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/721"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ISchedulingRule">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.runtime.jobs.ISchedulingRule"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/772"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IWorkspace" eSuperTypes="//IAdaptable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.resources.IWorkspace"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/770"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CoreException" eSuperTypes="//Exception">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.runtime.CoreException"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/726"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IStatus">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.runtime.IStatus"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/727"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IProject" eSuperTypes="//IAdaptable //IContainer">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.resources.IProject"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/761"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IContainer" eSuperTypes="//IAdaptable //IResource">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="org.eclipse.core.resources.IContainer"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/722"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EventObject" eSuperTypes="//Object //Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.EventObject"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/746"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="List" eSuperTypes="//Collection">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.List"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/51"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Collection" eSuperTypes="//Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.Collection"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/53"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Iterable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/62"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Error" eSuperTypes="//Throwable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Error"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/resultReflect-CDT.ecore.xmi#/576"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UnknownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

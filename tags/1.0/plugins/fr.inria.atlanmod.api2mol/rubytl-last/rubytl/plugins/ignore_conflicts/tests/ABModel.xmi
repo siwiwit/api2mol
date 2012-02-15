@@ -1,0 +1,5 @@
+  <xmi xmlns:emof='http://schema.omg.org/spec/mof/2.0/emof.xmi' xmi:version='2.0' xmlns:xmi='http://www.omg.org/XMI'>
+    <AB:A name='a1' bes='AB.B_0 AB.B_1' xmi:id='AB.A_0'/>
+    <AB:B name='b1' xmi:id='AB.B_0'/>
+    <AB:B name='b2' xmi:id='AB.B_1'/>
+  </xmi>

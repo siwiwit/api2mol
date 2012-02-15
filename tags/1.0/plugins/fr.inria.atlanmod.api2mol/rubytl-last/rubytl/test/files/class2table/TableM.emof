@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emof:Package xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:emof="http://schema.omg.org/spec/mof/2.0/emof.xmi" xmi:id="TableM"
+    name="TableM">
+  <ownedType xmi:type="emof:Class" xmi:id="TableM.Table" name="Table">
+    <ownedAttribute xmi:id="TableM.Table.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="TableM.Table.pkeys" name="pkeys" upper="*" type="TableM.Column"
+        opposite="TableM.Column.pkeyOf"/>
+    <ownedAttribute xmi:id="TableM.Table.cols" name="cols" upper="*" type="TableM.Column"
+        opposite="TableM.Column.owner"/>
+    <ownedAttribute xmi:id="TableM.Table.fkeys" name="fkeys" upper="*" type="TableM.FKey"
+        opposite="TableM.FKey.references"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="TableM.Column" name="Column">
+    <ownedAttribute xmi:id="TableM.Column.pkeyOf" name="pkeyOf" type="TableM.Table"
+        opposite="TableM.Table.pkeys"/>
+    <ownedAttribute xmi:id="TableM.Column.owner" name="owner" lower="1" type="TableM.Table"
+        opposite="TableM.Table.cols"/>
+    <ownedAttribute xmi:id="TableM.Column.type" name="type">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="TableM.Column.name" name="name">
+      <type xmi:type="emof:PrimitiveType" href="http://schema.omg.org/spec/mof/2.0/emof.xmi#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="TableM.Column.partOfFKey" name="partOfFKey" type="TableM.FKey"
+        opposite="TableM.FKey.cols"/>
+  </ownedType>
+  <ownedType xmi:type="emof:Class" xmi:id="TableM.FKey" name="FKey">
+    <ownedAttribute xmi:id="TableM.FKey.references" name="references" lower="1" type="TableM.Table"
+        opposite="TableM.Table.fkeys"/>
+    <ownedAttribute xmi:id="TableM.FKey.cols" name="cols" upper="*" type="TableM.Column"
+        opposite="TableM.Column.partOfFKey"/>
+  </ownedType>
+</emof:Package>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<PackageTest:ClassInMainPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PackageTest="http://rmof/test/package" xmlns:subpackage="http://rmof/test/subpackage" xsi:schemaLocation="http://rmof/test/package packages.ecore http://rmof/test/subpackage packages.ecore#//Subpackage">
+  <elementsInSubpackages xsi:type="subpackage:ReferencingClassInSubpackage" name="class1" classInSubpackage="//@elementsInSubpackages.1"/>
+  <elementsInSubpackages xsi:type="subpackage:ReferencingClassInSubpackage" name="class2"/>
+</PackageTest:ClassInMainPackage>

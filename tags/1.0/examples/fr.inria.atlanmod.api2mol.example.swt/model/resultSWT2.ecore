@@ -1,0 +1,2002 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:modelum="http://modelum.es/atlandmod">
+  <modelum:Shell style="570426608" display="/1" accessible="/5" font="/2" layout="/6" tabList="/7" text="My SWT application"/>
+  <modelum:Display systemFont="/2" Default="/1" synchronizer="/3" thread="/4"/>
+  <modelum:Font device="/1"/>
+  <modelum:Synchronizer/>
+  <modelum:UnknownElement type="java.lang.Thread"/>
+  <modelum:Accessible control="/0"/>
+  <modelum:FillLayout/>
+  <modelum:TabFolder style="570425472" display="/1" accessible="/8" font="/9" parent="/0" tabList="/10 /153 /240 /312 /390 /464 /516 /587 /660 /742 /811 /884 /943 /1025 /1089 /1173 /1235 /1322 /1413 /1487 /1612 /1700 /1785 /1822 /1928" itemCount="25" items="/1974 /1975 /1976 /1977 /1978 /1979 /1980 /1981 /1982 /1983 /1984 /1985 /1986 /1987 /1988 /1989 /1990 /1991 /1992 /1993 /1994 /1995 /1996 /1997 /1998"/>
+  <modelum:Accessible control="/7"/>
+  <modelum:Font device="/1"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/11" font="/2" parent="/7" layout="/12" tabList="/13 /58 /140"/>
+  <modelum:Accessible control="/10"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/14" accessible="/15" font="/16" parent="/10" layout="/17" tabList="/18 /32 /45" text=""/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/13"/>
+  <modelum:Font device="/1"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/19" accessible="/20" font="/16" parent="/13" layout="/21" tabList="/22 /26 /29" text="Text Buttons"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/18"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/23" accessible="/24" font="/25" parent="/18" text="One"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/22"/>
+  <modelum:Font device="/1"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/27" accessible="/28" font="/25" parent="/18" text="Two"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/26"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/30" accessible="/31" font="/25" parent="/18" text="Three"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/29"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/33" accessible="/34" font="/16" parent="/13" layout="/35" tabList="/36 /39 /42" text="Image Buttons"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/32"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/37" accessible="/38" font="/25" parent="/32" text=""/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/36"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/40" accessible="/41" font="/25" parent="/32" text=""/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/39"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/43" accessible="/44" font="/25" parent="/32" text=""/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/42"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/46" accessible="/47" font="/16" parent="/13" layout="/48" tabList="/49 /52 /55" text="Image and Text Buttons"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/45"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/50" accessible="/51" font="/25" parent="/45" text="One"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/49"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/53" accessible="/54" font="/25" parent="/45" text="Two"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/52"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/56" accessible="/57" font="/25" parent="/45" text="Three"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/55"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/59" accessible="/60" font="/16" parent="/10" layout="/61" tabList="/62 /72 /95 /105 /126" text="Parameters"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/58"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/63" accessible="/64" font="/16" parent="/58" layout="/65" tabList="/66 /69" text="Styles"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/62"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/67" accessible="/68" font="/25" parent="/62" text="SWT.FLAT"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/66"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/70" accessible="/71" font="/25" parent="/62" text="SWT.BORDER"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/69"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/73" accessible="/74" font="/16" parent="/58" layout="/75" tabList="/76 /79 /82 /85 /88 /92" text="Other"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/72"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/77" accessible="/78" font="/25" parent="/72" text="Enabled"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/76"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/80" accessible="/81" font="/25" parent="/72" text="Visible"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/79"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/83" accessible="/84" font="/25" parent="/72" text="Background Image"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/82"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/86" accessible="/87" font="/25" parent="/72" text="Popup Menu"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/85"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/89" accessible="/90" font="/16" parent="/72" layout="/91" text="Alignment"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/88"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/93" accessible="/94" font="/25" parent="/72" text="Set/Get API"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/92"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/96" accessible="/97" font="/16" parent="/58" layout="/98" tabList="/99 /102" text="Size"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/95"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/100" accessible="/101" font="/25" parent="/95" text="Horizontal Fill"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/99"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/103" accessible="/104" font="/25" parent="/95" text="Vertical Fill"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/102"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/106" accessible="/107" font="/16" parent="/58" layout="/108" tabList="/109 /120 /123" text="Colors and Font"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/105"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" layoutData="/110" accessible="/111" font="/112" parent="/105" verticalBar="/113" horizontalBar="/114" items="/115 /118 /119" itemCount="3"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/109"/>
+  <modelum:Font device="/1"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/109"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/109"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/109"/>
+  <modelum:Color device="/1"/>
+  <modelum:Color device="/1"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/109"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/109"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/121" accessible="/122" font="/25" parent="/105" text="&amp;Change..."/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/120"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/124" accessible="/125" font="/25" parent="/105" text="&amp;Defaults"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/123"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/127" accessible="/128" font="/16" parent="/58" layout="/129" tabList="/130 /134 /137" text="Background Mode on Parent"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/126"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" layoutData="/131" accessible="/132" font="/133" parent="/126" textLimit="2147483647"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/130"/>
+  <modelum:Font device="/1"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/135" accessible="/136" font="/25" parent="/126" text="Background Image"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/134"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/138" accessible="/139" font="/25" parent="/126" text="Background Color"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/137"/>
+  <modelum:Group style="570949632" display="/1" layoutData="/141" accessible="/142" font="/16" parent="/10" layout="/143" tabList="/144 /147 /150" text="Listeners"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/140"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/145" accessible="/146" font="/25" parent="/140" text="Select Listeners"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/144"/>
+  <modelum:Button style="570441760" display="/1" layoutData="/148" accessible="/149" font="/25" parent="/140" text="Listen"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/147"/>
+  <modelum:Button style="587202568" display="/1" layoutData="/151" accessible="/152" font="/25" parent="/140" text="Clear"/>
+  <modelum:GridData/>
+  <modelum:Accessible control="/150"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/154" font="/2" parent="/7" layout="/155" tabList="/156 /162 /231"/>
+  <modelum:Accessible control="/153"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/157" font="/16" parent="/153" layout="/158" tabList="/159" text=""/>
+  <modelum:Accessible control="/156"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/160" font="/16" parent="/156" layout="/161" text="Canvas"/>
+  <modelum:Accessible control="/159"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/163" font="/16" parent="/153" layout="/164" tabList="/165 /184 /201 /208 /222" text="Parameters"/>
+  <modelum:Accessible control="/162"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/166" font="/16" parent="/162" layout="/167" tabList="/168 /170 /172 /174 /176 /178 /180 /182" text="Styles"/>
+  <modelum:Accessible control="/165"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/169" font="/25" parent="/165" text="SWT.H_SCROLL"/>
+  <modelum:Accessible control="/168"/>
+  <modelum:Button style="570441760" display="/1" accessible="/171" font="/25" parent="/165" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/170"/>
+  <modelum:Button style="570441760" display="/1" accessible="/173" font="/25" parent="/165" text="SWT.BORDER"/>
+  <modelum:Accessible control="/172"/>
+  <modelum:Button style="570441760" display="/1" accessible="/175" font="/25" parent="/165" text="SWT.NO_BACKGROUND"/>
+  <modelum:Accessible control="/174"/>
+  <modelum:Button style="570441760" display="/1" accessible="/177" font="/25" parent="/165" text="SWT.NO_FOCUS"/>
+  <modelum:Accessible control="/176"/>
+  <modelum:Button style="570441760" display="/1" accessible="/179" font="/25" parent="/165" text="SWT.NO_MERGE_PAINTS"/>
+  <modelum:Accessible control="/178"/>
+  <modelum:Button style="570441760" display="/1" accessible="/181" font="/25" parent="/165" text="SWT.NO_REDRAW_RESIZE"/>
+  <modelum:Accessible control="/180"/>
+  <modelum:Button style="570441760" display="/1" accessible="/183" font="/25" parent="/165" text="SWT.DOUBLE_BUFFERED"/>
+  <modelum:Accessible control="/182"/>
+  <modelum:Group style="570949632" display="/1" accessible="/185" font="/16" parent="/162" layout="/186" tabList="/187 /189 /191 /193 /195 /197 /199" text="Other"/>
+  <modelum:Accessible control="/184"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/188" font="/25" parent="/184" text="Enabled"/>
+  <modelum:Accessible control="/187"/>
+  <modelum:Button style="570441760" display="/1" accessible="/190" font="/25" parent="/184" text="Visible"/>
+  <modelum:Accessible control="/189"/>
+  <modelum:Button style="570441760" display="/1" accessible="/192" font="/25" parent="/184" text="Background Image"/>
+  <modelum:Accessible control="/191"/>
+  <modelum:Button style="570441760" display="/1" accessible="/194" font="/25" parent="/184" text="Popup Menu"/>
+  <modelum:Accessible control="/193"/>
+  <modelum:Button style="570441760" display="/1" accessible="/196" font="/25" parent="/184" text="Caret"/>
+  <modelum:Accessible control="/195"/>
+  <modelum:Button style="570441760" display="/1" accessible="/198" font="/25" parent="/184" text="Fill Damaged Area With Color"/>
+  <modelum:Accessible control="/197"/>
+  <modelum:Button style="587202568" display="/1" accessible="/200" font="/25" parent="/184" text="Set/Get API"/>
+  <modelum:Accessible control="/199"/>
+  <modelum:Group style="570949632" display="/1" accessible="/202" font="/16" parent="/162" layout="/203" tabList="/204 /206" text="Size"/>
+  <modelum:Accessible control="/201"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/205" font="/25" parent="/201" text="Horizontal Fill"/>
+  <modelum:Accessible control="/204"/>
+  <modelum:Button style="570441760" display="/1" accessible="/207" font="/25" parent="/201" text="Vertical Fill"/>
+  <modelum:Accessible control="/206"/>
+  <modelum:Group style="570949632" display="/1" accessible="/209" font="/16" parent="/162" layout="/210" tabList="/211 /218 /220" text="Colors and Font"/>
+  <modelum:Accessible control="/208"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/212" font="/112" parent="/208" verticalBar="/213" horizontalBar="/214" items="/215 /216 /217" itemCount="3"/>
+  <modelum:Accessible control="/211"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/211"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/211"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/211"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/211"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/211"/>
+  <modelum:Button style="587202568" display="/1" accessible="/219" font="/25" parent="/208" text="&amp;Change..."/>
+  <modelum:Accessible control="/218"/>
+  <modelum:Button style="587202568" display="/1" accessible="/221" font="/25" parent="/208" text="&amp;Defaults"/>
+  <modelum:Accessible control="/220"/>
+  <modelum:Group style="570949632" display="/1" accessible="/223" font="/16" parent="/162" layout="/224" tabList="/225 /227 /229" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/222"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/226" font="/133" parent="/222" textLimit="2147483647"/>
+  <modelum:Accessible control="/225"/>
+  <modelum:Button style="570441760" display="/1" accessible="/228" font="/25" parent="/222" text="Background Image"/>
+  <modelum:Accessible control="/227"/>
+  <modelum:Button style="570441760" display="/1" accessible="/230" font="/25" parent="/222" text="Background Color"/>
+  <modelum:Accessible control="/229"/>
+  <modelum:Group style="570949632" display="/1" accessible="/232" font="/16" parent="/153" layout="/233" tabList="/234 /236 /238" text="Listeners"/>
+  <modelum:Accessible control="/231"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/235" font="/25" parent="/231" text="Select Listeners"/>
+  <modelum:Accessible control="/234"/>
+  <modelum:Button style="570441760" display="/1" accessible="/237" font="/25" parent="/231" text="Listen"/>
+  <modelum:Accessible control="/236"/>
+  <modelum:Button style="587202568" display="/1" accessible="/239" font="/25" parent="/231" text="Clear"/>
+  <modelum:Accessible control="/238"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/241" font="/2" parent="/7" layout="/242" tabList="/243 /252 /303"/>
+  <modelum:Accessible control="/240"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/244" font="/16" parent="/240" layout="/245" tabList="/246" text=""/>
+  <modelum:Accessible control="/243"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/247" font="/16" parent="/243" layout="/248" tabList="/249" text="Combo"/>
+  <modelum:Accessible control="/246"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425348" display="/1" accessible="/250" font="/251" parent="/246" textLimit="2147483647"/>
+  <modelum:Accessible control="/249"/>
+  <modelum:Font device="/1"/>
+  <modelum:Group style="570949632" display="/1" accessible="/253" font="/16" parent="/240" layout="/254" tabList="/255 /260 /273 /280 /294" text="Parameters"/>
+  <modelum:Accessible control="/252"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/256" font="/16" parent="/252" layout="/257" tabList="/258" text="Styles"/>
+  <modelum:Accessible control="/255"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/259" font="/25" parent="/255" text="SWT.READ_ONLY"/>
+  <modelum:Accessible control="/258"/>
+  <modelum:Group style="570949632" display="/1" accessible="/261" font="/16" parent="/252" layout="/262" tabList="/263 /265 /267 /269 /271" text="Other"/>
+  <modelum:Accessible control="/260"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/264" font="/25" parent="/260" text="Enabled"/>
+  <modelum:Accessible control="/263"/>
+  <modelum:Button style="570441760" display="/1" accessible="/266" font="/25" parent="/260" text="Visible"/>
+  <modelum:Accessible control="/265"/>
+  <modelum:Button style="570441760" display="/1" accessible="/268" font="/25" parent="/260" text="Background Image"/>
+  <modelum:Accessible control="/267"/>
+  <modelum:Button style="570441760" display="/1" accessible="/270" font="/25" parent="/260" text="Popup Menu"/>
+  <modelum:Accessible control="/269"/>
+  <modelum:Button style="587202568" display="/1" accessible="/272" font="/25" parent="/260" text="Set/Get API"/>
+  <modelum:Accessible control="/271"/>
+  <modelum:Group style="570949632" display="/1" accessible="/274" font="/16" parent="/252" layout="/275" tabList="/276 /278" text="Size"/>
+  <modelum:Accessible control="/273"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/277" font="/25" parent="/273" text="Horizontal Fill"/>
+  <modelum:Accessible control="/276"/>
+  <modelum:Button style="570441760" display="/1" accessible="/279" font="/25" parent="/273" text="Vertical Fill"/>
+  <modelum:Accessible control="/278"/>
+  <modelum:Group style="570949632" display="/1" accessible="/281" font="/16" parent="/252" layout="/282" tabList="/283 /290 /292" text="Colors and Font"/>
+  <modelum:Accessible control="/280"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/284" font="/112" parent="/280" verticalBar="/285" horizontalBar="/286" items="/287 /288 /289" itemCount="3"/>
+  <modelum:Accessible control="/283"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/283"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/283"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/283"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/283"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/283"/>
+  <modelum:Button style="587202568" display="/1" accessible="/291" font="/25" parent="/280" text="&amp;Change..."/>
+  <modelum:Accessible control="/290"/>
+  <modelum:Button style="587202568" display="/1" accessible="/293" font="/25" parent="/280" text="&amp;Defaults"/>
+  <modelum:Accessible control="/292"/>
+  <modelum:Group style="570949632" display="/1" accessible="/295" font="/16" parent="/252" layout="/296" tabList="/297 /299 /301" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/294"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/298" font="/133" parent="/294" textLimit="2147483647"/>
+  <modelum:Accessible control="/297"/>
+  <modelum:Button style="570441760" display="/1" accessible="/300" font="/25" parent="/294" text="Background Image"/>
+  <modelum:Accessible control="/299"/>
+  <modelum:Button style="570441760" display="/1" accessible="/302" font="/25" parent="/294" text="Background Color"/>
+  <modelum:Accessible control="/301"/>
+  <modelum:Group style="570949632" display="/1" accessible="/304" font="/16" parent="/240" layout="/305" tabList="/306 /308 /310" text="Listeners"/>
+  <modelum:Accessible control="/303"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/307" font="/25" parent="/303" text="Select Listeners"/>
+  <modelum:Accessible control="/306"/>
+  <modelum:Button style="570441760" display="/1" accessible="/309" font="/25" parent="/303" text="Listen"/>
+  <modelum:Accessible control="/308"/>
+  <modelum:Button style="587202568" display="/1" accessible="/311" font="/25" parent="/303" text="Clear"/>
+  <modelum:Accessible control="/310"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/313" font="/2" parent="/7" layout="/314" tabList="/315 /321 /381"/>
+  <modelum:Accessible control="/312"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/316" font="/16" parent="/312" layout="/317" tabList="/318" text=""/>
+  <modelum:Accessible control="/315"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/319" font="/16" parent="/315" layout="/320" text="CoolBar"/>
+  <modelum:Accessible control="/318"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/322" font="/16" parent="/312" layout="/323" tabList="/324 /336 /351 /358 /372" text="Parameters"/>
+  <modelum:Accessible control="/321"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/325" font="/16" parent="/321" layout="/326" tabList="/327 /329 /331" text="Styles"/>
+  <modelum:Accessible control="/324"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/328" font="/25" parent="/324" text="SWT.BORDER"/>
+  <modelum:Accessible control="/327"/>
+  <modelum:Button style="570441760" display="/1" accessible="/330" font="/25" parent="/324" text="SWT.FLAT"/>
+  <modelum:Accessible control="/329"/>
+  <modelum:Group style="570949632" display="/1" accessible="/332" font="/16" parent="/324" layout="/333" tabList="/334" text="Item Styles"/>
+  <modelum:Accessible control="/331"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/335" font="/25" parent="/331" text="SWT.DROP_DOWN"/>
+  <modelum:Accessible control="/334"/>
+  <modelum:Group style="570949632" display="/1" accessible="/337" font="/16" parent="/321" layout="/338" tabList="/339 /341 /343 /345 /347 /349" text="Other"/>
+  <modelum:Accessible control="/336"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/340" font="/25" parent="/336" text="Enabled"/>
+  <modelum:Accessible control="/339"/>
+  <modelum:Button style="570441760" display="/1" accessible="/342" font="/25" parent="/336" text="Visible"/>
+  <modelum:Accessible control="/341"/>
+  <modelum:Button style="570441760" display="/1" accessible="/344" font="/25" parent="/336" text="Background Image"/>
+  <modelum:Accessible control="/343"/>
+  <modelum:Button style="570441760" display="/1" accessible="/346" font="/25" parent="/336" text="Popup Menu"/>
+  <modelum:Accessible control="/345"/>
+  <modelum:Button style="570441760" display="/1" accessible="/348" font="/25" parent="/336" text="Locked"/>
+  <modelum:Accessible control="/347"/>
+  <modelum:Button style="587202568" display="/1" accessible="/350" font="/25" parent="/336" text="Set/Get API"/>
+  <modelum:Accessible control="/349"/>
+  <modelum:Group style="570949632" display="/1" accessible="/352" font="/16" parent="/321" layout="/353" tabList="/354 /356" text="Size"/>
+  <modelum:Accessible control="/351"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/355" font="/25" parent="/351" text="Horizontal Fill"/>
+  <modelum:Accessible control="/354"/>
+  <modelum:Button style="570441760" display="/1" accessible="/357" font="/25" parent="/351" text="Vertical Fill"/>
+  <modelum:Accessible control="/356"/>
+  <modelum:Group style="570949632" display="/1" accessible="/359" font="/16" parent="/321" layout="/360" tabList="/361 /368 /370" text="Colors and Font"/>
+  <modelum:Accessible control="/358"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/362" font="/112" parent="/358" verticalBar="/363" horizontalBar="/364" items="/365 /366 /367" itemCount="3"/>
+  <modelum:Accessible control="/361"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/361"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/361"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/361"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/361"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/361"/>
+  <modelum:Button style="587202568" display="/1" accessible="/369" font="/25" parent="/358" text="&amp;Change..."/>
+  <modelum:Accessible control="/368"/>
+  <modelum:Button style="587202568" display="/1" accessible="/371" font="/25" parent="/358" text="&amp;Defaults"/>
+  <modelum:Accessible control="/370"/>
+  <modelum:Group style="570949632" display="/1" accessible="/373" font="/16" parent="/321" layout="/374" tabList="/375 /377 /379" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/372"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/376" font="/133" parent="/372" textLimit="2147483647"/>
+  <modelum:Accessible control="/375"/>
+  <modelum:Button style="570441760" display="/1" accessible="/378" font="/25" parent="/372" text="Background Image"/>
+  <modelum:Accessible control="/377"/>
+  <modelum:Button style="570441760" display="/1" accessible="/380" font="/25" parent="/372" text="Background Color"/>
+  <modelum:Accessible control="/379"/>
+  <modelum:Group style="570949632" display="/1" accessible="/382" font="/16" parent="/312" layout="/383" tabList="/384 /386 /388" text="Listeners"/>
+  <modelum:Accessible control="/381"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/385" font="/25" parent="/381" text="Select Listeners"/>
+  <modelum:Accessible control="/384"/>
+  <modelum:Button style="570441760" display="/1" accessible="/387" font="/25" parent="/381" text="Listen"/>
+  <modelum:Accessible control="/386"/>
+  <modelum:Button style="587202568" display="/1" accessible="/389" font="/25" parent="/381" text="Clear"/>
+  <modelum:Accessible control="/388"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/391" font="/2" parent="/7" layout="/392" tabList="/393 /399 /455"/>
+  <modelum:Accessible control="/390"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/394" font="/16" parent="/390" layout="/395" tabList="/396" text=""/>
+  <modelum:Accessible control="/393"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/397" font="/16" parent="/393" layout="/398" text="DateTime"/>
+  <modelum:Accessible control="/396"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/400" font="/16" parent="/390" layout="/401" tabList="/402 /412 /425 /432 /446" text="Parameters"/>
+  <modelum:Accessible control="/399"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/403" font="/16" parent="/399" layout="/404" tabList="/405 /408 /410" text="Styles"/>
+  <modelum:Accessible control="/402"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/406" font="/16" parent="/402" layout="/407" text=""/>
+  <modelum:Accessible control="/405"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/409" font="/25" parent="/402" text="SWT.DROP_DOWN"/>
+  <modelum:Accessible control="/408"/>
+  <modelum:Button style="570441760" display="/1" accessible="/411" font="/25" parent="/402" text="SWT.BORDER"/>
+  <modelum:Accessible control="/410"/>
+  <modelum:Group style="570949632" display="/1" accessible="/413" font="/16" parent="/399" layout="/414" tabList="/415 /417 /419 /421 /423" text="Other"/>
+  <modelum:Accessible control="/412"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/416" font="/25" parent="/412" text="Enabled"/>
+  <modelum:Accessible control="/415"/>
+  <modelum:Button style="570441760" display="/1" accessible="/418" font="/25" parent="/412" text="Visible"/>
+  <modelum:Accessible control="/417"/>
+  <modelum:Button style="570441760" display="/1" accessible="/420" font="/25" parent="/412" text="Background Image"/>
+  <modelum:Accessible control="/419"/>
+  <modelum:Button style="570441760" display="/1" accessible="/422" font="/25" parent="/412" text="Popup Menu"/>
+  <modelum:Accessible control="/421"/>
+  <modelum:Button style="587202568" display="/1" accessible="/424" font="/25" parent="/412" text="Set/Get API"/>
+  <modelum:Accessible control="/423"/>
+  <modelum:Group style="570949632" display="/1" accessible="/426" font="/16" parent="/399" layout="/427" tabList="/428 /430" text="Size"/>
+  <modelum:Accessible control="/425"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/429" font="/25" parent="/425" text="Horizontal Fill"/>
+  <modelum:Accessible control="/428"/>
+  <modelum:Button style="570441760" display="/1" accessible="/431" font="/25" parent="/425" text="Vertical Fill"/>
+  <modelum:Accessible control="/430"/>
+  <modelum:Group style="570949632" display="/1" accessible="/433" font="/16" parent="/399" layout="/434" tabList="/435 /442 /444" text="Colors and Font"/>
+  <modelum:Accessible control="/432"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/436" font="/112" parent="/432" verticalBar="/437" horizontalBar="/438" items="/439 /440 /441" itemCount="3"/>
+  <modelum:Accessible control="/435"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/435"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/435"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/435"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/435"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/435"/>
+  <modelum:Button style="587202568" display="/1" accessible="/443" font="/25" parent="/432" text="&amp;Change..."/>
+  <modelum:Accessible control="/442"/>
+  <modelum:Button style="587202568" display="/1" accessible="/445" font="/25" parent="/432" text="&amp;Defaults"/>
+  <modelum:Accessible control="/444"/>
+  <modelum:Group style="570949632" display="/1" accessible="/447" font="/16" parent="/399" layout="/448" tabList="/449 /451 /453" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/446"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/450" font="/133" parent="/446" textLimit="2147483647"/>
+  <modelum:Accessible control="/449"/>
+  <modelum:Button style="570441760" display="/1" accessible="/452" font="/25" parent="/446" text="Background Image"/>
+  <modelum:Accessible control="/451"/>
+  <modelum:Button style="570441760" display="/1" accessible="/454" font="/25" parent="/446" text="Background Color"/>
+  <modelum:Accessible control="/453"/>
+  <modelum:Group style="570949632" display="/1" accessible="/456" font="/16" parent="/390" layout="/457" tabList="/458 /460 /462" text="Listeners"/>
+  <modelum:Accessible control="/455"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/459" font="/25" parent="/455" text="Select Listeners"/>
+  <modelum:Accessible control="/458"/>
+  <modelum:Button style="570441760" display="/1" accessible="/461" font="/25" parent="/455" text="Listen"/>
+  <modelum:Accessible control="/460"/>
+  <modelum:Button style="587202568" display="/1" accessible="/463" font="/25" parent="/455" text="Clear"/>
+  <modelum:Accessible control="/462"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/465" font="/2" parent="/7" layout="/466" tabList="/467 /473"/>
+  <modelum:Accessible control="/464"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/468" font="/16" parent="/464" layout="/469" tabList="/470" text=""/>
+  <modelum:Accessible control="/467"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/471" font="/16" parent="/467" layout="/472" text="Dialog Result"/>
+  <modelum:Accessible control="/470"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/474" font="/16" parent="/464" layout="/475" tabList="/476 /483 /500 /503 /506 /511" text="Parameters"/>
+  <modelum:Accessible control="/473"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/477" font="/16" parent="/473" layout="/478" tabList="/479 /481" text="Dialog Type"/>
+  <modelum:Accessible control="/476"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/480" font="/133" parent="/476" textLimit="2147483647"/>
+  <modelum:Accessible control="/479"/>
+  <modelum:Button style="587202568" display="/1" accessible="/482" font="/25" parent="/476" text="Create Dialog"/>
+  <modelum:Accessible control="/481"/>
+  <modelum:Group style="570949632" display="/1" accessible="/484" font="/16" parent="/473" layout="/485" tabList="/486 /488 /490 /492 /494 /496 /498" text="Button Styles"/>
+  <modelum:Accessible control="/483"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/487" font="/25" parent="/483" text="SWT.OK"/>
+  <modelum:Accessible control="/486"/>
+  <modelum:Button style="570441760" display="/1" accessible="/489" font="/25" parent="/483" text="SWT.CANCEL"/>
+  <modelum:Accessible control="/488"/>
+  <modelum:Button style="570441760" display="/1" accessible="/491" font="/25" parent="/483" text="SWT.YES"/>
+  <modelum:Accessible control="/490"/>
+  <modelum:Button style="570441760" display="/1" accessible="/493" font="/25" parent="/483" text="SWT.NO"/>
+  <modelum:Accessible control="/492"/>
+  <modelum:Button style="570441760" display="/1" accessible="/495" font="/25" parent="/483" text="SWT.RETRY"/>
+  <modelum:Accessible control="/494"/>
+  <modelum:Button style="570441760" display="/1" accessible="/497" font="/25" parent="/483" text="SWT.ABORT"/>
+  <modelum:Accessible control="/496"/>
+  <modelum:Button style="570441760" display="/1" accessible="/499" font="/25" parent="/483" text="SWT.IGNORE"/>
+  <modelum:Accessible control="/498"/>
+  <modelum:Group style="570949632" display="/1" accessible="/501" font="/16" parent="/473" layout="/502" text="Icon Styles"/>
+  <modelum:Accessible control="/500"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/504" font="/16" parent="/473" layout="/505" text="Modal Styles"/>
+  <modelum:Accessible control="/503"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/507" font="/16" parent="/473" layout="/508" tabList="/509" text="Other Styles"/>
+  <modelum:Accessible control="/506"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/510" font="/25" parent="/506" text="SWT.SHEET"/>
+  <modelum:Accessible control="/509"/>
+  <modelum:Group style="570949632" display="/1" accessible="/512" font="/16" parent="/473" layout="/513" tabList="/514" text="File Dialog Styles"/>
+  <modelum:Accessible control="/511"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/515" font="/25" parent="/511" text="SWT.MULTI"/>
+  <modelum:Accessible control="/514"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/517" font="/2" parent="/7" layout="/518" tabList="/519 /525 /578"/>
+  <modelum:Accessible control="/516"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/520" font="/16" parent="/516" layout="/521" tabList="/522" text=""/>
+  <modelum:Accessible control="/519"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/523" font="/16" parent="/519" layout="/524" text="ExpandBar"/>
+  <modelum:Accessible control="/522"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/526" font="/16" parent="/516" layout="/527" tabList="/528 /535 /548 /555 /569" text="Parameters"/>
+  <modelum:Accessible control="/525"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/529" font="/16" parent="/525" layout="/530" tabList="/531 /533" text="Styles"/>
+  <modelum:Accessible control="/528"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/532" font="/25" parent="/528" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/531"/>
+  <modelum:Button style="570441760" display="/1" accessible="/534" font="/25" parent="/528" text="SWT.BORDER"/>
+  <modelum:Accessible control="/533"/>
+  <modelum:Group style="570949632" display="/1" accessible="/536" font="/16" parent="/525" layout="/537" tabList="/538 /540 /542 /544 /546" text="Other"/>
+  <modelum:Accessible control="/535"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/539" font="/25" parent="/535" text="Enabled"/>
+  <modelum:Accessible control="/538"/>
+  <modelum:Button style="570441760" display="/1" accessible="/541" font="/25" parent="/535" text="Visible"/>
+  <modelum:Accessible control="/540"/>
+  <modelum:Button style="570441760" display="/1" accessible="/543" font="/25" parent="/535" text="Background Image"/>
+  <modelum:Accessible control="/542"/>
+  <modelum:Button style="570441760" display="/1" accessible="/545" font="/25" parent="/535" text="Popup Menu"/>
+  <modelum:Accessible control="/544"/>
+  <modelum:Button style="587202568" display="/1" accessible="/547" font="/25" parent="/535" text="Set/Get API"/>
+  <modelum:Accessible control="/546"/>
+  <modelum:Group style="570949632" display="/1" accessible="/549" font="/16" parent="/525" layout="/550" tabList="/551 /553" text="Size"/>
+  <modelum:Accessible control="/548"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/552" font="/25" parent="/548" text="Horizontal Fill"/>
+  <modelum:Accessible control="/551"/>
+  <modelum:Button style="570441760" display="/1" accessible="/554" font="/25" parent="/548" text="Vertical Fill"/>
+  <modelum:Accessible control="/553"/>
+  <modelum:Group style="570949632" display="/1" accessible="/556" font="/16" parent="/525" layout="/557" tabList="/558 /565 /567" text="Colors and Font"/>
+  <modelum:Accessible control="/555"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/559" font="/112" parent="/555" verticalBar="/560" horizontalBar="/561" items="/562 /563 /564" itemCount="3"/>
+  <modelum:Accessible control="/558"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/558"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/558"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/558"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/558"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/558"/>
+  <modelum:Button style="587202568" display="/1" accessible="/566" font="/25" parent="/555" text="&amp;Change..."/>
+  <modelum:Accessible control="/565"/>
+  <modelum:Button style="587202568" display="/1" accessible="/568" font="/25" parent="/555" text="&amp;Defaults"/>
+  <modelum:Accessible control="/567"/>
+  <modelum:Group style="570949632" display="/1" accessible="/570" font="/16" parent="/525" layout="/571" tabList="/572 /574 /576" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/569"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/573" font="/133" parent="/569" textLimit="2147483647"/>
+  <modelum:Accessible control="/572"/>
+  <modelum:Button style="570441760" display="/1" accessible="/575" font="/25" parent="/569" text="Background Image"/>
+  <modelum:Accessible control="/574"/>
+  <modelum:Button style="570441760" display="/1" accessible="/577" font="/25" parent="/569" text="Background Color"/>
+  <modelum:Accessible control="/576"/>
+  <modelum:Group style="570949632" display="/1" accessible="/579" font="/16" parent="/516" layout="/580" tabList="/581 /583 /585" text="Listeners"/>
+  <modelum:Accessible control="/578"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/582" font="/25" parent="/578" text="Select Listeners"/>
+  <modelum:Accessible control="/581"/>
+  <modelum:Button style="570441760" display="/1" accessible="/584" font="/25" parent="/578" text="Listen"/>
+  <modelum:Accessible control="/583"/>
+  <modelum:Button style="587202568" display="/1" accessible="/586" font="/25" parent="/578" text="Clear"/>
+  <modelum:Accessible control="/585"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/588" font="/2" parent="/7" layout="/589" tabList="/590 /598 /651"/>
+  <modelum:Accessible control="/587"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/591" font="/16" parent="/587" layout="/592" tabList="/593" text=""/>
+  <modelum:Accessible control="/590"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/594" font="/16" parent="/590" layout="/595" tabList="/596" text="Group"/>
+  <modelum:Accessible control="/593"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949648" display="/1" accessible="/597" font="/16" parent="/593" text=""/>
+  <modelum:Accessible control="/596"/>
+  <modelum:Group style="570949632" display="/1" accessible="/599" font="/16" parent="/587" layout="/600" tabList="/601 /606 /621 /628 /642" text="Parameters"/>
+  <modelum:Accessible control="/598"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/602" font="/16" parent="/598" layout="/603" tabList="/604" text="Styles"/>
+  <modelum:Accessible control="/601"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/605" font="/25" parent="/601" text="SWT.BORDER"/>
+  <modelum:Accessible control="/604"/>
+  <modelum:Group style="570949632" display="/1" accessible="/607" font="/16" parent="/598" layout="/608" tabList="/609 /611 /613 /615 /617 /619" text="Other"/>
+  <modelum:Accessible control="/606"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/610" font="/25" parent="/606" text="Enabled"/>
+  <modelum:Accessible control="/609"/>
+  <modelum:Button style="570441760" display="/1" accessible="/612" font="/25" parent="/606" text="Visible"/>
+  <modelum:Accessible control="/611"/>
+  <modelum:Button style="570441760" display="/1" accessible="/614" font="/25" parent="/606" text="Background Image"/>
+  <modelum:Accessible control="/613"/>
+  <modelum:Button style="570441760" display="/1" accessible="/616" font="/25" parent="/606" text="Popup Menu"/>
+  <modelum:Accessible control="/615"/>
+  <modelum:Button style="570441760" display="/1" accessible="/618" font="/25" parent="/606" text="Title Text"/>
+  <modelum:Accessible control="/617"/>
+  <modelum:Button style="587202568" display="/1" accessible="/620" font="/25" parent="/606" text="Set/Get API"/>
+  <modelum:Accessible control="/619"/>
+  <modelum:Group style="570949632" display="/1" accessible="/622" font="/16" parent="/598" layout="/623" tabList="/624 /626" text="Size"/>
+  <modelum:Accessible control="/621"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/625" font="/25" parent="/621" text="Horizontal Fill"/>
+  <modelum:Accessible control="/624"/>
+  <modelum:Button style="570441760" display="/1" accessible="/627" font="/25" parent="/621" text="Vertical Fill"/>
+  <modelum:Accessible control="/626"/>
+  <modelum:Group style="570949632" display="/1" accessible="/629" font="/16" parent="/598" layout="/630" tabList="/631 /638 /640" text="Colors and Font"/>
+  <modelum:Accessible control="/628"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/632" font="/112" parent="/628" verticalBar="/633" horizontalBar="/634" items="/635 /636 /637" itemCount="3"/>
+  <modelum:Accessible control="/631"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/631"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/631"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/631"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/631"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/631"/>
+  <modelum:Button style="587202568" display="/1" accessible="/639" font="/25" parent="/628" text="&amp;Change..."/>
+  <modelum:Accessible control="/638"/>
+  <modelum:Button style="587202568" display="/1" accessible="/641" font="/25" parent="/628" text="&amp;Defaults"/>
+  <modelum:Accessible control="/640"/>
+  <modelum:Group style="570949632" display="/1" accessible="/643" font="/16" parent="/598" layout="/644" tabList="/645 /647 /649" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/642"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/646" font="/133" parent="/642" textLimit="2147483647"/>
+  <modelum:Accessible control="/645"/>
+  <modelum:Button style="570441760" display="/1" accessible="/648" font="/25" parent="/642" text="Background Image"/>
+  <modelum:Accessible control="/647"/>
+  <modelum:Button style="570441760" display="/1" accessible="/650" font="/25" parent="/642" text="Background Color"/>
+  <modelum:Accessible control="/649"/>
+  <modelum:Group style="570949632" display="/1" accessible="/652" font="/16" parent="/587" layout="/653" tabList="/654 /656 /658" text="Listeners"/>
+  <modelum:Accessible control="/651"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/655" font="/25" parent="/651" text="Select Listeners"/>
+  <modelum:Accessible control="/654"/>
+  <modelum:Button style="570441760" display="/1" accessible="/657" font="/25" parent="/651" text="Listen"/>
+  <modelum:Accessible control="/656"/>
+  <modelum:Button style="587202568" display="/1" accessible="/659" font="/25" parent="/651" text="Clear"/>
+  <modelum:Accessible control="/658"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/661" font="/2" parent="/7" layout="/662" tabList="/663 /672 /733"/>
+  <modelum:Accessible control="/660"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/664" font="/16" parent="/660" layout="/665" tabList="/666 /669" text=""/>
+  <modelum:Accessible control="/663"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/667" font="/16" parent="/663" layout="/668" text="Text Labels"/>
+  <modelum:Accessible control="/666"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949664" display="/1" accessible="/670" font="/16" parent="/663" layout="/671" text="Image Labels"/>
+  <modelum:Accessible control="/669"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/673" font="/16" parent="/660" layout="/674" tabList="/675 /687 /703 /710 /724" text="Parameters"/>
+  <modelum:Accessible control="/672"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/676" font="/16" parent="/672" layout="/677" tabList="/678 /680 /682 /685" text="Styles"/>
+  <modelum:Accessible control="/675"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/679" font="/25" parent="/675" text="SWT.WRAP"/>
+  <modelum:Accessible control="/678"/>
+  <modelum:Button style="570441760" display="/1" accessible="/681" font="/25" parent="/675" text="SWT.SEPARATOR"/>
+  <modelum:Accessible control="/680"/>
+  <modelum:Group style="570949632" display="/1" accessible="/683" font="/16" parent="/675" layout="/684" text=""/>
+  <modelum:Accessible control="/682"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/686" font="/25" parent="/675" text="SWT.BORDER"/>
+  <modelum:Accessible control="/685"/>
+  <modelum:Group style="570949632" display="/1" accessible="/688" font="/16" parent="/672" layout="/689" tabList="/690 /692 /694 /696 /698 /701" text="Other"/>
+  <modelum:Accessible control="/687"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/691" font="/25" parent="/687" text="Enabled"/>
+  <modelum:Accessible control="/690"/>
+  <modelum:Button style="570441760" display="/1" accessible="/693" font="/25" parent="/687" text="Visible"/>
+  <modelum:Accessible control="/692"/>
+  <modelum:Button style="570441760" display="/1" accessible="/695" font="/25" parent="/687" text="Background Image"/>
+  <modelum:Accessible control="/694"/>
+  <modelum:Button style="570441760" display="/1" accessible="/697" font="/25" parent="/687" text="Popup Menu"/>
+  <modelum:Accessible control="/696"/>
+  <modelum:Group style="570949632" display="/1" accessible="/699" font="/16" parent="/687" layout="/700" text="Alignment"/>
+  <modelum:Accessible control="/698"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/702" font="/25" parent="/687" text="Set/Get API"/>
+  <modelum:Accessible control="/701"/>
+  <modelum:Group style="570949632" display="/1" accessible="/704" font="/16" parent="/672" layout="/705" tabList="/706 /708" text="Size"/>
+  <modelum:Accessible control="/703"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/707" font="/25" parent="/703" text="Horizontal Fill"/>
+  <modelum:Accessible control="/706"/>
+  <modelum:Button style="570441760" display="/1" accessible="/709" font="/25" parent="/703" text="Vertical Fill"/>
+  <modelum:Accessible control="/708"/>
+  <modelum:Group style="570949632" display="/1" accessible="/711" font="/16" parent="/672" layout="/712" tabList="/713 /720 /722" text="Colors and Font"/>
+  <modelum:Accessible control="/710"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/714" font="/112" parent="/710" verticalBar="/715" horizontalBar="/716" items="/717 /718 /719" itemCount="3"/>
+  <modelum:Accessible control="/713"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/713"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/713"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/713"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/713"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/713"/>
+  <modelum:Button style="587202568" display="/1" accessible="/721" font="/25" parent="/710" text="&amp;Change..."/>
+  <modelum:Accessible control="/720"/>
+  <modelum:Button style="587202568" display="/1" accessible="/723" font="/25" parent="/710" text="&amp;Defaults"/>
+  <modelum:Accessible control="/722"/>
+  <modelum:Group style="570949632" display="/1" accessible="/725" font="/16" parent="/672" layout="/726" tabList="/727 /729 /731" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/724"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/728" font="/133" parent="/724" textLimit="2147483647"/>
+  <modelum:Accessible control="/727"/>
+  <modelum:Button style="570441760" display="/1" accessible="/730" font="/25" parent="/724" text="Background Image"/>
+  <modelum:Accessible control="/729"/>
+  <modelum:Button style="570441760" display="/1" accessible="/732" font="/25" parent="/724" text="Background Color"/>
+  <modelum:Accessible control="/731"/>
+  <modelum:Group style="570949632" display="/1" accessible="/734" font="/16" parent="/660" layout="/735" tabList="/736 /738 /740" text="Listeners"/>
+  <modelum:Accessible control="/733"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/737" font="/25" parent="/733" text="Select Listeners"/>
+  <modelum:Accessible control="/736"/>
+  <modelum:Button style="570441760" display="/1" accessible="/739" font="/25" parent="/733" text="Listen"/>
+  <modelum:Accessible control="/738"/>
+  <modelum:Button style="587202568" display="/1" accessible="/741" font="/25" parent="/733" text="Clear"/>
+  <modelum:Accessible control="/740"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/743" font="/2" parent="/7" layout="/744" tabList="/745 /751 /802"/>
+  <modelum:Accessible control="/742"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/746" font="/16" parent="/742" layout="/747" tabList="/748" text=""/>
+  <modelum:Accessible control="/745"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/749" font="/16" parent="/745" layout="/750" text="Link"/>
+  <modelum:Accessible control="/748"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/752" font="/16" parent="/742" layout="/753" tabList="/754 /759 /772 /779 /793" text="Parameters"/>
+  <modelum:Accessible control="/751"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/755" font="/16" parent="/751" layout="/756" tabList="/757" text="Styles"/>
+  <modelum:Accessible control="/754"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/758" font="/25" parent="/754" text="SWT.BORDER"/>
+  <modelum:Accessible control="/757"/>
+  <modelum:Group style="570949632" display="/1" accessible="/760" font="/16" parent="/751" layout="/761" tabList="/762 /764 /766 /768 /770" text="Other"/>
+  <modelum:Accessible control="/759"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/763" font="/25" parent="/759" text="Enabled"/>
+  <modelum:Accessible control="/762"/>
+  <modelum:Button style="570441760" display="/1" accessible="/765" font="/25" parent="/759" text="Visible"/>
+  <modelum:Accessible control="/764"/>
+  <modelum:Button style="570441760" display="/1" accessible="/767" font="/25" parent="/759" text="Background Image"/>
+  <modelum:Accessible control="/766"/>
+  <modelum:Button style="570441760" display="/1" accessible="/769" font="/25" parent="/759" text="Popup Menu"/>
+  <modelum:Accessible control="/768"/>
+  <modelum:Button style="587202568" display="/1" accessible="/771" font="/25" parent="/759" text="Set/Get API"/>
+  <modelum:Accessible control="/770"/>
+  <modelum:Group style="570949632" display="/1" accessible="/773" font="/16" parent="/751" layout="/774" tabList="/775 /777" text="Size"/>
+  <modelum:Accessible control="/772"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/776" font="/25" parent="/772" text="Horizontal Fill"/>
+  <modelum:Accessible control="/775"/>
+  <modelum:Button style="570441760" display="/1" accessible="/778" font="/25" parent="/772" text="Vertical Fill"/>
+  <modelum:Accessible control="/777"/>
+  <modelum:Group style="570949632" display="/1" accessible="/780" font="/16" parent="/751" layout="/781" tabList="/782 /789 /791" text="Colors and Font"/>
+  <modelum:Accessible control="/779"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/783" font="/112" parent="/779" verticalBar="/784" horizontalBar="/785" items="/786 /787 /788" itemCount="3"/>
+  <modelum:Accessible control="/782"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/782"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/782"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/782"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/782"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/782"/>
+  <modelum:Button style="587202568" display="/1" accessible="/790" font="/25" parent="/779" text="&amp;Change..."/>
+  <modelum:Accessible control="/789"/>
+  <modelum:Button style="587202568" display="/1" accessible="/792" font="/25" parent="/779" text="&amp;Defaults"/>
+  <modelum:Accessible control="/791"/>
+  <modelum:Group style="570949632" display="/1" accessible="/794" font="/16" parent="/751" layout="/795" tabList="/796 /798 /800" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/793"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/797" font="/133" parent="/793" textLimit="2147483647"/>
+  <modelum:Accessible control="/796"/>
+  <modelum:Button style="570441760" display="/1" accessible="/799" font="/25" parent="/793" text="Background Image"/>
+  <modelum:Accessible control="/798"/>
+  <modelum:Button style="570441760" display="/1" accessible="/801" font="/25" parent="/793" text="Background Color"/>
+  <modelum:Accessible control="/800"/>
+  <modelum:Group style="570949632" display="/1" accessible="/803" font="/16" parent="/742" layout="/804" tabList="/805 /807 /809" text="Listeners"/>
+  <modelum:Accessible control="/802"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/806" font="/25" parent="/802" text="Select Listeners"/>
+  <modelum:Accessible control="/805"/>
+  <modelum:Button style="570441760" display="/1" accessible="/808" font="/25" parent="/802" text="Listen"/>
+  <modelum:Accessible control="/807"/>
+  <modelum:Button style="587202568" display="/1" accessible="/810" font="/25" parent="/802" text="Clear"/>
+  <modelum:Accessible control="/809"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/812" font="/2" parent="/7" layout="/813" tabList="/814 /820 /875"/>
+  <modelum:Accessible control="/811"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/815" font="/16" parent="/811" layout="/816" tabList="/817" text=""/>
+  <modelum:Accessible control="/814"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/818" font="/16" parent="/814" layout="/819" text="List"/>
+  <modelum:Accessible control="/817"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/821" font="/16" parent="/811" layout="/822" tabList="/823 /832 /845 /852 /866" text="Parameters"/>
+  <modelum:Accessible control="/820"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/824" font="/16" parent="/820" layout="/825" tabList="/826 /828 /830" text="Styles"/>
+  <modelum:Accessible control="/823"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/827" font="/25" parent="/823" text="SWT.H_SCROLL"/>
+  <modelum:Accessible control="/826"/>
+  <modelum:Button style="570441760" display="/1" accessible="/829" font="/25" parent="/823" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/828"/>
+  <modelum:Button style="570441760" display="/1" accessible="/831" font="/25" parent="/823" text="SWT.BORDER"/>
+  <modelum:Accessible control="/830"/>
+  <modelum:Group style="570949632" display="/1" accessible="/833" font="/16" parent="/820" layout="/834" tabList="/835 /837 /839 /841 /843" text="Other"/>
+  <modelum:Accessible control="/832"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/836" font="/25" parent="/832" text="Enabled"/>
+  <modelum:Accessible control="/835"/>
+  <modelum:Button style="570441760" display="/1" accessible="/838" font="/25" parent="/832" text="Visible"/>
+  <modelum:Accessible control="/837"/>
+  <modelum:Button style="570441760" display="/1" accessible="/840" font="/25" parent="/832" text="Background Image"/>
+  <modelum:Accessible control="/839"/>
+  <modelum:Button style="570441760" display="/1" accessible="/842" font="/25" parent="/832" text="Popup Menu"/>
+  <modelum:Accessible control="/841"/>
+  <modelum:Button style="587202568" display="/1" accessible="/844" font="/25" parent="/832" text="Set/Get API"/>
+  <modelum:Accessible control="/843"/>
+  <modelum:Group style="570949632" display="/1" accessible="/846" font="/16" parent="/820" layout="/847" tabList="/848 /850" text="Size"/>
+  <modelum:Accessible control="/845"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/849" font="/25" parent="/845" text="Horizontal Fill"/>
+  <modelum:Accessible control="/848"/>
+  <modelum:Button style="570441760" display="/1" accessible="/851" font="/25" parent="/845" text="Vertical Fill"/>
+  <modelum:Accessible control="/850"/>
+  <modelum:Group style="570949632" display="/1" accessible="/853" font="/16" parent="/820" layout="/854" tabList="/855 /862 /864" text="Colors and Font"/>
+  <modelum:Accessible control="/852"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/856" font="/112" parent="/852" verticalBar="/857" horizontalBar="/858" items="/859 /860 /861" itemCount="3"/>
+  <modelum:Accessible control="/855"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/855"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/855"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/855"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/855"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/855"/>
+  <modelum:Button style="587202568" display="/1" accessible="/863" font="/25" parent="/852" text="&amp;Change..."/>
+  <modelum:Accessible control="/862"/>
+  <modelum:Button style="587202568" display="/1" accessible="/865" font="/25" parent="/852" text="&amp;Defaults"/>
+  <modelum:Accessible control="/864"/>
+  <modelum:Group style="570949632" display="/1" accessible="/867" font="/16" parent="/820" layout="/868" tabList="/869 /871 /873" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/866"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/870" font="/133" parent="/866" textLimit="2147483647"/>
+  <modelum:Accessible control="/869"/>
+  <modelum:Button style="570441760" display="/1" accessible="/872" font="/25" parent="/866" text="Background Image"/>
+  <modelum:Accessible control="/871"/>
+  <modelum:Button style="570441760" display="/1" accessible="/874" font="/25" parent="/866" text="Background Color"/>
+  <modelum:Accessible control="/873"/>
+  <modelum:Group style="570949632" display="/1" accessible="/876" font="/16" parent="/811" layout="/877" tabList="/878 /880 /882" text="Listeners"/>
+  <modelum:Accessible control="/875"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/879" font="/25" parent="/875" text="Select Listeners"/>
+  <modelum:Accessible control="/878"/>
+  <modelum:Button style="570441760" display="/1" accessible="/881" font="/25" parent="/875" text="Listen"/>
+  <modelum:Accessible control="/880"/>
+  <modelum:Button style="587202568" display="/1" accessible="/883" font="/25" parent="/875" text="Clear"/>
+  <modelum:Accessible control="/882"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/885" font="/2" parent="/7" layout="/886" tabList="/887 /890 /934"/>
+  <modelum:Accessible control="/884"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/888" font="/16" parent="/884" layout="/889" text=""/>
+  <modelum:Accessible control="/887"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/891" font="/16" parent="/884" layout="/892" tabList="/893 /904 /917 /930 /932" text="Parameters"/>
+  <modelum:Accessible control="/890"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/894" font="/16" parent="/890" layout="/895" tabList="/896 /898 /900 /902" text="Menu Styles"/>
+  <modelum:Accessible control="/893"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/897" font="/25" parent="/893" text="SWT.BAR"/>
+  <modelum:Accessible control="/896"/>
+  <modelum:Button style="570441760" display="/1" accessible="/899" font="/25" parent="/893" text="SWT.DROP_DOWN"/>
+  <modelum:Accessible control="/898"/>
+  <modelum:Button style="570441760" display="/1" accessible="/901" font="/25" parent="/893" text="SWT.POP_UP"/>
+  <modelum:Accessible control="/900"/>
+  <modelum:Button style="570441760" display="/1" accessible="/903" font="/25" parent="/893" text="SWT.NO_RADIO_GROUP"/>
+  <modelum:Accessible control="/902"/>
+  <modelum:Group style="570949632" display="/1" accessible="/905" font="/16" parent="/890" layout="/906" tabList="/907 /909 /911 /913 /915" text="MenuItem Styles"/>
+  <modelum:Accessible control="/904"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/908" font="/25" parent="/904" text="SWT.CASCADE"/>
+  <modelum:Accessible control="/907"/>
+  <modelum:Button style="570441760" display="/1" accessible="/910" font="/25" parent="/904" text="SWT.CHECK"/>
+  <modelum:Accessible control="/909"/>
+  <modelum:Button style="570441760" display="/1" accessible="/912" font="/25" parent="/904" text="SWT.PUSH"/>
+  <modelum:Accessible control="/911"/>
+  <modelum:Button style="570441760" display="/1" accessible="/914" font="/25" parent="/904" text="SWT.RADIO"/>
+  <modelum:Accessible control="/913"/>
+  <modelum:Button style="570441760" display="/1" accessible="/916" font="/25" parent="/904" text="SWT.SEPARATOR"/>
+  <modelum:Accessible control="/915"/>
+  <modelum:Group style="570949632" display="/1" accessible="/918" font="/16" parent="/890" layout="/919" tabList="/920 /922 /924 /926 /928" text="Other"/>
+  <modelum:Accessible control="/917"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/921" font="/25" parent="/917" text="Images"/>
+  <modelum:Accessible control="/920"/>
+  <modelum:Button style="570441760" display="/1" accessible="/923" font="/25" parent="/917" text="Accelerators"/>
+  <modelum:Accessible control="/922"/>
+  <modelum:Button style="570441760" display="/1" accessible="/925" font="/25" parent="/917" text="Mnemonics"/>
+  <modelum:Accessible control="/924"/>
+  <modelum:Button style="570441760" display="/1" accessible="/927" font="/25" parent="/917" text="Sub-Menu"/>
+  <modelum:Accessible control="/926"/>
+  <modelum:Button style="570441760" display="/1" accessible="/929" font="/25" parent="/917" text="Sub-Sub-Menu"/>
+  <modelum:Accessible control="/928"/>
+  <modelum:Button style="587202568" display="/1" accessible="/931" font="/25" parent="/890" text="Create Shell"/>
+  <modelum:Accessible control="/930"/>
+  <modelum:Button style="587202568" display="/1" accessible="/933" font="/25" parent="/890" text="Close All Shells"/>
+  <modelum:Accessible control="/932"/>
+  <modelum:Group style="570949632" display="/1" accessible="/935" font="/16" parent="/884" layout="/936" tabList="/937 /939 /941" text="Listeners"/>
+  <modelum:Accessible control="/934"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/938" font="/25" parent="/934" text="Select Listeners"/>
+  <modelum:Accessible control="/937"/>
+  <modelum:Button style="570441760" display="/1" accessible="/940" font="/25" parent="/934" text="Listen"/>
+  <modelum:Accessible control="/939"/>
+  <modelum:Button style="587202568" display="/1" accessible="/942" font="/25" parent="/934" text="Clear"/>
+  <modelum:Accessible control="/941"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/944" font="/2" parent="/7" layout="/945" tabList="/946 /952 /1016"/>
+  <modelum:Accessible control="/943"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/947" font="/16" parent="/943" layout="/948" tabList="/949" text=""/>
+  <modelum:Accessible control="/946"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/950" font="/16" parent="/946" layout="/951" text="ProgressBar"/>
+  <modelum:Accessible control="/949"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/953" font="/16" parent="/943" layout="/954" tabList="/955 /964 /977 /984 /998 /1001 /1004 /1007" text="Parameters"/>
+  <modelum:Accessible control="/952"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/956" font="/16" parent="/952" layout="/957" tabList="/958 /960 /962" text="Styles"/>
+  <modelum:Accessible control="/955"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/959" font="/25" parent="/955" text="SWT.BORDER"/>
+  <modelum:Accessible control="/958"/>
+  <modelum:Button style="570441760" display="/1" accessible="/961" font="/25" parent="/955" text="SWT.SMOOTH"/>
+  <modelum:Accessible control="/960"/>
+  <modelum:Button style="570441760" display="/1" accessible="/963" font="/25" parent="/955" text="SWT.INDETERMINATE"/>
+  <modelum:Accessible control="/962"/>
+  <modelum:Group style="570949632" display="/1" accessible="/965" font="/16" parent="/952" layout="/966" tabList="/967 /969 /971 /973 /975" text="Other"/>
+  <modelum:Accessible control="/964"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/968" font="/25" parent="/964" text="Enabled"/>
+  <modelum:Accessible control="/967"/>
+  <modelum:Button style="570441760" display="/1" accessible="/970" font="/25" parent="/964" text="Visible"/>
+  <modelum:Accessible control="/969"/>
+  <modelum:Button style="570441760" display="/1" accessible="/972" font="/25" parent="/964" text="Background Image"/>
+  <modelum:Accessible control="/971"/>
+  <modelum:Button style="570441760" display="/1" accessible="/974" font="/25" parent="/964" text="Popup Menu"/>
+  <modelum:Accessible control="/973"/>
+  <modelum:Button style="587202568" display="/1" accessible="/976" font="/25" parent="/964" text="Set/Get API"/>
+  <modelum:Accessible control="/975"/>
+  <modelum:Group style="570949632" display="/1" accessible="/978" font="/16" parent="/952" layout="/979" tabList="/980 /982" text="Size"/>
+  <modelum:Accessible control="/977"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/981" font="/25" parent="/977" text="Horizontal Fill"/>
+  <modelum:Accessible control="/980"/>
+  <modelum:Button style="570441760" display="/1" accessible="/983" font="/25" parent="/977" text="Vertical Fill"/>
+  <modelum:Accessible control="/982"/>
+  <modelum:Group style="570949632" display="/1" accessible="/985" font="/16" parent="/952" layout="/986" tabList="/987 /994 /996" text="Colors and Font"/>
+  <modelum:Accessible control="/984"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/988" font="/112" parent="/984" verticalBar="/989" horizontalBar="/990" items="/991 /992 /993" itemCount="3"/>
+  <modelum:Accessible control="/987"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/987"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/987"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/987"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/987"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/987"/>
+  <modelum:Button style="587202568" display="/1" accessible="/995" font="/25" parent="/984" text="&amp;Change..."/>
+  <modelum:Accessible control="/994"/>
+  <modelum:Button style="587202568" display="/1" accessible="/997" font="/25" parent="/984" text="&amp;Defaults"/>
+  <modelum:Accessible control="/996"/>
+  <modelum:Group style="570949632" display="/1" accessible="/999" font="/16" parent="/952" layout="/1000" text="Minimum"/>
+  <modelum:Accessible control="/998"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1002" font="/16" parent="/952" layout="/1003" text="Maximum"/>
+  <modelum:Accessible control="/1001"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1005" font="/16" parent="/952" layout="/1006" text="Selection"/>
+  <modelum:Accessible control="/1004"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1008" font="/16" parent="/952" layout="/1009" tabList="/1010 /1012 /1014" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1007"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1011" font="/133" parent="/1007" textLimit="2147483647"/>
+  <modelum:Accessible control="/1010"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1013" font="/25" parent="/1007" text="Background Image"/>
+  <modelum:Accessible control="/1012"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1015" font="/25" parent="/1007" text="Background Color"/>
+  <modelum:Accessible control="/1014"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1017" font="/16" parent="/943" layout="/1018" tabList="/1019 /1021 /1023" text="Listeners"/>
+  <modelum:Accessible control="/1016"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1020" font="/25" parent="/1016" text="Select Listeners"/>
+  <modelum:Accessible control="/1019"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1022" font="/25" parent="/1016" text="Listen"/>
+  <modelum:Accessible control="/1021"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1024" font="/25" parent="/1016" text="Clear"/>
+  <modelum:Accessible control="/1023"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1026" font="/2" parent="/7" layout="/1027" tabList="/1028 /1036 /1080"/>
+  <modelum:Accessible control="/1025"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1029" font="/16" parent="/1025" layout="/1030" tabList="/1031" text=""/>
+  <modelum:Accessible control="/1028"/>
+  <modelum:FillLayout/>
+  <modelum:Group style="570949632" display="/1" accessible="/1032" font="/16" parent="/1028" layout="/1033" tabList="/1034" text="Sash"/>
+  <modelum:Accessible control="/1031"/>
+  <modelum:FillLayout/>
+  <modelum:Composite style="570427392" display="/1" accessible="/1035" font="/2" parent="/1031"/>
+  <modelum:Accessible control="/1034"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1037" font="/16" parent="/1025" layout="/1038" tabList="/1039 /1044 /1057 /1071" text="Parameters"/>
+  <modelum:Accessible control="/1036"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1040" font="/16" parent="/1036" layout="/1041" tabList="/1042" text="Styles"/>
+  <modelum:Accessible control="/1039"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1043" font="/25" parent="/1039" text="SWT.SMOOTH"/>
+  <modelum:Accessible control="/1042"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1045" font="/16" parent="/1036" layout="/1046" tabList="/1047 /1049 /1051 /1053 /1055" text="Other"/>
+  <modelum:Accessible control="/1044"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1048" font="/25" parent="/1044" text="Enabled"/>
+  <modelum:Accessible control="/1047"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1050" font="/25" parent="/1044" text="Visible"/>
+  <modelum:Accessible control="/1049"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1052" font="/25" parent="/1044" text="Background Image"/>
+  <modelum:Accessible control="/1051"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1054" font="/25" parent="/1044" text="Popup Menu"/>
+  <modelum:Accessible control="/1053"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1056" font="/25" parent="/1044" text="Set/Get API"/>
+  <modelum:Accessible control="/1055"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1058" font="/16" parent="/1036" layout="/1059" tabList="/1060 /1067 /1069" text="Colors and Font"/>
+  <modelum:Accessible control="/1057"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1061" font="/112" parent="/1057" verticalBar="/1062" horizontalBar="/1063" items="/1064 /1065 /1066" itemCount="3"/>
+  <modelum:Accessible control="/1060"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1060"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1060"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1060"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1060"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1060"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1068" font="/25" parent="/1057" text="&amp;Change..."/>
+  <modelum:Accessible control="/1067"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1070" font="/25" parent="/1057" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1069"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1072" font="/16" parent="/1036" layout="/1073" tabList="/1074 /1076 /1078" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1071"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1075" font="/133" parent="/1071" textLimit="2147483647"/>
+  <modelum:Accessible control="/1074"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1077" font="/25" parent="/1071" text="Background Image"/>
+  <modelum:Accessible control="/1076"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1079" font="/25" parent="/1071" text="Background Color"/>
+  <modelum:Accessible control="/1078"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1081" font="/16" parent="/1025" layout="/1082" tabList="/1083 /1085 /1087" text="Listeners"/>
+  <modelum:Accessible control="/1080"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1084" font="/25" parent="/1080" text="Select Listeners"/>
+  <modelum:Accessible control="/1083"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1086" font="/25" parent="/1080" text="Listen"/>
+  <modelum:Accessible control="/1085"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1088" font="/25" parent="/1080" text="Clear"/>
+  <modelum:Accessible control="/1087"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1090" font="/2" parent="/7" layout="/1091" tabList="/1092 /1098 /1164"/>
+  <modelum:Accessible control="/1089"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1093" font="/16" parent="/1089" layout="/1094" tabList="/1095" text=""/>
+  <modelum:Accessible control="/1092"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1096" font="/16" parent="/1092" layout="/1097" text="Scale"/>
+  <modelum:Accessible control="/1095"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1099" font="/16" parent="/1089" layout="/1100" tabList="/1101 /1106 /1119 /1126 /1140 /1143 /1146 /1149 /1152 /1155" text="Parameters"/>
+  <modelum:Accessible control="/1098"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1102" font="/16" parent="/1098" layout="/1103" tabList="/1104" text="Styles"/>
+  <modelum:Accessible control="/1101"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1105" font="/25" parent="/1101" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1104"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1107" font="/16" parent="/1098" layout="/1108" tabList="/1109 /1111 /1113 /1115 /1117" text="Other"/>
+  <modelum:Accessible control="/1106"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1110" font="/25" parent="/1106" text="Enabled"/>
+  <modelum:Accessible control="/1109"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1112" font="/25" parent="/1106" text="Visible"/>
+  <modelum:Accessible control="/1111"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1114" font="/25" parent="/1106" text="Background Image"/>
+  <modelum:Accessible control="/1113"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1116" font="/25" parent="/1106" text="Popup Menu"/>
+  <modelum:Accessible control="/1115"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1118" font="/25" parent="/1106" text="Set/Get API"/>
+  <modelum:Accessible control="/1117"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1120" font="/16" parent="/1098" layout="/1121" tabList="/1122 /1124" text="Size"/>
+  <modelum:Accessible control="/1119"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1123" font="/25" parent="/1119" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1122"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1125" font="/25" parent="/1119" text="Vertical Fill"/>
+  <modelum:Accessible control="/1124"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1127" font="/16" parent="/1098" layout="/1128" tabList="/1129 /1136 /1138" text="Colors and Font"/>
+  <modelum:Accessible control="/1126"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1130" font="/112" parent="/1126" verticalBar="/1131" horizontalBar="/1132" items="/1133 /1134 /1135" itemCount="3"/>
+  <modelum:Accessible control="/1129"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1129"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1129"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1129"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1129"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1129"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1137" font="/25" parent="/1126" text="&amp;Change..."/>
+  <modelum:Accessible control="/1136"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1139" font="/25" parent="/1126" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1138"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1141" font="/16" parent="/1098" layout="/1142" text="Minimum"/>
+  <modelum:Accessible control="/1140"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1144" font="/16" parent="/1098" layout="/1145" text="Maximum"/>
+  <modelum:Accessible control="/1143"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1147" font="/16" parent="/1098" layout="/1148" text="Selection"/>
+  <modelum:Accessible control="/1146"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1150" font="/16" parent="/1098" layout="/1151" text="Increment"/>
+  <modelum:Accessible control="/1149"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1153" font="/16" parent="/1098" layout="/1154" text="Page Increment"/>
+  <modelum:Accessible control="/1152"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1156" font="/16" parent="/1098" layout="/1157" tabList="/1158 /1160 /1162" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1155"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1159" font="/133" parent="/1155" textLimit="2147483647"/>
+  <modelum:Accessible control="/1158"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1161" font="/25" parent="/1155" text="Background Image"/>
+  <modelum:Accessible control="/1160"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1163" font="/25" parent="/1155" text="Background Color"/>
+  <modelum:Accessible control="/1162"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1165" font="/16" parent="/1089" layout="/1166" tabList="/1167 /1169 /1171" text="Listeners"/>
+  <modelum:Accessible control="/1164"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1168" font="/25" parent="/1164" text="Select Listeners"/>
+  <modelum:Accessible control="/1167"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1170" font="/25" parent="/1164" text="Listen"/>
+  <modelum:Accessible control="/1169"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1172" font="/25" parent="/1164" text="Clear"/>
+  <modelum:Accessible control="/1171"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1174" font="/2" parent="/7" layout="/1175" tabList="/1176 /1179 /1226"/>
+  <modelum:Accessible control="/1173"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1177" font="/16" parent="/1173" layout="/1178" text=""/>
+  <modelum:Accessible control="/1176"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1180" font="/16" parent="/1173" layout="/1181" tabList="/1182 /1209 /1212 /1219 /1222 /1224" text="Parameters"/>
+  <modelum:Accessible control="/1179"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1183" font="/16" parent="/1179" layout="/1184" tabList="/1185 /1187 /1189 /1191 /1193 /1195 /1197 /1199 /1201 /1203 /1205 /1207" text="Decoration Styles"/>
+  <modelum:Accessible control="/1182"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1186" font="/25" parent="/1182" text="SWT.NO_TRIM"/>
+  <modelum:Accessible control="/1185"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1188" font="/25" parent="/1182" text="SWT.CLOSE"/>
+  <modelum:Accessible control="/1187"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1190" font="/25" parent="/1182" text="SWT.TITLE"/>
+  <modelum:Accessible control="/1189"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1192" font="/25" parent="/1182" text="SWT.MIN"/>
+  <modelum:Accessible control="/1191"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1194" font="/25" parent="/1182" text="SWT.MAX"/>
+  <modelum:Accessible control="/1193"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1196" font="/25" parent="/1182" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1195"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1198" font="/25" parent="/1182" text="SWT.RESIZE"/>
+  <modelum:Accessible control="/1197"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1200" font="/25" parent="/1182" text="SWT.ON_TOP"/>
+  <modelum:Accessible control="/1199"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1202" font="/25" parent="/1182" text="SWT.TOOL"/>
+  <modelum:Accessible control="/1201"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1204" font="/25" parent="/1182" text="SWT.SHEET"/>
+  <modelum:Accessible control="/1203"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1206" font="/25" parent="/1182" text="SWT.SHELL_TRIM"/>
+  <modelum:Accessible control="/1205"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1208" font="/25" parent="/1182" text="SWT.DIALOG_TRIM"/>
+  <modelum:Accessible control="/1207"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1210" font="/16" parent="/1179" layout="/1211" text="Modal Styles"/>
+  <modelum:Accessible control="/1209"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1213" font="/16" parent="/1179" layout="/1214" tabList="/1215 /1217" text="Other"/>
+  <modelum:Accessible control="/1212"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1216" font="/25" parent="/1212" text="Image"/>
+  <modelum:Accessible control="/1215"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1218" font="/25" parent="/1212" text="Background Image"/>
+  <modelum:Accessible control="/1217"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1220" font="/16" parent="/1179" layout="/1221" text="Parent"/>
+  <modelum:Accessible control="/1219"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1223" font="/25" parent="/1179" text="Create Shell"/>
+  <modelum:Accessible control="/1222"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1225" font="/25" parent="/1179" text="Close All Shells"/>
+  <modelum:Accessible control="/1224"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1227" font="/16" parent="/1173" layout="/1228" tabList="/1229 /1231 /1233" text="Listeners"/>
+  <modelum:Accessible control="/1226"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1230" font="/25" parent="/1226" text="Select Listeners"/>
+  <modelum:Accessible control="/1229"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1232" font="/25" parent="/1226" text="Listen"/>
+  <modelum:Accessible control="/1231"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1234" font="/25" parent="/1226" text="Clear"/>
+  <modelum:Accessible control="/1233"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1236" font="/2" parent="/7" layout="/1237" tabList="/1238 /1244 /1313"/>
+  <modelum:Accessible control="/1235"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1239" font="/16" parent="/1235" layout="/1240" tabList="/1241" text=""/>
+  <modelum:Accessible control="/1238"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1242" font="/16" parent="/1238" layout="/1243" text="Slider"/>
+  <modelum:Accessible control="/1241"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1245" font="/16" parent="/1235" layout="/1246" tabList="/1247 /1252 /1265 /1272 /1286 /1289 /1292 /1295 /1298 /1301 /1304" text="Parameters"/>
+  <modelum:Accessible control="/1244"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1248" font="/16" parent="/1244" layout="/1249" tabList="/1250" text="Styles"/>
+  <modelum:Accessible control="/1247"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1251" font="/25" parent="/1247" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1250"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1253" font="/16" parent="/1244" layout="/1254" tabList="/1255 /1257 /1259 /1261 /1263" text="Other"/>
+  <modelum:Accessible control="/1252"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1256" font="/25" parent="/1252" text="Enabled"/>
+  <modelum:Accessible control="/1255"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1258" font="/25" parent="/1252" text="Visible"/>
+  <modelum:Accessible control="/1257"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1260" font="/25" parent="/1252" text="Background Image"/>
+  <modelum:Accessible control="/1259"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1262" font="/25" parent="/1252" text="Popup Menu"/>
+  <modelum:Accessible control="/1261"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1264" font="/25" parent="/1252" text="Set/Get API"/>
+  <modelum:Accessible control="/1263"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1266" font="/16" parent="/1244" layout="/1267" tabList="/1268 /1270" text="Size"/>
+  <modelum:Accessible control="/1265"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1269" font="/25" parent="/1265" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1268"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1271" font="/25" parent="/1265" text="Vertical Fill"/>
+  <modelum:Accessible control="/1270"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1273" font="/16" parent="/1244" layout="/1274" tabList="/1275 /1282 /1284" text="Colors and Font"/>
+  <modelum:Accessible control="/1272"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1276" font="/112" parent="/1272" verticalBar="/1277" horizontalBar="/1278" items="/1279 /1280 /1281" itemCount="3"/>
+  <modelum:Accessible control="/1275"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1275"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1275"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1275"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1275"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1275"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1283" font="/25" parent="/1272" text="&amp;Change..."/>
+  <modelum:Accessible control="/1282"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1285" font="/25" parent="/1272" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1284"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1287" font="/16" parent="/1244" layout="/1288" text="Minimum"/>
+  <modelum:Accessible control="/1286"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1290" font="/16" parent="/1244" layout="/1291" text="Maximum"/>
+  <modelum:Accessible control="/1289"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1293" font="/16" parent="/1244" layout="/1294" text="Selection"/>
+  <modelum:Accessible control="/1292"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1296" font="/16" parent="/1244" layout="/1297" text="Thumb"/>
+  <modelum:Accessible control="/1295"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1299" font="/16" parent="/1244" layout="/1300" text="Increment"/>
+  <modelum:Accessible control="/1298"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1302" font="/16" parent="/1244" layout="/1303" text="Page Increment"/>
+  <modelum:Accessible control="/1301"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1305" font="/16" parent="/1244" layout="/1306" tabList="/1307 /1309 /1311" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1304"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1308" font="/133" parent="/1304" textLimit="2147483647"/>
+  <modelum:Accessible control="/1307"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1310" font="/25" parent="/1304" text="Background Image"/>
+  <modelum:Accessible control="/1309"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1312" font="/25" parent="/1304" text="Background Color"/>
+  <modelum:Accessible control="/1311"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1314" font="/16" parent="/1235" layout="/1315" tabList="/1316 /1318 /1320" text="Listeners"/>
+  <modelum:Accessible control="/1313"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1317" font="/25" parent="/1313" text="Select Listeners"/>
+  <modelum:Accessible control="/1316"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1319" font="/25" parent="/1313" text="Listen"/>
+  <modelum:Accessible control="/1318"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1321" font="/25" parent="/1313" text="Clear"/>
+  <modelum:Accessible control="/1320"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1323" font="/2" parent="/7" layout="/1324" tabList="/1325 /1331 /1404"/>
+  <modelum:Accessible control="/1322"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1326" font="/16" parent="/1322" layout="/1327" tabList="/1328" text=""/>
+  <modelum:Accessible control="/1325"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1329" font="/16" parent="/1325" layout="/1330" text="Spinner"/>
+  <modelum:Accessible control="/1328"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1332" font="/16" parent="/1322" layout="/1333" tabList="/1334 /1343 /1356 /1363 /1377 /1380 /1383 /1386 /1389 /1392 /1395" text="Parameters"/>
+  <modelum:Accessible control="/1331"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1335" font="/16" parent="/1331" layout="/1336" tabList="/1337 /1339 /1341" text="Styles"/>
+  <modelum:Accessible control="/1334"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1338" font="/25" parent="/1334" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1337"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1340" font="/25" parent="/1334" text="SWT.READ_ONLY"/>
+  <modelum:Accessible control="/1339"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1342" font="/25" parent="/1334" text="SWT.WRAP"/>
+  <modelum:Accessible control="/1341"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1344" font="/16" parent="/1331" layout="/1345" tabList="/1346 /1348 /1350 /1352 /1354" text="Other"/>
+  <modelum:Accessible control="/1343"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1347" font="/25" parent="/1343" text="Enabled"/>
+  <modelum:Accessible control="/1346"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1349" font="/25" parent="/1343" text="Visible"/>
+  <modelum:Accessible control="/1348"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1351" font="/25" parent="/1343" text="Background Image"/>
+  <modelum:Accessible control="/1350"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1353" font="/25" parent="/1343" text="Popup Menu"/>
+  <modelum:Accessible control="/1352"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1355" font="/25" parent="/1343" text="Set/Get API"/>
+  <modelum:Accessible control="/1354"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1357" font="/16" parent="/1331" layout="/1358" tabList="/1359 /1361" text="Size"/>
+  <modelum:Accessible control="/1356"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1360" font="/25" parent="/1356" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1359"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1362" font="/25" parent="/1356" text="Vertical Fill"/>
+  <modelum:Accessible control="/1361"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1364" font="/16" parent="/1331" layout="/1365" tabList="/1366 /1373 /1375" text="Colors and Font"/>
+  <modelum:Accessible control="/1363"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1367" font="/112" parent="/1363" verticalBar="/1368" horizontalBar="/1369" items="/1370 /1371 /1372" itemCount="3"/>
+  <modelum:Accessible control="/1366"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1366"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1366"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1366"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1366"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1366"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1374" font="/25" parent="/1363" text="&amp;Change..."/>
+  <modelum:Accessible control="/1373"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1376" font="/25" parent="/1363" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1375"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1378" font="/16" parent="/1331" layout="/1379" text="Minimum"/>
+  <modelum:Accessible control="/1377"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1381" font="/16" parent="/1331" layout="/1382" text="Maximum"/>
+  <modelum:Accessible control="/1380"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1384" font="/16" parent="/1331" layout="/1385" text="Selection"/>
+  <modelum:Accessible control="/1383"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1387" font="/16" parent="/1331" layout="/1388" text="Increment"/>
+  <modelum:Accessible control="/1386"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1390" font="/16" parent="/1331" layout="/1391" text="Page Increment"/>
+  <modelum:Accessible control="/1389"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1393" font="/16" parent="/1331" layout="/1394" text="Digits"/>
+  <modelum:Accessible control="/1392"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1396" font="/16" parent="/1331" layout="/1397" tabList="/1398 /1400 /1402" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1395"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1399" font="/133" parent="/1395" textLimit="2147483647"/>
+  <modelum:Accessible control="/1398"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1401" font="/25" parent="/1395" text="Background Image"/>
+  <modelum:Accessible control="/1400"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1403" font="/25" parent="/1395" text="Background Color"/>
+  <modelum:Accessible control="/1402"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1405" font="/16" parent="/1322" layout="/1406" tabList="/1407 /1409 /1411" text="Listeners"/>
+  <modelum:Accessible control="/1404"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1408" font="/25" parent="/1404" text="Select Listeners"/>
+  <modelum:Accessible control="/1407"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1410" font="/25" parent="/1404" text="Listen"/>
+  <modelum:Accessible control="/1409"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1412" font="/25" parent="/1404" text="Clear"/>
+  <modelum:Accessible control="/1411"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1414" font="/2" parent="/7" layout="/1415" tabList="/1416 /1427 /1478"/>
+  <modelum:Accessible control="/1413"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1417" font="/16" parent="/1413" layout="/1418" tabList="/1419" text=""/>
+  <modelum:Accessible control="/1416"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1420" font="/16" parent="/1416" layout="/1421" tabList="/1422" text="TabFolder"/>
+  <modelum:Accessible control="/1419"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:TabFolder style="570425472" display="/1" accessible="/1423" font="/9" parent="/1419" itemCount="3" items="/1424 /1425 /1426"/>
+  <modelum:Accessible control="/1422"/>
+  <modelum:TabItem display="/1" text="Tab 0" parent="/1422" toolTipText="Tooltip:  Tab 0"/>
+  <modelum:TabItem display="/1" text="Tab 1" parent="/1422" toolTipText="Tooltip:  Tab 1"/>
+  <modelum:TabItem display="/1" text="Tab 2" parent="/1422" toolTipText="Tooltip:  Tab 2"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1428" font="/16" parent="/1413" layout="/1429" tabList="/1430 /1435 /1448 /1455 /1469" text="Parameters"/>
+  <modelum:Accessible control="/1427"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1431" font="/16" parent="/1427" layout="/1432" tabList="/1433" text="Styles"/>
+  <modelum:Accessible control="/1430"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1434" font="/25" parent="/1430" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1433"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1436" font="/16" parent="/1427" layout="/1437" tabList="/1438 /1440 /1442 /1444 /1446" text="Other"/>
+  <modelum:Accessible control="/1435"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1439" font="/25" parent="/1435" text="Enabled"/>
+  <modelum:Accessible control="/1438"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1441" font="/25" parent="/1435" text="Visible"/>
+  <modelum:Accessible control="/1440"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1443" font="/25" parent="/1435" text="Background Image"/>
+  <modelum:Accessible control="/1442"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1445" font="/25" parent="/1435" text="Popup Menu"/>
+  <modelum:Accessible control="/1444"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1447" font="/25" parent="/1435" text="Set/Get API"/>
+  <modelum:Accessible control="/1446"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1449" font="/16" parent="/1427" layout="/1450" tabList="/1451 /1453" text="Size"/>
+  <modelum:Accessible control="/1448"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1452" font="/25" parent="/1448" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1451"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1454" font="/25" parent="/1448" text="Vertical Fill"/>
+  <modelum:Accessible control="/1453"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1456" font="/16" parent="/1427" layout="/1457" tabList="/1458 /1465 /1467" text="Colors and Font"/>
+  <modelum:Accessible control="/1455"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1459" font="/112" parent="/1455" verticalBar="/1460" horizontalBar="/1461" items="/1462 /1463 /1464" itemCount="3"/>
+  <modelum:Accessible control="/1458"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1458"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1458"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1458"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1458"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1458"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1466" font="/25" parent="/1455" text="&amp;Change..."/>
+  <modelum:Accessible control="/1465"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1468" font="/25" parent="/1455" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1467"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1470" font="/16" parent="/1427" layout="/1471" tabList="/1472 /1474 /1476" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1469"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1473" font="/133" parent="/1469" textLimit="2147483647"/>
+  <modelum:Accessible control="/1472"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1475" font="/25" parent="/1469" text="Background Image"/>
+  <modelum:Accessible control="/1474"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1477" font="/25" parent="/1469" text="Background Color"/>
+  <modelum:Accessible control="/1476"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1479" font="/16" parent="/1413" layout="/1480" tabList="/1481 /1483 /1485" text="Listeners"/>
+  <modelum:Accessible control="/1478"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1482" font="/25" parent="/1478" text="Select Listeners"/>
+  <modelum:Accessible control="/1481"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1484" font="/25" parent="/1478" text="Listen"/>
+  <modelum:Accessible control="/1483"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1486" font="/25" parent="/1478" text="Clear"/>
+  <modelum:Accessible control="/1485"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1488" font="/2" parent="/7" layout="/1489" tabList="/1490 /1516 /1603"/>
+  <modelum:Accessible control="/1487"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1491" font="/16" parent="/1487" layout="/1492" tabList="/1493" text=""/>
+  <modelum:Accessible control="/1490"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1494" font="/16" parent="/1490" layout="/1495" tabList="/1496" text="Table"/>
+  <modelum:Accessible control="/1493"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570491652" display="/1" accessible="/1497" font="/112" parent="/1493" verticalBar="/1498" horizontalBar="/1499" items="/1500 /1501 /1502 /1503 /1504 /1505 /1506 /1507 /1508 /1509 /1510 /1511 /1512 /1513 /1514 /1515" itemCount="16"/>
+  <modelum:Accessible control="/1496"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1496"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:0" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:1" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:2" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:3" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:4" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:5" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:6" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:7" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:8" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:9" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:10" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:11" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:12" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:13" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:14" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:TableItem display="/1" text="Index:15" foreground="/116" font="/112" background="/117" parent="/1496"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1517" font="/16" parent="/1487" layout="/1518" tabList="/1519 /1536 /1565 /1574 /1594" text="Parameters"/>
+  <modelum:Accessible control="/1516"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1520" font="/16" parent="/1516" layout="/1521" tabList="/1522 /1524 /1526 /1528 /1530 /1532 /1534" text="Styles"/>
+  <modelum:Accessible control="/1519"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1523" font="/25" parent="/1519" text="SWT.H_SCROLL"/>
+  <modelum:Accessible control="/1522"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1525" font="/25" parent="/1519" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/1524"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1527" font="/25" parent="/1519" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1526"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1529" font="/25" parent="/1519" text="SWT.NO_SCROLL"/>
+  <modelum:Accessible control="/1528"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1531" font="/25" parent="/1519" text="SWT.CHECK"/>
+  <modelum:Accessible control="/1530"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1533" font="/25" parent="/1519" text="SWT.FULL_SELECTION"/>
+  <modelum:Accessible control="/1532"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1535" font="/25" parent="/1519" text="SWT.HIDE_SELECTION"/>
+  <modelum:Accessible control="/1534"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1537" font="/16" parent="/1516" layout="/1538" tabList="/1539 /1541 /1543 /1545 /1547 /1549 /1551 /1553 /1555 /1557 /1559 /1561 /1563" text="Other"/>
+  <modelum:Accessible control="/1536"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1540" font="/25" parent="/1536" text="Enabled"/>
+  <modelum:Accessible control="/1539"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1542" font="/25" parent="/1536" text="Visible"/>
+  <modelum:Accessible control="/1541"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1544" font="/25" parent="/1536" text="Background Image"/>
+  <modelum:Accessible control="/1543"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1546" font="/25" parent="/1536" text="Popup Menu"/>
+  <modelum:Accessible control="/1545"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1548" font="/25" parent="/1536" text="Lines Visible"/>
+  <modelum:Accessible control="/1547"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1550" font="/25" parent="/1536" text="Multiple Columns"/>
+  <modelum:Accessible control="/1549"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1552" font="/25" parent="/1536" text="Header Visible"/>
+  <modelum:Accessible control="/1551"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1554" font="/25" parent="/1536" text="Sort Indicator"/>
+  <modelum:Accessible control="/1553"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1556" font="/25" parent="/1536" text="Moveable Columns"/>
+  <modelum:Accessible control="/1555"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1558" font="/25" parent="/1536" text="Resizable Columns"/>
+  <modelum:Accessible control="/1557"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1560" font="/25" parent="/1536" text="Header Images"/>
+  <modelum:Accessible control="/1559"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1562" font="/25" parent="/1536" text="Sub Images"/>
+  <modelum:Accessible control="/1561"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1564" font="/25" parent="/1536" text="Set/Get API"/>
+  <modelum:Accessible control="/1563"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1566" font="/16" parent="/1516" layout="/1567" tabList="/1568 /1570 /1572" text="Size"/>
+  <modelum:Accessible control="/1565"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1569" font="/25" parent="/1565" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1568"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1571" font="/25" parent="/1565" text="Vertical Fill"/>
+  <modelum:Accessible control="/1570"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1573" font="/25" parent="/1565" text="Pack Columns"/>
+  <modelum:Accessible control="/1572"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1575" font="/16" parent="/1516" layout="/1576" tabList="/1577 /1590 /1592" text="Colors and Font"/>
+  <modelum:Accessible control="/1574"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1578" font="/112" parent="/1574" verticalBar="/1579" horizontalBar="/1580" items="/1581 /1582 /1583 /1584 /1585 /1586 /1587 /1588 /1589" itemCount="9"/>
+  <modelum:Accessible control="/1577"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1577"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Foreground Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Background Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Font" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Foreground Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Background Color" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Font" foreground="/116" font="/112" background="/117" parent="/1577"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1591" font="/25" parent="/1574" text="&amp;Change..."/>
+  <modelum:Accessible control="/1590"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1593" font="/25" parent="/1574" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1592"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1595" font="/16" parent="/1516" layout="/1596" tabList="/1597 /1599 /1601" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1594"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1598" font="/133" parent="/1594" textLimit="2147483647"/>
+  <modelum:Accessible control="/1597"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1600" font="/25" parent="/1594" text="Background Image"/>
+  <modelum:Accessible control="/1599"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1602" font="/25" parent="/1594" text="Background Color"/>
+  <modelum:Accessible control="/1601"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1604" font="/16" parent="/1487" layout="/1605" tabList="/1606 /1608 /1610" text="Listeners"/>
+  <modelum:Accessible control="/1603"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1607" font="/25" parent="/1603" text="Select Listeners"/>
+  <modelum:Accessible control="/1606"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1609" font="/25" parent="/1603" text="Listen"/>
+  <modelum:Accessible control="/1608"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1611" font="/25" parent="/1603" text="Clear"/>
+  <modelum:Accessible control="/1610"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1613" font="/2" parent="/7" layout="/1614" tabList="/1615 /1621 /1691"/>
+  <modelum:Accessible control="/1612"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1616" font="/16" parent="/1612" layout="/1617" tabList="/1618" text=""/>
+  <modelum:Accessible control="/1615"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1619" font="/16" parent="/1615" layout="/1620" text="Text"/>
+  <modelum:Accessible control="/1618"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1622" font="/16" parent="/1612" layout="/1623" tabList="/1624 /1648 /1661 /1668 /1682" text="Parameters"/>
+  <modelum:Accessible control="/1621"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1625" font="/16" parent="/1621" layout="/1626" tabList="/1627 /1629 /1631 /1633 /1635 /1637 /1639 /1641 /1643 /1645" text="Styles"/>
+  <modelum:Accessible control="/1624"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1628" font="/25" parent="/1624" text="SWT.H_SCROLL"/>
+  <modelum:Accessible control="/1627"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1630" font="/25" parent="/1624" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/1629"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1632" font="/25" parent="/1624" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1631"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1634" font="/25" parent="/1624" text="SWT.WRAP"/>
+  <modelum:Accessible control="/1633"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1636" font="/25" parent="/1624" text="SWT.READ_ONLY"/>
+  <modelum:Accessible control="/1635"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1638" font="/25" parent="/1624" text="SWT.PASSWORD"/>
+  <modelum:Accessible control="/1637"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1640" font="/25" parent="/1624" text="SWT.SEARCH"/>
+  <modelum:Accessible control="/1639"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1642" font="/25" parent="/1624" text="SWT.ICON_CANCEL"/>
+  <modelum:Accessible control="/1641"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1644" font="/25" parent="/1624" text="SWT.ICON_SEARCH"/>
+  <modelum:Accessible control="/1643"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1646" font="/2" parent="/1624" layout="/1647"/>
+  <modelum:Accessible control="/1645"/>
+  <modelum:GridLayout numColumns="1" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1649" font="/16" parent="/1621" layout="/1650" tabList="/1651 /1653 /1655 /1657 /1659" text="Other"/>
+  <modelum:Accessible control="/1648"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1652" font="/25" parent="/1648" text="Enabled"/>
+  <modelum:Accessible control="/1651"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1654" font="/25" parent="/1648" text="Visible"/>
+  <modelum:Accessible control="/1653"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1656" font="/25" parent="/1648" text="Background Image"/>
+  <modelum:Accessible control="/1655"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1658" font="/25" parent="/1648" text="Popup Menu"/>
+  <modelum:Accessible control="/1657"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1660" font="/25" parent="/1648" text="Set/Get API"/>
+  <modelum:Accessible control="/1659"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1662" font="/16" parent="/1621" layout="/1663" tabList="/1664 /1666" text="Size"/>
+  <modelum:Accessible control="/1661"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1665" font="/25" parent="/1661" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1664"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1667" font="/25" parent="/1661" text="Vertical Fill"/>
+  <modelum:Accessible control="/1666"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1669" font="/16" parent="/1621" layout="/1670" tabList="/1671 /1678 /1680" text="Colors and Font"/>
+  <modelum:Accessible control="/1668"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1672" font="/112" parent="/1668" verticalBar="/1673" horizontalBar="/1674" items="/1675 /1676 /1677" itemCount="3"/>
+  <modelum:Accessible control="/1671"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1671"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1671"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1671"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1671"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1671"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1679" font="/25" parent="/1668" text="&amp;Change..."/>
+  <modelum:Accessible control="/1678"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1681" font="/25" parent="/1668" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1680"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1683" font="/16" parent="/1621" layout="/1684" tabList="/1685 /1687 /1689" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1682"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1686" font="/133" parent="/1682" textLimit="2147483647"/>
+  <modelum:Accessible control="/1685"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1688" font="/25" parent="/1682" text="Background Image"/>
+  <modelum:Accessible control="/1687"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1690" font="/25" parent="/1682" text="Background Color"/>
+  <modelum:Accessible control="/1689"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1692" font="/16" parent="/1612" layout="/1693" tabList="/1694 /1696 /1698" text="Listeners"/>
+  <modelum:Accessible control="/1691"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1695" font="/25" parent="/1691" text="Select Listeners"/>
+  <modelum:Accessible control="/1694"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1697" font="/25" parent="/1691" text="Listen"/>
+  <modelum:Accessible control="/1696"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1699" font="/25" parent="/1691" text="Clear"/>
+  <modelum:Accessible control="/1698"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1701" font="/2" parent="/7" layout="/1702" tabList="/1703 /1715 /1776"/>
+  <modelum:Accessible control="/1700"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1704" font="/16" parent="/1700" layout="/1705" tabList="/1706 /1709 /1712" text=""/>
+  <modelum:Accessible control="/1703"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1707" font="/16" parent="/1703" layout="/1708" text="Image ToolBar"/>
+  <modelum:Accessible control="/1706"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1710" font="/16" parent="/1703" layout="/1711" text="Text ToolBar"/>
+  <modelum:Accessible control="/1709"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1713" font="/16" parent="/1703" layout="/1714" text="Image and Text ToolBar"/>
+  <modelum:Accessible control="/1712"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1716" font="/16" parent="/1700" layout="/1717" tabList="/1718 /1731 /1746 /1753 /1767" text="Parameters"/>
+  <modelum:Accessible control="/1715"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1719" font="/16" parent="/1715" layout="/1720" tabList="/1721 /1723 /1725 /1727 /1729" text="Styles"/>
+  <modelum:Accessible control="/1718"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1722" font="/25" parent="/1718" text="SWT.FLAT"/>
+  <modelum:Accessible control="/1721"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1724" font="/25" parent="/1718" text="SWT.SHADOW_OUT"/>
+  <modelum:Accessible control="/1723"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1726" font="/25" parent="/1718" text="SWT.WRAP"/>
+  <modelum:Accessible control="/1725"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1728" font="/25" parent="/1718" text="SWT.RIGHT"/>
+  <modelum:Accessible control="/1727"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1730" font="/25" parent="/1718" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1729"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1732" font="/16" parent="/1715" layout="/1733" tabList="/1734 /1736 /1738 /1740 /1742 /1744" text="Other"/>
+  <modelum:Accessible control="/1731"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1735" font="/25" parent="/1731" text="Enabled"/>
+  <modelum:Accessible control="/1734"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1737" font="/25" parent="/1731" text="Visible"/>
+  <modelum:Accessible control="/1736"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1739" font="/25" parent="/1731" text="Background Image"/>
+  <modelum:Accessible control="/1738"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1741" font="/25" parent="/1731" text="Popup Menu"/>
+  <modelum:Accessible control="/1740"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1743" font="/25" parent="/1731" text="Combo Child"/>
+  <modelum:Accessible control="/1742"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1745" font="/25" parent="/1731" text="Set/Get API"/>
+  <modelum:Accessible control="/1744"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1747" font="/16" parent="/1715" layout="/1748" tabList="/1749 /1751" text="Size"/>
+  <modelum:Accessible control="/1746"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1750" font="/25" parent="/1746" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1749"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1752" font="/25" parent="/1746" text="Vertical Fill"/>
+  <modelum:Accessible control="/1751"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1754" font="/16" parent="/1715" layout="/1755" tabList="/1756 /1763 /1765" text="Colors and Font"/>
+  <modelum:Accessible control="/1753"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1757" font="/112" parent="/1753" verticalBar="/1758" horizontalBar="/1759" items="/1760 /1761 /1762" itemCount="3"/>
+  <modelum:Accessible control="/1756"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1756"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1756"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1756"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1756"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1756"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1764" font="/25" parent="/1753" text="&amp;Change..."/>
+  <modelum:Accessible control="/1763"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1766" font="/25" parent="/1753" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1765"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1768" font="/16" parent="/1715" layout="/1769" tabList="/1770 /1772 /1774" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1767"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1771" font="/133" parent="/1767" textLimit="2147483647"/>
+  <modelum:Accessible control="/1770"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1773" font="/25" parent="/1767" text="Background Image"/>
+  <modelum:Accessible control="/1772"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1775" font="/25" parent="/1767" text="Background Color"/>
+  <modelum:Accessible control="/1774"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1777" font="/16" parent="/1700" layout="/1778" tabList="/1779 /1781 /1783" text="Listeners"/>
+  <modelum:Accessible control="/1776"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1780" font="/25" parent="/1776" text="Select Listeners"/>
+  <modelum:Accessible control="/1779"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1782" font="/25" parent="/1776" text="Listen"/>
+  <modelum:Accessible control="/1781"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1784" font="/25" parent="/1776" text="Clear"/>
+  <modelum:Accessible control="/1783"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1786" font="/2" parent="/7" layout="/1787" tabList="/1788 /1796 /1813"/>
+  <modelum:Accessible control="/1785"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1789" font="/16" parent="/1785" layout="/1790" tabList="/1791" text=""/>
+  <modelum:Accessible control="/1788"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1792" font="/16" parent="/1788" layout="/1793" tabList="/1794" text="ToolTip"/>
+  <modelum:Accessible control="/1791"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1795" font="/25" parent="/1791" text="Visible"/>
+  <modelum:Accessible control="/1794"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1797" font="/16" parent="/1785" layout="/1798" tabList="/1799 /1804" text="Parameters"/>
+  <modelum:Accessible control="/1796"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1800" font="/16" parent="/1796" layout="/1801" tabList="/1802" text="Styles"/>
+  <modelum:Accessible control="/1799"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1803" font="/25" parent="/1799" text="SWT.BALLOON"/>
+  <modelum:Accessible control="/1802"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1805" font="/16" parent="/1796" layout="/1806" tabList="/1807 /1809 /1811" text="Other"/>
+  <modelum:Accessible control="/1804"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1808" font="/25" parent="/1804" text="AutoHide"/>
+  <modelum:Accessible control="/1807"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1810" font="/25" parent="/1804" text="Show In Tray"/>
+  <modelum:Accessible control="/1809"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1812" font="/25" parent="/1804" text="Set/Get API"/>
+  <modelum:Accessible control="/1811"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1814" font="/16" parent="/1785" layout="/1815" tabList="/1816 /1818 /1820" text="Listeners"/>
+  <modelum:Accessible control="/1813"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1817" font="/25" parent="/1813" text="Select Listeners"/>
+  <modelum:Accessible control="/1816"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1819" font="/25" parent="/1813" text="Listen"/>
+  <modelum:Accessible control="/1818"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1821" font="/25" parent="/1813" text="Clear"/>
+  <modelum:Accessible control="/1820"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1823" font="/2" parent="/7" layout="/1824" tabList="/1825 /1834 /1919"/>
+  <modelum:Accessible control="/1822"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1826" font="/16" parent="/1822" layout="/1827" tabList="/1828 /1831" text=""/>
+  <modelum:Accessible control="/1825"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1829" font="/16" parent="/1825" layout="/1830" text="Tree"/>
+  <modelum:Accessible control="/1828"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1832" font="/16" parent="/1825" layout="/1833" text="Tree With Images"/>
+  <modelum:Accessible control="/1831"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1835" font="/16" parent="/1822" layout="/1836" tabList="/1837 /1852 /1881 /1890 /1910" text="Parameters"/>
+  <modelum:Accessible control="/1834"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1838" font="/16" parent="/1834" layout="/1839" tabList="/1840 /1842 /1844 /1846 /1848 /1850" text="Styles"/>
+  <modelum:Accessible control="/1837"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1841" font="/25" parent="/1837" text="SWT.H_SCROLL"/>
+  <modelum:Accessible control="/1840"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1843" font="/25" parent="/1837" text="SWT.V_SCROLL"/>
+  <modelum:Accessible control="/1842"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1845" font="/25" parent="/1837" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1844"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1847" font="/25" parent="/1837" text="SWT.NO_SCROLL"/>
+  <modelum:Accessible control="/1846"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1849" font="/25" parent="/1837" text="SWT.CHECK"/>
+  <modelum:Accessible control="/1848"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1851" font="/25" parent="/1837" text="SWT.FULL_SELECTION"/>
+  <modelum:Accessible control="/1850"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1853" font="/16" parent="/1834" layout="/1854" tabList="/1855 /1857 /1859 /1861 /1863 /1865 /1867 /1869 /1871 /1873 /1875 /1877 /1879" text="Other"/>
+  <modelum:Accessible control="/1852"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1856" font="/25" parent="/1852" text="Enabled"/>
+  <modelum:Accessible control="/1855"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1858" font="/25" parent="/1852" text="Visible"/>
+  <modelum:Accessible control="/1857"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1860" font="/25" parent="/1852" text="Background Image"/>
+  <modelum:Accessible control="/1859"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1862" font="/25" parent="/1852" text="Popup Menu"/>
+  <modelum:Accessible control="/1861"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1864" font="/25" parent="/1852" text="Lines Visible"/>
+  <modelum:Accessible control="/1863"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1866" font="/25" parent="/1852" text="Multiple Columns"/>
+  <modelum:Accessible control="/1865"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1868" font="/25" parent="/1852" text="Header Visible"/>
+  <modelum:Accessible control="/1867"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1870" font="/25" parent="/1852" text="Sort Indicator"/>
+  <modelum:Accessible control="/1869"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1872" font="/25" parent="/1852" text="Moveable Columns"/>
+  <modelum:Accessible control="/1871"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1874" font="/25" parent="/1852" text="Resizable Columns"/>
+  <modelum:Accessible control="/1873"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1876" font="/25" parent="/1852" text="Header Images"/>
+  <modelum:Accessible control="/1875"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1878" font="/25" parent="/1852" text="Sub Images"/>
+  <modelum:Accessible control="/1877"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1880" font="/25" parent="/1852" text="Set/Get API"/>
+  <modelum:Accessible control="/1879"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1882" font="/16" parent="/1834" layout="/1883" tabList="/1884 /1886 /1888" text="Size"/>
+  <modelum:Accessible control="/1881"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1885" font="/25" parent="/1881" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1884"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1887" font="/25" parent="/1881" text="Vertical Fill"/>
+  <modelum:Accessible control="/1886"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1889" font="/25" parent="/1881" text="Pack Columns"/>
+  <modelum:Accessible control="/1888"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1891" font="/16" parent="/1834" layout="/1892" tabList="/1893 /1906 /1908" text="Colors and Font"/>
+  <modelum:Accessible control="/1890"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Table style="570493700" display="/1" accessible="/1894" font="/112" parent="/1890" verticalBar="/1895" horizontalBar="/1896" items="/1897 /1898 /1899 /1900 /1901 /1902 /1903 /1904 /1905" itemCount="9"/>
+  <modelum:Accessible control="/1893"/>
+  <modelum:ScrollBar style="512" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1893"/>
+  <modelum:ScrollBar style="256" display="/1" pageIncrement="10" increment="1" thumb="10" maximum="100" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Foreground Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Background Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Font" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Foreground Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Background Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Font" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Foreground Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Background Color" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:TableItem display="/1" text="Item 0 Col 1 Font" foreground="/116" font="/112" background="/117" parent="/1893"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1907" font="/25" parent="/1890" text="&amp;Change..."/>
+  <modelum:Accessible control="/1906"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1909" font="/25" parent="/1890" text="&amp;Defaults"/>
+  <modelum:Accessible control="/1908"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1911" font="/16" parent="/1834" layout="/1912" tabList="/1913 /1915 /1917" text="Background Mode on Parent"/>
+  <modelum:Accessible control="/1910"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Combo style="570425356" display="/1" accessible="/1914" font="/133" parent="/1910" textLimit="2147483647"/>
+  <modelum:Accessible control="/1913"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1916" font="/25" parent="/1910" text="Background Image"/>
+  <modelum:Accessible control="/1915"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1918" font="/25" parent="/1910" text="Background Color"/>
+  <modelum:Accessible control="/1917"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1920" font="/16" parent="/1822" layout="/1921" tabList="/1922 /1924 /1926" text="Listeners"/>
+  <modelum:Accessible control="/1919"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1923" font="/25" parent="/1919" text="Select Listeners"/>
+  <modelum:Accessible control="/1922"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1925" font="/25" parent="/1919" text="Listen"/>
+  <modelum:Accessible control="/1924"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1927" font="/25" parent="/1919" text="Clear"/>
+  <modelum:Accessible control="/1926"/>
+  <modelum:Composite style="570425344" display="/1" accessible="/1929" font="/2" parent="/7" layout="/1930" tabList="/1931 /1937 /1965"/>
+  <modelum:Accessible control="/1928"/>
+  <modelum:GridLayout numColumns="2" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1932" font="/16" parent="/1928" layout="/1933" tabList="/1934" text=""/>
+  <modelum:Accessible control="/1931"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1935" font="/16" parent="/1931" layout="/1936" text="Browser"/>
+  <modelum:Accessible control="/1934"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1938" font="/16" parent="/1928" layout="/1939" tabList="/1940 /1947 /1958" text="Parameters"/>
+  <modelum:Accessible control="/1937"/>
+  <modelum:GridLayout numColumns="2" makeColumnsEqualWidth="true" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1941" font="/16" parent="/1937" layout="/1942" tabList="/1943 /1945" text="Styles"/>
+  <modelum:Accessible control="/1940"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1944" font="/25" parent="/1940" text="SWT.MOZILLA"/>
+  <modelum:Accessible control="/1943"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1946" font="/25" parent="/1940" text="SWT.BORDER"/>
+  <modelum:Accessible control="/1945"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1948" font="/16" parent="/1937" layout="/1949" tabList="/1950 /1952 /1954 /1956" text="Other"/>
+  <modelum:Accessible control="/1947"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1951" font="/25" parent="/1947" text="Enabled"/>
+  <modelum:Accessible control="/1950"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1953" font="/25" parent="/1947" text="Visible"/>
+  <modelum:Accessible control="/1952"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1955" font="/25" parent="/1947" text="Popup Menu"/>
+  <modelum:Accessible control="/1954"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1957" font="/25" parent="/1947" text="Set/Get API"/>
+  <modelum:Accessible control="/1956"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1959" font="/16" parent="/1937" layout="/1960" tabList="/1961 /1963" text="Size"/>
+  <modelum:Accessible control="/1958"/>
+  <modelum:GridLayout numColumns="1" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1962" font="/25" parent="/1958" text="Horizontal Fill"/>
+  <modelum:Accessible control="/1961"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1964" font="/25" parent="/1958" text="Vertical Fill"/>
+  <modelum:Accessible control="/1963"/>
+  <modelum:Group style="570949632" display="/1" accessible="/1966" font="/16" parent="/1928" layout="/1967" tabList="/1968 /1970 /1972" text="Listeners"/>
+  <modelum:Accessible control="/1965"/>
+  <modelum:GridLayout numColumns="3" marginWidth="5" marginHeight="5" horizontalSpacing="5" verticalSpacing="5"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1969" font="/25" parent="/1965" text="Select Listeners"/>
+  <modelum:Accessible control="/1968"/>
+  <modelum:Button style="570441760" display="/1" accessible="/1971" font="/25" parent="/1965" text="Listen"/>
+  <modelum:Accessible control="/1970"/>
+  <modelum:Button style="587202568" display="/1" accessible="/1973" font="/25" parent="/1965" text="Clear"/>
+  <modelum:Accessible control="/1972"/>
+  <modelum:TabItem display="/1" text="Button" parent="/7" control="/10"/>
+  <modelum:TabItem display="/1" text="Canvas" parent="/7" control="/153"/>
+  <modelum:TabItem display="/1" text="Combo" parent="/7" control="/240"/>
+  <modelum:TabItem display="/1" text="CoolBar" parent="/7" control="/312"/>
+  <modelum:TabItem display="/1" text="DateTime" parent="/7" control="/390"/>
+  <modelum:TabItem display="/1" text="Dialog" parent="/7" control="/464"/>
+  <modelum:TabItem display="/1" text="ExpandBar" parent="/7" control="/516"/>
+  <modelum:TabItem display="/1" text="Group" parent="/7" control="/587"/>
+  <modelum:TabItem display="/1" text="Label" parent="/7" control="/660"/>
+  <modelum:TabItem display="/1" text="Link" parent="/7" control="/742"/>
+  <modelum:TabItem display="/1" text="List" parent="/7" control="/811"/>
+  <modelum:TabItem display="/1" text="Menu" parent="/7" control="/884"/>
+  <modelum:TabItem display="/1" text="ProgressBar" parent="/7" control="/943"/>
+  <modelum:TabItem display="/1" text="Sash" parent="/7" control="/1025"/>
+  <modelum:TabItem display="/1" text="Scale" parent="/7" control="/1089"/>
+  <modelum:TabItem display="/1" text="Shell" parent="/7" control="/1173"/>
+  <modelum:TabItem display="/1" text="Slider" parent="/7" control="/1235"/>
+  <modelum:TabItem display="/1" text="Spinner" parent="/7" control="/1322"/>
+  <modelum:TabItem display="/1" text="TabFolder" parent="/7" control="/1413"/>
+  <modelum:TabItem display="/1" text="Table" parent="/7" control="/1487"/>
+  <modelum:TabItem display="/1" text="Text" parent="/7" control="/1612"/>
+  <modelum:TabItem display="/1" text="ToolBar" parent="/7" control="/1700"/>
+  <modelum:TabItem display="/1" text="ToolTip" parent="/7" control="/1785"/>
+  <modelum:TabItem display="/1" text="Tree" parent="/7" control="/1822"/>
+  <modelum:TabItem display="/1" text="Browser" parent="/7" control="/1928"/>
+</xmi:XMI>

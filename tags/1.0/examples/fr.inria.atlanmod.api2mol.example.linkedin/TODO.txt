@@ -1,0 +1,22 @@
+TODO LinkedIn example:
+- get metamodel and mapping
+	- create project and files
+		- copy log/log.ecore into project
+			=> should not be necessary
+		- put API classes in api/
+			=> should not be necessary (traversing the jar file should do the trick)
+		- create discovererConfiguration in bootstrap/
+		- write Reflect class
+			- modify paths appropriately
+		- launch Reflect class
+			=> this creates the Reflect model in bootstrap/
+		- transform Reflect model into metamodel + mapping using api2mol.transformations
+			=> this should be automated
+- test an injection
+
+TODO API2MoL:
+- read class list directly from jar instead of from source
+
+
+QUESTIONS:
+- collectJavaClassesFromDisk seems to collect .java files, whereas Twitter example has only .class files

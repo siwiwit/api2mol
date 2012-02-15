@@ -1,0 +1,2240 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="LinkedIn"
+    nsURI="http://modelum.es/atlandmod" nsPrefix="modelum">
+  <eClassifiers xsi:type="ecore:EClass" name="UnknownElement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ActivityImpl" eSuperTypes="//Object //Serializable //Activity">
+    <eAnnotations source="ExtendedMetaData" references="//ActivityImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ActivityImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="locale">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contentType" eType="//NetworkUpdateContentType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="body">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="appId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="locale">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="body">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contentType" eType="//NetworkUpdateContentType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="appId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnswerImpl" eSuperTypes="//Object //Serializable //Answer">
+    <eAnnotations source="ExtendedMetaData" references="//AnswerImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.AnswerImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="author" eType="//Author"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AuthorImpl" eSuperTypes="//Object //Author //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//AuthorImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.AuthorImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="apiStandardProfileRequest"
+        eType="//ApiStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationToViewer" eType="//RelationToViewer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteStandardProfileRequest"
+        eType="//SiteStandardProfileRequest"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationToViewerImpl" eSuperTypes="//Object //Serializable //RelationToViewer">
+    <eAnnotations source="ExtendedMetaData" references="//RelationToViewerImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RelationToViewerImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ApiStandardProfileRequestImpl" eSuperTypes="//Object //ApiStandardProfileRequest //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//ApiStandardProfileRequestImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ApiStandardProfileRequestImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="headers" eType="//Headers"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HeadersImpl" eSuperTypes="//Object //Serializable //Headers">
+    <eAnnotations source="ExtendedMetaData" references="//HeadersImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.HeadersImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="httpHeaderList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="httpHeaderList" upperBound="-1"
+        eType="//HttpHeader"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteStandardProfileRequestImpl" eSuperTypes="//Object //Serializable //SiteStandardProfileRequest">
+    <eAnnotations source="ExtendedMetaData" references="//SiteStandardProfileRequestImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.SiteStandardProfileRequestImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="headers" eType="//Headers"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnswersImpl" eSuperTypes="//Object //Serializable //Answers">
+    <eAnnotations source="ExtendedMetaData" references="//AnswersImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.AnswersImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="answerList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="answerList" upperBound="-1"
+        eType="//Answer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ApplicationImpl" eSuperTypes="//Object //Serializable //Application">
+    <eAnnotations source="ExtendedMetaData" references="//ApplicationImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ApplicationImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributionImpl" eSuperTypes="//Object //Serializable //Attribution">
+    <eAnnotations source="ExtendedMetaData" references="//AttributionImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.AttributionImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="share" eType="//Share"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ShareImpl" eSuperTypes="//Object //Serializable //Share">
+    <eAnnotations source="ExtendedMetaData" references="//ShareImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ShareImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="visibility" eType="//Visibility"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribution" eType="//Attribution"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="content" eType="//Content"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContentImpl" eSuperTypes="//Object //Serializable //Content">
+    <eAnnotations source="ExtendedMetaData" references="//ContentImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ContentImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="thumbnailUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="submittedImageUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="submittedUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shortenedUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="submittedImageUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="thumbnailUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shortenedUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="submittedUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VisibilityImpl" eSuperTypes="//Object //Serializable //Visibility">
+    <eAnnotations source="ExtendedMetaData" references="//VisibilityImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.VisibilityImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="code" eType="//VisibilityType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="code" eType="//VisibilityType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AuthorizationImpl" eSuperTypes="//Object //Serializable //Authorization">
+    <eAnnotations source="ExtendedMetaData" references="//AuthorizationImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.AuthorizationImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BucketImpl" eSuperTypes="//Object //Serializable //Bucket">
+    <eAnnotations source="ExtendedMetaData" references="//BucketImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.BucketImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BucketsImpl" eSuperTypes="//Object //Buckets //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//BucketsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.BucketsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bucketList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bucketList" upperBound="-1"
+        eType="//Bucket"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompanyImpl" eSuperTypes="//Object //Company //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//CompanyImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.CompanyImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="industry">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="industry">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConnectionsImpl" eSuperTypes="//Object //Serializable //Connections">
+    <eAnnotations source="ExtendedMetaData" references="//ConnectionsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ConnectionsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personList" upperBound="-1"
+        eType="//Person"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CountryImpl" eSuperTypes="//Object //Serializable //Country">
+    <eAnnotations source="ExtendedMetaData" references="//CountryImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.CountryImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CurrentShareImpl" eSuperTypes="//Object //Serializable //CurrentShare">
+    <eAnnotations source="ExtendedMetaData" references="//CurrentShareImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.CurrentShareImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="content" eType="//Content"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="visibility" eType="//Visibility"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="//Source"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="author" eType="//Author"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SourceImpl" eSuperTypes="//Object //Serializable //Source">
+    <eAnnotations source="ExtendedMetaData" references="//SourceImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.SourceImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="serviceProvider" eType="//ServiceProvider"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="application" eType="//Application"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceProviderImpl" eSuperTypes="//Object //Serializable //ServiceProvider">
+    <eAnnotations source="ExtendedMetaData" references="//ServiceProviderImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ServiceProviderImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DateOfBirthImpl" eSuperTypes="//Object //Serializable //DateOfBirth">
+    <eAnnotations source="ExtendedMetaData" references="//DateOfBirthImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.DateOfBirthImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="day">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="day">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EducationImpl" eSuperTypes="//Object //Serializable //Education">
+    <eAnnotations source="ExtendedMetaData" references="//EducationImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.EducationImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="schoolName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activities">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fieldOfStudy">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="degree">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="notes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="degree">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endDate" eType="//EndDate"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="startDate" eType="//StartDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="schoolName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="notes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activities">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fieldOfStudy">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StartDateImpl" eSuperTypes="//Object //StartDate //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//StartDateImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.StartDateImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EndDateImpl" eSuperTypes="//Object //Serializable //EndDate">
+    <eAnnotations source="ExtendedMetaData" references="//EndDateImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.EndDateImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="month">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="year">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EducationsImpl" eSuperTypes="//Object //Serializable //Educations">
+    <eAnnotations source="ExtendedMetaData" references="//EducationsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.EducationsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="educationList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="educationList" upperBound="-1"
+        eType="//Education"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ErrorImpl" eSuperTypes="//Object //Serializable //Error">
+    <eAnnotations source="ExtendedMetaData" references="//ErrorImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ErrorImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorCode">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="status">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="status">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="errorCode">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FacetImpl" eSuperTypes="//Object //Serializable //Facet">
+    <eAnnotations source="ExtendedMetaData" references="//FacetImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.FacetImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="code" eType="//FacetType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="code" eType="//FacetType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="buckets" eType="//Buckets"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FacetsImpl" eSuperTypes="//Object //Serializable //Facets">
+    <eAnnotations source="ExtendedMetaData" references="//FacetsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.FacetsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="facetList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="facetList" upperBound="-1"
+        eType="//Facet"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HttpHeaderImpl" eSuperTypes="//Object //Serializable //HttpHeader">
+    <eAnnotations source="ExtendedMetaData" references="//HttpHeaderImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.HttpHeaderImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImAccountImpl" eSuperTypes="//Object //Serializable //ImAccount">
+    <eAnnotations source="ExtendedMetaData" references="//ImAccountImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ImAccountImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="imAccountName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imAccountType" eType="//ImAccountType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imAccountType" eType="//ImAccountType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="imAccountName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImAccountsImpl" eSuperTypes="//Object //Serializable //ImAccounts">
+    <eAnnotations source="ExtendedMetaData" references="//ImAccountsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ImAccountsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imAccountList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imAccountList" upperBound="-1"
+        eType="//ImAccount"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InvitationRequestImpl" eSuperTypes="//Object //Serializable //InvitationRequest">
+    <eAnnotations source="ExtendedMetaData" references="//InvitationRequestImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.InvitationRequestImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connectType" eType="//InviteConnectType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="authorization" eType="//Authorization"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connectType" eType="//InviteConnectType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ItemContentImpl" eSuperTypes="//Object //Serializable //ItemContent">
+    <eAnnotations source="ExtendedMetaData" references="//ItemContentImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ItemContentImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="invitationRequest" eType="//InvitationRequest"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JAXBContextFactory" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//JAXBContextFactory">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.JAXBContextFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JobImpl" eSuperTypes="//Object //Serializable //Job">
+    <eAnnotations source="ExtendedMetaData" references="//JobImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.JobImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteJobRequest" eType="//SiteJobRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="position" eType="//Position"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="jobPoster" eType="//JobPoster"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="company" eType="//Company"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PositionImpl" eSuperTypes="//Object //Serializable //Position">
+    <eAnnotations source="ExtendedMetaData" references="//PositionImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PositionImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="summary">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="summary">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endDate" eType="//EndDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="startDate" eType="//StartDate"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="company" eType="//Company"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JobPosterImpl" eSuperTypes="//Object //Serializable //JobPoster">
+    <eAnnotations source="ExtendedMetaData" references="//JobPosterImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.JobPosterImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteStandardProfileRequest"
+        eType="//SiteStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="apiStandardProfileRequest"
+        eType="//ApiStandardProfileRequest"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteJobRequestImpl" eSuperTypes="//Object //Serializable //SiteJobRequest">
+    <eAnnotations source="ExtendedMetaData" references="//SiteJobRequestImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.SiteJobRequestImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="headers" eType="//Headers"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LikeImpl" eSuperTypes="//Object //Serializable //Like">
+    <eAnnotations source="ExtendedMetaData" references="//LikeImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.LikeImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="//Person"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PersonImpl" eSuperTypes="//Object //Person //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//PersonImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PersonImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="interests">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentStatus">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="honors">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="summary">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numRecommenders">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="specialties">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numConnections">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mainAddress">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentStatusTimestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="industry">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="publicProfileUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="associations">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationsReceived"
+        eType="//RecommendationsReceived"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="honors">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numConnections">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="threeCurrentPositions"
+        eType="//ThreeCurrentPositions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="phoneNumbers" eType="//PhoneNumbers"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberUrlResources" eType="//MemberUrlResources"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="associations">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentStatus">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationToViewer" eType="//RelationToViewer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positions" eType="//Positions"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationsGiven" eType="//RecommendationsGiven"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="industry">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currentStatusTimestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="educations" eType="//Educations"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="threePastPositions" eType="//ThreePastPositions"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personActivities" eType="//PersonActivities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dateOfBirth" eType="//DateOfBirth"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="twitterAccounts" eType="//TwitterAccounts"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteStandardProfileRequest"
+        eType="//SiteStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="summary">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="specialties">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="//Location"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="publicProfileUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberGroups" eType="//MemberGroups"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="currentShare" eType="//CurrentShare"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="apiStandardProfileRequest"
+        eType="//ApiStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="path">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connections" eType="//Connections"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numRecommenders">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mainAddress">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="interests">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="imAccounts" eType="//ImAccounts"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LocationImpl" eSuperTypes="//Object //Location //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//LocationImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.LocationImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="country" eType="//Country"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PositionsImpl" eSuperTypes="//Object //Serializable //Positions">
+    <eAnnotations source="ExtendedMetaData" references="//PositionsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PositionsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" upperBound="-1"
+        eType="//Position"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreeCurrentPositionsImpl" eSuperTypes="//Object //Serializable //ThreeCurrentPositions">
+    <eAnnotations source="ExtendedMetaData" references="//ThreeCurrentPositionsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ThreeCurrentPositionsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" upperBound="-1"
+        eType="//Position"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreePastPositionsImpl" eSuperTypes="//Object //Serializable //ThreePastPositions">
+    <eAnnotations source="ExtendedMetaData" references="//ThreePastPositionsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ThreePastPositionsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positionList" upperBound="-1"
+        eType="//Position"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberUrlResourcesImpl" eSuperTypes="//Object //Serializable //MemberUrlResources">
+    <eAnnotations source="ExtendedMetaData" references="//MemberUrlResourcesImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.MemberUrlResourcesImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberUrlList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberUrlList" upperBound="-1"
+        eType="//MemberUrl"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationsGivenImpl" eSuperTypes="//Object //Serializable //RecommendationsGiven">
+    <eAnnotations source="ExtendedMetaData" references="//RecommendationsGivenImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecommendationsGivenImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationList" upperBound="-1"
+        eType="//Recommendation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationsReceivedImpl" eSuperTypes="//Object //Serializable //RecommendationsReceived">
+    <eAnnotations source="ExtendedMetaData" references="//RecommendationsReceivedImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecommendationsReceivedImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationList" upperBound="-1"
+        eType="//Recommendation"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberGroupsImpl" eSuperTypes="//Object //Serializable //MemberGroups">
+    <eAnnotations source="ExtendedMetaData" references="//MemberGroupsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.MemberGroupsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberGroupList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="memberGroupList" upperBound="-1"
+        eType="//MemberGroup"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PersonActivitiesImpl" eSuperTypes="//Object //Serializable //PersonActivities">
+    <eAnnotations source="ExtendedMetaData" references="//PersonActivitiesImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PersonActivitiesImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activityList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activityList" upperBound="-1"
+        eType="//Activity"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterAccountsImpl" eSuperTypes="//Object //Serializable //TwitterAccounts">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterAccountsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.TwitterAccountsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="twitterAccountList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="twitterAccountList" upperBound="-1"
+        eType="//TwitterAccount"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneNumbersImpl" eSuperTypes="//Object //Serializable //PhoneNumbers">
+    <eAnnotations source="ExtendedMetaData" references="//PhoneNumbersImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PhoneNumbersImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="phoneNumberList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="phoneNumberList" upperBound="-1"
+        eType="//PhoneNumber"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LikesImpl" eSuperTypes="//Object //Serializable //Likes">
+    <eAnnotations source="ExtendedMetaData" references="//LikesImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.LikesImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likeList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likeList" upperBound="-1"
+        eType="//Like"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MailboxItemImpl" eSuperTypes="//Object //Serializable //MailboxItem">
+    <eAnnotations source="ExtendedMetaData" references="//MailboxItemImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.MailboxItemImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subject">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="body">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="body">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="itemContent" eType="//ItemContent"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recipients" eType="//Recipients"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="subject">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecipientsImpl" eSuperTypes="//Object //Recipients //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//RecipientsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecipientsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recipientList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recipientList" upperBound="-1"
+        eType="//Recipient"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberGroupImpl" eSuperTypes="//Object //Serializable //MemberGroup">
+    <eAnnotations source="ExtendedMetaData" references="//MemberGroupImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.MemberGroupImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteGroupRequest" eType="//SiteGroupRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteGroupRequestImpl" eSuperTypes="//Object //Serializable //SiteGroupRequest">
+    <eAnnotations source="ExtendedMetaData" references="//SiteGroupRequestImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.SiteGroupRequestImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="headers" eType="//Headers"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberUrlImpl" eSuperTypes="//Object //Serializable //MemberUrl">
+    <eAnnotations source="ExtendedMetaData" references="//MemberUrlImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.MemberUrlImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="url">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkImpl" eSuperTypes="//Object //Serializable //Network">
+    <eAnnotations source="ExtendedMetaData" references="//NetworkImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.NetworkImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="networkStats" eType="//NetworkStats"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updates" eType="//Updates"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkStatsImpl" eSuperTypes="//Object //Serializable //NetworkStats">
+    <eAnnotations source="ExtendedMetaData" references="//NetworkStatsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.NetworkStatsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="propertyList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="propertyList" upperBound="-1"
+        eType="//Property"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdatesImpl" eSuperTypes="//Object //Updates //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//UpdatesImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.UpdatesImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateList" upperBound="-1"
+        eType="//Update"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ObjectFactory" eSuperTypes="//Object">
+    <eAnnotations source="ExtendedMetaData" references="//ObjectFactory">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.ObjectFactory"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateCommentImpl" eSuperTypes="//Object //Serializable //UpdateComment">
+    <eAnnotations source="ExtendedMetaData" references="//UpdateCommentImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.UpdateCommentImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sequenceNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comment">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="//Person"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sequenceNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecipientImpl" eSuperTypes="//Object //Serializable //Recipient">
+    <eAnnotations source="ExtendedMetaData" references="//RecipientImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecipientImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="//Person"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PeopleSearchImpl" eSuperTypes="//Object //Serializable //PeopleSearch">
+    <eAnnotations source="ExtendedMetaData" references="//PeopleSearchImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PeopleSearchImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numResults">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="people" eType="//People"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numResults">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="facets" eType="//Facets"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PeopleImpl" eSuperTypes="//Object //Serializable //People">
+    <eAnnotations source="ExtendedMetaData" references="//PeopleImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PeopleImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="count">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personList" upperBound="-1"
+        eType="//Person"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="start">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PropertyImpl" eSuperTypes="//Object //Serializable //Property">
+    <eAnnotations source="ExtendedMetaData" references="//PropertyImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PropertyImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateContentImpl" eSuperTypes="//Object //Serializable //UpdateContent">
+    <eAnnotations source="ExtendedMetaData" references="//UpdateContentImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.UpdateContentImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="question" eType="//Question"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="//Person"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="job" eType="//Job"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuestionImpl" eSuperTypes="//Object //Serializable //Question">
+    <eAnnotations source="ExtendedMetaData" references="//QuestionImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.QuestionImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="answers" eType="//Answers"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="author" eType="//Author"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="questionCategories" eType="//QuestionCategories"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuestionCategoriesImpl" eSuperTypes="//Object //QuestionCategories //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//QuestionCategoriesImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.QuestionCategoriesImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="questionCategoryList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="questionCategoryList" upperBound="-1"
+        eType="//QuestionCategory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateImpl" eSuperTypes="//Object //Serializable //Update">
+    <eAnnotations source="ExtendedMetaData" references="//UpdateImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.UpdateImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateType" eType="//NetworkUpdateReturnType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="updateKey">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numLikes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isLikable">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isCommentable">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isLiked">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateComments" eType="//UpdateComments"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="likes" eType="//Likes"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="numLikes">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateContent" eType="//UpdateContent"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="updateKey">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateType" eType="//NetworkUpdateReturnType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateCommentsImpl" eSuperTypes="//Object //Serializable //UpdateComments">
+    <eAnnotations source="ExtendedMetaData" references="//UpdateCommentsImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.UpdateCommentsImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateCommentList" eType="//List"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updateCommentList" upperBound="-1"
+        eType="//UpdateComment"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendeeImpl" eSuperTypes="//Object //Serializable //Recommendee">
+    <eAnnotations source="ExtendedMetaData" references="//RecommendeeImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecommendeeImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="apiStandardProfileRequest"
+        eType="//ApiStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteStandardProfileRequest"
+        eType="//SiteStandardProfileRequest"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterAccountImpl" eSuperTypes="//Object //Serializable //TwitterAccount">
+    <eAnnotations source="ExtendedMetaData" references="//TwitterAccountImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.TwitterAccountImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="providerAccountName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="providerAccountId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="providerAccountName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="providerAccountId">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneNumberImpl" eSuperTypes="//Object //Serializable //PhoneNumber">
+    <eAnnotations source="ExtendedMetaData" references="//PhoneNumberImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.PhoneNumberImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="phoneType" eType="//PhoneType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="phoneNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="phoneType" eType="//PhoneType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="phoneNumber">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommenderImpl" eSuperTypes="//Object //Recommender //Serializable">
+    <eAnnotations source="ExtendedMetaData" references="//RecommenderImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecommenderImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="headline">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="apiStandardProfileRequest"
+        eType="//ApiStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="siteStandardProfileRequest"
+        eType="//SiteStandardProfileRequest"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="pictureUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationImpl" eSuperTypes="//Object //Serializable //Recommendation">
+    <eAnnotations source="ExtendedMetaData" references="//RecommendationImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.RecommendationImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="recommendationSnippet">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="recommendationText">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationType" eType="//RecommendationType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendationType" eType="//RecommendationType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommendee" eType="//Recommendee"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="recommender" eType="//Recommender"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="webUrl">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="recommendationSnippet">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="recommendationText">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuestionCategoryImpl" eSuperTypes="//Object //Serializable //QuestionCategory">
+    <eAnnotations source="ExtendedMetaData" references="//QuestionCategoryImpl">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.impl.QuestionCategoryImpl"/>
+      <details key="isMainType" value="true"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="code">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="key">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkUpdateContentType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.NetworkUpdateContentType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/737"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Enum" eSuperTypes="//Object //Serializable //Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Enum"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/302"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Object">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Object"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/4"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Comparable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Comparable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/215"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Serializable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.io.Serializable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/27"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Activity"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/736"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.SchemaEntity"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/681"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Author" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Author"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/702"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Answer" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Answer"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/784"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ApiStandardProfileRequest" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ApiStandardProfileRequest"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/688"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationToViewer" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.RelationToViewer"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/703"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteStandardProfileRequest" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.SiteStandardProfileRequest"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/704"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Headers" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Headers"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/689"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="List" eSuperTypes="//Collection">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.List"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/55"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Collection" eSuperTypes="//Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.util.Collection"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/57"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Iterable">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="java.lang.Iterable"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/66"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HttpHeader" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.HttpHeader"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/691"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Answers" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Answers"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/782"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Application" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Application"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/707"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Share" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Share"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/888"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Attribution" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Attribution"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/889"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Visibility" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Visibility"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/699"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Content" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Content"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/698"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VisibilityType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.VisibilityType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/700"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Authorization" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Authorization"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/886"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Bucket" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Bucket"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/854"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Buckets" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Buckets"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/852"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Company" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Company"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/711"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Person"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/694"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Connections" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Connections"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/695"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Country" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Country"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/754"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Source" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Source"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/705"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CurrentShare" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.CurrentShare"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/697"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceProvider" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ServiceProvider"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/706"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DateOfBirth" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.DateOfBirth"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/747"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StartDate" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.StartDate"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/712"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EndDate" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.EndDate"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/713"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Education" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Education"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/718"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Educations" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Educations"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/716"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Error" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Error"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/890"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FacetType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.FacetType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/850"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Facet" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Facet"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/849"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Facets" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Facets"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/847"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImAccountType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ImAccountType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/742"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImAccount" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ImAccount"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/741"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImAccounts" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ImAccounts"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/739"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InviteConnectType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.InviteConnectType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/884"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InvitationRequest" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.InvitationRequest"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/883"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ItemContent" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ItemContent"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/882"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JobPoster" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.JobPoster"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/776"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteJobRequest" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.SiteJobRequest"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/777"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Position" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Position"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/710"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Job" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Job"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/775"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Like" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Like"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/790"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreeCurrentPositions" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ThreeCurrentPositions"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/714"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ThreePastPositions" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.ThreePastPositions"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/715"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberUrlResources" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.MemberUrlResources"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/719"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationsGiven" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.RecommendationsGiven"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/722"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationsReceived" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.RecommendationsReceived"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/729"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberGroups" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.MemberGroups"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/730"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PersonActivities" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.PersonActivities"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/734"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterAccounts" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.TwitterAccounts"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/744"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneNumbers" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.PhoneNumbers"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/748"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Location" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Location"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/753"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Positions" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Positions"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/708"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberUrl" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.MemberUrl"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/721"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recommendation" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Recommendation"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/724"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MemberGroup" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.MemberGroup"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/732"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TwitterAccount" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.TwitterAccount"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/746"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneNumber" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.PhoneNumber"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/750"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Likes" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Likes"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/788"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recipients" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Recipients"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/879"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MailboxItem" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.MailboxItem"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/878"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recipient" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Recipient"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/881"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SiteGroupRequest" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.SiteGroupRequest"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/733"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkStats" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.NetworkStats"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/766"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Updates" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Updates"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/769"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Network" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Network"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/765"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Property" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Property"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/768"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Update" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Update"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/771"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateComment" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.UpdateComment"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/787"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="People" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.People"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/794"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PeopleSearch" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.PeopleSearch"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/846"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Question" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Question"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/778"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateContent" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.UpdateContent"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/774"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuestionCategories" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.QuestionCategories"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/779"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuestionCategory" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.QuestionCategory"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/781"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkUpdateReturnType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.NetworkUpdateReturnType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/772"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateComments" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.UpdateComments"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/785"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recommendee" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Recommendee"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/728"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PhoneType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.PhoneType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/751"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Recommender" eSuperTypes="//SchemaEntity">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.Recommender"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/727"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RecommendationType" eSuperTypes="//Enum">
+    <eAnnotations source="ExtendedMetaData">
+      <details key="canonicalName" value="com.google.code.linkedinapi.schema.RecommendationType"/>
+      <details key="isMainType" value="false"/>
+      <references href="../bootstrap/LinkedIn-Reflect.xmi#/725"/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

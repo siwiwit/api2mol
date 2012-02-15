@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cm="http://www.pure-systems.com/consul/model" targetNamespace="http://www.pure-systems.com/consul/model">  
+  <xs:element name="consulmodels"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A list of Consul Model. This enables the storage of more than one model into a singe xml file.</xs:documentation> 
+    </xs:annotation>  
+    <xs:complexType> 
+      <xs:sequence> 
+        <xs:element name="consulmodel" minOccurs="1" maxOccurs="unbounded" type="cm:consulmodelType"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">The list with the models.</xs:documentation> 
+          </xs:annotation> 
+        </xs:element> 
+      </xs:sequence> 
+    </xs:complexType> 
+  </xs:element>  
+  <xs:element name="consulmodel" type="cm:consulmodelType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="de">Ein Consulmodell</xs:documentation>  
+      <xs:documentation xml:lang="en">A Consul Model</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="head" type="cm:headType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Contains information about the creator and the creation date of this model. Further on there is the version and some comments.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="restrictions" type="cm:restrictionsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">The list of all defined restrictions and restrictions sets.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="restset" type="cm:restsetType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Groups some ids to a set. Only sets can referenced in the later parts. The contents of this element is the list of id references belonging to this set.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="restriction" type="cm:restrictionType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">This defines a restriction. The defined restriction will be later referenced by its ID. There can be more than one rule and/or script. The parts will be processed in the given order. If a rule or script returns' true' the remaining rules/scripts will be ignored.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="elements" type="cm:elementsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">This element contains the element list.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="element" type="cm:elementType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A element describes some kind of a element of a model. This can be a feature, a component, a class, a method, a binary or something else. The FM knowns onlyfeatures as element class/type. For the CCFM the class and the type of the element will beinterpreted by the corresponding back-end module of the transformation engine. For the configuration process the kind of a element has no further meanings.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="vname" type="cm:vnameType"></xs:element>  
+  <xs:element name="relations" type="cm:relationsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A list with relations. The list is attributed by a class value. The class describes the usage of the relations of this list.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="relation" type="cm:relationType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A relation describes the relationship between different parts of the model. Currently supported relation types are 'confilcts' and 'requires' .</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="target" type="cm:targetType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A target of a relation</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="properties" type="cm:propertiesType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="property" type="cm:propertyType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A property describes further informations for a element. Each property has a name and a type. The value for a property can be a constant or will be calculated by a script.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="constant" type="cm:constantType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A constant definition. The contents can be any text. The constants will be used as arguments for functions or for parameters.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="calculate" type="cm:calculateType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A calculation creates a constant during the configuration process by processing the rules or scripts.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="script" type="cm:scriptType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Defines a restriction in a foreign language. The language is selected by the 'language' attribute. For this time only prolog is allowed. The contents of this element contains the script/routine.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:element name="desc" type="cm:descType"></xs:element>  
+  <xs:element name="mimedesc" type="cm:mimedescType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Some kind of description. The type is given through the mime type.</xs:documentation> 
+    </xs:annotation> 
+  </xs:element>  
+  <xs:complexType name="consulmodelType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="de">Ein Consulmodell</xs:documentation>  
+      <xs:documentation xml:lang="en">A Consul Model</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="1" minOccurs="1" name="head" type="cm:headType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">Contains information about the creator and the creation date of this model. Further on there is the version and some comments.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="restrictions" type="cm:restrictionsType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">The list of all defined restrictions and restrictions sets.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="elements" type="cm:elementsType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">This element contains the element list.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element minOccurs="0" name="rights" type="cm:rightsType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">informations about the user rights and access rights</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="version" type="xs:string" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the models version (currently "1.5")</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="type" type="xs:string" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The type of the model. This time we have 'fm', 'ccfm', 'vdm'.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="headType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Contains information about the creator and the creation date of this model. Further on there is the version and some comments.</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="1" minOccurs="0" name="properties" type="cm:propertiesType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice> 
+  </xs:complexType>  
+  <xs:complexType name="restrictionsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">The list of all defined restrictions and restrictions sets.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="restset" type="cm:restsetType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">Groups some ids to a set. Only sets can referenced in the later parts. The contents of this element is the list of id references belonging to this set.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:complexType name="restsetType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Groups some ids to a set. Only sets can referenced in the later parts. The contents of this element is the list of id references belonging to this set.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="restriction" type="cm:restrictionType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">This defines a restriction. The defined restriction will be later referenced by its ID. There can be more than one rule and/or script. The parts will be processed in the given order. If a rule or script returns' true' the remaining rules/scripts will be ignored.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="constraint" type="xs:boolean" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">marks this restriction as constraint</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="restrictionType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">This defines a restriction. The defined restriction will be later referenced by its ID. There can be more than one rule and/or script. The parts will be processed in the given order. If a rule or script returns' true' the remaining rules/scripts will be ignored.</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="script" type="cm:scriptType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">Defines a restriction in a foreign language. The language is selected by the 'language' attribute. For this time only prolog is allowed. The contents of this element contains the script/routine.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="properties" type="cm:propertiesType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="name" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the symbolic name</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="elementsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">This element contains the element list.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="1" name="element" type="cm:elementType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A element describes some kind of a element of a model. This can be a feature, a component, a class, a method, a binary or something else. The FM knowns onlyfeatures as element class/type. For the CCFM the class and the type of the element will beinterpreted by the corresponding back-end module of the transformation engine. For the configuration process the kind of a element has no further meanings.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence>  
+    <xs:attribute name="rootid" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The id of the root element, it the model has a tree structure.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="elementType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A element describes some kind of a element of a model. This can be a feature, a component, a class, a method, a binary or something else. The FM knowns onlyfeatures as element class/type. For the CCFM the class and the type of the element will beinterpreted by the corresponding back-end module of the transformation engine. For the configuration process the kind of a element has no further meanings.</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="relations" type="cm:relationsType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A list with relations. The list is attributed by a class value. The class describes the usage of the relations of this list.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="properties" type="cm:propertiesType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="vname" type="cm:vnameType" form="qualified"></xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="name" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the name of the part</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="type" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The type of the part. FM: 'Node', 'Concept', 'ps.feature'. CCFM: depending on backend modules. VDM: ''.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="class" type="xs:string" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The class of the part. FM: 'ps.feature'. CCFM: 'ps.component', 'ps.part', 'ps.source'. VDM: ''.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="default" type="xs:string" use="optional" form="qualified"></xs:attribute>  
+    <xs:attribute name="constraint" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the reference to a constraint set</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="vnameType"> 
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="mimedesc" type="cm:mimedescType" form="qualified"></xs:element> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:complexType name="relationsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A list with relations. The list is attributed by a class value. The class describes the usage of the relations of this list.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="relation" type="cm:relationType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A relation describes the relationship between different parts of the model. Currently supported relation types are 'confilcts' and 'requires' .</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="class" type="xs:string" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The class of this list with relations.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="relationType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A relation describes the relationship between different parts of the model. Currently supported relation types are 'confilcts' and 'requires' .</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="target" type="cm:targetType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A target of a relation</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="properties" type="cm:propertiesType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="name" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the symbolic name</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="type" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the type of the relation</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="range" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the range of the relation</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="targetType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A target of a relation</xs:documentation> 
+    </xs:annotation>  
+    <xs:simpleContent> 
+      <xs:extension base="xs:string"> 
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute> 
+      </xs:extension> 
+    </xs:simpleContent> 
+  </xs:complexType>  
+  <xs:complexType name="propertiesType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A list with properties.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="property" type="cm:propertyType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A property describes further informations for a element. Each property has a name and a type. The value for a property can be a constant or will be calculated by a script.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:complexType name="propertyType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A property describes further informations for a element. Each property has a name and a type. The value for a property can be a constant or will be calculated by a script.</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="constant" type="cm:constantType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A constant definition. The contents can be any text. The constants will be used as arguments for functions or for parameters.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="calculate" type="cm:calculateType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A calculation creates a constant during the configuration process by processing the rules or scripts.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="type" type="xs:string" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">Some type of the property. Depending on the part type this can have different meanings.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="invisible" type="xs:boolean" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">If this attribute is set, the property is not shown to the user for editing. Invisible properties can be used by programs to store realated informations.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="inheritable" type="xs:boolean" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">If this attribute is set, the property can be inherited.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="fixed" type="xs:boolean" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A fixed property can be changed only during model creation. During the configuration process the fixed property is unchangable.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="readonly" type="xs:boolean" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A read only property can only be changed by the server.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="container" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">Specify the container type of this property.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="name" type="xs:string" use="optional" form="qualified"></xs:attribute>  
+    <xs:attribute name="range" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the range of the property</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="constantType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A constant definition. The contents can be any text. The constants will be used as arguments for functions or for parameters.</xs:documentation> 
+    </xs:annotation>  
+    <xs:simpleContent> 
+      <xs:extension base="xs:string"> 
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="type" type="xs:string" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">The data type of the constant. This must the same as the type of the parent property.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute> 
+      </xs:extension> 
+    </xs:simpleContent> 
+  </xs:complexType>  
+  <xs:complexType name="calculateType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">A calculation creates a constant during the configuration process by processing the rules or scripts.</xs:documentation> 
+    </xs:annotation>  
+    <xs:choice maxOccurs="unbounded"> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="script" type="cm:scriptType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">Defines a restriction in a foreign language. The language is selected by the 'language' attribute. For this time only prolog is allowed. The contents of this element contains the script/routine.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element>  
+      <xs:element maxOccurs="1" minOccurs="0" name="desc" type="cm:descType" form="qualified"></xs:element> 
+    </xs:choice>  
+    <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute>  
+    <xs:attribute name="type" type="xs:string" use="optional" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The data type of the constant. This must the same as the type of the parent property.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="scriptType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Defines a restriction in a foreign language. The language is selected by the 'language' attribute. For this time only prolog is allowed. The contents of this element contains the script/routine.</xs:documentation> 
+    </xs:annotation>  
+    <xs:simpleContent> 
+      <xs:extension base="xs:string"> 
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="language" type="xs:string" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the language of this script</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="type" type="xs:string" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the data type of the result</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute> 
+      </xs:extension> 
+    </xs:simpleContent> 
+  </xs:complexType>  
+  <xs:complexType name="descType"> 
+    <xs:sequence> 
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="mimedesc" type="cm:mimedescType" form="qualified"></xs:element> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:complexType name="mimedescType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">Some kind of description. The type is given through the mime type.</xs:documentation> 
+    </xs:annotation>  
+    <xs:simpleContent> 
+      <xs:extension base="xs:string"> 
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">the unique identifier</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="restriction" type="xs:IDREF" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">A reference to a restriction set.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="mimetype" type="xs:string" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">The mime type for this description. See ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="lang" type="xs:string" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">The language of this description.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute>  
+        <xs:attribute name="encoding" type="xs:string" use="optional" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">Describes how the data is encoded. If no encoding attribute is set the contens is simple text with UTF-8 encoding.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute> 
+      </xs:extension> 
+    </xs:simpleContent> 
+  </xs:complexType>  
+  <xs:complexType name="rightsType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">The rights list connects the model with the user rights managment. This time the rights management is unavailable.</xs:documentation> 
+    </xs:annotation>  
+    <xs:sequence minOccurs="0" maxOccurs="unbounded"> 
+      <xs:element minOccurs="0" name="access" type="cm:accessType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">A single access entrie.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:complexType name="accessType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en"/> 
+    </xs:annotation>  
+    <xs:sequence minOccurs="0" maxOccurs="unbounded"> 
+      <xs:element name="permit" type="cm:permitType" form="qualified"> 
+        <xs:annotation> 
+          <xs:documentation xml:lang="en">Permit access to the object.</xs:documentation> 
+        </xs:annotation> 
+      </xs:element> 
+    </xs:sequence>  
+    <xs:attribute name="objref" type="xs:IDREF" use="required" form="qualified"> 
+      <xs:annotation> 
+        <xs:documentation xml:lang="en">The object for with the access rights are defined.</xs:documentation> 
+      </xs:annotation> 
+    </xs:attribute> 
+  </xs:complexType>  
+  <xs:complexType name="permitType"> 
+    <xs:annotation> 
+      <xs:documentation xml:lang="en">This permits operations</xs:documentation> 
+    </xs:annotation>  
+    <xs:simpleContent> 
+      <xs:extension base="xs:string"> 
+        <xs:attribute name="role" type="xs:string" use="required" form="qualified"> 
+          <xs:annotation> 
+            <xs:documentation xml:lang="en">The role for the operation.</xs:documentation> 
+          </xs:annotation> 
+        </xs:attribute> 
+      </xs:extension> 
+    </xs:simpleContent> 
+  </xs:complexType> 
+</xs:schema>

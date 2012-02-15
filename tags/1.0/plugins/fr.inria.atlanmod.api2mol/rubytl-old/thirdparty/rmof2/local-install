@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ruby setup.rb all --installdirs=home
