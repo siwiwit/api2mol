@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
-<stringAttribute key="ATL File Name" value="/api2mol.transformations/transformation/apiMetamodelDiscoverer.atl"/>
+<stringAttribute key="ATL File Name" value="/fr.inria.atlanmod.api2mol.transformations/transformation/apiMetamodelDiscoverer.atl"/>
 <stringAttribute key="ATL VM" value="EMF-specific VM"/>
 <stringAttribute key="ATL_COMPILER" value="atl2006"/>
 <booleanAttribute key="IS_REFINING" value="false"/>
@@ -9,7 +9,7 @@
 <mapEntry key="IN_CONF" value="CONFIGURATION"/>
 </mapAttribute>
 <mapAttribute key="Libs">
-<mapEntry key="api2molHelpers" value="/api2mol.transformations/transformation/api2molHelpers.asm"/>
+<mapEntry key="api2molHelpers" value="/fr.inria.atlanmod.api2mol.transformations/transformation/api2molHelpers.asm"/>
 </mapAttribute>
 <mapAttribute key="Model Handler">
 <mapEntry key="CONFIGURATION" value="EMF"/>
@@ -34,8 +34,8 @@
 <mapEntry key="supportUML2Stereotypes" value="false"/>
 </mapAttribute>
 <listAttribute key="OrderedInput">
-<listEntry value="IN_CONF"/>
 <listEntry value="IN"/>
+<listEntry value="IN_CONF"/>
 </listAttribute>
 <listAttribute key="OrderedOutput">
 <listEntry value="OUT"/>
@@ -44,12 +44,12 @@
 <mapEntry key="OUT" value="ECORE"/>
 </mapAttribute>
 <mapAttribute key="Path">
-<mapEntry key="CONFIGURATION" value="/api2mol/bootstrap/discovererConfiguration.ecore"/>
+<mapEntry key="CONFIGURATION" value="/fr.inria.atlanmod.api2mol/bootstrap/discovererConfiguration.ecore"/>
 <mapEntry key="ECORE" value="uri:http://www.eclipse.org/emf/2002/Ecore"/>
-<mapEntry key="IN" value="/api2mol.example.cdt/bootstrap/resultReflect-CDT.ecore.xmi"/>
-<mapEntry key="IN_CONF" value="/api2mol.example.cdt/bootstrap/discovererConfiguration-CDT.ecore.xmi"/>
-<mapEntry key="OUT" value="/api2mol.example.cdt/metamodel/resultEcore-ATL-CDT.ecore"/>
-<mapEntry key="REFLECT" value="/api2mol/bootstrap/reflect.ecore"/>
+<mapEntry key="IN" value="/fr.inria.atlanmod.dslit.api2mol/bootstrap/resultReflect.ecore.xmi"/>
+<mapEntry key="IN_CONF" value="/fr.inria.atlanmod.dslit.api2mol/bootstrap/discovererConfiguration.ecore.xmi"/>
+<mapEntry key="OUT" value="/fr.inria.atlanmod.dslit.api2mol/metamodel/simple.ecore"/>
+<mapEntry key="REFLECT" value="/fr.inria.atlanmod.api2mol/bootstrap/reflect.ecore"/>
 </mapAttribute>
 <listAttribute key="Superimpose"/>
 </launchConfiguration>

@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
-<stringAttribute key="ATL File Name" value="/api2mol.transformations/transformation/apiMetamodelDiscoverer.atl"/>
+<stringAttribute key="ATL File Name" value="/fr.inria.atlanmod.api2mol.transformations/transformation/api2molTransformationDiscoverer.atl"/>
 <stringAttribute key="ATL VM" value="EMF-specific VM"/>
 <stringAttribute key="ATL_COMPILER" value="atl2006"/>
 <booleanAttribute key="IS_REFINING" value="false"/>
 <mapAttribute key="Input">
+<mapEntry key="CONF" value="CONFIGURATION"/>
 <mapEntry key="IN" value="REFLECT"/>
 <mapEntry key="IN_CONF" value="CONFIGURATION"/>
 </mapAttribute>
 <mapAttribute key="Libs">
-<mapEntry key="api2molHelpers" value="/api2mol.transformations/transformation/api2molHelpers.asm"/>
+<mapEntry key="api2molHelpers" value="/fr.inria.atlanmod.api2mol.transformations/transformation/api2molHelpers.asm"/>
 </mapAttribute>
 <mapAttribute key="Model Handler">
+<mapEntry key="API2MOL" value="EMF"/>
 <mapEntry key="CONFIGURATION" value="EMF"/>
-<mapEntry key="ECORE" value="EMF"/>
 <mapEntry key="REFLECT" value="EMF"/>
 </mapAttribute>
 <mapAttribute key="ModelType">
+<mapEntry key="API2MOL" value="METAMODELOUTPUT"/>
+<mapEntry key="CONF" value="MODELINPUT"/>
 <mapEntry key="CONFIGURATION" value="METAMODELINPUT"/>
-<mapEntry key="ECORE" value="METAMODELOUTPUT"/>
 <mapEntry key="IN" value="MODELINPUT"/>
 <mapEntry key="IN_CONF" value="MODELINPUT"/>
 <mapEntry key="OUT" value="MODELOUTPUT"/>
@@ -28,28 +30,30 @@
 <mapEntry key="OPTION_CLEAR" value="true"/>
 <mapEntry key="OPTION_CONTENT_TYPE" value="false"/>
 <mapEntry key="OPTION_DERIVED" value="false"/>
-<mapEntry key="allowInterModelReferences" value="true"/>
+<mapEntry key="allowInterModelReferences" value="false"/>
 <mapEntry key="printExecutionTime" value="true"/>
 <mapEntry key="step" value="false"/>
 <mapEntry key="supportUML2Stereotypes" value="false"/>
 </mapAttribute>
 <listAttribute key="OrderedInput">
-<listEntry value="IN_CONF"/>
 <listEntry value="IN"/>
+<listEntry value="IN_CONF"/>
+<listEntry value="CONF"/>
 </listAttribute>
 <listAttribute key="OrderedOutput">
 <listEntry value="OUT"/>
 </listAttribute>
 <mapAttribute key="Output">
-<mapEntry key="OUT" value="ECORE"/>
+<mapEntry key="OUT" value="API2MOL"/>
 </mapAttribute>
 <mapAttribute key="Path">
-<mapEntry key="CONFIGURATION" value="/api2mol/bootstrap/discovererConfiguration.ecore"/>
-<mapEntry key="ECORE" value="uri:http://www.eclipse.org/emf/2002/Ecore"/>
-<mapEntry key="IN" value="/api2mol.example.cdt/bootstrap/resultReflect-CDT.ecore.xmi"/>
-<mapEntry key="IN_CONF" value="/api2mol.example.cdt/bootstrap/discovererConfiguration-CDT.ecore.xmi"/>
-<mapEntry key="OUT" value="/api2mol.example.cdt/metamodel/resultEcore-ATL-CDT.ecore"/>
-<mapEntry key="REFLECT" value="/api2mol/bootstrap/reflect.ecore"/>
+<mapEntry key="API2MOL" value="/fr.inria.atlanmod.api2mol.abstractSyntax/model/api2mol.ecore"/>
+<mapEntry key="CONF" value="/fr.inria.atlanmod.dslit.api2mol/bootstrap/discovererConfiguration.ecore.xmi"/>
+<mapEntry key="CONFIGURATION" value="/fr.inria.atlanmod.api2mol/bootstrap/discovererConfiguration.ecore"/>
+<mapEntry key="IN" value="/fr.inria.atlanmod.dslit.api2mol/bootstrap/resultReflect.ecore.xmi"/>
+<mapEntry key="IN_CONF" value="/fr.inria.atlanmod.dslit.api2mol/bootstrap/discovererConfiguration.ecore.xmi"/>
+<mapEntry key="OUT" value="/fr.inria.atlanmod.dslit.api2mol/transformation/resultApi2mol.ecore.xmi"/>
+<mapEntry key="REFLECT" value="/fr.inria.atlanmod.api2mol/bootstrap/reflect.ecore"/>
 </mapAttribute>
 <listAttribute key="Superimpose"/>
 </launchConfiguration>
